@@ -6,7 +6,7 @@
 File Name : extract_reverb.py
 Purpose : Clip reverb intervals from stream of traces
 Creation Date : 04-01-2018
-Last Modified : Sun 14 Jan 2018 04:23:37 PM EST
+Last Modified : Sun 14 Jan 2018 04:49:33 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -18,16 +18,22 @@ import h5py
 import obspy
 from sys import argv
 from obspy.taup import TauPyModel
-import h5py
 model = TauPyModel('prem')
+import argparse
 
 
 def main():
-    st = read_stream(argv[1])
-    if 'T' in argv[1]:
-        h5f = h5py.File(reverb_T.h5,'w')
-    elif 'R' in argv[1]:
-        h5f = h5py.File(reverb_R.h5,'w')
+    parser = argparse.ArgumentParser(description='Clip/write reverb intervals')
+    parser.add_argument('-f','--fname', metavar='H5_FILE',type=str,
+                        help='h5 data file')
+    args = parser.parse_args()
+
+    st = read_stream(args.fname)
+
+    if 'T' in args.fname:
+        h5f = h5py.File('reverb_T.h5','w')
+    elif 'R' in args.fname:
+        h5f = h5py.File('reverb_R.h5','w')
     for tr in st:
         name = tr.stats.network+tr.stats.station+tr.stats.location
         strip_reverb(tr,h5f)
@@ -39,6 +45,7 @@ def strip_reverb(tr,h5f):
     name = tr.stats.network+tr.stats.station+tr.stats.location
     h5f.create_group(name)
     h5f.create_dataset(name+'/coords',data=[tr.stats.gcarc,
+                                            tr.stats.evdp,
                                             tr.stats.stla,
                                             tr.stats.stlo,
                                             tr.stats.evla,

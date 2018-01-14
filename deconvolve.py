@@ -6,7 +6,7 @@
 File Name : deconvolve.py
 Purpose : deconvolve strips from h5 file. Write to h5
 Creation Date : 14-01-2018
-Last Modified : Sun 14 Jan 2018 04:20:46 PM EST
+Last Modified : Sun 14 Jan 2018 04:49:28 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -17,9 +17,15 @@ from matplotlib import pyplot as plt
 from scipy.signal import tukey,cosine,blackmanharris
 from sys import argv
 import h5py
+import argparse
 
 def main():
-    f = h5py.File(argv[1],'r')
+    parser = argparse.ArgumentParser(description='deconvolve reverb and write')
+    parser.add_argument('-f','--fname', metavar='H5_FILE',type=str,
+                        help='h5 file output from extract_reverb.py')
+    args = parser.parse_args()
+
+    f = h5py.File(args.fname,'r')
     f_dec = h5py.File('deconvolve.h5','w')
 
     for keys in f:
