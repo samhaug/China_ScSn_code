@@ -6,7 +6,7 @@
 File Name : extract_reverb.py
 Purpose : Clip reverb intervals from stream of traces
 Creation Date : 04-01-2018
-Last Modified : Sun 14 Jan 2018 02:21:35 PM EST
+Last Modified : Sun 14 Jan 2018 04:23:37 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -24,7 +24,10 @@ model = TauPyModel('prem')
 
 def main():
     st = read_stream(argv[1])
-    h5f = h5py.File(argv[2])
+    if 'T' in argv[1]:
+        h5f = h5py.File(reverb_T.h5,'w')
+    elif 'R' in argv[1]:
+        h5f = h5py.File(reverb_R.h5,'w')
     for tr in st:
         name = tr.stats.network+tr.stats.station+tr.stats.location
         strip_reverb(tr,h5f)
@@ -35,6 +38,11 @@ def strip_reverb(tr,h5f):
     p,dp = get_travel_times(tr)
     name = tr.stats.network+tr.stats.station+tr.stats.location
     h5f.create_group(name)
+    h5f.create_dataset(name+'/coords',data=[tr.stats.gcarc,
+                                            tr.stats.stla,
+                                            tr.stats.stlo,
+                                            tr.stats.evla,
+                                            tr.stats.evlo])
 
     for ii in p:
         t = ii.time
@@ -64,7 +72,6 @@ def read_stream(path_to_stream):
     st = obspy.read(path_to_stream)
     st.interpolate(10)
     st.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
-
     return st
 
 def get_travel_times(tr):
@@ -74,7 +81,6 @@ def get_travel_times(tr):
     depth_phase_list = ['sScS','sScSScS','sScSScSScS']
     p =  model.get_travel_times(h,gcarc,phase_list)
     dp = model.get_travel_times(h,gcarc,depth_phase_list)
-
     return p,dp
 
 

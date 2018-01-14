@@ -6,7 +6,7 @@
 File Name : deconvolve.py
 Purpose : deconvolve strips from h5 file. Write to h5
 Creation Date : 14-01-2018
-Last Modified : Sun 14 Jan 2018 02:15:20 PM EST
+Last Modified : Sun 14 Jan 2018 04:20:46 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -14,23 +14,46 @@ Created By : Samuel M. Haugland
 
 import numpy as np
 from matplotlib import pyplot as plt
+from scipy.signal import tukey,cosine,blackmanharris
+from sys import argv
 import h5py
 
 def main():
+    f = h5py.File(argv[1],'r')
+    f_dec = h5py.File('deconvolve.h5','w')
 
+    for keys in f:
+        f_dec.create_group(keys)
+        for items in f[keys]:
+            phase = f[keys][items].name
+            if phase.split('/')[-1] == 'coords':
+                f_dec.create_dataset(phase,data=f[keys][items][...])
+            else:
+                data = f[keys][items][...]
+                data *= 1./data.max()
+                phase_name = f[keys][items].name.split('/')[-1]
+                mask = mask_data(data,phase_name)
+                t,rf = water_level(data,mask)
+                f_dec.create_dataset(phase,data=rf)
+    f.close()
+    f_dec.close()
 
-def mask_trace(data,phase):
-    if phase.startswith('s'):
+def mask_data(data,phase):
     mask = np.zeros(len(data))
-    mask[int(20*sr):int(100*sr)] = boxcar(int(100*sr))
-    mask = tr.data*mask
+    sr = 10
+    mask[int(0*sr):int(100*sr)] = tukey(int(100*sr),0.7)
+    if phase.startswith('S'):
+        mask = mask[::-1]
+        mask *= data
+    elif phase.startswith('s'):
+        mask *= -1*data
     return mask
 
 def water_level(a,b,alpha=0.1,plot=False):
-    t = np.linspace(0,a.stats.npts*a.stats.sampling_rate,a.stats.npts)
+    t = np.linspace(0,len(a)*10.,len(a))
 
     #Convert to frequency domain-------------------------------
-    a_omega = np.fft.fft(a.data)
+    a_omega = np.fft.fft(a)
     b_omega = np.fft.fft(b)
 
     #Perform division------------------------------------------
@@ -39,7 +62,7 @@ def water_level(a,b,alpha=0.1,plot=False):
     try:
         H_omega = ((a_omega*b_omega.conjugate())/Phi_ss)
     except RuntimeWarning:
-        return np.zeros(len(a.data))
+        return np.zeros(len(a))
 
     #Convert back to time domain-------------------------------
     #rf = np.zeros(len(H_omega))
@@ -53,7 +76,9 @@ def water_level(a,b,alpha=0.1,plot=False):
         ax[1].plot(t,rf)
         plt.show()
 
-    return np.real(rf)
+    roll = int(10*50-np.argmax(rf))
+    rf = np.roll(rf,roll)
+    return t,np.real(rf)
 
 
 
