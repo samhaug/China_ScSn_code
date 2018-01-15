@@ -6,7 +6,7 @@
 File Name : reverb_time_table.py
 Purpose : Make lookup table of reverberation traveltimes
 Creation Date : 20-12-2017
-Last Modified : Sun 14 Jan 2018 06:00:40 PM EST
+Last Modified : Mon 15 Jan 2018 02:01:11 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -16,32 +16,53 @@ import numpy as np
 from matplotlib import pyplot as plt
 from obspy.taup import TauPyModel
 from subprocess import call
+import h5py
+from scipy.interpolate import interp1d
 mod = TauPyModel(model='prem50')
 
 def main():
-    conv = np.arange(50,950,50)
+    evdp = 598.2
+    phase_list = ['sScS','sSvXSScS']
+    h5f = h5py.File(phase_list[1]+'_mvt.h5','w')
+    cdp = np.arange(50,1800,100)
+
     master_time = []
     master_depth = []
-    for ii in conv:
-        time_list,depth_list = top_depth_times(100,ii)
+
+    for ii in cdp:
+        time_list,depth_list,gcarc_list = top_depth_times(evdp,ii,phase_list)
         master_time.append(time_list)
         master_depth.append(depth_list)
-    np.savetxt('time_table.txt',np.array(master_time).T,fmt='%5.2f')
-    np.savetxt('depth_table.txt',np.array(master_depth).T,fmt='%5.2f')
 
-def top_depth_times(depth,conv):
-    conv = str(conv)
+    master_time = np.array(master_time)
+    master_time = np.vstack((np.zeros(master_time.shape[1]),master_time))
+    master_depth = np.array(master_depth)
+    master_depth = np.vstack((np.zeros(master_depth.shape[1]),master_depth))
+
+    for idx,ii in enumerate(gcarc_list):
+        f = interp1d(master_time[:,idx],master_depth[:,idx])
+        tnew = np.arange(master_time[0,idx],master_time[-1,idx],0.1)
+        dnew = f(tnew)
+        h5f.create_dataset(str(ii),data=np.vstack((tnew,dnew)))
+
+    h5f.close()
+
+def top_depth_times(evdp,cdp,phase_list_in):
+    phase_list = phase_list_in[:]
+    phase_list[1] = phase_list[1].replace('X',str(cdp))
+    print phase_list
     time_list = []
     depth_list = []
-    for ii in np.linspace(0,80,num=60):
-        arr = mod.get_travel_times(source_depth_in_km=depth,
+    gcarc_list = np.linspace(0,90,num=91)
+    for ii in gcarc_list:
+        arr = mod.get_travel_times(source_depth_in_km=evdp,
                                    distance_in_degree=ii,
-                                   phase_list=['sScS','sSv'+conv+'SScS'])
+                                   phase_list=phase_list)
         pure_depth = float(arr[-1].purist_name[3:-4])
         time = arr[1].time-arr[0].time
         time_list.append(time)
         depth_list.append(pure_depth)
-    return time_list,depth_list
+    return time_list,depth_list,gcarc_list
 
 def bot_depth_times(depth,conv):
     conv = str(conv)
