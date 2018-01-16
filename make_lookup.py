@@ -6,7 +6,7 @@
 File Name : make_lookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes
 Creation Date : 20-12-2017
-Last Modified : Tue 16 Jan 2018 01:54:00 PM EST
+Last Modified : Tue 16 Jan 2018 02:12:03 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -34,7 +34,7 @@ def main():
     h5f.close()
 
 def make_lookup(phase_lists,h5f,evdp):
-    cdp = np.arange(50,1800,500)
+    cdp = np.arange(50,1800,100)
     for phase_list in phase_lists:
         print 'Computing '+phase_list[0]
 
@@ -61,7 +61,6 @@ def make_lookup(phase_lists,h5f,evdp):
             dnew = f(tnew)
             h5f.create_dataset(phase_list[0]+'/'+str(ii),
                                data=np.vstack((tnew,dnew)))
-
 
 def top_depth_times(evdp,cdp,phase_list_in):
     phase_list = phase_list_in[:]
