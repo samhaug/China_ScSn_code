@@ -6,7 +6,7 @@
 File Name : extract_reverb.py
 Purpose : Clip reverb intervals from stream of traces
 Creation Date : 04-01-2018
-Last Modified : Tue 16 Jan 2018 08:13:22 PM EST
+Last Modified : Wed 17 Jan 2018 11:07:27 AM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -18,7 +18,7 @@ import h5py
 import obspy
 from sys import argv
 from obspy.taup import TauPyModel
-model = TauPyModel('prem')
+model = TauPyModel('prem50')
 import argparse
 
 
@@ -61,7 +61,7 @@ def strip_reverb(tr,h5f):
             continue
         else:
             b = tr.slice(tr.stats.starttime+t-500,tr.stats.starttime+t+50).data
-            h5f.create_dataset(name+'/'+phase_name,data=b)
+            h5f.create_dataset(name+'/'+phase_name,data=b[::-1])
 
     for ii in dp:
         t = ii.time

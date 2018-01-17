@@ -6,7 +6,7 @@
 File Name : deconvolve.py
 Purpose : deconvolve strips from h5 file. Write to h5
 Creation Date : 14-01-2018
-Last Modified : Tue 16 Jan 2018 08:14:07 PM EST
+Last Modified : Wed 17 Jan 2018 11:37:44 AM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -49,7 +49,6 @@ def mask_data(data,phase):
     sr = 10
     mask[int(0*sr):int(100*sr)] = tukey(int(100*sr),0.7)
     if phase.startswith('S'):
-        mask = mask[::-1]
         mask *= data
     elif phase.startswith('s'):
         mask *= -1*data

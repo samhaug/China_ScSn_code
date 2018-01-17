@@ -6,7 +6,7 @@
 File Name : make_lookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes
 Creation Date : 20-12-2017
-Last Modified : Tue 16 Jan 2018 08:12:57 PM EST
+Last Modified : Wed 17 Jan 2018 12:25:13 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -30,25 +30,31 @@ def main():
                   ['ScSScSScS','ScS^XScSScS']]
 
     make_lookup(phase_lists,h5f,evdp)
-
     h5f.close()
 
 def make_lookup(phase_lists,h5f,evdp):
     cdp = np.arange(50,1800,100)
     for phase_list in phase_lists:
+
         print 'Computing '+phase_list[0]
 
         master_time = []
         master_depth = []
-        for ii in cdp:
-            if phase_list[0][0].startswith('s'):
+
+        if phase_list[0][0].startswith('s'):
+            print('s')
+            for ii in cdp:
                 time_list,depth_list,gcarc_list = top_depth_times(evdp,
                                                          ii,phase_list)
-            elif phase_list[0][0].startswith('S'):
+                master_time.append(time_list)
+                master_depth.append(depth_list)
+        elif phase_list[0][0].startswith('S'):
+            print('S')
+            for ii in cdp:
                 time_list,depth_list,gcarc_list = bot_depth_times(evdp,
                                                          ii,phase_list)
-            master_time.append(time_list)
-            master_depth.append(depth_list)
+                master_time.append(time_list)
+                master_depth.append(depth_list)
 
         master_time = np.array(master_time)
         master_time = np.vstack((np.zeros(master_time.shape[1]),master_time))
@@ -73,7 +79,7 @@ def top_depth_times(evdp,cdp,phase_list_in):
         arr = mod.get_travel_times(source_depth_in_km=evdp,
                                    distance_in_degree=ii,
                                    phase_list=phase_list)
-        pure_depth = float(re.findall('\d+',arr[-1].purist_name)[0])
+        pure_depth = float(re.findall('\d+',arr[1].purist_name)[0])
         time = arr[1].time-arr[0].time
         time_list.append(time)
         depth_list.append(pure_depth)
