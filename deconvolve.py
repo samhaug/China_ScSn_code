@@ -6,7 +6,7 @@
 File Name : deconvolve.py
 Purpose : deconvolve strips from h5 file. Write to h5
 Creation Date : 14-01-2018
-Last Modified : Wed 17 Jan 2018 11:37:44 AM EST
+Last Modified : Thu 18 Jan 2018 07:30:34 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -40,6 +40,12 @@ def main():
                 phase_name = f[keys][items].name.split('/')[-1]
                 mask = mask_data(data,phase_name)
                 t,rf = water_level(data,mask)
+                if phase.split('/')[-1].startswith('s'):
+                    rf = np.roll(rf,500)
+                    rf = -1*np.roll(rf,500-np.argmax(rf))
+                elif phase.split('/')[-1].startswith('S'):
+                    rf = np.roll(rf,-500)[::-1]
+                    rf = np.roll(rf,500-np.argmax(rf))
                 f_dec.create_dataset(phase,data=rf)
     f.close()
     f_dec.close()
@@ -47,11 +53,11 @@ def main():
 def mask_data(data,phase):
     mask = np.zeros(len(data))
     sr = 10
-    mask[int(0*sr):int(100*sr)] = tukey(int(100*sr),0.7)
+    mask[int(0*sr):int(100*sr)] = tukey(int(100*sr),0.6)
     if phase.startswith('S'):
-        mask *= data
+        mask = mask[::-1]*data
     elif phase.startswith('s'):
-        mask *= -1*data
+        mask *= data
     return mask
 
 def water_level(a,b,alpha=0.1,plot=False):
@@ -81,10 +87,8 @@ def water_level(a,b,alpha=0.1,plot=False):
         ax[1].plot(t,rf)
         plt.show()
 
-    roll = int(10*50-np.argmax(rf))
-    rf = np.roll(rf,roll)
+    #roll = int(10*50-np.argmax(rf))
+    #rf = np.roll(rf,roll)
     return t,np.real(rf)
-
-
 
 main()

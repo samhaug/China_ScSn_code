@@ -6,7 +6,7 @@
 File Name : make_lookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes
 Creation Date : 20-12-2017
-Last Modified : Wed 17 Jan 2018 02:02:39 PM EST
+Last Modified : Thu 18 Jan 2018 10:58:29 AM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -24,7 +24,8 @@ mod = TauPyModel(model='prem50')
 def main():
     h5f = h5py.File('mvt_lkup.h5','w')
     evdp = 598.2
-    phase_lists = [['sScSScS','sSvXSScSScS'],
+    phase_lists = [['sScS','sSvXSScS'],
+                  ['sScSScS','sSvXSScSScS'],
                   ['sScSScSScS','sSvXSScSScSScS'],
                   ['ScSScS','ScS^XScS'],
                   ['ScSScSScS','ScS^XScSScS']]
@@ -33,7 +34,7 @@ def main():
     h5f.close()
 
 def make_lookup(phase_lists,h5f,evdp):
-    cdp = np.arange(50,1800,100)
+    cdp = np.arange(50,1800,50)
     for phase_list in phase_lists:
 
         print 'Computing '+phase_list[0]
@@ -42,14 +43,12 @@ def make_lookup(phase_lists,h5f,evdp):
         master_depth = []
 
         if phase_list[0][0].startswith('s'):
-            print('s')
             for ii in cdp:
                 time_list,depth_list,gcarc_list = top_depth_times(evdp,
                                                          ii,phase_list)
                 master_time.append(time_list)
                 master_depth.append(depth_list)
         elif phase_list[0][0].startswith('S'):
-            print('S')
             for ii in cdp:
                 time_list,depth_list,gcarc_list = bot_depth_times(evdp,
                                                          ii,phase_list)

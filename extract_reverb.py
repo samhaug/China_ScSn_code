@@ -6,7 +6,7 @@
 File Name : extract_reverb.py
 Purpose : Clip reverb intervals from stream of traces
 Creation Date : 04-01-2018
-Last Modified : Wed 17 Jan 2018 11:07:27 AM EST
+Last Modified : Thu 18 Jan 2018 03:10:41 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -29,6 +29,7 @@ def main():
     args = parser.parse_args()
 
     st = read_stream(args.fname)
+    st.sort(['gcarc'])
 
     if 'T' in args.fname:
         h5f = h5py.File('reverb_T.h5','w')
@@ -54,19 +55,19 @@ def strip_reverb(tr,h5f):
     for ii in p:
         t = ii.time
         phase_name = ii.name
-        if phase_name == 'ScSScS' and tr.stats.gcarc > 45:
+        if phase_name == 'ScSScS' and tr.stats.gcarc > 55:
             continue
         elif tr.stats.starttime+t+50 >= tr.stats.endtime:
             print(name+'   cutoff')
             continue
         else:
             b = tr.slice(tr.stats.starttime+t-500,tr.stats.starttime+t+50).data
-            h5f.create_dataset(name+'/'+phase_name,data=b[::-1])
+            h5f.create_dataset(name+'/'+phase_name,data=b)
 
     for ii in dp:
         t = ii.time
         phase_name = ii.name
-        if phase_name == 'sScS' and tr.stats.gcarc > 25:
+        if phase_name == 'sScS' and tr.stats.gcarc > 35:
             continue
         elif tr.stats.starttime+t+540 >= tr.stats.endtime:
             print(name+'   cutoff')
