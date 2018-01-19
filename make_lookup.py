@@ -6,7 +6,7 @@
 File Name : make_lookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes
 Creation Date : 20-12-2017
-Last Modified : Thu 18 Jan 2018 10:58:29 AM EST
+Last Modified : Fri 19 Jan 2018 12:07:52 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
