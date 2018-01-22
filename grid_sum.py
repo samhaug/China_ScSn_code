@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Mon 22 Jan 2018 04:42:15 PM EST
+Last Modified : Mon 22 Jan 2018 05:26:42 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -23,7 +23,7 @@ from scipy.signal import gaussian
 def main():
     parser = argparse.ArgumentParser(description='perform grid')
     parser.add_argument('-r','--reflection', metavar='H5_FILE',type=str,
-                        help='h5 reflection point file')
+                       help='h5 reflection point file')
     parser.add_argument('-m','--mvout', metavar='H5_FILE',type=str,
                         help='h5 moveout corrected data')
     args = parser.parse_args()
@@ -37,11 +37,10 @@ def main():
         for jdx,lat in enumerate(lat_a):
             for kdx,h in enumerate(h_a):
                 a = search_for_reflection(lon,lat,h,r,200)
-                print a
 
 def search_for_reflection(lon,lat,h,r,dist_cutoff_in_km):
     gl = int(dist_cutoff_in_km)
-    gaussian_cap = gaussian(gl,int(gl/6.))[int(gl/2.)::]
+    gaussian_cap = gaussian(gl*2+10,int(gl/6.))[int(gl/2.)::]
     #r is reflection file
 
     a = []
@@ -60,19 +59,17 @@ def search_for_reflection(lon,lat,h,r,dist_cutoff_in_km):
     return a
 
 def make_grid_coordinates():
-    #m = Basemap(llcrnrlon=70,llcrnrlat=-20,urcrnrlon=170,
-    #        urcrnrlat=60,projection='mill')
-    #lonmin,lonmax = 70,170
-    #latmin,latmax = -20,60
-    #hmin,hmax = 50,750
-    lonmin,lonmax = 70,160
-    latmin,latmax = 0,60
+    lonmin,lonmax = 75,150
+    latmin,latmax = 10,50
     hmin,hmax = 50,750
-    lon = np.linspace(lonmin,lonmax,num=int(0.1*(lonmax-lonmin)))
-    lat = np.linspace(latmin,latmax,num=int(0.1*(latmax-latmin)))
+    lon = np.linspace(lonmin,lonmax,num=int(2*(lonmax-lonmin)))
+    lat = np.linspace(latmin,latmax,num=int(2*(latmax-latmin)))
     h = np.arange(hmin,hmax,5)
     grid = np.zeros((len(lon),len(lat),len(h)))
+    print grid.size
     return lon,lat,h,grid
 
 
 main()
+
+
