@@ -6,7 +6,7 @@
 File Name : make_lookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes
 Creation Date : 20-12-2017
-Last Modified : Fri 19 Jan 2018 12:07:52 PM EST
+Last Modified : Mon 22 Jan 2018 02:25:44 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,7 +19,7 @@ from subprocess import call
 import h5py
 from scipy.interpolate import interp1d
 import re
-mod = TauPyModel(model='prem50')
+#mod = TauPyModel(model='prem50')
 
 def main():
     h5f = h5py.File('mvt_lkup.h5','w')
@@ -34,7 +34,7 @@ def main():
     h5f.close()
 
 def make_lookup(phase_lists,h5f,evdp):
-    cdp = np.arange(50,1800,50)
+    cdp = np.arange(50,1800,10)
     for phase_list in phase_lists:
 
         print 'Computing '+phase_list[0]
@@ -68,6 +68,7 @@ def make_lookup(phase_lists,h5f,evdp):
                                data=np.vstack((tnew,dnew)))
 
 def top_depth_times(evdp,cdp,phase_list_in):
+    mod = TauPyModel(model='prem'+str(int(cdp)))
     phase_list = phase_list_in[:]
     phase_list[1] = phase_list[1].replace('X',str(cdp))
     time_list = []
@@ -86,6 +87,7 @@ def top_depth_times(evdp,cdp,phase_list_in):
     return time_list,depth_list,gcarc_list
 
 def bot_depth_times(evdp,cdp,phase_list_in):
+    mod = TauPyModel(model='prem'+str(int(cdp)))
     phase_list = phase_list_in[:]
     phase_list[1] = phase_list[1].replace('X',str(cdp))
     time_list = []
