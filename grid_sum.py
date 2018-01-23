@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Mon 22 Jan 2018 05:26:42 PM EST
+Last Modified : Tue 23 Jan 2018 02:34:17 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,6 +19,8 @@ import h5py
 import argparse
 from geopy.distance import vincenty
 from scipy.signal import gaussian
+from scipy.spatial import KDTree
+from matplotlib import pyplot as plt
 
 def main():
     parser = argparse.ArgumentParser(description='perform grid')
@@ -26,17 +28,48 @@ def main():
                        help='h5 reflection point file')
     parser.add_argument('-m','--mvout', metavar='H5_FILE',type=str,
                         help='h5 moveout corrected data')
+    parser.add_argument('-d','--depth', metavar='H5_FILE',type=int,default=670,
+                        help='conversion depth')
     args = parser.parse_args()
     m = h5py.File(args.mvout,'r',driver='core')
     r = h5py.File(args.reflection,'r',driver='core')
 
     lon_a,lat_a,h_a,grid = make_grid_coordinates()
-    h_a = [670,670]
+    grid_count = np.zeros(grid.shape)
+    x,y = np.meshgrid(lon_a,lat_a)
+    x = x.ravel()
+    y = y.ravel()
+    coords = zip(x,y)
+    tree = KDTree(coords)
 
-    for idx,lon in enumerate(lon_a):
-        for jdx,lat in enumerate(lat_a):
-            for kdx,h in enumerate(h_a):
-                a = search_for_reflection(lon,lat,h,r,200)
+    h_idx= np.abs(h_a-args.depth).argmin()
+    for ikeys in r.keys()[::10]:
+        for phase in r[ikeys]:
+            if not phase.startswith('c'):
+                r_coord = r[ikeys][phase][str(args.depth)]
+                for ii in r_coord:
+                    i = tree.query_ball_point((ii[1],ii[0]),2.0)
+                    for jj in i:
+                        print jj
+                        lon_idx = np.abs(lon_a-x[jj]).argmin()
+                        lat_idx = np.abs(lat_a-y[jj]).argmin()
+                        grid_count[lon_idx,lat_idx,h_idx]+=1.
+                        v = find_reverb_value(m,args.depth,ikeys,phase)
+                        grid[lon_idx,lat_idx,h_idx]+=v
+
+    r.close()
+    m.close()
+
+    plt.imshow(grid[:,:,h_idx]/grid_count[:,:,h_idx],aspect='auto',extent=[lon_a.min(),
+                                                          lon_a.max(),
+                                                          lat_a.max(),
+                                                          lat_a.min()])
+    plt.show()
+
+def find_reverb_value(m,h,ikey,phase):
+    depth = m[ikey][phase][0,:]
+    data = m[ikey][phase][1,:]
+    return data[np.abs(depth-h).argmin()]
 
 def search_for_reflection(lon,lat,h,r,dist_cutoff_in_km):
     gl = int(dist_cutoff_in_km)
@@ -66,7 +99,6 @@ def make_grid_coordinates():
     lat = np.linspace(latmin,latmax,num=int(2*(latmax-latmin)))
     h = np.arange(hmin,hmax,5)
     grid = np.zeros((len(lon),len(lat),len(h)))
-    print grid.size
     return lon,lat,h,grid
 
 

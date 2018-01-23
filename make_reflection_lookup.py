@@ -6,7 +6,7 @@
 File Name : make_reflection_lookup.py
 Purpose : Make lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Fri 19 Jan 2018 05:49:52 PM EST
+Last Modified : Tue 23 Jan 2018 05:23:55 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,10 +19,8 @@ import h5py
 import obspy
 import argparse
 from obspy.taup import TauPyModel
-model = TauPyModel(model='prem')
 
 def main():
-
     parser = argparse.ArgumentParser(description='Make \
                                      lookup table of ScS reflection points')
     parser.add_argument('-f','--fname', metavar='H5_FILE',type=str,
@@ -30,21 +28,28 @@ def main():
     args = parser.parse_args()
 
     family_dict = make_families()
-    r = h5py.File('reflection_points.h5','w')
-    f = h5py.File(args.fname,'r')
+    r = h5py.File('reflection_points.h5','w',driver='core')
+    f = h5py.File(args.fname,'r',driver='core')
 
-    c_depth = 670
-    for ikeys in f:
+    c_depths = np.arange(600,735,5)
+    for idx,ikeys in enumerate(f):
+        print float(idx)/len(f.keys())
         r.create_group(ikeys)
         coords = f[ikeys]['coords']
         r[ikeys].create_dataset('coords',data=coords)
         for jkeys in f[ikeys]:
             if not jkeys.startswith('c'):
                 r[ikeys].create_group(jkeys)
-                phase_family = [i.replace('#',str(c_depth)) for i in \
-                                family_dict[jkeys]]
-                reflect_coords = find_reflect_coord(coords,phase_family,c_depth)
-                r[ikeys][jkeys].create_dataset(str(c_depth),data =reflect_coords)
+                for c_depth in c_depths:
+                    phase_family = [i.replace('#',str(c_depth)) for i in \
+                                    family_dict[jkeys]]
+                    reflect_coords = find_reflect_coord(coords,
+                                                        phase_family,
+                                                        c_depth)
+                    r[ikeys][jkeys].create_dataset(str(c_depth),
+                                                   data=reflect_coords)
+    r.close()
+    f.close()
 
 def make_families():
     family_dict = {'sScS':['sSv#SScS','sScSSv#S'],
@@ -56,6 +61,7 @@ def make_families():
     return family_dict
 
 def find_reflect_coord(coords,phase_family,c_depth):
+    model = TauPyModel(model='prem'+str(c_depth))
     arr = model.get_pierce_points_geo(source_depth_in_km=coords[1],
                                source_latitude_in_deg=coords[4],
                                source_longitude_in_deg=coords[5],

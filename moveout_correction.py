@@ -7,7 +7,7 @@ File Name : moveout_correction.py
 Purpose : Apply moveout correction to deconvolved data using lookup table.
           lookup table made make_lookup.py
 Creation Date : 15-01-2018
-Last Modified : Thu 18 Jan 2018 07:31:21 PM EST
+Last Modified : Tue 23 Jan 2018 02:16:44 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -46,6 +46,7 @@ def main():
                                         mapping[1,0:len(data)].max(),
                                         num=int(2*mapping[1,len(data)]))
                 mv_data = f(abs_depth)
+                mv_data *= 1./np.abs(mv_data).max()
                 mvout.create_dataset(dkeys+'/'+lkeys,
                                      data=np.vstack((abs_depth,mv_data)))
             except KeyError:
