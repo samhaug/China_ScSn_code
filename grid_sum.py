@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Tue 23 Jan 2018 02:34:17 PM EST
+Last Modified : Thu 25 Jan 2018 11:42:51 AM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -28,8 +28,8 @@ def main():
                        help='h5 reflection point file')
     parser.add_argument('-m','--mvout', metavar='H5_FILE',type=str,
                         help='h5 moveout corrected data')
-    parser.add_argument('-d','--depth', metavar='H5_FILE',type=int,default=670,
-                        help='conversion depth')
+    #parser.add_argument('-d','--depth', metavar='H5_FILE',type=int,default=670,
+    #                    help='conversion depth')
     args = parser.parse_args()
     m = h5py.File(args.mvout,'r',driver='core')
     r = h5py.File(args.reflection,'r',driver='core')
@@ -42,29 +42,34 @@ def main():
     coords = zip(x,y)
     tree = KDTree(coords)
 
-    h_idx= np.abs(h_a-args.depth).argmin()
-    for ikeys in r.keys()[::10]:
-        for phase in r[ikeys]:
-            if not phase.startswith('c'):
-                r_coord = r[ikeys][phase][str(args.depth)]
-                for ii in r_coord:
-                    i = tree.query_ball_point((ii[1],ii[0]),2.0)
-                    for jj in i:
-                        print jj
-                        lon_idx = np.abs(lon_a-x[jj]).argmin()
-                        lat_idx = np.abs(lat_a-y[jj]).argmin()
-                        grid_count[lon_idx,lat_idx,h_idx]+=1.
-                        v = find_reverb_value(m,args.depth,ikeys,phase)
-                        grid[lon_idx,lat_idx,h_idx]+=v
+    for h in np.arange(50,905,10):
+        print h
+        h_idx= np.abs(h_a-h).argmin()
+        for ikeys in r.keys()[::20]:
+            for phase in r[ikeys]:
+                if not phase.startswith('c'):
+                    r_coord = r[ikeys][phase][str(h)]
+                    for ii in r_coord:
+                        i = tree.query_ball_point((ii[1],ii[0]),2.0)
+                        for jj in i:
+                            lon_idx = np.abs(lon_a-x[jj]).argmin()
+                            lat_idx = np.abs(lat_a-y[jj]).argmin()
+                            grid_count[lon_idx,lat_idx,h_idx]+=1.
+                            v = find_reverb_value(m,h,ikeys,phase)
+                            grid[lon_idx,lat_idx,h_idx]+=v
 
     r.close()
     m.close()
 
-    plt.imshow(grid[:,:,h_idx]/grid_count[:,:,h_idx],aspect='auto',extent=[lon_a.min(),
-                                                          lon_a.max(),
-                                                          lat_a.max(),
-                                                          lat_a.min()])
-    plt.show()
+    try:
+        g = h5py.File('grid_sum.h5','w',driver='core')
+    except IOError:
+        call('rm -rf grid_sum.h5',shell=True)
+        g = h5py.File('grid_sum.h5','w',driver='core')
+
+    g.create_dataset('grid',data=grid)
+    g.create_dataset('grid_count',data=grid_count)
+    g.close()
 
 def find_reverb_value(m,h,ikey,phase):
     depth = m[ikey][phase][0,:]

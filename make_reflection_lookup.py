@@ -6,7 +6,7 @@
 File Name : make_reflection_lookup.py
 Purpose : Make lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Tue 23 Jan 2018 05:23:55 PM EST
+Last Modified : Wed 24 Jan 2018 12:36:28 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -31,7 +31,7 @@ def main():
     r = h5py.File('reflection_points.h5','w',driver='core')
     f = h5py.File(args.fname,'r',driver='core')
 
-    c_depths = np.arange(600,735,5)
+    c_depths = np.arange(50,905,5)
     for idx,ikeys in enumerate(f):
         print float(idx)/len(f.keys())
         r.create_group(ikeys)
