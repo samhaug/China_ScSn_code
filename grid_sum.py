@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Thu 25 Jan 2018 11:42:51 AM EST
+Last Modified : Thu 25 Jan 2018 01:12:34 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -42,10 +42,10 @@ def main():
     coords = zip(x,y)
     tree = KDTree(coords)
 
-    for h in np.arange(50,905,10):
-        print h
+    for h in h_a:
+        print 'Depth: {} km'.format(h)
         h_idx= np.abs(h_a-h).argmin()
-        for ikeys in r.keys()[::20]:
+        for ikeys in r.keys():
             for phase in r[ikeys]:
                 if not phase.startswith('c'):
                     r_coord = r[ikeys][phase][str(h)]
@@ -69,6 +69,9 @@ def main():
 
     g.create_dataset('grid',data=grid)
     g.create_dataset('grid_count',data=grid_count)
+    g.create_dataset('lat',data=lat_a)
+    g.create_dataset('lon',data=lon_a)
+    g.create_dataset('h',data=h_a)
     g.close()
 
 def find_reverb_value(m,h,ikey,phase):
@@ -76,33 +79,13 @@ def find_reverb_value(m,h,ikey,phase):
     data = m[ikey][phase][1,:]
     return data[np.abs(depth-h).argmin()]
 
-def search_for_reflection(lon,lat,h,r,dist_cutoff_in_km):
-    gl = int(dist_cutoff_in_km)
-    gaussian_cap = gaussian(gl*2+10,int(gl/6.))[int(gl/2.)::]
-    #r is reflection file
-
-    a = []
-    for ikeys in r:
-        for phase in r[ikeys]:
-            if not phase.startswith('c'):
-                for ii in r[ikeys][phase][str(h)][:]:
-                    try:
-                        d = vincenty((lat,lon),tuple(ii)).kilometers
-                    except ValueError:
-                        continue
-                    if d < dist_cutoff_in_km:
-                        cap_factor = gaussian_cap[int(dist_cutoff_in_km-d)]
-                        a.append([ikeys,phase,cap_factor])
-
-    return a
-
 def make_grid_coordinates():
-    lonmin,lonmax = 75,150
-    latmin,latmax = 10,50
-    hmin,hmax = 50,750
+    lonmin,lonmax = 80,150
+    latmin,latmax = -10,50
+    hmin,hmax = 50,800
     lon = np.linspace(lonmin,lonmax,num=int(2*(lonmax-lonmin)))
     lat = np.linspace(latmin,latmax,num=int(2*(latmax-latmin)))
-    h = np.arange(hmin,hmax,5)
+    h = np.arange(hmin,hmax+5,5)
     grid = np.zeros((len(lon),len(lat),len(h)))
     return lon,lat,h,grid
 
