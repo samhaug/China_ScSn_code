@@ -6,7 +6,7 @@
 File Name : make_3dlookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes for 3d model
 Creation Date : 20-12-2017
-Last Modified : Tue 30 Jan 2018 01:19:00 PM EST
+Last Modified : Tue 30 Jan 2018 03:30:09 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -60,36 +60,21 @@ def interp_netcdf_3d():
     dvs = dataset.variables['dvs'][:].data
     top = np.zeros((1,dvs.shape[1],dvs.shape[2]))
     dvs = np.vstack((top,dvs))
-    for ii in range(15,len(dvs)):
+    for ii in range(17,len(dvs)):
         dvs[ii] = np.zeros(dvs[ii].shape)
     #We use 1-(dvs/100.) to adjust ttimes
     plt.imshow(dvs[2],aspect='auto',extent=[lon[0],lon[-1],lat[0],lat[-1]])
+    int_3d = RegularGridInterpolator((h,lat,lon),dvs)
     plt.show()
-    int_3d = RegularGridInterpolator((h,lat,lon),dvs)
-    return int_3d
-
-def interp_3d(mod):
-    mod = h5py.File(mod,'r',driver='core')
-    dvs = mod['dvs'][:]
-    top = np.zeros((1,dvs.shape[1],dvs.shape[2]))
-    dvs = np.vstack((top,dvs))
-    h = mod['h'][:]
-    h = np.hstack((0,h))
-    lat = mod['lat'][:]
-    lat = lat[::-1]
-    lon = mod['lon'][:]
-    int_3d = RegularGridInterpolator((h,lat,lon),dvs)
-    for ii in range(15,len(dvs)):
-        dvs[ii] = np.zeros(dvs[ii].shape)
-    mod.close()
     return int_3d
 
 def make_lookup(phase_lists,h5f,st,evdp,int_3d):
     cdp = np.arange(50,1800,10)
     for phase_list in phase_lists:
+        print 'Computing '+phase_list[0]
         for tr in st:
             name = tr.stats.network+tr.stats.station+tr.stats.location
-            print 'Computing '+phase_list[0]
+            print name
 
             master_time = []
             master_time_3d = []
@@ -144,8 +129,8 @@ def top_depth_times(evdp,cdp,phase_list_in,tr,int_3d):
     depth_list.append(pure_depth)
     time = arr[1].time-arr[0].time
     time_list.append(time)
-    main_path = np.array([list((i[3],i[4],i[5])) for i in arr[0].path])
-    rev_path = np.array([list((i[3],i[4],i[5])) for i in arr[1].path])
+    main_path = np.array([list((i[3],-i[4],i[5])) for i in arr[0].path])
+    rev_path = np.array([list((i[3],-i[4],i[5])) for i in arr[1].path])
     main_trace = 1-(int_3d(main_path)[1::]*0.01)
     rev_trace = 1-(int_3d(rev_path)[1::]*0.01)
     main_dt = np.diff(np.array([i[1] for i in arr[0].path]))
@@ -173,8 +158,8 @@ def bot_depth_times(evdp,cdp,phase_list_in,tr,int_3d):
     depth_list.append(pure_depth)
     time = arr[1].time-arr[0].time
     time_list.append(time)
-    main_path = np.array([list((i[3],i[4],i[5])) for i in arr[1].path])
-    rev_path = np.array([list((i[3],i[4],i[5])) for i in arr[0].path])
+    main_path = np.array([list((i[3],-i[4],i[5])) for i in arr[1].path])
+    rev_path = np.array([list((i[3],-i[4],i[5])) for i in arr[0].path])
     main_trace = 1-(int_3d(main_path)[1::]*0.01)
     rev_trace = 1-(int_3d(rev_path)[1::]*0.01)
     main_dt = np.diff(np.array([i[1] for i in arr[1].path]))
