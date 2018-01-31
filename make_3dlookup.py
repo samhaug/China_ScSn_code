@@ -6,7 +6,7 @@
 File Name : make_3dlookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes for 3d model
 Creation Date : 20-12-2017
-Last Modified : Tue 30 Jan 2018 03:30:09 PM EST
+Last Modified : Wed 31 Jan 2018 03:54:41 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -24,7 +24,6 @@ import re
 import obspy
 import argparse
 import obspy
-#mod = TauPyModel(model='prem50')
 
 def main():
     parser = argparse.ArgumentParser(
@@ -63,13 +62,13 @@ def interp_netcdf_3d():
     for ii in range(17,len(dvs)):
         dvs[ii] = np.zeros(dvs[ii].shape)
     #We use 1-(dvs/100.) to adjust ttimes
-    plt.imshow(dvs[2],aspect='auto',extent=[lon[0],lon[-1],lat[0],lat[-1]])
+    #plt.imshow(dvs[2],aspect='auto',extent=[lon[0],lon[-1],lat[0],lat[-1]])
     int_3d = RegularGridInterpolator((h,lat,lon),dvs)
-    plt.show()
+    #plt.show()
     return int_3d
 
 def make_lookup(phase_lists,h5f,st,evdp,int_3d):
-    cdp = np.arange(50,1800,10)
+    cdp = np.arange(50,1600,10)
     for phase_list in phase_lists:
         print 'Computing '+phase_list[0]
         for tr in st:
@@ -80,6 +79,24 @@ def make_lookup(phase_lists,h5f,st,evdp,int_3d):
             master_time_3d = []
             master_depth = []
 
+            #get time of main phase in 3d
+            mod = TauPyModel('prem')
+            arr = mod.get_ray_paths_geo(source_depth_in_km=evdp,
+                                source_latitude_in_deg=tr.stats.evla,
+                                source_longitude_in_deg=tr.stats.evlo,
+                                receiver_latitude_in_deg=tr.stats.stla,
+                                receiver_longitude_in_deg=tr.stats.stlo,
+                                phase_list=[phase_list[0]])
+            main_path = np.array([list((i[3],-i[4],i[5])) for i in arr[0].path])
+            main_trace = 1-(int_3d(main_path)[1::]*0.01)
+            main_dt = np.diff(np.array([i[1] for i in arr[0].path]))
+            time_3d = np.sum(main_dt*main_trace)
+
+            h5f.create_dataset(name+'/'+phase_list[0]+'/prem',
+                               data=np.array([arr[0].time]))
+            h5f.create_dataset(name+'/'+phase_list[0]+'/3d',
+                               data=np.array([time_3d]))
+
             if phase_list[0][0].startswith('s'):
                 for ii in cdp:
                     time_list,time_list_3d,depth_list = top_depth_times(evdp,
@@ -87,27 +104,25 @@ def make_lookup(phase_lists,h5f,st,evdp,int_3d):
                     master_time.append(time_list)
                     master_time_3d.append(time_list_3d)
                     master_depth.append(depth_list)
+
             elif phase_list[0][0].startswith('S'):
                 for ii in cdp:
                     time_list,time_list_3d,depth_list = bot_depth_times(evdp,
-                                                      ii,phase_list)
+                                                      ii,phase_list,tr,int_3d)
                     master_time.append(time_list)
                     master_time_3d.append(time_list_3d)
                     master_depth.append(depth_list)
 
             master_time = np.array(master_time)
-            master_time = np.vstack((np.zeros(master_time.shape[1]),
-                                     master_time))
             master_time_3d = np.array(master_time_3d)
-            master_time_3d = np.vstack((np.zeros(master_time_3d.shape[1]),
-                                     master_time_3d))
             master_depth = np.array(master_depth)
-            master_depth = np.vstack((np.zeros(master_depth.shape[1]),
-                                     master_depth))
 
-            h5f.create_dataset(name+'/time',data=master_time)
-            h5f.create_dataset(name+'/time_3d',data=master_time_3d)
-            h5f.create_dataset(name+'/depth',data=master_depth)
+            h5f.create_dataset(name+'/'+phase_list[0]+'/time',
+                               data=master_time)
+            h5f.create_dataset(name+'/'+phase_list[0]+'/time_3d',
+                               data=master_time_3d)
+            h5f.create_dataset(name+'/'+phase_list[0]+'/depth',
+                               data=master_depth)
 
 def top_depth_times(evdp,cdp,phase_list_in,tr,int_3d):
     mod = TauPyModel(model='prem'+str(int(cdp)))
@@ -153,8 +168,7 @@ def bot_depth_times(evdp,cdp,phase_list_in,tr,int_3d):
                                 receiver_latitude_in_deg=tr.stats.stla,
                                 receiver_longitude_in_deg=tr.stats.stlo,
                                 phase_list=phase_list)
-
-    pure_depth = float(re.findall('\d+',arr[1].purist_name)[0])
+    pure_depth = float(re.findall('\d+',arr[0].purist_name)[0])
     depth_list.append(pure_depth)
     time = arr[1].time-arr[0].time
     time_list.append(time)
