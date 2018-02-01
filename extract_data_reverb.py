@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Thu 01 Feb 2018 12:10:22 PM EST
+Last Modified : Thu 01 Feb 2018 01:32:14 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,6 +19,7 @@ import obspy
 from sys import argv
 from obspy.taup import TauPyModel
 import argparse
+from scipy.signal import correlate
 model = TauPyModel(model='prem')
 
 
@@ -29,12 +30,38 @@ def main():
     parser.add_argument('-d','--data', metavar='H5_FILE',type=str,
                         help='h5 data file')
     args = parser.parse_args()
+    h5f_d = h5py.File('data_reverb.h5','w',driver='core')
+    h5f_s = h5py.File('synth_reverb.h5','w',driver='core')
 
     sts = obspy.read(args.synth)
     std = obspy.read(args.data)
     sts,std = remove_excess(sts,std)
+
+    phase_list =['sScS','ScSScS','sScSScS','ScSScSScS','sScSScSScS']
+
     for idx,tr in enumerate(sts):
-        corr_reverb(sts[idx],std[idx],'ScSScS')
+        name = tr.stats.network+tr.stats.station+tr.stats.location
+        h5f_d.create_group(name)
+        h5f_d.create_dataset(name+'/coords',data=[tr.stats.gcarc,
+                                               tr.stats.evdp,
+                                               tr.stats.stla,
+                                               tr.stats.stlo,
+                                               tr.stats.evla,
+                                               tr.stats.evlo])
+        h5f_s.create_group(name)
+        h5f_s.create_dataset(name+'/coords',data=[tr.stats.gcarc,
+                                               tr.stats.evdp,
+                                               tr.stats.stla,
+                                               tr.stats.stlo,
+                                               tr.stats.evla,
+                                               tr.stats.evlo])
+        for phase in phase_list:
+            dat = corr_reverb(sts[idx],std[idx],phase)
+            if type(dat) != bool:
+                h5f_s.create_dataset(name+'/'+phase,data=dat[0])
+                h5f_d.create_dataset(name+'/'+phase,data=dat[1])
+    h5f_d.close()
+    h5f_s.close()
 
 def remove_excess(sts,std):
     sts_name = []
@@ -63,75 +90,14 @@ def remove_excess(sts,std):
 
 def npcorr(s,d,samp):
     correl = correlate(s,d,mode='same')
-    ts = round((len(d)/2.-argmax(correl))/samp,2)
+    ts = round((len(d)/2.-np.argmax(correl))/samp,2)
     return ts
 
-def strip_reverb(tr,h5f_3d,h5f_1d,lkup):
-    o = tr.stats.o
-    name = tr.stats.network+tr.stats.station+tr.stats.location
-    lkup_group = lkup[name]
-    h5f_1d.create_group(name)
-    h5f_3d.create_group(name)
-    h5f_3d.create_dataset(name+'/coords',data=[tr.stats.gcarc,
-                                             tr.stats.evdp,
-                                             tr.stats.stla,
-                                             tr.stats.stlo,
-                                             tr.stats.evla,
-                                             tr.stats.evlo])
-    h5f_1d.create_dataset(name+'/coords',data=[tr.stats.gcarc,
-                                            tr.stats.evdp,
-                                            tr.stats.stla,
-                                            tr.stats.stlo,
-                                            tr.stats.evla,
-                                            tr.stats.evlo])
-
-    for phase in lkup_group:
-        t_3d =  lkup_group[phase]['3d'][0]
-        t_1d =  lkup_group[phase]['prem'][0]
-
-        if phase.startswith('S'):
-            if phase == 'ScSScS' and tr.stats.gcarc > 55:
-                continue
-            elif tr.stats.starttime+t_1d+50 >= tr.stats.endtime:
-                print(name+'   cutoff')
-                continue
-            elif tr.stats.starttime+t_3d+50 >= tr.stats.endtime:
-                print(name+'   cutoff')
-                continue
-            else:
-                d_3d = tr.slice(tr.stats.starttime+t_3d-500,
-                                tr.stats.starttime+t_3d+50).data
-                d_1d = tr.slice(tr.stats.starttime+t_1d-500,
-                                tr.stats.starttime+t_1d+50).data
-                h5f_3d.create_dataset(name+'/'+phase,data=d_3d)
-                h5f_1d.create_dataset(name+'/'+phase,data=d_1d)
-
-        elif phase.startswith('s'):
-
-            if phase == 'sScS' and tr.stats.gcarc > 35:
-                continue
-            elif tr.stats.starttime+t_1d+540 >= tr.stats.endtime:
-                print(name+'   cutoff')
-                continue
-            elif tr.stats.starttime+t_3d+540 >= tr.stats.endtime:
-                print(name+'   cutoff')
-                continue
-            else:
-                d_3d = tr.slice(tr.stats.starttime+t_3d-10,
-                                tr.stats.starttime+t_3d+540).data
-                d_1d = tr.slice(tr.stats.starttime+t_1d-10,
-                                tr.stats.starttime+t_1d+540).data
-                h5f_3d.create_dataset(name+'/'+phase,data=d_3d)
-                h5f_1d.create_dataset(name+'/'+phase,data=d_1d)
-
-    return st
-
-def corr_reverb(trs,trd,phase):
+def corr_reverb(trs,trd,phase,cutoff=0.5):
     so = trs.stats.o
     do = trd.stats.o
     sname = trs.stats.network+trs.stats.station+trs.stats.location
     dname = trd.stats.network+trd.stats.station+trd.stats.location
-    print(phase,sname)
     if not sname == dname:
         print('mismatch')
         return False
@@ -151,36 +117,56 @@ def corr_reverb(trs,trd,phase):
             print(name+'   cutoff')
             return False
 	else:
-            s_dat = trs.slice(trs.stats.starttime+time-500,
-                             trs.stats.starttime+time+50).data
-            s_dat *= 1./np.abs(s_dat.max())
-            d_dat = trd.slice(trd.stats.starttime+time-500,
-                             trd.stats.starttime+time+50).data
-            d_dat *= 1./np.abs(d_dat.max())
-            plt.plot(s_dat)
-            plt.plot(d_dat)
-            plt.show()
+            try:
+                s_dat = trs.slice(trs.stats.starttime+time-500,
+                                 trs.stats.starttime+time+50).data
+                s_dat *= 1./np.abs(s_dat).max()
+                d_dat = trd.slice(trd.stats.starttime+time-500,
+                                 trd.stats.starttime+time+50).data
+                d_dat *= 1./np.abs(d_dat).max()
+                ts = npcorr(s_dat,d_dat,trs.stats.sampling_rate)
+                #adjust window
+                d_dat = trd.slice(trd.stats.starttime+time-500+ts,
+                                 trd.stats.starttime+time+50+ts).data
+                d_dat *= 1./np.abs(d_dat).max()
+            except RuntimeError:
+                return False
+            if np.max(np.abs(d_dat[0:4000])) > cutoff \
+                    or np.isnan(np.sum(d_dat)):
+                return False
+            else:
+                return d_dat,s_dat
 
     elif phase.startswith('s'):
 
-	if phase == 'sScS' and tr.stats.gcarc > 35:
+	if phase == 'sScS' and trs.stats.gcarc > 35:
             return False
-	elif tr.stats.starttime+t_1d+540 >= tr.stats.endtime:
+	elif trs.stats.starttime+time+540 >= trs.stats.endtime:
             print(name+'   cutoff')
             return False
-	elif tr.stats.starttime+t_3d+540 >= tr.stats.endtime:
+	elif trd.stats.starttime+time+540 >= trd.stats.endtime:
             print(name+'   cutoff')
             return False
 	else:
-            s_dat = trs.slice(trs.stats.starttime+time-10,
-                             trs.stats.starttime+time+540).data
-            s_dat *= 1./np.abs(s_dat.max())
-            d_dat = trd.slice(trd.stats.starttime+time-10,
-                             trd.stats.starttime+time+540).data
-            d_dat *= 1./np.abs(d_dat.max())
-            plt.plot(s_dat)
-            plt.plot(d_dat)
-            plt.show()
+            try:
+                s_dat = trs.slice(trs.stats.starttime+time-10,
+                                 trs.stats.starttime+time+540).data
+                s_dat *= 1./np.abs(s_dat).max()
+                d_dat = trd.slice(trd.stats.starttime+time-10,
+                                 trd.stats.starttime+time+540).data
+                d_dat *= 1./np.abs(d_dat).max()
+                ts = npcorr(s_dat,d_dat,trs.stats.sampling_rate)
+                #adjust window
+                d_dat = trd.slice(trd.stats.starttime+time-10+ts,
+                                 trd.stats.starttime+time+540+ts).data
+                d_dat *= 1./np.abs(d_dat).max()
+            except RuntimeError:
+                return False
+            if np.max(np.abs(d_dat[1000::])) > cutoff \
+                    or np.isnan(np.sum(d_dat)):
+                return False
+            else:
+                return d_dat,s_dat
 
 main()
 

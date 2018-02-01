@@ -6,7 +6,7 @@
 File Name : extract_reverb.py
 Purpose : Clip reverb intervals from stream of traces
 Creation Date : 04-01-2018
-Last Modified : Thu 18 Jan 2018 03:10:41 PM EST
+Last Modified : Thu 01 Feb 2018 01:33:24 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
