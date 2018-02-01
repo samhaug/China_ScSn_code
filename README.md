@@ -14,7 +14,7 @@ moveout\_correction.py reads the lookup table and the deconvolved h5 file and pe
 #3D workflow#
 make\_3dlookup.py will make a moveout lookup table for a 3D tomographic model
 
-extract\_3dlookup.py will use the 3d lookup table to clip reverberative 
+extract\_3dreverb.py will use the 3d lookup table to clip reverberative 
 intervals from data. 
 
 Use deconvolve.py the same as in the 1D workflow
