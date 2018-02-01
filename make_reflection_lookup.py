@@ -6,7 +6,7 @@
 File Name : make_reflection_lookup.py
 Purpose : Make lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Thu 25 Jan 2018 12:06:37 PM EST
+Last Modified : Thu 01 Feb 2018 05:09:19 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,18 +19,24 @@ import h5py
 import obspy
 import argparse
 from obspy.taup import TauPyModel
+from deco import concurrent,synchronized
 
 def main():
     parser = argparse.ArgumentParser(description='Make \
                                      lookup table of ScS reflection points')
     parser.add_argument('-f','--fname', metavar='H5_FILE',type=str,
-                        help='Any h5 data file with cooords dict')
+                    help='Any h5 data file with cooords dict (deconvolve.h5)')
     args = parser.parse_args()
 
     family_dict = make_families()
     r = h5py.File('reflection_points.h5','w',driver='core')
     f = h5py.File(args.fname,'r',driver='core')
 
+    run(r,f,family_dict)
+    r.close()
+    f.close()
+
+def run(r,f,family_dict):
     c_depths = np.arange(50,905,5)
     for idx,ikeys in enumerate(f):
         print float(idx)/len(f.keys())
@@ -46,10 +52,9 @@ def main():
                     reflect_coords = find_reflect_coord(coords,
                                                         phase_family,
                                                         c_depth)
+
                     r[ikeys][jkeys].create_dataset(str(c_depth),
                                                    data=reflect_coords)
-    r.close()
-    f.close()
 
 def make_families():
     family_dict = {'sScS':['sSv#SScS','sScSSv#S'],
@@ -87,5 +92,7 @@ def find_reflect_coord(coords,phase_family,c_depth):
                     continue
                 else:
                    reflect_coords.append([a[ii,-2],a[ii,-1]])
+
     return reflect_coords
+
 main()

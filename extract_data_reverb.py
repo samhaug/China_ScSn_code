@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Thu 01 Feb 2018 01:32:14 PM EST
+Last Modified : Thu 01 Feb 2018 03:02:54 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -58,8 +58,8 @@ def main():
         for phase in phase_list:
             dat = corr_reverb(sts[idx],std[idx],phase)
             if type(dat) != bool:
-                h5f_s.create_dataset(name+'/'+phase,data=dat[0])
-                h5f_d.create_dataset(name+'/'+phase,data=dat[1])
+                h5f_s.create_dataset(name+'/'+phase,data=dat[1])
+                h5f_d.create_dataset(name+'/'+phase,data=dat[0])
     h5f_d.close()
     h5f_s.close()
 

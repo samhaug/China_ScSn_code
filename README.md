@@ -9,6 +9,9 @@ of clipped reverberative intervals.
 
 deconvolve.py reads the h5 file made by extract reverb and deconvolves the parent phase from the reverberative interval. It saves the deconvolved traces as an h5 file.
 
+make\_reflection\_points.py makes an h5 lookup table of reflection coordinates
+using the output of deconvolve.py
+
 moveout\_correction.py reads the lookup table and the deconvolved h5 file and performs the moveout correction into depth domain. Then writes to another h5 file.
 
 #3D workflow#
