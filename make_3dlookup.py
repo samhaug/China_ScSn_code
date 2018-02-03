@@ -6,7 +6,7 @@
 File Name : make_3dlookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes for 3d model
 Creation Date : 20-12-2017
-Last Modified : Wed 31 Jan 2018 03:54:41 PM EST
+Last Modified : Sat 03 Feb 2018 05:41:13 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -68,10 +68,10 @@ def interp_netcdf_3d():
     return int_3d
 
 def make_lookup(phase_lists,h5f,st,evdp,int_3d):
-    cdp = np.arange(50,1600,10)
+    cdp = np.arange(50,1800,10)
     for phase_list in phase_lists:
         print 'Computing '+phase_list[0]
-        for tr in st:
+        for idx,tr in enumerate(st):
             name = tr.stats.network+tr.stats.station+tr.stats.location
             print name
 
@@ -114,8 +114,11 @@ def make_lookup(phase_lists,h5f,st,evdp,int_3d):
                     master_depth.append(depth_list)
 
             master_time = np.array(master_time)
+            master_time = np.vstack((0,master_time))
             master_time_3d = np.array(master_time_3d)
+            master_time_3d = np.vstack((0,master_time_3d))
             master_depth = np.array(master_depth)
+            master_depth = np.vstack((0,master_depth))
 
             h5f.create_dataset(name+'/'+phase_list[0]+'/time',
                                data=master_time)
