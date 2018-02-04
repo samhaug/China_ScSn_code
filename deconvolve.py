@@ -6,7 +6,7 @@
 File Name : deconvolve.py
 Purpose : deconvolve strips from h5 file. Write to h5
 Creation Date : 14-01-2018
-Last Modified : Fri 02 Feb 2018 12:11:46 PM EST
+Last Modified : Sun 04 Feb 2018 02:21:01 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================

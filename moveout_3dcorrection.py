@@ -7,7 +7,7 @@ File Name : moveout_correction.py
 Purpose : Apply moveout correction to deconvolved data using lookup table.
           lookup table made make_lookup.py
 Creation Date : 15-01-2018
-Last Modified : Fri 02 Feb 2018 03:16:28 PM EST
+Last Modified : Sun 04 Feb 2018 02:23:27 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
