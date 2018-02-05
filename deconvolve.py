@@ -6,7 +6,7 @@
 File Name : deconvolve.py
 Purpose : deconvolve strips from h5 file. Write to h5
 Creation Date : 14-01-2018
-Last Modified : Sun 04 Feb 2018 02:21:01 PM EST
+Last Modified : Mon 05 Feb 2018 11:22:39 AM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -42,10 +42,18 @@ def main():
                 t,rf = water_level(data,mask)
                 if phase.split('/')[-1].startswith('s'):
                     rf = np.roll(rf,500)
-                    rf = -1*np.roll(rf,500-np.argmax(rf))
+                    if rf[np.argmax(np.abs(rf))] > 0:
+                        rf = -1*np.roll(rf,500-np.argmax(rf))
+                    else:
+                        rf = np.roll(rf,500-np.argmax(rf))
                 elif phase.split('/')[-1].startswith('S'):
-                    rf = np.roll(rf,-500)[::-1]
-                    rf = np.roll(rf,500-np.argmax(rf))
+                    if rf[np.argmax(np.abs(rf))] > 0:
+                        rf = np.roll(rf,-500)[::-1]
+                        rf = np.roll(rf,500-np.argmax(rf))
+                    else:
+                        rf = np.roll(rf,-500)[::-1]
+                        rf = -1*np.roll(rf,500-np.argmax(rf))
+
                 f_dec.create_dataset(phase,data=rf)
     f.close()
     f_dec.close()
