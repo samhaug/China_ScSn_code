@@ -7,7 +7,7 @@ File Name : moveout_correction.py
 Purpose : Apply moveout correction to deconvolved data using lookup table.
           lookup table made make_lookup.py
 Creation Date : 15-01-2018
-Last Modified : Mon 05 Feb 2018 11:05:21 AM EST
+Last Modified : Mon 05 Feb 2018 01:09:16 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -35,25 +35,33 @@ def main():
 
     for dkeys in d:
         gcarc = round(d[dkeys]['coords'][0])
-        mvout.create_dataset(dkeys+'/coords',data=d[dkeys]['coords'][...])
+        mvout.create_group(dkeys)
+        mvout[dkeys].create_dataset('coords',data=d[dkeys]['coords'][...])
         try:
             for lkeys in d[dkeys]:
+                #go through parents
                 if not lkeys.startswith('c'):
+                    mvout[dkeys].create_dataset
                     print dkeys,lkeys
                     mapping_lkup = l[dkeys][lkeys]
+                    t_3d = mapping_lkup[ckeys]['3d_time'][0]
+                    #t_1d = mapping_lkup[ckeys]['1d_time'][0]
                     for ckeys in mapping_lkup:
                         if ckeys.startswith('S') or ckeys.startswith('s'):
-                            d_map = mapping_lkup[ckeys]['depth']
-                            t_map = mapping_lkup[ckeys]['3d_time']
+                            d_map = mapping_lkup[ckeys]['depth'][:,0]
+                            t3d_map = mapping_lkup[ckeys]['3d_time'][:,0]
+                            t3d_map[1::] = np.abs(t3d_map[1::]-t_3d)
+                            t3d_map = np.round(t3d_map,1)
+                            #t1d_map = mapping_lkup[ckeys]['1d_time'][:,0]
+                            #t1d_map[1::] = np.abs(t1d_map[1::]-t_1d)
                             data = d[dkeys][lkeys][:]
+                            #make parent at zero time
                             data = np.roll(data,-1*np.argmax(np.abs(data)))
 
-                            f = interp1d(mapping[1,0:len(data)],data)
-                            abs_depth = np.linspace(mapping[1,0],
-                                        mapping[1,0:len(data)].max(),
-                                        num=int(2*mapping[1,len(data)]))
-                            mv_data = f(abs_depth)
-                            mv_data *= 1./np.abs(mv_data).max()
+                            f = interp1d(d_map,t3d_map)
+                            d_new = np.arange(d_map[0],d_map[-1]+5,5)
+                            t_new = f(d_new)
+
                             mvout.create_dataset(dkeys+'/'+lkeys,
                                         data=np.vstack((abs_depth,mv_data)))
         except KeyError:
