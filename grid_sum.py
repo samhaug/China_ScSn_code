@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Thu 01 Feb 2018 04:20:06 PM EST
+Last Modified : Mon 05 Feb 2018 04:50:08 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -86,7 +86,6 @@ def make_grid_coordinates():
     h = np.arange(hmin,hmax+5,5)
     grid = np.zeros((len(lon),len(lat),len(h)))
     return lon,lat,h,grid
-
 
 main()
 

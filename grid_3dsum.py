@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Mon 05 Feb 2018 01:57:34 PM EST
+Last Modified : Mon 05 Feb 2018 05:14:14 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -32,7 +32,7 @@ def main():
                         help='h5 deconvolved data')
     args = parser.parse_args()
 
-    m = h5py.File(args.mvout,'r',driver='core')
+    m = h5py.File(args.lkup,'r',driver='core')
     r = h5py.File(args.reflection,'r',driver='core')
 
     lon_a,lat_a,h_a,grid = make_grid_coordinates()
@@ -46,12 +46,13 @@ def main():
     for h in h_a:
         print 'Depth: {} km'.format(h)
         h_idx= np.abs(h_a-h).argmin()
-        for ikeys in r.keys():
+        for ikeys in r:
             for phase in r[ikeys]:
                 if not phase.startswith('c'):
-                    r_coord = r[ikeys][phase][str(h)]
-                    for ii in r_coord:
-                        i = tree.query_ball_point((ii[1],ii[0]),2.0)
+                    #r_coord = r[ikeys][phase][str(h)]
+                    for branch in r[ikeys][phase]:
+                        coord = r[ikeys][phase][branch]
+                        i = tree.query_ball_point((coord[1],coord[0]),2.0)
                         for jj in i:
                             lon_idx = np.abs(lon_a-x[jj]).argmin()
                             lat_idx = np.abs(lat_a-y[jj]).argmin()
