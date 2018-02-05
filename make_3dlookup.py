@@ -6,7 +6,7 @@
 File Name : make_3dlookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes for 3d model
 Creation Date : 20-12-2017
-Last Modified : Sun 04 Feb 2018 02:05:36 PM EST
+Last Modified : Mon 05 Feb 2018 09:40:57 AM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -72,9 +72,9 @@ def interp_netcdf_3d():
 def make_lookup(phase_families,h5f,st,evdp,int_3d):
     cdp = np.arange(50,1010,20)
     mod = TauPyModel('prem')
-    for idx,tr in enumerate(st[0:2]):
+    for idx,tr in enumerate(st):
         name = tr.stats.network+tr.stats.station+tr.stats.location
-        print name
+        print('{} {}'.format(name,float(idx)/len(st)*100.))
         h5f.create_group(name)
         for keys in phase_families:
             h5f[name].create_group(keys)
@@ -136,7 +136,6 @@ def top_depth_times(evdp,cdp,phase_list_in,tr,int_3d):
     time_list = []
     time_list_3d = []
 
-    print phase_list
     arr = mod.get_ray_paths_geo(source_depth_in_km=evdp,
                                 source_latitude_in_deg=tr.stats.evla,
                                 source_longitude_in_deg=tr.stats.evlo,
@@ -163,7 +162,6 @@ def bot_depth_times(evdp,cdp,phase_list_in,tr,int_3d):
     time_list = []
     time_list_3d = []
 
-    print phase_list
     arr = mod.get_ray_paths_geo(source_depth_in_km=evdp,
                                 source_latitude_in_deg=tr.stats.evla,
                                 source_longitude_in_deg=tr.stats.evlo,
