@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Mon 05 Feb 2018 05:14:14 PM EST
+Last Modified : Tue 06 Feb 2018 02:39:00 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -17,10 +17,13 @@ from subprocess import call
 from os import listdir
 import h5py
 import argparse
+from scipy.interpolate import interp1d
 from geopy.distance import vincenty
 from scipy.signal import gaussian
 from scipy.spatial import KDTree
 from matplotlib import pyplot as plt
+from geopy.distance import vincenty
+import re
 
 def main():
     parser = argparse.ArgumentParser(description='perform grid')
@@ -32,8 +35,9 @@ def main():
                         help='h5 deconvolved data')
     args = parser.parse_args()
 
-    m = h5py.File(args.lkup,'r',driver='core')
+    l = h5py.File(args.lkup,'r',driver='core')
     r = h5py.File(args.reflection,'r',driver='core')
+    d = h5py.File(args.deconvolve,'r',driver='core')
 
     lon_a,lat_a,h_a,grid = make_grid_coordinates()
     grid_count = np.zeros(grid.shape)
@@ -42,24 +46,32 @@ def main():
     y = y.ravel()
     coords = zip(x,y)
     tree = KDTree(coords)
+    gauss_cap = gaussian(424,90)[212::]
 
     for h in h_a:
         print 'Depth: {} km'.format(h)
         h_idx= np.abs(h_a-h).argmin()
-        for ikeys in r:
-            for phase in r[ikeys]:
+        for rkeys in r:
+            for phase in r[rkeys]:
                 if not phase.startswith('c'):
-                    #r_coord = r[ikeys][phase][str(h)]
-                    for branch in r[ikeys][phase]:
-                        coord = r[ikeys][phase][branch]
-                        i = tree.query_ball_point((coord[1],coord[0]),2.0)
+                    data,lkup_dict = prepare_data_lookup(d,l,rkeys,phase)
+                    for pierce_coord in r[rkeys][phase]:
+                        depth = int(re.findall('\d+',pierce_coord)[0])
+                        pc = r[rkeys][phase][pierce_coord][:]
+                        dl,tl = lkup_dict[pierce_coord.replace(str(depth),'X')]
+                        # get data value closest to time. assume samp_rate=10
+                        v = data[int(tl[np.argmin(np.abs(h-dl))]*10)]
+                        i = tree.query_ball_point((pc[1],pc[0]),2.0)
                         for jj in i:
+                            dist = vincenty((pc[0],pc[1]),(y[jj],x[jj])).km
+                            try:
+                                v *= gauss_cap[int(dist)]
+                            except IndexError:
+                                v *= gauss_cap[-1]
                             lon_idx = np.abs(lon_a-x[jj]).argmin()
                             lat_idx = np.abs(lat_a-y[jj]).argmin()
                             grid_count[lon_idx,lat_idx,h_idx]+=1.
-                            v = find_reverb_value(m,h,ikeys,phase)
                             grid[lon_idx,lat_idx,h_idx]+=v
-
     r.close()
     m.close()
 
@@ -76,10 +88,22 @@ def main():
     g.create_dataset('h',data=h_a)
     g.close()
 
-def find_reverb_value(m,h,ikey,phase):
-    depth = m[ikey][phase][0,:]
-    data = m[ikey][phase][1,:]
-    return data[np.abs(depth-h).argmin()]
+def prepare_data_lookup(d,l,rkeys,phase):
+    data = d[rkeys][phase][:]
+    data *= 1./np.max(np.abs(data))
+    data = np.roll(data,-1*np.argmax(np.abs(data)))
+    time_3d = l[rkeys][phase]['3d_time'][0]
+    lkup_dict = {}
+    for keys in l[rkeys][phase]:
+        if not keys[0].isdigit():
+            tspace = l[rkeys][phase][keys]['3d_time'][:,0]
+            dspace = l[rkeys][phase][keys]['depth'][:,0]
+            tspace[1::] = np.abs(tspace[1::]-time_3d)
+            f = interp1d(dspace,tspace)
+            d_new = np.arange(dspace[0],dspace[-1]+5,5)
+            t_new = f(d_new)
+            lkup_dict[keys] = [d_new,t_new]
+    return data,lkup_dict
 
 def make_grid_coordinates():
     lonmin,lonmax = 80,150
@@ -90,7 +114,6 @@ def make_grid_coordinates():
     h = np.arange(hmin,hmax+5,5)
     grid = np.zeros((len(lon),len(lat),len(h)))
     return lon,lat,h,grid
-
 
 main()
 
