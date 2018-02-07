@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Wed 07 Feb 2018 03:21:28 PM EST
+Last Modified : Wed 07 Feb 2018 05:26:31 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -33,7 +33,11 @@ def main():
                         help='h5 3d moveout lookup table')
     parser.add_argument('-d','--deconvolve', metavar='H5_FILE',type=str,
                         help='h5 deconvolved data')
+    parser.add_argument('-g','--grid', metavar='H5_FILE',type=str,
+                        help='optional name of output grid file',
+                         default='grid_sum.h5')
     args = parser.parse_args()
+    print args.grid
 
     l = h5py.File(args.lkup,'r',driver='core')
     r = h5py.File(args.reflection,'r',driver='core')
@@ -76,10 +80,10 @@ def main():
     l.close()
 
     try:
-        g = h5py.File('grid_sum.h5','w',driver='core')
+        g = h5py.File(args.grid,'w',driver='core')
     except IOError:
-        call('rm -rf grid_sum.h5',shell=True)
-        g = h5py.File('grid_sum.h5','w',driver='core')
+        call('rm -rf '+args.grid,shell=True)
+        g = h5py.File(args.grid,'w',driver='core')
 
     g.create_dataset('grid',data=grid)
     g.create_dataset('grid_count',data=grid_count)
@@ -109,7 +113,6 @@ def make_grid_coordinates():
     lonmin,lonmax = 80,150
     latmin,latmax = -10,50
     hmin,hmax = 50,800
-    hmin,hmax = 400,800
     lon = np.linspace(lonmin,lonmax,num=int(2*(lonmax-lonmin)))
     lat = np.linspace(latmin,latmax,num=int(2*(latmax-latmin)))
     h = np.arange(hmin,hmax+5,5)
