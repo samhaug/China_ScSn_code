@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Tue 06 Feb 2018 02:39:00 PM EST
+Last Modified : Wed 07 Feb 2018 03:21:28 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -73,7 +73,7 @@ def main():
                             grid_count[lon_idx,lat_idx,h_idx]+=1.
                             grid[lon_idx,lat_idx,h_idx]+=v
     r.close()
-    m.close()
+    l.close()
 
     try:
         g = h5py.File('grid_sum.h5','w',driver='core')
@@ -109,6 +109,7 @@ def make_grid_coordinates():
     lonmin,lonmax = 80,150
     latmin,latmax = -10,50
     hmin,hmax = 50,800
+    hmin,hmax = 400,800
     lon = np.linspace(lonmin,lonmax,num=int(2*(lonmax-lonmin)))
     lat = np.linspace(latmin,latmax,num=int(2*(latmax-latmin)))
     h = np.arange(hmin,hmax+5,5)
@@ -116,5 +117,7 @@ def make_grid_coordinates():
     return lon,lat,h,grid
 
 main()
+
+
 
 

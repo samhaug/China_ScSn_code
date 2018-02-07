@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Thu 01 Feb 2018 03:02:54 PM EST
+Last Modified : Wed 07 Feb 2018 03:47:52 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -26,9 +26,9 @@ model = TauPyModel(model='prem')
 def main():
     parser = argparse.ArgumentParser(description='Clip/write reverb intervals')
     parser.add_argument('-s','--synth', metavar='H5_FILE',type=str,
-                        help='h5 synth file')
+                        help='h5 obspy stream synth file')
     parser.add_argument('-d','--data', metavar='H5_FILE',type=str,
-                        help='h5 data file')
+                        help='h5 obspy stream data file')
     args = parser.parse_args()
     h5f_d = h5py.File('data_reverb.h5','w',driver='core')
     h5f_s = h5py.File('synth_reverb.h5','w',driver='core')
