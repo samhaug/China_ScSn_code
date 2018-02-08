@@ -6,7 +6,7 @@
 File Name : make_reflection_lookup.py
 Purpose : Make lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Mon 05 Feb 2018 11:06:24 AM EST
+Last Modified : Thu 08 Feb 2018 03:40:42 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
