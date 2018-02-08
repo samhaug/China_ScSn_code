@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Wed 07 Feb 2018 03:47:52 PM EST
+Last Modified : Thu 08 Feb 2018 12:59:47 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,6 +19,8 @@ import obspy
 from sys import argv
 from obspy.taup import TauPyModel
 import argparse
+#import seispy
+from subprocess import call
 from scipy.signal import correlate
 model = TauPyModel(model='prem')
 
@@ -30,8 +32,16 @@ def main():
     parser.add_argument('-d','--data', metavar='H5_FILE',type=str,
                         help='h5 obspy stream data file')
     args = parser.parse_args()
-    h5f_d = h5py.File('data_reverb.h5','w',driver='core')
-    h5f_s = h5py.File('synth_reverb.h5','w',driver='core')
+    try:
+        h5f_d = h5py.File('data_reverb.h5','w',driver='core')
+    except IOError:
+        call('rm data_reverb.h5',shell=True)
+        h5f_d = h5py.File('data_reverb.h5','w',driver='core')
+    try:
+        h5f_s = h5py.File('synth_reverb.h5','w',driver='core')
+    except IOError:
+        call('rm synth_reverb.h5',shell=True)
+        h5f_s = h5py.File('synth_reverb.h5','w',driver='core')
 
     sts = obspy.read(args.synth)
     std = obspy.read(args.data)
@@ -40,6 +50,7 @@ def main():
     phase_list =['sScS','ScSScS','sScSScS','ScSScSScS','sScSScSScS']
 
     for idx,tr in enumerate(sts):
+        #print tr.stats.gcarc,tr.stats.evdp,std[idx].stats.o
         name = tr.stats.network+tr.stats.station+tr.stats.location
         h5f_d.create_group(name)
         h5f_d.create_dataset(name+'/coords',data=[tr.stats.gcarc,
@@ -83,17 +94,21 @@ def remove_excess(sts,std):
     sts.interpolate(10)
     std.interpolate(10)
     sts.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
-    sts.sort(['gcarc'])
-    std.sort(['gcarc'])
+    std.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
+    #seispy.plot.simple_h5_section(sts)
+    #seispy.plot.simple_h5_section(std)
 
     return sts,std
 
 def npcorr(s,d,samp):
     correl = correlate(s,d,mode='same')
     ts = round((len(d)/2.-np.argmax(correl))/samp,2)
+    print ts
     return ts
 
-def corr_reverb(trs,trd,phase,cutoff=0.5):
+def corr_reverb(trs_in,trd_in,phase,cutoff=0.5):
+    trs = trs_in.copy()
+    trd = trd_in.copy()
     so = trs.stats.o
     do = trd.stats.o
     sname = trs.stats.network+trs.stats.station+trs.stats.location
@@ -105,29 +120,40 @@ def corr_reverb(trs,trd,phase,cutoff=0.5):
     time = model.get_travel_times(source_depth_in_km=trd.stats.evdp,
                                   distance_in_degree=trd.stats.gcarc,
                                   phase_list=[phase])[0].time
+    ts = np.linspace(-so,float(trs.stats.npts)/trs.stats.sampling_rate,
+                     num=trs.stats.npts)
+    td = np.linspace(-do,float(trd.stats.npts)/trd.stats.sampling_rate,
+                     num=trd.stats.npts)
+    #plt.plot(ts,trs.data/trs.data.max())
+    #plt.plot(td,trd.data/trd.data.max())
+    #plt.show()
 
     if phase.startswith('S'):
-
-	if phase == 'ScSScS' and trs.stats.gcarc > 55:
-            return False
-	elif trs.stats.starttime+time+50 >= trs.stats.endtime:
+	#if phase == 'ScSScS' and trs.stats.gcarc > 55:
+        #    print('out of range')
+        #    return False
+	if trs.stats.starttime+time+50+so >= trs.stats.endtime:
             print(name+'   cutoff')
             return False
-	elif trd.stats.starttime+time+50 >= trd.stats.endtime:
+	elif trd.stats.starttime+time+50+do >= trd.stats.endtime:
             print(name+'   cutoff')
             return False
 	else:
             try:
-                s_dat = trs.slice(trs.stats.starttime+time-500,
-                                 trs.stats.starttime+time+50).data
+                s_dat = trs.slice(trs.stats.starttime+time-500+so,
+                                 trs.stats.starttime+time+50+so).data
                 s_dat *= 1./np.abs(s_dat).max()
-                d_dat = trd.slice(trd.stats.starttime+time-500,
-                                 trd.stats.starttime+time+50).data
+                trd_mv = trd.copy()
+                d_dat = trd.slice(trd.stats.starttime+time-500+do,
+                                 trd.stats.starttime+time+50+do).data
                 d_dat *= 1./np.abs(d_dat).max()
                 ts = npcorr(s_dat,d_dat,trs.stats.sampling_rate)
+                if np.abs(ts) >= 15:
+                    print 'alignment error ',ts
+                    return False
                 #adjust window
-                d_dat = trd.slice(trd.stats.starttime+time-500+ts,
-                                 trd.stats.starttime+time+50+ts).data
+                d_dat = trd_mv.slice(trd.stats.starttime+time-500+ts+do,
+                                 trd.stats.starttime+time+50+ts+do).data
                 d_dat *= 1./np.abs(d_dat).max()
             except RuntimeError:
                 return False
@@ -138,10 +164,10 @@ def corr_reverb(trs,trd,phase,cutoff=0.5):
                 return d_dat,s_dat
 
     elif phase.startswith('s'):
-
-	if phase == 'sScS' and trs.stats.gcarc > 35:
-            return False
-	elif trs.stats.starttime+time+540 >= trs.stats.endtime:
+	#if phase == 'sScS' and trs.stats.gcarc > 35:
+        #    print('out of range')
+        #    return False
+	if trs.stats.starttime+time+540 >= trs.stats.endtime:
             print(name+'   cutoff')
             return False
 	elif trd.stats.starttime+time+540 >= trd.stats.endtime:
@@ -149,16 +175,20 @@ def corr_reverb(trs,trd,phase,cutoff=0.5):
             return False
 	else:
             try:
-                s_dat = trs.slice(trs.stats.starttime+time-10,
-                                 trs.stats.starttime+time+540).data
+                s_dat = trs.slice(trs.stats.starttime+time-10+so,
+                                 trs.stats.starttime+time+540+so).data
                 s_dat *= 1./np.abs(s_dat).max()
-                d_dat = trd.slice(trd.stats.starttime+time-10,
-                                 trd.stats.starttime+time+540).data
+                trd_mv = trd.copy()
+                d_dat = trd.slice(trd.stats.starttime+time-10+do,
+                                 trd.stats.starttime+time+540+do).data
                 d_dat *= 1./np.abs(d_dat).max()
                 ts = npcorr(s_dat,d_dat,trs.stats.sampling_rate)
+                if np.abs(ts) >= 15:
+                    print 'alignment error ',ts
+                    return False
                 #adjust window
-                d_dat = trd.slice(trd.stats.starttime+time-10+ts,
-                                 trd.stats.starttime+time+540+ts).data
+                d_dat = trd_mv.slice(trd.stats.starttime+time-10+ts+do,
+                                 trd.stats.starttime+time+540+ts+do).data
                 d_dat *= 1./np.abs(d_dat).max()
             except RuntimeError:
                 return False
