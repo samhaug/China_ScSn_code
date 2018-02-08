@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Thu 08 Feb 2018 12:59:47 PM EST
+Last Modified : Thu 08 Feb 2018 01:18:07 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -52,23 +52,26 @@ def main():
     for idx,tr in enumerate(sts):
         #print tr.stats.gcarc,tr.stats.evdp,std[idx].stats.o
         name = tr.stats.network+tr.stats.station+tr.stats.location
-        h5f_d.create_group(name)
-        h5f_d.create_dataset(name+'/coords',data=[tr.stats.gcarc,
-                                               tr.stats.evdp,
-                                               tr.stats.stla,
-                                               tr.stats.stlo,
-                                               tr.stats.evla,
-                                               tr.stats.evlo])
-        h5f_s.create_group(name)
-        h5f_s.create_dataset(name+'/coords',data=[tr.stats.gcarc,
-                                               tr.stats.evdp,
-                                               tr.stats.stla,
-                                               tr.stats.stlo,
-                                               tr.stats.evla,
-                                               tr.stats.evlo])
         for phase in phase_list:
             dat = corr_reverb(sts[idx],std[idx],phase)
             if type(dat) != bool:
+                try:
+                    h5f_d.create_group(name)
+                    h5f_d.create_dataset(name+'/coords',data=[tr.stats.gcarc,
+                                                           tr.stats.evdp,
+                                                           tr.stats.stla,
+                                                           tr.stats.stlo,
+                                                           tr.stats.evla,
+                                                           tr.stats.evlo])
+                    h5f_s.create_group(name)
+                    h5f_s.create_dataset(name+'/coords',data=[tr.stats.gcarc,
+                                                           tr.stats.evdp,
+                                                           tr.stats.stla,
+                                                           tr.stats.stlo,
+                                                           tr.stats.evla,
+                                                           tr.stats.evlo])
+                except ValueError:
+                    continue
                 h5f_s.create_dataset(name+'/'+phase,data=dat[1])
                 h5f_d.create_dataset(name+'/'+phase,data=dat[0])
     h5f_d.close()
@@ -103,7 +106,6 @@ def remove_excess(sts,std):
 def npcorr(s,d,samp):
     correl = correlate(s,d,mode='same')
     ts = round((len(d)/2.-np.argmax(correl))/samp,2)
-    print ts
     return ts
 
 def corr_reverb(trs_in,trd_in,phase,cutoff=0.5):
