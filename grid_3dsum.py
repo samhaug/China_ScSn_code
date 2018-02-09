@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Wed 07 Feb 2018 05:26:31 PM EST
+Last Modified : Fri 09 Feb 2018 11:36:39 AM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -52,30 +52,43 @@ def main():
     tree = KDTree(coords)
     gauss_cap = gaussian(424,90)[212::]
 
+    #for each depth in grid
     for h in h_a:
         print 'Depth: {} km'.format(h)
         h_idx= np.abs(h_a-h).argmin()
+        #for each station name in the reflection lookup
         for rkeys in r:
+            #for each parent phase accepted for the station
             for phase in r[rkeys]:
+                #As long as it's not the coordinate info list
                 if not phase.startswith('c'):
                     data,lkup_dict = prepare_data_lookup(d,l,rkeys,phase)
-                    for pierce_coord in r[rkeys][phase]:
-                        depth = int(re.findall('\d+',pierce_coord)[0])
-                        pc = r[rkeys][phase][pierce_coord][:]
-                        dl,tl = lkup_dict[pierce_coord.replace(str(depth),'X')]
-                        # get data value closest to time. assume samp_rate=10
-                        v = data[int(tl[np.argmin(np.abs(h-dl))]*10)]
-                        i = tree.query_ball_point((pc[1],pc[0]),2.0)
-                        for jj in i:
-                            dist = vincenty((pc[0],pc[1]),(y[jj],x[jj])).km
-                            try:
-                                v *= gauss_cap[int(dist)]
-                            except IndexError:
-                                v *= gauss_cap[-1]
-                            lon_idx = np.abs(lon_a-x[jj]).argmin()
-                            lat_idx = np.abs(lat_a-y[jj]).argmin()
-                            grid_count[lon_idx,lat_idx,h_idx]+=1.
-                            grid[lon_idx,lat_idx,h_idx]+=v
+                    conv_list = make_pierce_coord(phase,str(h))
+                    #For each coordinate in pierce_coord
+                    #for pierce_coord in r[rkeys][phase]:
+                    for pierce_coord in conv_list:
+                        try:
+                        #print pierce_coord
+                            depth = int(re.findall('\d+',pierce_coord)[0])
+                            pc = r[rkeys][phase][pierce_coord][:]
+                            dl,tl = lkup_dict[pierce_coord.replace(str(depth),
+                                              'X')]
+                            #Get data value closest to time. 
+                            #assume samp_rate=10
+                            v = data[int(tl[np.argmin(np.abs(h-dl))]*10)]
+                            i = tree.query_ball_point((pc[1],pc[0]),2.0)
+                            for jj in i:
+                                dist = vincenty((pc[0],pc[1]),(y[jj],x[jj])).km
+                                try:
+                                    v *= gauss_cap[int(dist)]
+                                except IndexError:
+                                    v *= gauss_cap[-1]
+                                lon_idx = np.abs(lon_a-x[jj]).argmin()
+                                lat_idx = np.abs(lat_a-y[jj]).argmin()
+                                grid_count[lon_idx,lat_idx,h_idx]+=1.
+                                grid[lon_idx,lat_idx,h_idx]+=v
+                        except KeyError:
+                            continue
     r.close()
     l.close()
 
@@ -91,6 +104,17 @@ def main():
     g.create_dataset('lon',data=lon_a)
     g.create_dataset('h',data=h_a)
     g.close()
+
+def make_pierce_coord(phase,depth):
+    phase_families = {'sScS':['sSvXSScS','sScSSvXS'],
+                     'sScSScS':['sSvXSScSScS','sScSSvXSScS','sScSScSSvXS'],
+                     'sScSScSScS':['sSvXSScSScSScS','sScSSvXSScSScS',
+                                   'sScSScSSvXSScS','sScSScSScSSvXS'],
+                     'ScSScS':['ScS^XScS'],
+                     'ScSScSScS':['ScS^XScSScS','ScScS^XScS']}
+    conv = phase_families[phase]
+    conv_list = [i.replace('X',depth) for i in conv]
+    return conv_list
 
 def prepare_data_lookup(d,l,rkeys,phase):
     data = d[rkeys][phase][:]

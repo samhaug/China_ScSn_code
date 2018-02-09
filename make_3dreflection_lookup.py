@@ -6,7 +6,7 @@
 File Name : make_3dreflection_lookup.py
 Purpose : Make 3d lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Mon 05 Feb 2018 04:41:16 PM EST
+Last Modified : Fri 09 Feb 2018 09:50:50 AM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -63,7 +63,6 @@ def run(r,f,family_dict):
                                                       data=reflect_coords[idx])
                         except RuntimeError:
                             continue
-
 
 def make_families():
     family_dict = {'sScS':['sSvXSScS','sScSSvXS'],
