@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Thu 08 Feb 2018 01:18:07 PM EST
+Last Modified : Sun 11 Feb 2018 02:10:00 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -49,7 +49,9 @@ def main():
 
     phase_list =['sScS','ScSScS','sScSScS','ScSScSScS','sScSScSScS']
 
+    count = 0
     for idx,tr in enumerate(sts):
+        print round(float(idx)/len(sts)*100.,2),'%'
         #print tr.stats.gcarc,tr.stats.evdp,std[idx].stats.o
         name = tr.stats.network+tr.stats.station+tr.stats.location
         for phase in phase_list:
@@ -72,6 +74,11 @@ def main():
                                                            tr.stats.evlo])
                 except ValueError:
                     continue
+                #plt.plot(dat[1])
+                #plt.plot(dat[0])
+                #plt.show()
+                count += 1
+                print 'count: ',count
                 h5f_s.create_dataset(name+'/'+phase,data=dat[1])
                 h5f_d.create_dataset(name+'/'+phase,data=dat[0])
     h5f_d.close()
@@ -108,7 +115,7 @@ def npcorr(s,d,samp):
     ts = round((len(d)/2.-np.argmax(correl))/samp,2)
     return ts
 
-def corr_reverb(trs_in,trd_in,phase,cutoff=0.5):
+def corr_reverb(trs_in,trd_in,phase,cutoff=1.5):
     trs = trs_in.copy()
     trd = trd_in.copy()
     so = trs.stats.o
@@ -135,10 +142,10 @@ def corr_reverb(trs_in,trd_in,phase,cutoff=0.5):
         #    print('out of range')
         #    return False
 	if trs.stats.starttime+time+50+so >= trs.stats.endtime:
-            print(name+'   cutoff')
+            print '{} {} cutoff'.format(phase,sname)
             return False
 	elif trd.stats.starttime+time+50+do >= trd.stats.endtime:
-            print(name+'   cutoff')
+            print '{} {} cutoff'.format(phase,dname)
             return False
 	else:
             try:
@@ -151,16 +158,21 @@ def corr_reverb(trs_in,trd_in,phase,cutoff=0.5):
                 d_dat *= 1./np.abs(d_dat).max()
                 ts = npcorr(s_dat,d_dat,trs.stats.sampling_rate)
                 if np.abs(ts) >= 15:
-                    print 'alignment error ',ts
+                    print '{} {} {} time_shift'.format(phase,dname,round(ts))
                     return False
                 #adjust window
                 d_dat = trd_mv.slice(trd.stats.starttime+time-500+ts+do,
                                  trd.stats.starttime+time+50+ts+do).data
                 d_dat *= 1./np.abs(d_dat).max()
+                print phase
+                #plt.plot(d_dat)
+                #plt.plot(s_dat)
+                #plt.show()
             except RuntimeError:
                 return False
-            if np.max(np.abs(d_dat[0:4000])) > cutoff \
+            if np.max(np.abs(d_dat[0:4500])) > cutoff \
                     or np.isnan(np.sum(d_dat)):
+                print '{} {} amplitude'.format(phase,dname)
                 return False
             else:
                 return d_dat,s_dat
@@ -170,10 +182,10 @@ def corr_reverb(trs_in,trd_in,phase,cutoff=0.5):
         #    print('out of range')
         #    return False
 	if trs.stats.starttime+time+540 >= trs.stats.endtime:
-            print(name+'   cutoff')
+            print '{} {} cutoff'.format(phase,sname)
             return False
 	elif trd.stats.starttime+time+540 >= trd.stats.endtime:
-            print(name+'   cutoff')
+            print '{} {} cutoff'.format(phase,dname)
             return False
 	else:
             try:
@@ -186,7 +198,7 @@ def corr_reverb(trs_in,trd_in,phase,cutoff=0.5):
                 d_dat *= 1./np.abs(d_dat).max()
                 ts = npcorr(s_dat,d_dat,trs.stats.sampling_rate)
                 if np.abs(ts) >= 15:
-                    print 'alignment error ',ts
+                    print '{} {} {} time_shift'.format(phase,dname,round(ts))
                     return False
                 #adjust window
                 d_dat = trd_mv.slice(trd.stats.starttime+time-10+ts+do,
@@ -194,8 +206,9 @@ def corr_reverb(trs_in,trd_in,phase,cutoff=0.5):
                 d_dat *= 1./np.abs(d_dat).max()
             except RuntimeError:
                 return False
-            if np.max(np.abs(d_dat[1000::])) > cutoff \
+            if np.max(np.abs(d_dat[500::])) > cutoff \
                     or np.isnan(np.sum(d_dat)):
+                print '{} {} amplitude'.format(phase,dname)
                 return False
             else:
                 return d_dat,s_dat

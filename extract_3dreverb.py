@@ -6,7 +6,7 @@
 File Name : extract_3dreverb.py
 Purpose : Clip reverb intervals from stream of traces using 3d lookup table
 Creation Date : 04-01-2018
-Last Modified : Thu 01 Feb 2018 10:32:57 AM EST
+Last Modified : Fri 09 Feb 2018 02:06:54 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -68,10 +68,10 @@ def strip_reverb(tr,h5f_3d,h5f_1d,lkup):
             if phase == 'ScSScS' and tr.stats.gcarc > 55:
                 continue
             elif tr.stats.starttime+t_1d+50 >= tr.stats.endtime:
-                print(name+'   cutoff')
+                print '{} {} cutoff'.format(name,phase)
                 continue
             elif tr.stats.starttime+t_3d+50 >= tr.stats.endtime:
-                print(name+'   cutoff')
+                print '{} {} cutoff'.format(name,phase)
                 continue
             else:
                 d_3d = tr.slice(tr.stats.starttime+t_3d-500,
@@ -86,10 +86,10 @@ def strip_reverb(tr,h5f_3d,h5f_1d,lkup):
             if phase == 'sScS' and tr.stats.gcarc > 35:
                 continue
             elif tr.stats.starttime+t_1d+540 >= tr.stats.endtime:
-                print(name+'   cutoff')
+                print '{} {} cutoff'.format(name,phase)
                 continue
             elif tr.stats.starttime+t_3d+540 >= tr.stats.endtime:
-                print(name+'   cutoff')
+                print '{} {} cutoff'.format(name,phase)
                 continue
             else:
                 d_3d = tr.slice(tr.stats.starttime+t_3d-10,
