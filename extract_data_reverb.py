@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Mon 12 Feb 2018 11:49:14 AM EST
+Last Modified : Tue 13 Feb 2018 01:04:56 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================

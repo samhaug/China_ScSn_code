@@ -6,7 +6,7 @@
 File Name : make_3dlookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes for 3d model
 Creation Date : 20-12-2017
-Last Modified : Sun 11 Feb 2018 04:55:49 PM EST
+Last Modified : Thu 15 Feb 2018 02:35:30 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -76,7 +76,7 @@ def make_lookup(phase_families,h5f,st,evdp,int_3d):
     mod = TauPyModel('prem')
     for idx,tr in enumerate(st):
         name = tr.stats.network+tr.stats.station+tr.stats.location
-        print('{} {}'.format(name,float(idx)/len(st)*100.))
+        print name,round(float(idx)/len(f.keys())*100.,2),'%'
         h5f.create_group(name)
         for keys in phase_families:
             h5f[name].create_group(keys)
@@ -136,7 +136,7 @@ def make_h5_lookup(phase_families,h5f,h5d,int_3d):
     for idx,keys in enumerate(h5d.keys()):
     #for idx,tr in enumerate(st):
         #name = tr.stats.network+tr.stats.station+tr.stats.location
-        print('{} {}'.format(keys,float(idx)/len(h5d)*100.))
+        print keys,round(float(idx)/len(h5d.keys())*100.,2),'%'
         h5f.create_group(keys)
         evdp = h5d[keys]['coords'][1]
         stla = h5d[keys]['coords'][2]

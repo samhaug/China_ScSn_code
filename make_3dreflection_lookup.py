@@ -6,7 +6,7 @@
 File Name : make_3dreflection_lookup.py
 Purpose : Make 3d lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Sun 11 Feb 2018 04:56:57 PM EST
+Last Modified : Thu 15 Feb 2018 02:34:18 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -44,7 +44,7 @@ def main():
 def run(r,f,family_dict):
     c_depths = np.arange(50,905,5)
     for idx,ikeys in enumerate(f):
-        print round(float(idx)/len(f.keys())*100.,2),'%'
+        print ikeys,round(float(idx)/len(f.keys())*100.,2),'%'
         r.create_group(ikeys)
         coords = f[ikeys]['coords']
         r[ikeys].create_dataset('coords',data=coords)
