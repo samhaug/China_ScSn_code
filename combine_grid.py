@@ -6,7 +6,7 @@
 File Name : combine_grid.py
 Purpose : combine grids from multiple events
 Creation Date : 15-02-2018
-Last Modified : Thu 15 Feb 2018 07:01:44 PM EST
+Last Modified : Sat 17 Feb 2018 04:01:00 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -14,6 +14,7 @@ Created By : Samuel M. Haugland
 
 import numpy as np
 from subprocess import call
+from matplotlib import pyplot as plt
 from os import listdir
 import h5py
 import obspy
@@ -31,25 +32,58 @@ def main():
     synth_gridc_list = []
     for dirname in dir_list:
         print dirname
-        sg,dg,sgc,dgc=return_grid(dirname)
+        sg,dg,sgc,dgc,h,lat,lon=return_grid(dirname)
+        plt.imshow(np.mean(dg/dgc,axis=0),
+                   aspect='auto',extent=[50,800,0,1])
+        plt.show()
+        plt.imshow(np.mean(dg/dgc,axis=1),
+                   aspect='auto',extent=[50,800,0,1])
+        plt.show()
         sg*=1./sgc
         dg*=1./dgc
         synth_grid_list.append(sg)
         data_grid_list.append(dg)
         synth_gridc_list.append(sgc)
         data_gridc_list.append(dgc)
+
     s = np.zeros(synth_grid_list[0].shape)
     for ii in synth_grid_list:
         s += ii
-    d = np.zeros(synth_grid_list[0].shape)
+    s *= 1./len(synth_grid_list)
+
+    sc = np.zeros(synth_gridc_list[0].shape)
+    for ii in synth_gridc_list:
+        sc += ii
+    sc *= 1./len(synth_gridc_list)
+
+    d = np.zeros(data_grid_list[0].shape)
     for ii in data_grid_list:
         d += ii
-    f = h5py.File('grid_sum.h5','w')
-    f.create_dataset('sgrid',data=s)
-    f.create_dataset('dgrid',data=d)
-    #f.create_dataset('sgridc',data=sgridc_sum)
-    #f.create_dataset('dgridc',data=dgridc_sum)
-    f.close()
+    d *= 1./len(data_grid_list)
+
+    dc = np.zeros(data_gridc_list[0].shape)
+    for ii in data_gridc_list:
+        dc += ii
+    dc *= 1./len(data_gridc_list)
+
+    syn = h5py.File('synth_grid_sum.h5','w')
+    dat = h5py.File('data_grid_sum.h5','w')
+
+    syn.create_dataset('grid',data=s)
+    dat.create_dataset('grid',data=d)
+
+    dat.create_dataset('grid_count',data=sc)
+    syn.create_dataset('grid_count',data=dc)
+
+    dat.create_dataset('h',data=h)
+    dat.create_dataset('lat',data=lat)
+    dat.create_dataset('lon',data=lon)
+
+    syn.create_dataset('h',data=h)
+    syn.create_dataset('lat',data=lat)
+    syn.create_dataset('lon',data=lon)
+    syn.close()
+    dat.close()
 
 def return_grid(dirname):
     s = h5py.File('./'+dirname+'/synth_grid.h5','r',driver='core')
@@ -58,7 +92,10 @@ def return_grid(dirname):
     dg = d['grid'][:]
     sgc = s['grid_count'][:]+1
     dgc = d['grid_count'][:]+1
-    return sg,dg,sgc,dgc
+    h = s['h'][:]
+    lat = s['lat'][:]
+    lon = s['lon'][:]
+    return sg,dg,sgc,dgc,h,lat,lon
 
 main()
 
