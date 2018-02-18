@@ -6,7 +6,7 @@
 File Name : combine_grid.py
 Purpose : combine grids from multiple events
 Creation Date : 15-02-2018
-Last Modified : Sat 17 Feb 2018 04:11:38 PM EST
+Last Modified : Sun 18 Feb 2018 02:56:11 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
