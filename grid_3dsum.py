@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Fri 09 Feb 2018 11:51:49 AM EST
+Last Modified : Sun 18 Feb 2018 02:19:27 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -77,16 +77,16 @@ def main():
                             #assume samp_rate=10
                             v = data[int(tl[np.argmin(np.abs(h-dl))]*10)]
                             i = tree.query_ball_point((pc[1],pc[0]),2.0)
-                            for jj in i:
-                                dist = vincenty((pc[0],pc[1]),(y[jj],x[jj])).km
-                                try:
-                                    v *= gauss_cap[int(dist)]
-                                except IndexError:
-                                    v *= gauss_cap[-1]
-                                lon_idx = np.abs(lon_a-x[jj]).argmin()
-                                lat_idx = np.abs(lat_a-y[jj]).argmin()
-                                grid_count[lon_idx,lat_idx,h_idx]+=1.
-                                grid[lon_idx,lat_idx,h_idx]+=v
+                            #for jj in i:
+                            #    dist = vincenty((pc[0],pc[1]),(y[jj],x[jj])).km
+                            #    try:
+                            #        v *= gauss_cap[int(dist)]
+                            #    except IndexError:
+                            #        v *= gauss_cap[-1]
+                            lon_idx = np.abs(lon_a-x[jj]).argmin()
+                            lat_idx = np.abs(lat_a-y[jj]).argmin()
+                            grid_count[lon_idx,lat_idx,h_idx]+=1.
+                            grid[lon_idx,lat_idx,h_idx]+=v
                         except KeyError:
                             continue
     r.close()

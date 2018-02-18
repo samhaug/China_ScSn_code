@@ -6,7 +6,7 @@
 File Name : combine_grid.py
 Purpose : combine grids from multiple events
 Creation Date : 15-02-2018
-Last Modified : Sat 17 Feb 2018 04:01:00 PM EST
+Last Modified : Sat 17 Feb 2018 04:11:38 PM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -54,7 +54,6 @@ def main():
     sc = np.zeros(synth_gridc_list[0].shape)
     for ii in synth_gridc_list:
         sc += ii
-    sc *= 1./len(synth_gridc_list)
 
     d = np.zeros(data_grid_list[0].shape)
     for ii in data_grid_list:
@@ -64,7 +63,6 @@ def main():
     dc = np.zeros(data_gridc_list[0].shape)
     for ii in data_gridc_list:
         dc += ii
-    dc *= 1./len(data_gridc_list)
 
     syn = h5py.File('synth_grid_sum.h5','w')
     dat = h5py.File('data_grid_sum.h5','w')
