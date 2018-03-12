@@ -1,8 +1,10 @@
 # This script is intended to give a sample of applications for the Radon
 # transform.
 import numpy as np
+from matplotlib import pyplot as plt
 from Radon_forward import Radon_forward
 from Radon_inverse import Radon_inverse
+from scipy.signal import hilbert
 
 # Load variables.
 t = np.genfromtxt('t.dat',delimiter=',')
@@ -24,11 +26,13 @@ delta=np.mean(Delta)
 # functions and an average distance parameter.
 R=Radon_inverse(t,Delta,M,P_axis,np.ones(Delta.size),delta,'Linear','L2',mu)
 #print R
+#plt.imshow(np.abs(hilbert(R.imag.T)).T.real,aspect='auto')
+#plt.show()
 
 # Mute all phases except the S670S arrival.
-R670=np.zeros(R.size)
-R670[indicies]=1
-R670=R*R670
+R670=np.zeros(R.shape)
+#R670[indicies]=1
+#R670=R*R670
 
 # Apply forward operator to the muted Radon domain.
 #Delta_resampled=np.floor(np.min(Delta)):(ceil(max(Delta))-floor(min(Delta)))/20:ceil(max(Delta))

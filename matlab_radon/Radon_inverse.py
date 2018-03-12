@@ -59,6 +59,7 @@ def Radon_inverse(t,delta,M,p,weights,ref_dist,line_model,inversion_model,hyperp
     # Define some array/matrices lengths.
     def next_power_of_2(x):
             return 1 if x == 0 else 2**(x - 1).bit_length()
+
     it=len(t)
     iF = np.power(2,int(np.log2(next_power_of_2(it)))+1)
     iDelta=len(delta)
@@ -125,8 +126,7 @@ def Radon_inverse(t,delta,M,p,weights,ref_dist,line_model,inversion_model,hyperp
     # Loop through each frequency.
     #for i in range(int(np.floor((iF+1)/2.))):
     for i in range(1,int(np.floor((iF+1)/2.))+1):
-    #for i in range(2001,2002):
-        print i
+    #for i in range(6,7):
         # Make time-shift matrix, A.
         f=((i-1)/float(iF))*dF
         A=np.exp((2j*np.pi*f)*Tshift)
@@ -136,6 +136,7 @@ def Radon_inverse(t,delta,M,p,weights,ref_dist,line_model,inversion_model,hyperp
         dot = W.dot(A)
         AtA = np.flipud(np.dot(A.T,dot))
         AtM=np.dot(A.T,W.dot(Mfft[:,i-1]))[::-1]
+        plt.show()
         mu=np.abs(np.trace(AtA))*hyperparameters[0]
         d = AtA+mu*Ident
         Rfft[:,i-1] = lstsq(d,AtM)[0]
@@ -185,27 +186,12 @@ def Radon_inverse(t,delta,M,p,weights,ref_dist,line_model,inversion_model,hyperp
 
         # Assuming Hermitian symmetry of the fft make negative 
         # frequencies the complex conjugate of current solution.
-        #if i != 0:
-        #    Rfft[:,iF-i+2]=np.conjugate(Rfft[:,i])
+        if i != 0:
+            Rfft[:,iF-i+2]=np.conjugate(Rfft[:,i-1])
 
-    #plt.imshow(Rfft.real,aspect='auto')
-    #plt.show()
-    #plt.imshow(Rfft.imag,aspect='auto')
-    #plt.show()
-    #plt.imshow(Rfft.real,aspect='auto')
-    #plt.show()
-    #plt.imshow(Rfft.imag,aspect='auto')
-    #plt.show()
     R = np.fft.ifft(Rfft,iF,1)
-
-    #Ri = R[:,0:it].imag
-    #Rr = R[:,0:it].real
-    #plt.imshow(Ri-Rr)
-    #plt.show()
-    #image = np.abs(hilbert(Ri.T)).T
-
-    #plt.imshow(image.real,aspect='auto')
-    #plt.show()
+    R=R[:,0:it]
+    print np.sum(R)
 
     return R
 

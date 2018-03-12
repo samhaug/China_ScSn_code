@@ -119,9 +119,11 @@ function R=Radon_inverse(t,delta,M,p,weights,ref_dist,line_model,inversion_model
   
   % Loop through each frequency.
   for i=1:floor((iF+1)/2)
-      
+  %for i=6:6
+      i
       % Make time-shift matrix, A.
       f=((i-1)/iF)*dF;
+      f
       A=exp(  (2i*pi*f).*Tshift  );
       
       % M = A R  --->  AtM = AtA R
@@ -180,4 +182,9 @@ function R=Radon_inverse(t,delta,M,p,weights,ref_dist,line_model,inversion_model
   %R=ifft(Rfft,iF,2, 'symmetric');
   R=ifft(Rfft,iF,2);
   R=R(:,1:it);
+  sum(sum(R))
+
 return;
+
+
+
