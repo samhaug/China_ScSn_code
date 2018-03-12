@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Sun 18 Feb 2018 03:11:59 PM EST
+Last Modified : Mon 19 Feb 2018 11:38:04 AM EST
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -27,8 +27,7 @@ import re
 
 def main():
     parser = argparse.ArgumentParser(description='perform grid')
-    parser.add_argument('-r','--reflection', metavar='H5_FILE',type=str,
-                       help='h5 reflection point file')
+    parser.add_argument('-r','--reflection', metavar='H5_FILE',type=str, help='h5 reflection point file')
     parser.add_argument('-l','--lkup', metavar='H5_FILE',type=str,
                         help='h5 3d moveout lookup table')
     parser.add_argument('-d','--deconvolve', metavar='H5_FILE',type=str,
