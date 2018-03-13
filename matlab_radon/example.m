@@ -17,23 +17,31 @@ delta=mean(Delta);
 
 % Invert to Radon domain using unweighted L2 inversion, linear path
 % functions and an average distance parameter.
-tic;
-R=Radon_inverse(t, Delta, M, P_axis, ones(size(Delta)), delta, 'Linear', 'L2', mu);
-toc
+%tic;
+R=Radon_inverse(t,Delta,M,P_axis,ones(size(Delta)),delta,'Linear','L2',mu);
+%imagesc(real(R))
+%colorbar()
+%pause()
+%imagesc(imag(R))
+%colorbar()
+%pause()
+%toc
 
 % Mute all phases except the S670S arrival.
-R670=zeros(size(R));
-R670(indicies)=1;
-R670=R.*R670;
+%R670=zeros(size(R));
+%R670(indicies)=1;
+%R670=R.*R670;
+%dlmwrite('R670_mask.dat',real(R670))
 
 
+%R670 = dlmread('R670_mask.dat');
 % Apply forward operator to the muted Radon domain.
-Delta_resampled=floor(min(Delta)):(ceil(max(Delta))-floor(min(Delta)))/20:ceil(max(Delta));
-tic;
-M670=Radon_forward(t,P_axis,R670,Delta_resampled,delta,'Linear');
-toc
+%Delta_resampled=floor(min(Delta)):(ceil(max(Delta))-floor(min(Delta)))/20:ceil(max(Delta));
+%tic;
+%M670=Radon_forward(t,P_axis,R670,Delta_resampled,delta,'Linear');
+%toc
 
-dlmwrite('M_r670.dat',real(M670))
+%dlmwrite('M_r670.dat',real(M670))
 %dlmwrite('M_i670.dat',imag(M670))
 
 % Plot figures.

@@ -119,13 +119,10 @@ function R=Radon_inverse(t,delta,M,p,weights,ref_dist,line_model,inversion_model
   
   % Loop through each frequency.
   for i=1:floor((iF+1)/2)
-  %for i=6:6
-      i
+  %for i=1:3
       % Make time-shift matrix, A.
       f=((i-1)/iF)*dF;
-      f
       A=exp(  (2i*pi*f).*Tshift  );
-      
       % M = A R  --->  AtM = AtA R
       % Solve the weighted, L2 least-squares problem for an initial solution.
       AtA=A'*W*A;
@@ -178,12 +175,16 @@ function R=Radon_inverse(t,delta,M,p,weights,ref_dist,line_model,inversion_model
           Rfft(:,iF-i+2)=conj(Rfft(:,i));
       end
   end;
-  
-  %R=ifft(Rfft,iF,2, 'symmetric');
   R=ifft(Rfft,iF,2);
   R=R(:,1:it);
-  sum(sum(R))
 
+  %imagesc(real(R))
+  %colorbar()
+  %pause()
+  %imagesc(imag(R))
+  %colorbar()
+  %pause()
+  
 return;
 
 

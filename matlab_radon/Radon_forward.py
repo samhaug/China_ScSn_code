@@ -1,4 +1,5 @@
 import numpy as np
+from matplotlib import pyplot as plt
 
 def Radon_forward(t,p,R,delta,ref_dist,line_model):
     #This function applies the time-shift Radon operator A, to the Radon 
@@ -41,27 +42,29 @@ def Radon_forward(t,p,R,delta,ref_dist,line_model):
     # GNU General Public License for more details: http://www.gnu.org/licenses/
     #
 
-
     # Define some array/matrices lengths.
+    def next_power_of_2(x):
+            return 1 if x == 0 else 2**(x - 1).bit_length()
+
     it = len(t)
-    # Use np.ceil(np.log2(np.abs(it))) for nextpow2
-    iF = np.power(np.ceil(np.log2(np.abs(it)))+1,2) # Double length
+    iF = np.power(2,int(np.log2(next_power_of_2(it)))+1) #Double length
     iDelta = len(delta)
     ip = len(p)
     # Exit if inconsistent data is input.
-    if min(ip,it) != R.size:
+    #print ip,it,R.size
+    if (ip,it) != R.shape:
         print('Dimensions inconsistent!\nsize(R)~=[length(p),length(t)]\n')
         M=0
         return M
 
     # Preallocate space in memory.
-    Mfft = np.zeros(iDelta, iF)
-    A = np.zeros(iDelta,ip)
+    Mfft = np.zeros((iDelta, iF),dtype=complex)
+    A = np.zeros((iDelta,ip),dtype=complex)
     Tshift = A
 
     # Define some values.
     Dist_array = delta-ref_dist
-    dF = 1./(t[1]-t[2])
+    dF = int(1./(t[1]-t[2]))
     # fft on every row
     Rfft = np.fft.fft(R,iF,1)
 
@@ -80,19 +83,19 @@ def Radon_forward(t,p,R,delta,ref_dist,line_model):
             Tshift[:,k]=Tshift[:,k]*Dist_array.T
 
     # Loop through each frequency.
-    for i in range(np.floor((iF+1)/2.)):
+    for i in range(int(np.floor((iF+1)/2.))):
         # Make time-shift matrix, A.
-        f=((i-1)/iF)*dF
+        f=(i/float(iF))*dF
         A=np.exp((2j*np.pi*f)*Tshift)
         # Apply Radon operator.
-        Mfft[:,i]=A*Rfft[:,i]
-        # Assuming Hermitian symmetry of the fft make 
-        # negative frequencies the complex conjugate of current solution.
+        Mfft[:,i]=np.dot(A,Rfft[:,i])
+        # Assuming Hermitian symmetry of the fft, make negative frequencies
+        # the complex conjugate of current solution.
         if i != 0:
-            Mfft[:,iF-i+2]=conj(Mfft[:,i])
+            Mfft[:,iF-i]=np.conj(Mfft[:,i])
 
     #M=np.ifft(Mfft,iF,1,'symmetric');
-    M=np.ifft(Mfft,iF,1)
+    M=np.fft.ifft(Mfft,iF,1)
     M=M[:,0:it]
 
     return M

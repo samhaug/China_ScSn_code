@@ -81,12 +81,9 @@ function M=Radon_forward(t,p,R,delta,ref_dist,line_model)
   
   % Loop through each frequency.
   for i=1:floor((iF+1)/2)
-      
       % Make time-shift matrix, A.
       f=((i-1)/iF)*dF;
       A=exp(  (2i*pi*f).*Tshift  );
-      
-      % Apply Radon operator.
       Mfft(:,i)=A*Rfft(:,i);
       
       % Assuming Hermitian symmetry of the fft make negative frequencies the complex conjugate of current solution.
@@ -98,4 +95,8 @@ function M=Radon_forward(t,p,R,delta,ref_dist,line_model)
   %M=ifft(Mfft,iF,2, 'symmetric');
   M=ifft(Mfft,iF,2);
   M=M(:,1:it);
+
 return;
+
+
+
