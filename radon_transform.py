@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Mon 19 Mar 2018 04:07:18 PM EDT
+Last Modified : Mon 19 Mar 2018 05:20:05 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -18,15 +18,44 @@ import h5py
 import obspy
 import argparse
 import seispy
+import Radon
 
 def main():
     parser = argparse.ArgumentParser(description='Radon transform')
     parser.add_argument('-f','--stream', metavar='H5_FILE',type=str,
                         help='h5 stream')
+    #parser.add_argument('--save', metavar='bool',type=str,
+    #                    help='save vespagram',default=False)
     args = parser.parse_args()
     st = obspy.read(args.stream)
     st = block_stream(st)
-    seispy.plot.simple_h5_section(st)
+    t,delta,M,p,weights,ref_dist = prepare_input(st)
+    R = Radon.Radon_inverse(t,delta,M,p,weights,
+                            ref_dist,'Linear','L2',[5e2])
+    plt.imshow(np.log10(np.abs(R)),aspect='auto')
+    plt.show()
+
+    d = Radon.Radon_forward(t,p,R,delta,ref_dist,'Linear')
+    stc = st.copy()
+    for idx,tr in enumerate(stc):
+        stc[idx].data = d[idx]
+    #seispy.plot.simple_h5_section(stc)
+    stc.write('st_T_radon.h5',format='H5')
+
+
+def prepare_input(st):
+    p = np.arange(-8.0,0.1,0.1)
+    delta = []
+    M = []
+    for tr in st:
+        delta.append(tr.stats.gcarc)
+        M.append(tr.data)
+    M = np.array(M)
+    delta = np.array(delta)
+    weights = np.ones(len(delta))
+    ref_dist = np.mean(delta)
+    t = np.linspace(0,4000,num=st[0].stats.npts)
+    return t,delta,M,p,weights,ref_dist
 
 def block_stream(st):
     for idx,tr in enumerate(st):
@@ -43,7 +72,10 @@ def block_stream(st):
             st[idx].data = np.hstack((tr.data,z))
         elif l > 4000:
             st[idx].data = tr.data[0:40000]
+        st[idx].data = tr.data[0:40000]
     return st
 
-
 main()
+
+
+

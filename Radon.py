@@ -293,6 +293,3 @@ def Radon_inverse(t,delta,M,p,weights,ref_dist,line_model,inversion_model,\
     R=R[:,0:it]
     return R
 
-
-
-
