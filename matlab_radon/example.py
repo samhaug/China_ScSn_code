@@ -2,9 +2,7 @@
 # transform.
 import numpy as np
 from matplotlib import pyplot as plt
-from Radon_forward import Radon_forward
-from Radon_inverse import Radon_inverse
-from scipy.signal import hilbert
+import Radon
 
 # Load variables.
 t = np.genfromtxt('t.dat',delimiter=',')
@@ -24,29 +22,40 @@ delta=np.mean(Delta)
 
 # Invert to Radon domain using unweighted L2 inversion, linear path
 # functions and an average distance parameter.
-R=Radon_inverse(t,Delta,M,P_axis,np.ones(Delta.size),delta,'Linear','L2',mu)
-#plt.imshow(R.real,aspect='auto')
-#plt.colorbar()
-#plt.show()
-#plt.imshow(R.imag,aspect='auto')
-#plt.colorbar()
-#plt.show()
-#print R
-#plt.imshow(np.abs(hilbert(R.imag.T)).T.real,aspect='auto')
-#plt.show()
+plt.imshow(M,aspect='auto')
+plt.colorbar()
+plt.show()
+R=Radon.Radon_inverse(t,Delta,M,P_axis,np.ones(Delta.size),\
+                      delta,'Linear','L2',mu)
 
+plt.imshow(R.real,aspect='auto')
+plt.colorbar()
+plt.show()
+plt.imshow(R.imag,aspect='auto')
+plt.colorbar()
+plt.show()
 # Mute all phases except the S670S arrival.
 #R670=np.zeros(R.shape)
 #R670[indicies]=1
 #R670=R*R670
-#R670 = np.genfromtxt('R670_mask.dat',delimiter=',')
+R670 = np.genfromtxt('R670_mask.dat',delimiter=',')
+plt.imshow(R670,aspect='auto')
+plt.colorbar()
+plt.show()
 
 # Apply forward operator to the muted Radon domain.
-#start = np.floor(np.min(Delta))
-#stride = int((np.ceil(np.max(Delta))-np.floor(np.min(Delta)))/20.)
-#end = np.ceil(np.max(Delta))
-#Delta_resampled = np.arange(start,end+stride,stride)
-#M670 = Radon_forward(t,P_axis,R670,Delta_resampled,delta,'Linear')
+start = np.floor(np.min(Delta))
+stride = int((np.ceil(np.max(Delta))-np.floor(np.min(Delta)))/20.)
+end = np.ceil(np.max(Delta))
+Delta_resampled = np.arange(start,end+stride,stride)
+M670 = Radon.Radon_forward(t,P_axis,R670,Delta_resampled,delta,'Linear')
+plt.imshow(M670.real,aspect='auto')
+plt.colorbar()
+plt.show()
+
+plt.imshow(M670.imag,aspect='auto')
+plt.colorbar()
+plt.show()
 
 # Plot figures.
 #figure(2); clf;
