@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Tue 20 Mar 2018 01:52:56 PM EDT
+Last Modified : Tue 20 Mar 2018 06:36:51 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,42 +19,66 @@ import obspy
 import argparse
 import seispy
 import Radon
+from PIL import Image,ImageDraw
 
 def main():
     parser = argparse.ArgumentParser(description='Radon transform')
     parser.add_argument('-f','--stream', metavar='H5_FILE',type=str,
                         help='h5 stream')
-    parser.add_argument('--save', metavar='bool',type=str,
-                        help='save vespagram',default=False)
-    parser.add_argument('--read', metavar='bool',type=str,
-                        help='read vespagram',default=False)
+    parser.add_argument('-r','--read', metavar='T/F',type=str,
+                        help='read from existing radon datfile',default='False')
+    parser.add_argument('-s','--save', metavar='T/F',type=str,
+                        help='save radon datfile',default='False')
     args = parser.parse_args()
     st = obspy.read(args.stream)
     st = block_stream(st)
+    st.write('st_T_block.h5',format='H5')
+    print 'fuck'
     t,delta,M,p,weights,ref_dist = prepare_input(st)
 
-    if args.read != False:
-        R = np.genfromtxt(args.read)
+    if args.read != 'False':
+        f = h5py.File(args.read,'r')
+        R = f['R'][:]
+        t = f['t'][:]
+        p = f['p'][:]
+        delta = f['delta'][:]
+        weights = f['weights'][:]
+        ref_dist = f['ref_dist'][:]
+        f.close()
     else:
         R = Radon.Radon_inverse(t,delta,M,p,weights,
                                 ref_dist,'Linear','L2',[5e2])
-    if args.save == True:
-        np.savetxt('Radon.dat',R)
+    if args.save == 'True':
+        f = h5py.File('Radon.h5','w')
+        f.create_dataset('R',data=R)
+        f.create_dataset('t',data=t)
+        f.create_dataset('p',data=p)
+        f.create_dataset('delta',data=delta)
+        f.create_dataset('weights',data=weights)
+        f.create_dataset('ref_dist',data=ref_dist)
+        f.close()
 
     plt.imshow(np.log10(np.abs(R)),aspect='auto')
     ax = plt.gca()
+    coord_list = []
     cc = clicker_class(ax)
     plt.show()
+    polygon = cc.pt_lst
+    img = Image.new('L',(R.shape[1],R.shape[0]),0)
+    ImageDraw.Draw(img).polygon(polygon,outline=1,fill=1)
+    mask = np.array(img)
+    R *= mask
 
     d = Radon.Radon_forward(t,p,R,delta,ref_dist,'Linear')
+
     stc = st.copy()
     for idx,tr in enumerate(stc):
         stc[idx].data = d[idx]
-    #seispy.plot.simple_h5_section(stc)
     stc.write('st_T_radon.h5',format='H5')
+    seispy.plot.simple_h5_section(stc)
 
 def prepare_input(st):
-    p = np.arange(-8.0,8.1,0.1)
+    p = np.arange(-10.0,10.1,0.1)
     delta = []
     M = []
     for tr in st:
@@ -76,6 +100,7 @@ def block_stream(st):
             d = tr.data[int(tr.stats.o*10)::]
             st[idx].data = d
         st[idx].stats.starttime += st[idx].stats.o
+        st[idx].stats.o = 0
         l = tr.stats.endtime-tr.stats.starttime
         if l <= 4000:
             z = np.zeros(int(10*(4000-l)))
@@ -90,8 +115,8 @@ class clicker_class(object):
         self.canvas = ax.get_figure().canvas
         self.cid = None
         self.pt_lst = []
-        self.pt_plot = ax.plot([], [], marker='o',
-                               linestyle='none', zorder=5)[0]
+        self.pt_plot = ax.plot([],[],marker='o',
+                               linestyle='none',zorder=5)[0]
         self.pix_err = pix_err
         self.connect_sf()
 
@@ -125,7 +150,6 @@ class clicker_class(object):
             self.pt_lst.append((event.xdata, event.ydata))
         elif event.button == 3:
             self.remove_pt((event.xdata, event.ydata))
-
         self.redraw()
 
     def remove_pt(self, loc):
@@ -150,11 +174,7 @@ class clicker_class(object):
         code expects'''
         return np.vstack(self.pt_lst).T
 
-
 main()
-
-
-
 
 
 
