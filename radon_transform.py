@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Tue 20 Mar 2018 11:00:00 AM EDT
+Last Modified : Tue 20 Mar 2018 01:52:56 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -38,10 +38,12 @@ def main():
     else:
         R = Radon.Radon_inverse(t,delta,M,p,weights,
                                 ref_dist,'Linear','L2',[5e2])
-        if args.save == True:
-            np.savetxt('Radon.dat',R)
+    if args.save == True:
+        np.savetxt('Radon.dat',R)
 
     plt.imshow(np.log10(np.abs(R)),aspect='auto')
+    ax = plt.gca()
+    cc = clicker_class(ax)
     plt.show()
 
     d = Radon.Radon_forward(t,p,R,delta,ref_dist,'Linear')
@@ -50,8 +52,6 @@ def main():
         stc[idx].data = d[idx]
     #seispy.plot.simple_h5_section(stc)
     stc.write('st_T_radon.h5',format='H5')
-    ax = gca()
-    cc = clicker_class(ax)
 
 def prepare_input(st):
     p = np.arange(-8.0,8.1,0.1)
