@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Wed 21 Mar 2018 10:42:45 AM EDT
+Last Modified : Wed 21 Mar 2018 11:26:10 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -81,7 +81,7 @@ def main():
     seispy.plot.simple_h5_section(stc)
 
 def prepare_input(st):
-    p = np.arange(-10.0,4.1,0.1)
+    p = np.arange(-10.0,10.1,0.1)
     delta = []
     M = []
     for tr in st:
