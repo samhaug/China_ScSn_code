@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Wed 21 Mar 2018 11:26:10 AM EDT
+Last Modified : Wed 21 Mar 2018 01:41:56 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -23,65 +23,100 @@ from PIL import Image,ImageDraw
 
 def main():
     parser = argparse.ArgumentParser(description='Radon transform')
-    parser.add_argument('-f','--stream', metavar='H5_FILE',type=str,
+    parser.add_argument('-s','--synth', metavar='H5_FILE',type=str,
                         help='h5 stream')
-    parser.add_argument('-r','--read', metavar='T/F',type=str,
+    parser.add_argument('-d','--data', metavar='H5_FILE',type=str,
+                        help='h5 stream')
+    parser.add_argument('--read', metavar='T/F',type=str,
                         help='read from existing radon datfile',default='False')
-    parser.add_argument('-s','--save', metavar='T/F',type=str,
-                        help='save radon datfile',default='False')
     args = parser.parse_args()
-    st = obspy.read(args.stream)
-    st = block_stream(st)
-    st.write('st_T_block.h5',format='H5')
+
+    std = obspy.read(args.data)
+    std = block_stream(std)
+    std.write('st_T_block.h5',format='H5')
+
+    sts = obspy.read(args.synth)
+    sts.interpolate(10)
+    sts = block_stream(sts)
+    sts.write('sts_T_block.h5',format='H5')
 
     if args.read != 'False':
         f = h5py.File(args.read,'r')
-        R = f['R'][:]
-        t = f['t'][:]
-        p = f['p'][:]
-        delta = f['delta'][:]
-        weights = f['weights'][:]
-        mask = f['mask'][:]
-        ref_dist = np.mean(delta)
+        dR = f['data']['R'][:]
+        dt = f['data']['t'][:]
+        dp = f['data']['p'][:]
+        ddelta = f['data']['delta'][:]
+        dweights = f['data']['weights'][:]
+        dref_dist = np.mean(ddelta)
+
+        sR = f['synth']['R'][:]
+        st = f['synth']['t'][:]
+        sp = f['synth']['p'][:]
+        sdelta = f['synth']['delta'][:]
+        sweights = f['synth']['weights'][:]
+        sref_dist = np.mean(sdelta)
         f.close()
     else:
-        t,delta,M,p,weights,ref_dist = prepare_input(st)
-        R = Radon.Radon_inverse(t,delta,M,p,weights,
-                                ref_dist,'Linear','L2',[5e2])
-    if args.save == 'True':
-        f = h5py.File('Radon.h5','w')
-        f.create_dataset('R',data=R)
-        f.create_dataset('t',data=t)
-        f.create_dataset('p',data=p)
-        f.create_dataset('delta',data=delta)
-        f.create_dataset('weights',data=weights)
+        print('synth Radon_inverse')
+        st,sdelta,sM,sp,sweights,sref_dist = prepare_input(sts)
+        sR = Radon.Radon_inverse(st,sdelta,sM,sp,sweights,
+                                sref_dist,'Linear','L2',[5e2])
+        print('data Radon_inverse')
+        dt,ddelta,dM,dp,dweights,dref_dist = prepare_input(std)
+        dR = Radon.Radon_inverse(dt,ddelta,dM,dp,dweights,
+                                dref_dist,'Linear','L2',[5e2])
+    mask = make_mask(sR)
 
+    if args.read == 'False':
+        f = h5py.File('Radon.h5','w')
+        write_h5(f,dR,dt,dp,ddelta,dweights,
+                 sR,st,sp,sdelta,sweights,mask)
+        f.close()
+
+    print('synth Radon_forward')
+    sd = Radon.Radon_forward(st,sp,sR*mask,sdelta,sref_dist,'Linear')
+    print(' Radon_forward')
+    dd = Radon.Radon_forward(dt,dp,dR*mask,ddelta,dref_dist,'Linear')
+
+    stsc = sts.copy()
+    for idx,tr in enumerate(stsc):
+        stsc[idx].data = sd[idx]
+    stsc.write('sts_T_radon.h5',format='H5')
+
+    stdc = std.copy()
+    for idx,tr in enumerate(stdc):
+        stdc[idx].data = dd[idx]
+    stdc.write('st_T_radon.h5',format='H5')
+
+def make_mask(R):
     plt.imshow(np.log10(np.abs(R)),aspect='auto')
     ax = plt.gca()
     coord_list = []
     cc = clicker_class(ax)
     plt.show()
     polygon = cc.pt_lst
-    if args.read == 'False':
-        img = Image.new('L',(R.shape[1],R.shape[0]),0)
-        ImageDraw.Draw(img).polygon(polygon,outline=1,fill=1)
-        mask = np.array(img)
-    if args.save == 'True':
-        f.create_dataset('mask',data=mask)
-        f.close()
-    R *= mask
-    print ref_dist
+    img = Image.new('L',(R.shape[1],R.shape[0]),0)
+    ImageDraw.Draw(img).polygon(polygon,outline=1,fill=1)
+    mask = np.array(img)
+    return mask
 
-    d = Radon.Radon_forward(t,p,R,delta,ref_dist,'Linear')
-
-    stc = st.copy()
-    for idx,tr in enumerate(stc):
-        stc[idx].data = d[idx]
-    stc.write('st_T_radon.h5',format='H5')
-    seispy.plot.simple_h5_section(stc)
+def write_h5(f,dR,dt,dp,ddelta,dweights,sR,st,sp,sdelta,sweights,mask):
+    f.create_group('synth')
+    f.create_group('data')
+    f.create_dataset('mask',data=mask)
+    f['synth'].create_dataset('R',data=sR)
+    f['synth'].create_dataset('t',data=st)
+    f['synth'].create_dataset('p',data=sp)
+    f['synth'].create_dataset('delta',data=sdelta)
+    f['synth'].create_dataset('weights',data=sweights)
+    f['data'].create_dataset('R',data=dR)
+    f['data'].create_dataset('t',data=dt)
+    f['data'].create_dataset('p',data=dp)
+    f['data'].create_dataset('delta',data=ddelta)
+    f['data'].create_dataset('weights',data=dweights)
 
 def prepare_input(st):
-    p = np.arange(-10.0,10.1,0.1)
+    p = np.arange(-10.0,10.1,2.1)
     delta = []
     M = []
     for tr in st:
