@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Wed 21 Mar 2018 01:41:56 PM EDT
+Last Modified : Wed 21 Mar 2018 04:29:03 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -116,7 +116,7 @@ def write_h5(f,dR,dt,dp,ddelta,dweights,sR,st,sp,sdelta,sweights,mask):
     f['data'].create_dataset('weights',data=dweights)
 
 def prepare_input(st):
-    p = np.arange(-10.0,10.1,2.1)
+    p = np.arange(-10.0,10.2,0.2)
     delta = []
     M = []
     for tr in st:
