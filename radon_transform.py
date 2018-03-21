@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Tue 20 Mar 2018 06:36:51 PM EDT
+Last Modified : Wed 21 Mar 2018 10:42:45 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -33,8 +33,6 @@ def main():
     st = obspy.read(args.stream)
     st = block_stream(st)
     st.write('st_T_block.h5',format='H5')
-    print 'fuck'
-    t,delta,M,p,weights,ref_dist = prepare_input(st)
 
     if args.read != 'False':
         f = h5py.File(args.read,'r')
@@ -43,9 +41,11 @@ def main():
         p = f['p'][:]
         delta = f['delta'][:]
         weights = f['weights'][:]
-        ref_dist = f['ref_dist'][:]
+        mask = f['mask'][:]
+        ref_dist = np.mean(delta)
         f.close()
     else:
+        t,delta,M,p,weights,ref_dist = prepare_input(st)
         R = Radon.Radon_inverse(t,delta,M,p,weights,
                                 ref_dist,'Linear','L2',[5e2])
     if args.save == 'True':
@@ -55,8 +55,6 @@ def main():
         f.create_dataset('p',data=p)
         f.create_dataset('delta',data=delta)
         f.create_dataset('weights',data=weights)
-        f.create_dataset('ref_dist',data=ref_dist)
-        f.close()
 
     plt.imshow(np.log10(np.abs(R)),aspect='auto')
     ax = plt.gca()
@@ -64,10 +62,15 @@ def main():
     cc = clicker_class(ax)
     plt.show()
     polygon = cc.pt_lst
-    img = Image.new('L',(R.shape[1],R.shape[0]),0)
-    ImageDraw.Draw(img).polygon(polygon,outline=1,fill=1)
-    mask = np.array(img)
+    if args.read == 'False':
+        img = Image.new('L',(R.shape[1],R.shape[0]),0)
+        ImageDraw.Draw(img).polygon(polygon,outline=1,fill=1)
+        mask = np.array(img)
+    if args.save == 'True':
+        f.create_dataset('mask',data=mask)
+        f.close()
     R *= mask
+    print ref_dist
 
     d = Radon.Radon_forward(t,p,R,delta,ref_dist,'Linear')
 
@@ -78,7 +81,7 @@ def main():
     seispy.plot.simple_h5_section(stc)
 
 def prepare_input(st):
-    p = np.arange(-10.0,10.1,0.1)
+    p = np.arange(-10.0,4.1,0.1)
     delta = []
     M = []
     for tr in st:
