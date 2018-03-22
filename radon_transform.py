@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Wed 21 Mar 2018 07:46:32 PM EDT
+Last Modified : Thu 22 Mar 2018 12:35:26 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -81,11 +81,13 @@ def main():
     stsc = sts.copy()
     for idx,tr in enumerate(stsc):
         stsc[idx].data = sd[idx]
+    stsc.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
     stsc.write('sts_T_radon.h5',format='H5')
 
     stdc = std.copy()
     for idx,tr in enumerate(stdc):
         stdc[idx].data = dd[idx]
+    stdc.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
     stdc.write('st_T_radon.h5',format='H5')
 
 def make_mask(R):
