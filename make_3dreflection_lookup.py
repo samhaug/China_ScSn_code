@@ -6,7 +6,7 @@
 File Name : make_3dreflection_lookup.py
 Purpose : Make 3d lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Thu 15 Feb 2018 02:34:18 PM EST
+Last Modified : Thu 22 Mar 2018 01:20:28 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================

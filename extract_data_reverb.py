@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Tue 13 Feb 2018 01:04:56 PM EST
+Last Modified : Thu 22 Mar 2018 12:47:00 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -99,9 +99,6 @@ def remove_excess(sts,std):
     std.interpolate(10)
     sts.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
     std.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
-    #seispy.plot.simple_h5_section(sts)
-    #seispy.plot.simple_h5_section(std)
-
     return sts,std
 
 def npcorr(s,d,samp):

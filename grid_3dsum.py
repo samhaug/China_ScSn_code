@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Mon 19 Feb 2018 11:38:04 AM EST
+Last Modified : Mon 26 Mar 2018 10:24:06 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -27,7 +27,8 @@ import re
 
 def main():
     parser = argparse.ArgumentParser(description='perform grid')
-    parser.add_argument('-r','--reflection', metavar='H5_FILE',type=str, help='h5 reflection point file')
+    parser.add_argument('-r','--reflection', metavar='H5_FILE',type=str,
+                        help='h5 reflection point file')
     parser.add_argument('-l','--lkup', metavar='H5_FILE',type=str,
                         help='h5 3d moveout lookup table')
     parser.add_argument('-d','--deconvolve', metavar='H5_FILE',type=str,
@@ -44,6 +45,8 @@ def main():
 
     lon_a,lat_a,h_a,grid = make_grid_coordinates()
     grid_count = np.zeros(grid.shape)
+    grid_count_s2 = np.zeros(grid.shape)
+    grid_s2 = np.zeros(grid.shape)
     x,y = np.meshgrid(lon_a,lat_a)
     x = x.ravel()
     y = y.ravel()
@@ -86,6 +89,9 @@ def main():
                                 lat_idx = np.abs(lat_a-y[jj]).argmin()
                                 grid_count[lon_idx,lat_idx,h_idx]+=1.
                                 grid[lon_idx,lat_idx,h_idx]+=v
+                                if phase == 'ScSScS':
+                                    grid_count_s2[lon_idx,lat_idx,h_idx]+=1.
+                                    grid_s2[lon_idx,lat_idx,h_idx]+=v
                         except KeyError:
                             continue
     r.close()
@@ -99,6 +105,8 @@ def main():
 
     g.create_dataset('grid',data=grid)
     g.create_dataset('grid_count',data=grid_count)
+    g.create_dataset('grid_ScS2',data=grid_s2)
+    g.create_dataset('grid_count_ScS2',data=grid_count_s2)
     g.create_dataset('lat',data=lat_a)
     g.create_dataset('lon',data=lon_a)
     g.create_dataset('h',data=h_a)
