@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Thu 22 Mar 2018 12:36:01 PM EDT
+Last Modified : Mon 26 Mar 2018 10:44:13 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -33,10 +33,11 @@ def main():
 
     std = obspy.read(args.data)
     std = block_stream(std)
+    std.interpolate(2)
     std.write('st_T_block.h5',format='H5')
 
     sts = obspy.read(args.synth)
-    sts.interpolate(10)
+    sts.interpolate(2)
     sts = block_stream(sts)
     sts.write('sts_T_block.h5',format='H5')
 
@@ -134,16 +135,16 @@ def prepare_input(st):
 def block_stream(st):
     for idx,tr in enumerate(st):
         if tr.stats.o <= 0:
-            z = np.zeros(int(np.abs(tr.stats.o)*10))
+            z = np.zeros(int(np.abs(tr.stats.o)*tr.stats.sampling_rate))
             st[idx].data = np.hstack((z,tr.data))
         elif tr.stats.o > 0:
-            d = tr.data[int(tr.stats.o*10)::]
+            d = tr.data[int(tr.stats.o*tr.stats.sampling_rate)::]
             st[idx].data = d
         st[idx].stats.starttime += st[idx].stats.o
         st[idx].stats.o = 0
         l = tr.stats.endtime-tr.stats.starttime
         if l <= 4000:
-            z = np.zeros(int(10*(4000-l)))
+            z = np.zeros(int(tr.stats.sampling_rate*(4000-l)))
             st[idx].data = np.hstack((tr.data,z))
         elif l > 4000:
             st[idx].data = tr.data[0:40000]
