@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Thu 22 Mar 2018 12:47:00 PM EDT
+Last Modified : Tue 27 Mar 2018 12:10:36 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -129,9 +129,9 @@ def corr_reverb(trs_in,trd_in,phase,cutoff=1.5):
     #plt.show()
 
     if phase.startswith('S'):
-	if phase == 'ScSScS' and trs.stats.gcarc > 50:
-            print('out of range')
-            return False
+	#if phase == 'ScSScS' and trs.stats.gcarc > 50:
+        #    print('out of range')
+        #    return False
 	if trs.stats.starttime+time+50+so >= trs.stats.endtime:
             print '{} {} cutoff'.format(phase,sname)
             return False
@@ -175,12 +175,12 @@ def corr_reverb(trs_in,trd_in,phase,cutoff=1.5):
                 return d_dat,s_dat
 
     elif phase.startswith('s'):
-	if phase == 'sScS' and trs.stats.gcarc > 35:
-            print('out of range')
-            return False
-	if phase == 'sScSScS' and trs.stats.gcarc > 50:
-            print('out of range')
-            return False
+	#if phase == 'sScS' and trs.stats.gcarc > 35:
+        #    print('out of range')
+        #    return False
+	#if phase == 'sScSScS' and trs.stats.gcarc > 50:
+        #    print('out of range')
+        #    return False
 	if trs.stats.starttime+time+540 >= trs.stats.endtime:
             print '{} {} cutoff'.format(phase,sname)
             return False
