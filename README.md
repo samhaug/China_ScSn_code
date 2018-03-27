@@ -1,28 +1,20 @@
 # China_ScSn_code
 
-#1D workflow#
-make\_lookup.py makes an h5 lookup table for a specific event depth. You must make a separate lookup table for each event. Station information is not
-necessary.
+Workflow:
 
-extract\_reverb.py needs a filtered and processed h5 stream. It creates an h5 file
-of clipped reverberative intervals.
+1. Use radon\_transform.py to create radon.h5 stream files. These are used for migration
 
-deconvolve.py reads the h5 file made by extract reverb and deconvolves the parent phase from the reverberative interval. It saves the deconvolved traces as an h5 file.
+2. Use extract\_data\_reverb.py to make a reverb.h5 files. This code needs a synthetic and data h5 stream file. It uses cross correlation to find the reverb intervals in the data.
 
-make\_reflection\_points.py makes an h5 lookup table of reflection coordinates
-using the output of deconvolve.py
+3. Use deconvolve.py on each of the reverb.h5 files. This code needs to be run ffor synthetic and data. Name the output files synth\_deconvolve.h5 and data\_deconvolve.h5 as a convention.
 
-moveout\_correction.py reads the lookup table and the deconvolved h5 file and performs the moveout correction into depth domain. Then writes to another h5 file.
+Steps 4 and five can be done in any order, but they need to read a deconvolve.h5 file. I run them at the same time, one reading synth\_deconvolve.h5, the other reading data\_deconvolve.h5
 
-#3D workflow#
-make\_3dlookup.py will make a moveout lookup table for a 3D tomographic model
+4. Run make\_3dreflection\_lookup.py to make a lookup table of reflection points. This code needs a deconvolve.h5 file to make a lookup table for corresponding reverb intervals
 
-extract\_3dreverb.py will use the 3d lookup table to clip reverberative 
-intervals from data. 
+5. Run make\_3d\_lookup.py to make a lookup table for the moveout corrections. This code needs a deconvolve.h5 file to make a lookup table for corresponding reverb intervals
 
-Use deconvolve.py the same as in the 1D workflow
+6. grid\_3dsum.py takes both lookup tables, a deconvolve.h5 file, and the name of the output grid. Do this for both data and synthetic deconvolve files.
 
-moveout\_3dcorrection.py uses the 3d lookup table to perform the moveout 
-correction
-
+7. Use combine\_grid.py to combine grid.h5 files from grid\_3dsum.py for many different events.
 
