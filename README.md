@@ -2,6 +2,7 @@
 
 This directory has the scripts neccessary to create a CRP stack of ScS reverberations given a data h5 stream and a corresponding synth h5 stream.
 
+execute\_mouveout.h5 runs steps 2-5 in serial. radon\_transform need user interaction to mask the ScS reverberations.
 Workflow:
 
 1. Use radon\_transform.py to create radon.h5 stream files. These are used for migration
