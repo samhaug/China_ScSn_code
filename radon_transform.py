@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Mon 26 Mar 2018 04:47:50 PM EDT
+Last Modified : Tue 27 Mar 2018 12:08:06 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -132,13 +132,16 @@ def prepare_input(st):
 
 def block_stream(st):
     st.interpolate(2)
+    st.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
     for idx,tr in enumerate(st):
-        if tr.stats.o <= 0:
+        if tr.stats.o < 0:
             z = np.zeros(int(np.abs(tr.stats.o)*tr.stats.sampling_rate))
             st[idx].data = np.hstack((z,tr.data))
         elif tr.stats.o > 0:
             d = tr.data[int(tr.stats.o*tr.stats.sampling_rate)::]
             st[idx].data = d
+        else:
+            d = tr.data[int(tr.stats.o*tr.stats.sampling_rate)::]
         st[idx].stats.starttime += st[idx].stats.o
         st[idx].stats.o = 0
         l = tr.stats.endtime-tr.stats.starttime
@@ -146,11 +149,15 @@ def block_stream(st):
             z = np.zeros(int(tr.stats.sampling_rate*(4000-l)))
             st[idx].data = np.hstack((tr.data,z))
         elif l > 4000:
-            st[idx].data = tr.data[0:int(4000/tr.stats.sampling_rate)]
-        st[idx].data = tr.data[0:int(4000/tr.stats.sampling_rate)]
+            st[idx].data = tr.data[0:int(4000*tr.stats.sampling_rate)]
+        st[idx].data = tr.data[0:int(4000*tr.stats.sampling_rate)]
     return st
 
 class clicker_class(object):
+    '''
+    This is used to interactively draw a mask around the ScS reverberation
+    time/slowness branch
+    '''
     def __init__(self, ax, pix_err=1):
         self.canvas = ax.get_figure().canvas
         self.cid = None
