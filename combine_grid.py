@@ -6,7 +6,7 @@
 File Name : combine_grid.py
 Purpose : combine grids from multiple events
 Creation Date : 15-02-2018
-Last Modified : Thu 29 Mar 2018 11:33:20 AM EDT
+Last Modified : Sat 31 Mar 2018 02:46:19 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -101,9 +101,9 @@ def main():
 
 
     syn = h5py.File('synth_grid_sum.h5','w')
-    syn2 = h5py.File('synth_grid_sum_ScS2.h5','w')
+    #syn2 = h5py.File('synth_grid_sum_ScS2.h5','w')
     dat = h5py.File('data_grid_sum.h5','w')
-    dat2 = h5py.File('data_grid_sum_ScS2.h5','w')
+    #dat2 = h5py.File('data_grid_sum_ScS2.h5','w')
 
     syn.create_dataset('grid',data=s)
     syn.create_dataset('grid_ScS2',data=s2)

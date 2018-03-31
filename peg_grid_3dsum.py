@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Thu 29 Mar 2018 05:08:14 PM EDT
+Last Modified : Thu 29 Mar 2018 05:10:01 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -35,7 +35,7 @@ def main():
                         help='h5 deconvolved data')
     parser.add_argument('-g','--grid', metavar='H5_FILE',type=str,
                         help='optional name of output grid file',
-                         default='grid_sum.h5')
+                         default='peg_grid_sum.h5')
     args = parser.parse_args()
     print args.grid
 
@@ -45,8 +45,6 @@ def main():
 
     lon_a,lat_a,h_a,grid = make_grid_coordinates()
     grid_count = np.zeros(grid.shape)
-    grid_count_s2 = np.zeros(grid.shape)
-    grid_s2 = np.zeros(grid.shape)
     x,y = np.meshgrid(lon_a,lat_a)
     x = x.ravel()
     y = y.ravel()
@@ -89,9 +87,6 @@ def main():
                                 lat_idx = np.abs(lat_a-y[jj]).argmin()
                                 grid_count[lon_idx,lat_idx,h_idx]+=1.
                                 grid[lon_idx,lat_idx,h_idx]+=v
-                                if phase == 'ScSScS':
-                                    grid_count_s2[lon_idx,lat_idx,h_idx]+=1.
-                                    grid_s2[lon_idx,lat_idx,h_idx]+=v
                         except KeyError:
                             continue
     r.close()
@@ -105,20 +100,13 @@ def main():
 
     g.create_dataset('grid',data=grid)
     g.create_dataset('grid_count',data=grid_count)
-    g.create_dataset('grid_ScS2',data=grid_s2)
-    g.create_dataset('grid_count_ScS2',data=grid_count_s2)
     g.create_dataset('lat',data=lat_a)
     g.create_dataset('lon',data=lon_a)
     g.create_dataset('h',data=h_a)
     g.close()
 
 def make_pierce_coord(phase,depth):
-    phase_families = {'sScS':['sSvXSScS','sScSSvXS'],
-                     'sScSScS':['sSvXSScSScS','sScSSvXSScS','sScSScSSvXS'],
-                     'sScSScSScS':['sSvXSScSScSScS','sScSSvXSScSScS',
-                                   'sScSScSSvXSScS','sScSScSScSSvXS'],
-                     'ScSScS':['ScS^XScS'],
-                     'ScSScSScS':['ScS^XScSScS','ScScS^XScS']}
+    phase_families = {'ScS':['ScSSvXS']}
     conv = phase_families[phase]
     conv_list = [i.replace('X',depth) for i in conv]
     return conv_list
