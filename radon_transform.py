@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Mon 30 Apr 2018 12:55:17 PM EDT
+Last Modified : Mon 30 Apr 2018 03:58:19 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -17,7 +17,6 @@ from matplotlib import pyplot as plt
 import h5py
 import obspy
 import argparse
-import seispy
 import Radon
 from PIL import Image,ImageDraw
 
@@ -113,7 +112,6 @@ def even_streams(sta,stb):
             stb.remove(tr)
     return sta,stb
 
-
 def make_mask(R):
     plt.imshow(np.log10(np.abs(R)),aspect='auto')
     ax = plt.gca()
@@ -187,7 +185,7 @@ class clicker_class(object):
         self.canvas = ax.get_figure().canvas
         self.cid = None
         self.pt_lst = []
-        self.pt_plot = ax.plot([],[],marker='o',
+        self.pt_plot = ax.plot([],[],marker='o',color='r'
                                linestyle='none',zorder=5)[0]
         self.pix_err = pix_err
         self.connect_sf()

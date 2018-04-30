@@ -6,7 +6,7 @@
 File Name : extract_data_reverb.py
 Purpose : Clip reverb intervals from stream of traces using synth cross_corr
 Creation Date : 04-01-2018
-Last Modified : Tue 27 Mar 2018 12:10:36 PM EDT
+Last Modified : Mon 30 Apr 2018 03:58:03 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,7 +19,6 @@ import obspy
 from sys import argv
 from obspy.taup import TauPyModel
 import argparse
-#import seispy
 from subprocess import call
 from scipy.signal import correlate
 model = TauPyModel(model='prem')
@@ -94,11 +93,11 @@ def remove_excess(sts,std):
     for tr in std:
         if tr.stats.network+tr.stats.station+tr.stats.location not in inter:
             std.remove(tr)
-
     sts.interpolate(10)
     std.interpolate(10)
     sts.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
     std.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
+
     return sts,std
 
 def npcorr(s,d,samp):

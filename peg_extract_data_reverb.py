@@ -6,7 +6,7 @@
 File Name : peg_extract_data_reverb.py
 Purpose : extract ScS pegleg interval
 Creation Date : 04-01-2018
-Last Modified : Thu 29 Mar 2018 03:11:29 PM EDT
+Last Modified : Mon 30 Apr 2018 03:58:10 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,7 +19,6 @@ import obspy
 from sys import argv
 from obspy.taup import TauPyModel
 import argparse
-#import seispy
 from subprocess import call
 from scipy.signal import correlate
 model = TauPyModel(model='prem')

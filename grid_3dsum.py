@@ -6,7 +6,7 @@
 File Name : grid_sum.py
 Purpose : Sum reverberations over grid.
 Creation Date : 22-01-2018
-Last Modified : Thu 29 Mar 2018 05:08:14 PM EDT
+Last Modified : Mon 30 Apr 2018 03:08:12 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -127,11 +127,11 @@ def prepare_data_lookup(d,l,rkeys,phase):
     data = d[rkeys][phase][:]
     data *= 1./np.max(np.abs(data))
     data = np.roll(data,-1*np.argmax(np.abs(data)))
-    time_3d = l[rkeys][phase]['3d_time'][0]
+    time_3d = l[rkeys][phase]['1d_time'][0]
     lkup_dict = {}
     for keys in l[rkeys][phase]:
         if not keys[0].isdigit():
-            tspace = l[rkeys][phase][keys]['3d_time'][:,0]
+            tspace = l[rkeys][phase][keys]['1d_time'][:,0]
             dspace = l[rkeys][phase][keys]['depth'][:,0]
             tspace[1::] = np.abs(tspace[1::]-time_3d)
             f = interp1d(dspace,tspace)
