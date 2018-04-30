@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Tue 27 Mar 2018 12:08:06 PM EDT
+Last Modified : Mon 30 Apr 2018 12:55:17 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -32,10 +32,12 @@ def main():
     args = parser.parse_args()
 
     std = obspy.read(args.data)
+    sts = obspy.read(args.synth)
+    sts,std = even_streams(sts,std)
+
     std = block_stream(std)
     std.write('st_T_block.h5',format='H5')
 
-    sts = obspy.read(args.synth)
     sts = block_stream(sts)
     sts.write('sts_T_block.h5',format='H5')
 
@@ -88,6 +90,29 @@ def main():
         stdc[idx].data = dd[idx]
     stdc.filter('bandpass',freqmin=1./100,freqmax=1./10,zerophase=True)
     stdc.write('st_T_radon.h5',format='H5')
+
+def even_streams(sta,stb):
+    a = []
+    b = []
+    for tr in sta:
+        if tr.stats.station in a:
+            sta.remove(tr)
+        else:
+            a.append(tr.stats.station)
+    for tr in stb:
+        if tr.stats.station in b:
+            stb.remove(tr)
+        else:
+            b.append(tr.stats.station)
+    c = set(a).intersection(set(b))
+    for tr in sta:
+        if tr.stats.station not in c:
+            sta.remove(tr)
+    for tr in stb:
+        if tr.stats.station not in c:
+            stb.remove(tr)
+    return sta,stb
+
 
 def make_mask(R):
     plt.imshow(np.log10(np.abs(R)),aspect='auto')
