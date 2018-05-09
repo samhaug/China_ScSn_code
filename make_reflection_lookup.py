@@ -6,7 +6,7 @@
 File Name : make_reflection_lookup.py
 Purpose : Make lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Thu 08 Feb 2018 03:40:42 PM EST
+Last Modified : Wed 02 May 2018 10:19:17 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,7 +19,7 @@ import h5py
 import obspy
 import argparse
 from obspy.taup import TauPyModel
-from deco import concurrent,synchronized
+#from deco import concurrent,synchronized
 
 def main():
     parser = argparse.ArgumentParser(description='Make \

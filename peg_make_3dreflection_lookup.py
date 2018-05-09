@@ -6,7 +6,7 @@
 File Name : make_3dreflection_lookup.py
 Purpose : Make 3d lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Thu 29 Mar 2018 05:07:22 PM EDT
+Last Modified : Wed 02 May 2018 10:19:24 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,7 +19,7 @@ import h5py
 import obspy
 import argparse
 from obspy.taup import TauPyModel
-from deco import concurrent,synchronized
+#from deco import concurrent,synchronized
 
 def main():
     parser = argparse.ArgumentParser(description='Make \
