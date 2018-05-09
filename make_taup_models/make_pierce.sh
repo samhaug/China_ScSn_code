@@ -1,6 +1,8 @@
 #!/bin/bash
-h=551
 t=taup_pierce
+h=$1
+pierce_dir=/home/samhaug/work1/China_ScSn_data/pierce_$h"_km"
+mkdir $pierce_dir
                               
 
 for i in $(seq 50 5 800); 
@@ -19,18 +21,18 @@ do
     sScS3_3=sScSScSSv$i"SScS"
     sScS3_4=sScSScSScSSv$i"S"
 
-    $t -mod $mod -ph $sScS_1  -h $h -pierce $i -turn -o ./pierce/sScS_1_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $sScS_2  -h $h -pierce $i -turn -o ./pierce/sScS_2_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $ScS2    -h $h -pierce $i -under -o ./pierce/ScS2_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $sScS2_1 -h $h -pierce $i -turn -o ./pierce/sScS2_1_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $sScS2_2 -h $h -pierce $i -turn -o ./pierce/sScS2_2_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $sScS2_3 -h $h -pierce $i -turn -o ./pierce/sScS2_3_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $ScS3_1  -h $h -pierce $i -under -o ./pierce/ScS3_1_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $ScS3_2  -h $h -pierce $i -under -o ./pierce/ScS3_2_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $sScS3_1 -h $h -pierce $i -turn -o ./pierce/sScS3_1_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $sScS3_2 -h $h -pierce $i -turn -o ./pierce/sScS3_2_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $sScS3_3 -h $h -pierce $i -turn -o ./pierce/sScS3_3_$i < degrees.dat >/dev/null;
-    $t -mod $mod -ph $sScS3_4 -h $h -pierce $i -turn -o ./pierce/sScS3_4_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $sScS_1  -h $h -pierce $i -turn -o  $pierce_dir/sScS_1_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $sScS_2  -h $h -pierce $i -turn -o  $pierce_dir/sScS_2_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $ScS2    -h $h -pierce $i -under -o $pierce_dir/ScS2_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $sScS2_1 -h $h -pierce $i -turn -o  $pierce_dir/sScS2_1_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $sScS2_2 -h $h -pierce $i -turn -o  $pierce_dir/sScS2_2_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $sScS2_3 -h $h -pierce $i -turn -o .$pierce_dirsScS2_3_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $ScS3_1  -h $h -pierce $i -under -o $pierce_dir/ScS3_1_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $ScS3_2  -h $h -pierce $i -under -o $pierce_dir/ScS3_2_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $sScS3_1 -h $h -pierce $i -turn -o  $pierce_dir/sScS3_1_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $sScS3_2 -h $h -pierce $i -turn -o  $pierce_dir/sScS3_2_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $sScS3_3 -h $h -pierce $i -turn -o  $pierce_dir/sScS3_3_$i < degrees.dat >/dev/null;
+    $t -mod $mod -ph $sScS3_4 -h $h -pierce $i -turn -o  $pierce_dir/sScS3_4_$i < degrees.dat >/dev/null;
 
 done
 
