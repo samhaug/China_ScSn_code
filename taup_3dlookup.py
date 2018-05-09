@@ -4,9 +4,9 @@
 ==============================================================================
 
 File Name : make_3dlookup.py
-Purpose : Make h5 lookup table of reverberation traveltimes for 3d model
+Purpose : Make h5 lookup table of ttimes using taup output for 3d model
 Creation Date : 20-12-2017
-Last Modified : Mon 07 May 2018 05:32:45 PM EDT
+Last Modified : Mon 07 May 2018 04:02:38 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
