@@ -1,724 +1,724 @@
-> sScSScSSv620S at  2242.87 seconds at     0.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.000 s/deg.
-    0.00  2891.0   577.0
-    0.00  2891.0  1512.6
-    0.00   620.0  2111.7
-> sScSScSSv620S at  2242.89 seconds at     0.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.042 s/deg.
-    0.13  2891.0   577.0
-    0.36  2891.0  1512.7
-    0.49   620.0  2111.7
-> sScSScSSv620S at  2242.92 seconds at     1.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.083 s/deg.
-    0.25  2891.0   577.0
-    0.72  2891.0  1512.7
-    0.98   620.0  2111.7
-> sScSScSSv620S at  2242.97 seconds at     1.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.125 s/deg.
-    0.38  2891.0   577.0
-    1.08  2891.0  1512.7
-    1.47   620.0  2111.8
-> sScSScSSv620S at  2243.05 seconds at     2.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.166 s/deg.
-    0.50  2891.0   577.0
-    1.44  2891.0  1512.8
-    1.96   620.0  2111.8
-> sScSScSSv620S at  2243.14 seconds at     2.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.208 s/deg.
-    0.63  2891.0   577.0
-    1.80  2891.0  1512.8
-    2.44   620.0  2111.9
-> sScSScSSv620S at  2243.25 seconds at     3.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.249 s/deg.
-    0.75  2891.0   577.1
-    2.16  2891.0  1512.9
-    2.93   620.0  2112.0
-> sScSScSSv620S at  2243.39 seconds at     3.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.291 s/deg.
-    0.88  2891.0   577.1
-    2.52  2891.0  1513.0
-    3.42   620.0  2112.2
-> sScSScSSv620S at  2243.54 seconds at     4.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.332 s/deg.
-    1.01  2891.0   577.1
-    2.88  2891.0  1513.1
-    3.91   620.0  2112.3
-> sScSScSSv620S at  2243.72 seconds at     4.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.374 s/deg.
-    1.13  2891.0   577.2
-    3.24  2891.0  1513.3
-    4.40   620.0  2112.5
-> sScSScSSv620S at  2243.92 seconds at     5.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.415 s/deg.
-    1.26  2891.0   577.2
-    3.61  2891.0  1513.4
-    4.89   620.0  2112.7
-> sScSScSSv620S at  2244.13 seconds at     5.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.457 s/deg.
-    1.38  2891.0   577.3
-    3.97  2891.0  1513.5
-    5.38   620.0  2112.9
-> sScSScSSv620S at  2244.37 seconds at     6.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.498 s/deg.
-    1.51  2891.0   577.4
-    4.33  2891.0  1513.7
-    5.87   620.0  2113.1
-> sScSScSSv620S at  2244.64 seconds at     6.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.539 s/deg.
-    1.64  2891.0   577.4
-    4.69  2891.0  1513.9
-    6.36   620.0  2113.4
-> sScSScSSv620S at  2244.92 seconds at     7.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.581 s/deg.
-    1.76  2891.0   577.5
-    5.05  2891.0  1514.1
-    6.85   620.0  2113.7
-> sScSScSSv620S at  2245.21 seconds at     7.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.622 s/deg.
-    1.89  2891.0   577.6
-    5.41  2891.0  1514.3
-    7.33   620.0  2114.0
-> sScSScSSv620S at  2245.53 seconds at     8.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.663 s/deg.
-    2.01  2891.0   577.6
-    5.77  2891.0  1514.6
-    7.82   620.0  2114.3
-> sScSScSSv620S at  2245.88 seconds at     8.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.705 s/deg.
-    2.14  2891.0   577.7
-    6.13  2891.0  1514.8
-    8.31   620.0  2114.6
-> sScSScSSv620S at  2246.24 seconds at     9.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.746 s/deg.
-    2.26  2891.0   577.8
-    6.49  2891.0  1515.1
-    8.80   620.0  2115.0
-> sScSScSSv620S at  2246.62 seconds at     9.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.787 s/deg.
-    2.39  2891.0   577.9
-    6.85  2891.0  1515.3
-    9.29   620.0  2115.3
-> sScSScSSv620S at  2247.03 seconds at    10.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.828 s/deg.
-    2.52  2891.0   578.0
-    7.21  2891.0  1515.6
-    9.78   620.0  2115.7
-> sScSScSSv620S at  2247.45 seconds at    10.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.870 s/deg.
-    2.64  2891.0   578.1
-    7.57  2891.0  1515.9
-   10.27   620.0  2116.2
-> sScSScSSv620S at  2247.89 seconds at    11.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.911 s/deg.
-    2.77  2891.0   578.2
-    7.93  2891.0  1516.3
-   10.76   620.0  2116.6
-> sScSScSSv620S at  2248.36 seconds at    11.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.952 s/deg.
-    2.89  2891.0   578.4
-    8.29  2891.0  1516.6
-   11.25   620.0  2117.0
-> sScSScSSv620S at  2248.85 seconds at    12.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    0.993 s/deg.
-    3.02  2891.0   578.5
-    8.65  2891.0  1517.0
-   11.74   620.0  2117.5
-> sScSScSSv620S at  2249.36 seconds at    12.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.034 s/deg.
-    3.15  2891.0   578.6
-    9.01  2891.0  1517.3
-   12.22   620.0  2118.0
-> sScSScSSv620S at  2249.88 seconds at    13.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.075 s/deg.
-    3.27  2891.0   578.7
-    9.37  2891.0  1517.7
-   12.71   620.0  2118.5
-> sScSScSSv620S at  2250.43 seconds at    13.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.116 s/deg.
-    3.40  2891.0   578.9
-    9.74  2891.0  1518.1
-   13.20   620.0  2119.1
-> sScSScSSv620S at  2251.00 seconds at    14.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.157 s/deg.
-    3.52  2891.0   579.0
-   10.10  2891.0  1518.5
-   13.69   620.0  2119.6
-> sScSScSSv620S at  2251.59 seconds at    14.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.198 s/deg.
-    3.65  2891.0   579.2
-   10.46  2891.0  1518.9
-   14.18   620.0  2120.2
-> sScSScSSv620S at  2252.20 seconds at    15.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.239 s/deg.
-    3.77  2891.0   579.3
-   10.82  2891.0  1519.4
-   14.67   620.0  2120.8
-> sScSScSSv620S at  2252.82 seconds at    15.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.279 s/deg.
-    3.90  2891.0   579.5
-   11.18  2891.0  1519.8
-   15.16   620.0  2121.4
-> sScSScSSv620S at  2253.48 seconds at    16.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.320 s/deg.
-    4.03  2891.0   579.6
-   11.54  2891.0  1520.3
-   15.65   620.0  2122.0
-> sScSScSSv620S at  2254.14 seconds at    16.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.361 s/deg.
-    4.15  2891.0   579.8
-   11.90  2891.0  1520.8
-   16.14   620.0  2122.7
-> sScSScSSv620S at  2254.83 seconds at    17.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.401 s/deg.
-    4.28  2891.0   580.0
-   12.26  2891.0  1521.3
-   16.63   620.0  2123.4
-> sScSScSSv620S at  2255.55 seconds at    17.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.442 s/deg.
-    4.40  2891.0   580.2
-   12.62  2891.0  1521.8
-   17.12   620.0  2124.1
-> sScSScSSv620S at  2256.27 seconds at    18.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.482 s/deg.
-    4.53  2891.0   580.3
-   12.98  2891.0  1522.3
-   17.60   620.0  2124.8
-> sScSScSSv620S at  2257.03 seconds at    18.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.523 s/deg.
-    4.66  2891.0   580.5
-   13.34  2891.0  1522.8
-   18.09   620.0  2125.5
-> sScSScSSv620S at  2257.80 seconds at    19.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.563 s/deg.
-    4.78  2891.0   580.7
-   13.70  2891.0  1523.4
-   18.58   620.0  2126.3
-> sScSScSSv620S at  2258.59 seconds at    19.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.603 s/deg.
-    4.91  2891.0   580.9
-   14.06  2891.0  1524.0
-   19.07   620.0  2127.0
-> sScSScSSv620S at  2259.40 seconds at    20.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.644 s/deg.
-    5.03  2891.0   581.1
-   14.43  2891.0  1524.6
-   19.56   620.0  2127.8
-> sScSScSSv620S at  2260.23 seconds at    20.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.684 s/deg.
-    5.16  2891.0   581.3
-   14.79  2891.0  1525.2
-   20.05   620.0  2128.7
-> sScSScSSv620S at  2261.09 seconds at    21.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.724 s/deg.
-    5.28  2891.0   581.6
-   15.15  2891.0  1525.8
-   20.54   620.0  2129.5
-> sScSScSSv620S at  2261.96 seconds at    21.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.764 s/deg.
-    5.41  2891.0   581.8
-   15.51  2891.0  1526.4
-   21.03   620.0  2130.3
-> sScSScSSv620S at  2262.85 seconds at    22.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.804 s/deg.
-    5.54  2891.0   582.0
-   15.87  2891.0  1527.1
-   21.52   620.0  2131.2
-> sScSScSSv620S at  2263.76 seconds at    22.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.844 s/deg.
-    5.66  2891.0   582.2
-   16.23  2891.0  1527.7
-   22.01   620.0  2132.1
-> sScSScSSv620S at  2264.69 seconds at    23.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.884 s/deg.
-    5.79  2891.0   582.5
-   16.59  2891.0  1528.4
-   22.50   620.0  2133.0
-> sScSScSSv620S at  2265.64 seconds at    23.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.924 s/deg.
-    5.91  2891.0   582.7
-   16.95  2891.0  1529.1
-   22.99   620.0  2133.9
-> sScSScSSv620S at  2266.62 seconds at    24.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    1.963 s/deg.
-    6.04  2891.0   583.0
-   17.31  2891.0  1529.8
-   23.47   620.0  2134.9
-> sScSScSSv620S at  2267.61 seconds at    24.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.003 s/deg.
-    6.16  2891.0   583.2
-   17.67  2891.0  1530.5
-   23.96   620.0  2135.9
-> sScSScSSv620S at  2268.62 seconds at    25.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.042 s/deg.
-    6.29  2891.0   583.5
-   18.03  2891.0  1531.2
-   24.45   620.0  2136.9
-> sScSScSSv620S at  2269.67 seconds at    25.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.082 s/deg.
-    6.42  2891.0   583.7
-   18.40  2891.0  1532.0
-   24.94   620.0  2137.9
-> sScSScSSv620S at  2270.73 seconds at    26.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.121 s/deg.
-    6.54  2891.0   584.0
-   18.76  2891.0  1532.7
-   25.43   620.0  2138.9
-> sScSScSSv620S at  2271.80 seconds at    26.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.161 s/deg.
-    6.67  2891.0   584.3
-   19.12  2891.0  1533.5
-   25.92   620.0  2140.0
-> sScSScSSv620S at  2272.86 seconds at    27.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.200 s/deg.
-    6.79  2891.0   584.5
-   19.48  2891.0  1534.3
-   26.41   620.0  2141.0
-> sScSScSSv620S at  2273.98 seconds at    27.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.239 s/deg.
-    6.92  2891.0   584.8
-   19.84  2891.0  1535.1
-   26.90   620.0  2142.1
-> sScSScSSv620S at  2275.11 seconds at    28.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.278 s/deg.
-    7.05  2891.0   585.1
-   20.20  2891.0  1535.9
-   27.39   620.0  2143.2
-> sScSScSSv620S at  2276.26 seconds at    28.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.317 s/deg.
-    7.17  2891.0   585.4
-   20.56  2891.0  1536.7
-   27.88   620.0  2144.3
-> sScSScSSv620S at  2277.43 seconds at    29.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.356 s/deg.
-    7.30  2891.0   585.7
-   20.92  2891.0  1537.6
-   28.37   620.0  2145.5
-> sScSScSSv620S at  2278.60 seconds at    29.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.395 s/deg.
-    7.42  2891.0   586.0
-   21.28  2891.0  1538.4
-   28.86   620.0  2146.6
-> sScSScSSv620S at  2279.82 seconds at    30.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.433 s/deg.
-    7.55  2891.0   586.3
-   21.65  2891.0  1539.3
-   29.35   620.0  2147.8
-> sScSScSSv620S at  2281.04 seconds at    30.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.472 s/deg.
-    7.67  2891.0   586.6
-   22.01  2891.0  1540.2
-   29.84   620.0  2149.0
-> sScSScSSv620S at  2282.29 seconds at    31.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.510 s/deg.
-    7.80  2891.0   586.9
-   22.37  2891.0  1541.1
-   30.33   620.0  2150.2
-> sScSScSSv620S at  2283.56 seconds at    31.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.549 s/deg.
-    7.93  2891.0   587.2
-   22.73  2891.0  1542.0
-   30.82   620.0  2151.5
-> sScSScSSv620S at  2284.84 seconds at    32.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.587 s/deg.
-    8.05  2891.0   587.5
-   23.09  2891.0  1542.9
-   31.31   620.0  2152.7
-> sScSScSSv620S at  2286.15 seconds at    32.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.625 s/deg.
-    8.18  2891.0   587.9
-   23.45  2891.0  1543.9
-   31.80   620.0  2154.0
-> sScSScSSv620S at  2287.46 seconds at    33.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.664 s/deg.
-    8.30  2891.0   588.2
-   23.81  2891.0  1544.8
-   32.28   620.0  2155.3
-> sScSScSSv620S at  2288.81 seconds at    33.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.702 s/deg.
-    8.43  2891.0   588.5
-   24.18  2891.0  1545.8
-   32.77   620.0  2156.6
-> sScSScSSv620S at  2290.17 seconds at    34.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.739 s/deg.
-    8.55  2891.0   588.9
-   24.54  2891.0  1546.8
-   33.26   620.0  2158.0
-> sScSScSSv620S at  2291.54 seconds at    34.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.777 s/deg.
-    8.68  2891.0   589.2
-   24.90  2891.0  1547.8
-   33.75   620.0  2159.3
-> sScSScSSv620S at  2292.94 seconds at    35.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.815 s/deg.
-    8.81  2891.0   589.6
-   25.26  2891.0  1548.8
-   34.24   620.0  2160.7
-> sScSScSSv620S at  2294.36 seconds at    35.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.853 s/deg.
-    8.93  2891.0   589.9
-   25.62  2891.0  1549.8
-   34.73   620.0  2162.1
-> sScSScSSv620S at  2295.79 seconds at    36.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.890 s/deg.
-    9.06  2891.0   590.3
-   25.98  2891.0  1550.9
-   35.22   620.0  2163.5
-> sScSScSSv620S at  2297.25 seconds at    36.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.928 s/deg.
-    9.18  2891.0   590.7
-   26.34  2891.0  1551.9
-   35.71   620.0  2164.9
-> sScSScSSv620S at  2298.73 seconds at    37.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    2.965 s/deg.
-    9.31  2891.0   591.0
-   26.71  2891.0  1553.0
-   36.20   620.0  2166.3
-> sScSScSSv620S at  2300.22 seconds at    37.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.002 s/deg.
-    9.43  2891.0   591.4
-   27.07  2891.0  1554.1
-   36.69   620.0  2167.8
-> sScSScSSv620S at  2301.72 seconds at    38.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.039 s/deg.
-    9.56  2891.0   591.8
-   27.43  2891.0  1555.1
-   37.18   620.0  2169.3
-> sScSScSSv620S at  2303.26 seconds at    38.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.076 s/deg.
-    9.69  2891.0   592.2
-   27.79  2891.0  1556.3
-   37.67   620.0  2170.8
-> sScSScSSv620S at  2304.81 seconds at    39.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.113 s/deg.
-    9.81  2891.0   592.6
-   28.15  2891.0  1557.4
-   38.16   620.0  2172.3
-> sScSScSSv620S at  2306.36 seconds at    39.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.150 s/deg.
-    9.94  2891.0   592.9
-   28.51  2891.0  1558.5
-   38.65   620.0  2173.8
-> sScSScSSv620S at  2307.96 seconds at    40.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.186 s/deg.
-   10.06  2891.0   593.3
-   28.88  2891.0  1559.7
-   39.14   620.0  2175.4
-> sScSScSSv620S at  2309.56 seconds at    40.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.223 s/deg.
-   10.19  2891.0   593.8
-   29.24  2891.0  1560.8
-   39.63   620.0  2177.0
-> sScSScSSv620S at  2311.18 seconds at    41.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.259 s/deg.
-   10.31  2891.0   594.2
-   29.60  2891.0  1562.0
-   40.12   620.0  2178.5
-> sScSScSSv620S at  2312.82 seconds at    41.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.296 s/deg.
-   10.44  2891.0   594.6
-   29.96  2891.0  1563.2
-   40.61   620.0  2180.2
-> sScSScSSv620S at  2314.47 seconds at    42.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.332 s/deg.
-   10.57  2891.0   595.0
-   30.32  2891.0  1564.4
-   41.10   620.0  2181.8
-> sScSScSSv620S at  2316.14 seconds at    42.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.368 s/deg.
-   10.69  2891.0   595.4
-   30.69  2891.0  1565.6
-   41.59   620.0  2183.4
-> sScSScSSv620S at  2317.84 seconds at    43.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.404 s/deg.
-   10.82  2891.0   595.8
-   31.05  2891.0  1566.8
-   42.08   620.0  2185.1
-> sScSScSSv620S at  2319.54 seconds at    43.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.440 s/deg.
-   10.94  2891.0   596.3
-   31.41  2891.0  1568.0
-   42.57   620.0  2186.7
-> sScSScSSv620S at  2321.29 seconds at    44.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.475 s/deg.
-   11.07  2891.0   596.7
-   31.77  2891.0  1569.3
-   43.06   620.0  2188.4
-> sScSScSSv620S at  2323.04 seconds at    44.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.511 s/deg.
-   11.19  2891.0   597.1
-   32.13  2891.0  1570.6
-   43.55   620.0  2190.2
-> sScSScSSv620S at  2324.78 seconds at    45.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.546 s/deg.
-   11.32  2891.0   597.6
-   32.50  2891.0  1571.8
-   44.04   620.0  2191.9
-> sScSScSSv620S at  2326.58 seconds at    45.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.582 s/deg.
-   11.45  2891.0   598.0
-   32.86  2891.0  1573.1
-   44.53   620.0  2193.6
-> sScSScSSv620S at  2328.38 seconds at    46.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.617 s/deg.
-   11.57  2891.0   598.5
-   33.22  2891.0  1574.4
-   45.02   620.0  2195.4
-> sScSScSSv620S at  2330.18 seconds at    46.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.652 s/deg.
-   11.70  2891.0   598.9
-   33.58  2891.0  1575.7
-   45.51   620.0  2197.2
-> sScSScSSv620S at  2332.03 seconds at    47.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.687 s/deg.
-   11.82  2891.0   599.4
-   33.95  2891.0  1577.1
-   46.00   620.0  2199.0
-> sScSScSSv620S at  2333.89 seconds at    47.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.722 s/deg.
-   11.95  2891.0   599.9
-   34.31  2891.0  1578.4
-   46.49   620.0  2200.8
-> sScSScSSv620S at  2335.74 seconds at    48.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.757 s/deg.
-   12.07  2891.0   600.3
-   34.67  2891.0  1579.8
-   46.98   620.0  2202.6
-> sScSScSSv620S at  2337.64 seconds at    48.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.791 s/deg.
-   12.20  2891.0   600.8
-   35.03  2891.0  1581.2
-   47.47   620.0  2204.5
-> sScSScSSv620S at  2339.55 seconds at    49.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.825 s/deg.
-   12.33  2891.0   601.3
-   35.39  2891.0  1582.5
-   47.96   620.0  2206.3
-> sScSScSSv620S at  2341.45 seconds at    49.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.860 s/deg.
-   12.45  2891.0   601.8
-   35.76  2891.0  1583.9
-   48.45   620.0  2208.2
-> sScSScSSv620S at  2343.40 seconds at    50.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.894 s/deg.
-   12.58  2891.0   602.3
-   36.12  2891.0  1585.3
-   48.95   620.0  2210.1
-> sScSScSSv620S at  2345.36 seconds at    50.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.928 s/deg.
-   12.70  2891.0   602.8
-   36.48  2891.0  1586.7
-   49.44   620.0  2212.1
-> sScSScSSv620S at  2347.32 seconds at    51.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.962 s/deg.
-   12.83  2891.0   603.2
-   36.84  2891.0  1588.2
-   49.93   620.0  2214.0
-> sScSScSSv620S at  2349.31 seconds at    51.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    3.996 s/deg.
-   12.95  2891.0   603.7
-   37.21  2891.0  1589.6
-   50.42   620.0  2215.9
-> sScSScSSv620S at  2351.31 seconds at    52.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.030 s/deg.
-   13.08  2891.0   604.2
-   37.57  2891.0  1591.1
-   50.91   620.0  2217.9
-> sScSScSSv620S at  2353.34 seconds at    52.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.063 s/deg.
-   13.21  2891.0   604.8
-   37.93  2891.0  1592.5
-   51.40   620.0  2219.9
-> sScSScSSv620S at  2355.38 seconds at    53.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.096 s/deg.
-   13.33  2891.0   605.3
-   38.29  2891.0  1594.0
-   51.89   620.0  2221.9
-> sScSScSSv620S at  2357.43 seconds at    53.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.130 s/deg.
-   13.46  2891.0   605.8
-   38.66  2891.0  1595.5
-   52.38   620.0  2223.9
-> sScSScSSv620S at  2359.51 seconds at    54.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.163 s/deg.
-   13.58  2891.0   606.3
-   39.02  2891.0  1597.0
-   52.87   620.0  2225.9
-> sScSScSSv620S at  2361.60 seconds at    54.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.196 s/deg.
-   13.71  2891.0   606.8
-   39.38  2891.0  1598.5
-   53.36   620.0  2228.0
-> sScSScSSv620S at  2363.71 seconds at    55.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.229 s/deg.
-   13.83  2891.0   607.4
-   39.75  2891.0  1600.1
-   53.85   620.0  2230.1
-> sScSScSSv620S at  2365.83 seconds at    55.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.261 s/deg.
-   13.96  2891.0   607.9
-   40.11  2891.0  1601.6
-   54.34   620.0  2232.1
-> sScSScSSv620S at  2367.96 seconds at    56.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.294 s/deg.
-   14.09  2891.0   608.4
-   40.47  2891.0  1603.1
-   54.83   620.0  2234.2
-> sScSScSSv620S at  2370.12 seconds at    56.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.326 s/deg.
-   14.21  2891.0   609.0
-   40.83  2891.0  1604.7
-   55.32   620.0  2236.3
-> sScSScSSv620S at  2372.29 seconds at    57.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.359 s/deg.
-   14.34  2891.0   609.5
-   41.20  2891.0  1606.3
-   55.81   620.0  2238.5
-> sScSScSSv620S at  2374.48 seconds at    57.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.391 s/deg.
-   14.46  2891.0   610.1
-   41.56  2891.0  1607.9
-   56.31   620.0  2240.6
-> sScSScSSv620S at  2376.68 seconds at    58.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.423 s/deg.
-   14.59  2891.0   610.6
-   41.92  2891.0  1609.5
-   56.80   620.0  2242.8
-> sScSScSSv620S at  2378.90 seconds at    58.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.455 s/deg.
-   14.71  2891.0   611.2
-   42.29  2891.0  1611.1
-   57.29   620.0  2245.0
-> sScSScSSv620S at  2381.14 seconds at    59.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.487 s/deg.
-   14.84  2891.0   611.7
-   42.65  2891.0  1612.7
-   57.78   620.0  2247.2
-> sScSScSSv620S at  2383.39 seconds at    59.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.518 s/deg.
-   14.96  2891.0   612.3
-   43.01  2891.0  1614.3
-   58.27   620.0  2249.4
-> sScSScSSv620S at  2385.66 seconds at    60.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.550 s/deg.
-   15.09  2891.0   612.9
-   43.38  2891.0  1616.0
-   58.76   620.0  2251.6
-> sScSScSSv620S at  2387.94 seconds at    60.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.581 s/deg.
-   15.22  2891.0   613.5
-   43.74  2891.0  1617.7
-   59.25   620.0  2253.8
-> sScSScSSv620S at  2390.23 seconds at    61.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.612 s/deg.
-   15.34  2891.0   614.0
-   44.10  2891.0  1619.3
-   59.74   620.0  2256.1
-> sScSScSSv620S at  2392.55 seconds at    61.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.643 s/deg.
-   15.47  2891.0   614.6
-   44.47  2891.0  1621.0
-   60.23   620.0  2258.4
-> sScSScSSv620S at  2394.89 seconds at    62.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.674 s/deg.
-   15.59  2891.0   615.2
-   44.83  2891.0  1622.7
-   60.72   620.0  2260.7
-> sScSScSSv620S at  2397.24 seconds at    62.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.705 s/deg.
-   15.72  2891.0   615.8
-   45.19  2891.0  1624.4
-   61.22   620.0  2263.0
-> sScSScSSv620S at  2399.59 seconds at    63.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.735 s/deg.
-   15.84  2891.0   616.4
-   45.56  2891.0  1626.1
-   61.71   620.0  2265.3
-> sScSScSSv620S at  2401.96 seconds at    63.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.766 s/deg.
-   15.97  2891.0   617.0
-   45.92  2891.0  1627.8
-   62.20   620.0  2267.6
-> sScSScSSv620S at  2404.36 seconds at    64.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.796 s/deg.
-   16.10  2891.0   617.6
-   46.28  2891.0  1629.6
-   62.69   620.0  2270.0
-> sScSScSSv620S at  2406.76 seconds at    64.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.826 s/deg.
-   16.22  2891.0   618.2
-   46.65  2891.0  1631.3
-   63.18   620.0  2272.3
-> sScSScSSv620S at  2409.18 seconds at    65.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.856 s/deg.
-   16.35  2891.0   618.8
-   47.01  2891.0  1633.1
-   63.67   620.0  2274.7
-> sScSScSSv620S at  2411.61 seconds at    65.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.886 s/deg.
-   16.47  2891.0   619.4
-   47.38  2891.0  1634.9
-   64.16   620.0  2277.1
-> sScSScSSv620S at  2414.06 seconds at    66.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.916 s/deg.
-   16.60  2891.0   620.0
-   47.74  2891.0  1636.6
-   64.65   620.0  2279.5
-> sScSScSSv620S at  2416.54 seconds at    66.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.945 s/deg.
-   16.72  2891.0   620.6
-   48.10  2891.0  1638.4
-   65.15   620.0  2281.9
-> sScSScSSv620S at  2419.02 seconds at    67.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    4.975 s/deg.
-   16.85  2891.0   621.3
-   48.47  2891.0  1640.3
-   65.64   620.0  2284.4
-> sScSScSSv620S at  2421.50 seconds at    67.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.004 s/deg.
-   16.97  2891.0   621.9
-   48.83  2891.0  1642.1
-   66.13   620.0  2286.8
-> sScSScSSv620S at  2424.02 seconds at    68.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.033 s/deg.
-   17.10  2891.0   622.5
-   49.19  2891.0  1643.9
-   66.62   620.0  2289.3
-> sScSScSSv620S at  2426.55 seconds at    68.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.062 s/deg.
-   17.23  2891.0   623.2
-   49.56  2891.0  1645.7
-   67.11   620.0  2291.8
-> sScSScSSv620S at  2429.07 seconds at    69.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.091 s/deg.
-   17.35  2891.0   623.8
-   49.92  2891.0  1647.6
-   67.60   620.0  2294.3
-> sScSScSSv620S at  2431.63 seconds at    69.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.120 s/deg.
-   17.48  2891.0   624.4
-   50.29  2891.0  1649.4
-   68.10   620.0  2296.8
-> sScSScSSv620S at  2434.20 seconds at    70.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.148 s/deg.
-   17.60  2891.0   625.1
-   50.65  2891.0  1651.3
-   68.59   620.0  2299.3
-> sScSScSSv620S at  2436.78 seconds at    70.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.177 s/deg.
-   17.73  2891.0   625.7
-   51.01  2891.0  1653.2
-   69.08   620.0  2301.9
-> sScSScSSv620S at  2439.37 seconds at    71.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.205 s/deg.
-   17.85  2891.0   626.4
-   51.38  2891.0  1655.1
-   69.57   620.0  2304.4
-> sScSScSSv620S at  2441.99 seconds at    71.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.233 s/deg.
-   17.98  2891.0   627.0
-   51.74  2891.0  1657.0
-   70.06   620.0  2307.0
-> sScSScSSv620S at  2444.61 seconds at    72.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.261 s/deg.
-   18.10  2891.0   627.7
-   52.11  2891.0  1658.9
-   70.55   620.0  2309.5
-> sScSScSSv620S at  2447.24 seconds at    72.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.289 s/deg.
-   18.23  2891.0   628.3
-   52.47  2891.0  1660.8
-   71.05   620.0  2312.1
-> sScSScSSv620S at  2449.89 seconds at    73.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.317 s/deg.
-   18.36  2891.0   629.0
-   52.84  2891.0  1662.7
-   71.54   620.0  2314.7
-> sScSScSSv620S at  2452.56 seconds at    73.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.344 s/deg.
-   18.48  2891.0   629.7
-   53.20  2891.0  1664.7
-   72.03   620.0  2317.4
-> sScSScSSv620S at  2455.25 seconds at    74.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.372 s/deg.
-   18.61  2891.0   630.4
-   53.57  2891.0  1666.6
-   72.52   620.0  2320.0
-> sScSScSSv620S at  2457.93 seconds at    74.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.399 s/deg.
-   18.73  2891.0   631.0
-   53.93  2891.0  1668.6
-   73.01   620.0  2322.7
-> sScSScSSv620S at  2460.64 seconds at    75.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.426 s/deg.
-   18.86  2891.0   631.7
-   54.29  2891.0  1670.6
-   73.51   620.0  2325.3
-> sScSScSSv620S at  2463.36 seconds at    75.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.453 s/deg.
-   18.98  2891.0   632.4
-   54.66  2891.0  1672.6
-   74.00   620.0  2328.0
-> sScSScSSv620S at  2466.11 seconds at    76.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.480 s/deg.
-   19.11  2891.0   633.1
-   55.02  2891.0  1674.6
-   74.49   620.0  2330.7
-> sScSScSSv620S at  2468.85 seconds at    76.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.506 s/deg.
-   19.23  2891.0   633.8
-   55.39  2891.0  1676.6
-   74.98   620.0  2333.4
-> sScSScSSv620S at  2471.60 seconds at    77.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.533 s/deg.
-   19.36  2891.0   634.5
-   55.75  2891.0  1678.6
-   75.47   620.0  2336.1
-> sScSScSSv620S at  2474.38 seconds at    77.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.559 s/deg.
-   19.49  2891.0   635.2
-   56.12  2891.0  1680.6
-   75.97   620.0  2338.8
-> sScSScSSv620S at  2477.17 seconds at    78.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.585 s/deg.
-   19.61  2891.0   635.9
-   56.48  2891.0  1682.6
-   76.46   620.0  2341.6
-> sScSScSSv620S at  2479.97 seconds at    78.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.611 s/deg.
-   19.74  2891.0   636.6
-   56.85  2891.0  1684.7
-   76.95   620.0  2344.3
-> sScSScSSv620S at  2482.77 seconds at    79.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.637 s/deg.
-   19.86  2891.0   637.3
-   57.21  2891.0  1686.7
-   77.44   620.0  2347.1
-> sScSScSSv620S at  2485.59 seconds at    79.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.663 s/deg.
-   19.99  2891.0   638.0
-   57.58  2891.0  1688.8
-   77.94   620.0  2349.9
-> sScSScSSv620S at  2488.44 seconds at    80.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.689 s/deg.
-   20.11  2891.0   638.7
-   57.94  2891.0  1690.9
-   78.43   620.0  2352.7
-> sScSScSSv620S at  2491.29 seconds at    80.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.714 s/deg.
-   20.24  2891.0   639.4
-   58.31  2891.0  1692.9
-   78.92   620.0  2355.5
-> sScSScSSv620S at  2494.15 seconds at    81.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.739 s/deg.
-   20.36  2891.0   640.1
-   58.67  2891.0  1695.0
-   79.41   620.0  2358.3
-> sScSScSSv620S at  2497.03 seconds at    81.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.764 s/deg.
-   20.49  2891.0   640.8
-   59.04  2891.0  1697.1
-   79.91   620.0  2361.1
-> sScSScSSv620S at  2499.92 seconds at    82.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.789 s/deg.
-   20.62  2891.0   641.6
-   59.40  2891.0  1699.2
-   80.40   620.0  2364.0
-> sScSScSSv620S at  2502.81 seconds at    82.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.814 s/deg.
-   20.74  2891.0   642.3
-   59.77  2891.0  1701.4
-   80.89   620.0  2366.8
-> sScSScSSv620S at  2505.73 seconds at    83.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.839 s/deg.
-   20.87  2891.0   643.0
-   60.13  2891.0  1703.5
-   81.38   620.0  2369.7
-> sScSScSSv620S at  2508.66 seconds at    83.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.864 s/deg.
-   20.99  2891.0   643.8
-   60.50  2891.0  1705.6
-   81.88   620.0  2372.6
-> sScSScSSv620S at  2511.59 seconds at    84.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.888 s/deg.
-   21.12  2891.0   644.5
-   60.86  2891.0  1707.8
-   82.37   620.0  2375.5
-> sScSScSSv620S at  2514.55 seconds at    84.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.912 s/deg.
-   21.24  2891.0   645.2
-   61.23  2891.0  1709.9
-   82.86   620.0  2378.4
-> sScSScSSv620S at  2517.51 seconds at    85.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.936 s/deg.
-   21.37  2891.0   646.0
-   61.60  2891.0  1712.1
-   83.35   620.0  2381.3
-> sScSScSSv620S at  2520.47 seconds at    85.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.960 s/deg.
-   21.49  2891.0   646.7
-   61.96  2891.0  1714.3
-   83.85   620.0  2384.2
-> sScSScSSv620S at  2523.46 seconds at    86.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    5.984 s/deg.
-   21.62  2891.0   647.5
-   62.33  2891.0  1716.4
-   84.34   620.0  2387.2
-> sScSScSSv620S at  2526.46 seconds at    86.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    6.008 s/deg.
-   21.74  2891.0   648.2
-   62.69  2891.0  1718.6
-   84.83   620.0  2390.1
-> sScSScSSv620S at  2529.48 seconds at    87.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    6.031 s/deg.
-   21.87  2891.0   649.0
-   63.06  2891.0  1720.8
-   85.33   620.0  2393.1
-> sScSScSSv620S at  2532.50 seconds at    87.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    6.055 s/deg.
-   22.00  2891.0   649.8
-   63.42  2891.0  1723.1
-   85.82   620.0  2396.1
-> sScSScSSv620S at  2535.52 seconds at    88.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    6.078 s/deg.
-   22.12  2891.0   650.5
-   63.79  2891.0  1725.3
-   86.31   620.0  2399.1
-> sScSScSSv620S at  2538.57 seconds at    88.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    6.101 s/deg.
-   22.25  2891.0   651.3
-   64.16  2891.0  1727.5
-   86.81   620.0  2402.1
-> sScSScSSv620S at  2541.64 seconds at    89.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    6.124 s/deg.
-   22.37  2891.0   652.0
-   64.52  2891.0  1729.7
-   87.30   620.0  2405.1
-> sScSScSSv620S at  2544.70 seconds at    89.50 degrees for a    501.0 km deep source in the prem620 model with rayParam    6.147 s/deg.
-   22.50  2891.0   652.8
-   64.89  2891.0  1732.0
-   87.79   620.0  2408.1
-> sScSScSSv620S at  2547.77 seconds at    90.00 degrees for a    501.0 km deep source in the prem620 model with rayParam    6.170 s/deg.
-   22.62  2891.0   653.6
-   65.25  2891.0  1734.2
-   88.28   620.0  2411.2
+> sScSScSSv620S at  2270.52 seconds at     0.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.000 s/deg.
+    0.00  2891.0   604.6
+    0.00  2891.0  1540.3
+    0.00   620.0  2139.3
+> sScSScSSv620S at  2270.54 seconds at     0.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.041 s/deg.
+    0.13  2891.0   604.6
+    0.36  2891.0  1540.3
+    0.49   620.0  2139.3
+> sScSScSSv620S at  2270.57 seconds at     1.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.083 s/deg.
+    0.26  2891.0   604.6
+    0.72  2891.0  1540.3
+    0.98   620.0  2139.4
+> sScSScSSv620S at  2270.62 seconds at     1.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.124 s/deg.
+    0.38  2891.0   604.7
+    1.08  2891.0  1540.4
+    1.47   620.0  2139.4
+> sScSScSSv620S at  2270.69 seconds at     2.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.165 s/deg.
+    0.51  2891.0   604.7
+    1.45  2891.0  1540.4
+    1.96   620.0  2139.5
+> sScSScSSv620S at  2270.79 seconds at     2.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.206 s/deg.
+    0.64  2891.0   604.7
+    1.81  2891.0  1540.5
+    2.45   620.0  2139.6
+> sScSScSSv620S at  2270.90 seconds at     3.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.248 s/deg.
+    0.77  2891.0   604.7
+    2.17  2891.0  1540.6
+    2.93   620.0  2139.7
+> sScSScSSv620S at  2271.04 seconds at     3.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.289 s/deg.
+    0.90  2891.0   604.8
+    2.53  2891.0  1540.7
+    3.42   620.0  2139.8
+> sScSScSSv620S at  2271.18 seconds at     4.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.330 s/deg.
+    1.03  2891.0   604.8
+    2.89  2891.0  1540.8
+    3.91   620.0  2140.0
+> sScSScSSv620S at  2271.36 seconds at     4.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.371 s/deg.
+    1.15  2891.0   604.8
+    3.25  2891.0  1540.9
+    4.40   620.0  2140.1
+> sScSScSSv620S at  2271.56 seconds at     5.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.412 s/deg.
+    1.28  2891.0   604.9
+    3.61  2891.0  1541.0
+    4.89   620.0  2140.3
+> sScSScSSv620S at  2271.77 seconds at     5.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.454 s/deg.
+    1.41  2891.0   604.9
+    3.98  2891.0  1541.2
+    5.38   620.0  2140.5
+> sScSScSSv620S at  2272.01 seconds at     6.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.495 s/deg.
+    1.54  2891.0   605.0
+    4.34  2891.0  1541.4
+    5.87   620.0  2140.8
+> sScSScSSv620S at  2272.27 seconds at     6.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.536 s/deg.
+    1.67  2891.0   605.1
+    4.70  2891.0  1541.6
+    6.36   620.0  2141.0
+> sScSScSSv620S at  2272.56 seconds at     7.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.577 s/deg.
+    1.80  2891.0   605.1
+    5.06  2891.0  1541.8
+    6.85   620.0  2141.3
+> sScSScSSv620S at  2272.84 seconds at     7.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.618 s/deg.
+    1.92  2891.0   605.2
+    5.42  2891.0  1542.0
+    7.34   620.0  2141.6
+> sScSScSSv620S at  2273.16 seconds at     8.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.659 s/deg.
+    2.05  2891.0   605.3
+    5.78  2891.0  1542.2
+    7.82   620.0  2141.9
+> sScSScSSv620S at  2273.50 seconds at     8.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.700 s/deg.
+    2.18  2891.0   605.4
+    6.14  2891.0  1542.4
+    8.31   620.0  2142.2
+> sScSScSSv620S at  2273.86 seconds at     9.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.741 s/deg.
+    2.31  2891.0   605.5
+    6.51  2891.0  1542.7
+    8.80   620.0  2142.6
+> sScSScSSv620S at  2274.24 seconds at     9.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.782 s/deg.
+    2.44  2891.0   605.6
+    6.87  2891.0  1543.0
+    9.29   620.0  2143.0
+> sScSScSSv620S at  2274.65 seconds at    10.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.823 s/deg.
+    2.57  2891.0   605.7
+    7.23  2891.0  1543.3
+    9.78   620.0  2143.4
+> sScSScSSv620S at  2275.07 seconds at    10.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.864 s/deg.
+    2.69  2891.0   605.8
+    7.59  2891.0  1543.6
+   10.27   620.0  2143.8
+> sScSScSSv620S at  2275.51 seconds at    11.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.905 s/deg.
+    2.82  2891.0   605.9
+    7.95  2891.0  1543.9
+   10.76   620.0  2144.2
+> sScSScSSv620S at  2275.97 seconds at    11.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.946 s/deg.
+    2.95  2891.0   606.0
+    8.31  2891.0  1544.2
+   11.25   620.0  2144.7
+> sScSScSSv620S at  2276.46 seconds at    12.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    0.987 s/deg.
+    3.08  2891.0   606.1
+    8.68  2891.0  1544.6
+   11.74   620.0  2145.1
+> sScSScSSv620S at  2276.96 seconds at    12.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.027 s/deg.
+    3.21  2891.0   606.3
+    9.04  2891.0  1544.9
+   12.23   620.0  2145.6
+> sScSScSSv620S at  2277.49 seconds at    13.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.068 s/deg.
+    3.33  2891.0   606.4
+    9.40  2891.0  1545.3
+   12.72   620.0  2146.1
+> sScSScSSv620S at  2278.03 seconds at    13.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.109 s/deg.
+    3.46  2891.0   606.6
+    9.76  2891.0  1545.7
+   13.20   620.0  2146.7
+> sScSScSSv620S at  2278.60 seconds at    14.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.149 s/deg.
+    3.59  2891.0   606.7
+   10.12  2891.0  1546.1
+   13.69   620.0  2147.2
+> sScSScSSv620S at  2279.18 seconds at    14.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.190 s/deg.
+    3.72  2891.0   606.8
+   10.48  2891.0  1546.5
+   14.18   620.0  2147.8
+> sScSScSSv620S at  2279.79 seconds at    15.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.231 s/deg.
+    3.85  2891.0   607.0
+   10.84  2891.0  1547.0
+   14.67   620.0  2148.4
+> sScSScSSv620S at  2280.41 seconds at    15.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.271 s/deg.
+    3.98  2891.0   607.2
+   11.21  2891.0  1547.4
+   15.16   620.0  2149.0
+> sScSScSSv620S at  2281.05 seconds at    16.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.311 s/deg.
+    4.10  2891.0   607.3
+   11.57  2891.0  1547.9
+   15.65   620.0  2149.6
+> sScSScSSv620S at  2281.72 seconds at    16.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.352 s/deg.
+    4.23  2891.0   607.5
+   11.93  2891.0  1548.4
+   16.14   620.0  2150.3
+> sScSScSSv620S at  2282.41 seconds at    17.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.392 s/deg.
+    4.36  2891.0   607.7
+   12.29  2891.0  1548.9
+   16.63   620.0  2150.9
+> sScSScSSv620S at  2283.11 seconds at    17.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.433 s/deg.
+    4.49  2891.0   607.9
+   12.65  2891.0  1549.4
+   17.12   620.0  2151.6
+> sScSScSSv620S at  2283.84 seconds at    18.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.473 s/deg.
+    4.62  2891.0   608.0
+   13.01  2891.0  1549.9
+   17.61   620.0  2152.3
+> sScSScSSv620S at  2284.58 seconds at    18.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.513 s/deg.
+    4.75  2891.0   608.2
+   13.38  2891.0  1550.5
+   18.10   620.0  2153.1
+> sScSScSSv620S at  2285.35 seconds at    19.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.553 s/deg.
+    4.87  2891.0   608.4
+   13.74  2891.0  1551.0
+   18.59   620.0  2153.8
+> sScSScSSv620S at  2286.13 seconds at    19.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.593 s/deg.
+    5.00  2891.0   608.6
+   14.10  2891.0  1551.6
+   19.07   620.0  2154.6
+> sScSScSSv620S at  2286.94 seconds at    20.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.633 s/deg.
+    5.13  2891.0   608.8
+   14.46  2891.0  1552.2
+   19.56   620.0  2155.4
+> sScSScSSv620S at  2287.77 seconds at    20.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.673 s/deg.
+    5.26  2891.0   609.0
+   14.82  2891.0  1552.8
+   20.05   620.0  2156.2
+> sScSScSSv620S at  2288.61 seconds at    21.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.713 s/deg.
+    5.39  2891.0   609.3
+   15.19  2891.0  1553.4
+   20.54   620.0  2157.0
+> sScSScSSv620S at  2289.48 seconds at    21.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.753 s/deg.
+    5.51  2891.0   609.5
+   15.55  2891.0  1554.0
+   21.03   620.0  2157.9
+> sScSScSSv620S at  2290.37 seconds at    22.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.793 s/deg.
+    5.64  2891.0   609.7
+   15.91  2891.0  1554.6
+   21.52   620.0  2158.7
+> sScSScSSv620S at  2291.27 seconds at    22.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.832 s/deg.
+    5.77  2891.0   609.9
+   16.27  2891.0  1555.3
+   22.01   620.0  2159.6
+> sScSScSSv620S at  2292.20 seconds at    23.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.872 s/deg.
+    5.90  2891.0   610.2
+   16.63  2891.0  1556.0
+   22.50   620.0  2160.5
+> sScSScSSv620S at  2293.14 seconds at    23.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.911 s/deg.
+    6.03  2891.0   610.4
+   16.99  2891.0  1556.7
+   22.99   620.0  2161.5
+> sScSScSSv620S at  2294.11 seconds at    24.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.951 s/deg.
+    6.16  2891.0   610.7
+   17.36  2891.0  1557.4
+   23.48   620.0  2162.4
+> sScSScSSv620S at  2295.10 seconds at    24.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    1.990 s/deg.
+    6.28  2891.0   610.9
+   17.72  2891.0  1558.1
+   23.97   620.0  2163.4
+> sScSScSSv620S at  2296.10 seconds at    25.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.030 s/deg.
+    6.41  2891.0   611.2
+   18.08  2891.0  1558.8
+   24.46   620.0  2164.3
+> sScSScSSv620S at  2297.13 seconds at    25.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.069 s/deg.
+    6.54  2891.0   611.4
+   18.44  2891.0  1559.5
+   24.95   620.0  2165.4
+> sScSScSSv620S at  2298.20 seconds at    26.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.108 s/deg.
+    6.67  2891.0   611.7
+   18.80  2891.0  1560.3
+   25.44   620.0  2166.4
+> sScSScSSv620S at  2299.26 seconds at    26.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.147 s/deg.
+    6.80  2891.0   612.0
+   19.17  2891.0  1561.1
+   25.93   620.0  2167.4
+> sScSScSSv620S at  2300.33 seconds at    27.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.186 s/deg.
+    6.92  2891.0   612.3
+   19.53  2891.0  1561.9
+   26.41   620.0  2168.5
+> sScSScSSv620S at  2301.43 seconds at    27.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.225 s/deg.
+    7.05  2891.0   612.6
+   19.89  2891.0  1562.6
+   26.90   620.0  2169.6
+> sScSScSSv620S at  2302.55 seconds at    28.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.264 s/deg.
+    7.18  2891.0   612.8
+   20.25  2891.0  1563.5
+   27.39   620.0  2170.7
+> sScSScSSv620S at  2303.69 seconds at    28.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.303 s/deg.
+    7.31  2891.0   613.1
+   20.61  2891.0  1564.3
+   27.88   620.0  2171.8
+> sScSScSSv620S at  2304.86 seconds at    29.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.341 s/deg.
+    7.44  2891.0   613.4
+   20.98  2891.0  1565.1
+   28.37   620.0  2172.9
+> sScSScSSv620S at  2306.03 seconds at    29.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.380 s/deg.
+    7.57  2891.0   613.7
+   21.34  2891.0  1566.0
+   28.86   620.0  2174.1
+> sScSScSSv620S at  2307.23 seconds at    30.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.418 s/deg.
+    7.69  2891.0   614.0
+   21.70  2891.0  1566.9
+   29.35   620.0  2175.2
+> sScSScSSv620S at  2308.45 seconds at    30.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.457 s/deg.
+    7.82  2891.0   614.3
+   22.06  2891.0  1567.7
+   29.84   620.0  2176.4
+> sScSScSSv620S at  2309.69 seconds at    31.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.495 s/deg.
+    7.95  2891.0   614.7
+   22.42  2891.0  1568.6
+   30.33   620.0  2177.6
+> sScSScSSv620S at  2310.95 seconds at    31.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.533 s/deg.
+    8.08  2891.0   615.0
+   22.79  2891.0  1569.5
+   30.82   620.0  2178.9
+> sScSScSSv620S at  2312.21 seconds at    32.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.571 s/deg.
+    8.21  2891.0   615.3
+   23.15  2891.0  1570.5
+   31.31   620.0  2180.1
+> sScSScSSv620S at  2313.52 seconds at    32.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.609 s/deg.
+    8.33  2891.0   615.6
+   23.51  2891.0  1571.4
+   31.80   620.0  2181.4
+> sScSScSSv620S at  2314.83 seconds at    33.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.647 s/deg.
+    8.46  2891.0   616.0
+   23.87  2891.0  1572.4
+   32.29   620.0  2182.7
+> sScSScSSv620S at  2316.17 seconds at    33.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.685 s/deg.
+    8.59  2891.0   616.3
+   24.24  2891.0  1573.3
+   32.78   620.0  2184.0
+> sScSScSSv620S at  2317.52 seconds at    34.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.723 s/deg.
+    8.72  2891.0   616.7
+   24.60  2891.0  1574.3
+   33.27   620.0  2185.3
+> sScSScSSv620S at  2318.88 seconds at    34.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.761 s/deg.
+    8.85  2891.0   617.0
+   24.96  2891.0  1575.3
+   33.76   620.0  2186.7
+> sScSScSSv620S at  2320.28 seconds at    35.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.798 s/deg.
+    8.97  2891.0   617.4
+   25.32  2891.0  1576.3
+   34.25   620.0  2188.0
+> sScSScSSv620S at  2321.68 seconds at    35.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.836 s/deg.
+    9.10  2891.0   617.7
+   25.68  2891.0  1577.3
+   34.74   620.0  2189.4
+> sScSScSSv620S at  2323.11 seconds at    36.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.873 s/deg.
+    9.23  2891.0   618.1
+   26.05  2891.0  1578.4
+   35.23   620.0  2190.8
+> sScSScSSv620S at  2324.55 seconds at    36.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.910 s/deg.
+    9.36  2891.0   618.5
+   26.41  2891.0  1579.4
+   35.72   620.0  2192.2
+> sScSScSSv620S at  2326.02 seconds at    37.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.947 s/deg.
+    9.49  2891.0   618.8
+   26.77  2891.0  1580.5
+   36.21   620.0  2193.6
+> sScSScSSv620S at  2327.51 seconds at    37.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    2.984 s/deg.
+    9.61  2891.0   619.2
+   27.13  2891.0  1581.5
+   36.70   620.0  2195.1
+> sScSScSSv620S at  2329.01 seconds at    38.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.021 s/deg.
+    9.74  2891.0   619.6
+   27.50  2891.0  1582.6
+   37.19   620.0  2196.6
+> sScSScSSv620S at  2330.52 seconds at    38.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.058 s/deg.
+    9.87  2891.0   620.0
+   27.86  2891.0  1583.7
+   37.68   620.0  2198.1
+> sScSScSSv620S at  2332.07 seconds at    39.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.095 s/deg.
+   10.00  2891.0   620.4
+   28.22  2891.0  1584.9
+   38.17   620.0  2199.6
+> sScSScSSv620S at  2333.62 seconds at    39.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.131 s/deg.
+   10.13  2891.0   620.8
+   28.58  2891.0  1586.0
+   38.66   620.0  2201.1
+> sScSScSSv620S at  2335.20 seconds at    40.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.168 s/deg.
+   10.25  2891.0   621.2
+   28.95  2891.0  1587.1
+   39.15   620.0  2202.6
+> sScSScSSv620S at  2336.80 seconds at    40.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.204 s/deg.
+   10.38  2891.0   621.6
+   29.31  2891.0  1588.3
+   39.64   620.0  2204.2
+> sScSScSSv620S at  2338.39 seconds at    41.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.240 s/deg.
+   10.51  2891.0   622.0
+   29.67  2891.0  1589.4
+   40.13   620.0  2205.8
+> sScSScSSv620S at  2340.04 seconds at    41.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.276 s/deg.
+   10.64  2891.0   622.4
+   30.04  2891.0  1590.6
+   40.62   620.0  2207.4
+> sScSScSSv620S at  2341.68 seconds at    42.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.312 s/deg.
+   10.77  2891.0   622.9
+   30.40  2891.0  1591.8
+   41.11   620.0  2209.0
+> sScSScSSv620S at  2343.33 seconds at    42.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.348 s/deg.
+   10.89  2891.0   623.3
+   30.76  2891.0  1593.0
+   41.60   620.0  2210.6
+> sScSScSSv620S at  2345.02 seconds at    43.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.384 s/deg.
+   11.02  2891.0   623.7
+   31.12  2891.0  1594.2
+   42.09   620.0  2212.3
+> sScSScSSv620S at  2346.72 seconds at    43.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.420 s/deg.
+   11.15  2891.0   624.1
+   31.49  2891.0  1595.5
+   42.58   620.0  2213.9
+> sScSScSSv620S at  2348.44 seconds at    44.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.455 s/deg.
+   11.28  2891.0   624.6
+   31.85  2891.0  1596.7
+   43.07   620.0  2215.6
+> sScSScSSv620S at  2350.19 seconds at    44.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.491 s/deg.
+   11.41  2891.0   625.0
+   32.21  2891.0  1598.0
+   43.56   620.0  2217.3
+> sScSScSSv620S at  2351.94 seconds at    45.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.526 s/deg.
+   11.53  2891.0   625.5
+   32.58  2891.0  1599.3
+   44.05   620.0  2219.1
+> sScSScSSv620S at  2353.71 seconds at    45.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.561 s/deg.
+   11.66  2891.0   625.9
+   32.94  2891.0  1600.6
+   44.54   620.0  2220.8
+> sScSScSSv620S at  2355.51 seconds at    46.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.596 s/deg.
+   11.79  2891.0   626.4
+   33.30  2891.0  1601.9
+   45.03   620.0  2222.5
+> sScSScSSv620S at  2357.31 seconds at    46.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.631 s/deg.
+   11.92  2891.0   626.9
+   33.66  2891.0  1603.2
+   45.52   620.0  2224.3
+> sScSScSSv620S at  2359.13 seconds at    47.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.666 s/deg.
+   12.05  2891.0   627.3
+   34.03  2891.0  1604.5
+   46.01   620.0  2226.1
+> sScSScSSv620S at  2360.98 seconds at    47.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.701 s/deg.
+   12.17  2891.0   627.8
+   34.39  2891.0  1605.8
+   46.50   620.0  2227.9
+> sScSScSSv620S at  2362.83 seconds at    48.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.735 s/deg.
+   12.30  2891.0   628.3
+   34.75  2891.0  1607.2
+   46.99   620.0  2229.7
+> sScSScSSv620S at  2364.71 seconds at    48.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.770 s/deg.
+   12.43  2891.0   628.7
+   35.12  2891.0  1608.5
+   47.48   620.0  2231.6
+> sScSScSSv620S at  2366.61 seconds at    49.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.804 s/deg.
+   12.56  2891.0   629.2
+   35.48  2891.0  1609.9
+   47.97   620.0  2233.4
+> sScSScSSv620S at  2368.52 seconds at    49.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.838 s/deg.
+   12.69  2891.0   629.7
+   35.84  2891.0  1611.3
+   48.46   620.0  2235.3
+> sScSScSSv620S at  2370.43 seconds at    50.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.873 s/deg.
+   12.81  2891.0   630.2
+   36.21  2891.0  1612.7
+   48.95   620.0  2237.2
+> sScSScSSv620S at  2372.39 seconds at    50.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.906 s/deg.
+   12.94  2891.0   630.7
+   36.57  2891.0  1614.1
+   49.44   620.0  2239.1
+> sScSScSSv620S at  2374.35 seconds at    51.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.940 s/deg.
+   13.07  2891.0   631.2
+   36.93  2891.0  1615.5
+   49.93   620.0  2241.0
+> sScSScSSv620S at  2376.32 seconds at    51.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    3.974 s/deg.
+   13.20  2891.0   631.7
+   37.30  2891.0  1617.0
+   50.42   620.0  2243.0
+> sScSScSSv620S at  2378.32 seconds at    52.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.008 s/deg.
+   13.32  2891.0   632.2
+   37.66  2891.0  1618.4
+   50.91   620.0  2244.9
+> sScSScSSv620S at  2380.33 seconds at    52.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.041 s/deg.
+   13.45  2891.0   632.7
+   38.02  2891.0  1619.9
+   51.40   620.0  2246.9
+> sScSScSSv620S at  2382.35 seconds at    53.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.074 s/deg.
+   13.58  2891.0   633.3
+   38.39  2891.0  1621.4
+   51.89   620.0  2248.9
+> sScSScSSv620S at  2384.40 seconds at    53.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.107 s/deg.
+   13.71  2891.0   633.8
+   38.75  2891.0  1622.8
+   52.39   620.0  2250.9
+> sScSScSSv620S at  2386.46 seconds at    54.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.140 s/deg.
+   13.84  2891.0   634.3
+   39.11  2891.0  1624.3
+   52.88   620.0  2252.9
+> sScSScSSv620S at  2388.54 seconds at    54.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.173 s/deg.
+   13.96  2891.0   634.8
+   39.48  2891.0  1625.9
+   53.37   620.0  2255.0
+> sScSScSSv620S at  2390.64 seconds at    55.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.206 s/deg.
+   14.09  2891.0   635.4
+   39.84  2891.0  1627.4
+   53.86   620.0  2257.0
+> sScSScSSv620S at  2392.75 seconds at    55.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.239 s/deg.
+   14.22  2891.0   635.9
+   40.20  2891.0  1628.9
+   54.35   620.0  2259.1
+> sScSScSSv620S at  2394.87 seconds at    56.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.271 s/deg.
+   14.35  2891.0   636.5
+   40.57  2891.0  1630.5
+   54.84   620.0  2261.2
+> sScSScSSv620S at  2397.01 seconds at    56.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.304 s/deg.
+   14.47  2891.0   637.0
+   40.93  2891.0  1632.0
+   55.33   620.0  2263.3
+> sScSScSSv620S at  2399.18 seconds at    57.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.336 s/deg.
+   14.60  2891.0   637.6
+   41.30  2891.0  1633.6
+   55.82   620.0  2265.4
+> sScSScSSv620S at  2401.35 seconds at    57.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.368 s/deg.
+   14.73  2891.0   638.1
+   41.66  2891.0  1635.2
+   56.31   620.0  2267.5
+> sScSScSSv620S at  2403.54 seconds at    58.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.400 s/deg.
+   14.86  2891.0   638.7
+   42.02  2891.0  1636.8
+   56.80   620.0  2269.7
+> sScSScSSv620S at  2405.75 seconds at    58.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.432 s/deg.
+   14.99  2891.0   639.2
+   42.39  2891.0  1638.4
+   57.29   620.0  2271.8
+> sScSScSSv620S at  2407.98 seconds at    59.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.463 s/deg.
+   15.11  2891.0   639.8
+   42.75  2891.0  1640.0
+   57.78   620.0  2274.0
+> sScSScSSv620S at  2410.22 seconds at    59.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.495 s/deg.
+   15.24  2891.0   640.4
+   43.11  2891.0  1641.6
+   58.28   620.0  2276.2
+> sScSScSSv620S at  2412.47 seconds at    60.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.526 s/deg.
+   15.37  2891.0   641.0
+   43.48  2891.0  1643.3
+   58.77   620.0  2278.4
+> sScSScSSv620S at  2414.74 seconds at    60.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.557 s/deg.
+   15.50  2891.0   641.5
+   43.84  2891.0  1644.9
+   59.26   620.0  2280.7
+> sScSScSSv620S at  2417.03 seconds at    61.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.589 s/deg.
+   15.62  2891.0   642.1
+   44.21  2891.0  1646.6
+   59.75   620.0  2282.9
+> sScSScSSv620S at  2419.33 seconds at    61.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.620 s/deg.
+   15.75  2891.0   642.7
+   44.57  2891.0  1648.3
+   60.24   620.0  2285.2
+> sScSScSSv620S at  2421.65 seconds at    62.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.650 s/deg.
+   15.88  2891.0   643.3
+   44.93  2891.0  1649.9
+   60.73   620.0  2287.5
+> sScSScSSv620S at  2424.00 seconds at    62.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.681 s/deg.
+   16.01  2891.0   643.9
+   45.30  2891.0  1651.7
+   61.22   620.0  2289.8
+> sScSScSSv620S at  2426.35 seconds at    63.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.711 s/deg.
+   16.13  2891.0   644.5
+   45.66  2891.0  1653.4
+   61.71   620.0  2292.1
+> sScSScSSv620S at  2428.70 seconds at    63.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.742 s/deg.
+   16.26  2891.0   645.1
+   46.03  2891.0  1655.1
+   62.20   620.0  2294.4
+> sScSScSSv620S at  2431.08 seconds at    64.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.772 s/deg.
+   16.39  2891.0   645.7
+   46.39  2891.0  1656.8
+   62.70   620.0  2296.7
+> sScSScSSv620S at  2433.47 seconds at    64.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.802 s/deg.
+   16.52  2891.0   646.3
+   46.76  2891.0  1658.6
+   63.19   620.0  2299.1
+> sScSScSSv620S at  2435.88 seconds at    65.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.832 s/deg.
+   16.64  2891.0   646.9
+   47.12  2891.0  1660.3
+   63.68   620.0  2301.4
+> sScSScSSv620S at  2438.30 seconds at    65.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.862 s/deg.
+   16.77  2891.0   647.5
+   47.48  2891.0  1662.1
+   64.17   620.0  2303.8
+> sScSScSSv620S at  2440.73 seconds at    66.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.892 s/deg.
+   16.90  2891.0   648.2
+   47.85  2891.0  1663.9
+   64.66   620.0  2306.2
+> sScSScSSv620S at  2443.19 seconds at    66.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.921 s/deg.
+   17.03  2891.0   648.8
+   48.21  2891.0  1665.6
+   65.15   620.0  2308.6
+> sScSScSSv620S at  2445.67 seconds at    67.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.951 s/deg.
+   17.16  2891.0   649.4
+   48.58  2891.0  1667.5
+   65.64   620.0  2311.1
+> sScSScSSv620S at  2448.15 seconds at    67.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    4.980 s/deg.
+   17.28  2891.0   650.1
+   48.94  2891.0  1669.3
+   66.14   620.0  2313.5
+> sScSScSSv620S at  2450.64 seconds at    68.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.009 s/deg.
+   17.41  2891.0   650.7
+   49.31  2891.0  1671.1
+   66.63   620.0  2316.0
+> sScSScSSv620S at  2453.16 seconds at    68.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.038 s/deg.
+   17.54  2891.0   651.3
+   49.67  2891.0  1672.9
+   67.12   620.0  2318.4
+> sScSScSSv620S at  2455.69 seconds at    69.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.067 s/deg.
+   17.67  2891.0   652.0
+   50.04  2891.0  1674.8
+   67.61   620.0  2320.9
+> sScSScSSv620S at  2458.21 seconds at    69.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.096 s/deg.
+   17.79  2891.0   652.6
+   50.40  2891.0  1676.6
+   68.10   620.0  2323.4
+> sScSScSSv620S at  2460.77 seconds at    70.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.124 s/deg.
+   17.92  2891.0   653.3
+   50.77  2891.0  1678.5
+   68.59   620.0  2325.9
+> sScSScSSv620S at  2463.34 seconds at    70.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.153 s/deg.
+   18.05  2891.0   653.9
+   51.13  2891.0  1680.3
+   69.09   620.0  2328.4
+> sScSScSSv620S at  2465.93 seconds at    71.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.181 s/deg.
+   18.18  2891.0   654.6
+   51.50  2891.0  1682.2
+   69.58   620.0  2331.0
+> sScSScSSv620S at  2468.52 seconds at    71.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.209 s/deg.
+   18.30  2891.0   655.3
+   51.86  2891.0  1684.1
+   70.07   620.0  2333.5
+> sScSScSSv620S at  2471.14 seconds at    72.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.237 s/deg.
+   18.43  2891.0   655.9
+   52.23  2891.0  1686.0
+   70.56   620.0  2336.1
+> sScSScSSv620S at  2473.76 seconds at    72.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.265 s/deg.
+   18.56  2891.0   656.6
+   52.59  2891.0  1687.9
+   71.05   620.0  2338.7
+> sScSScSSv620S at  2476.40 seconds at    73.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.292 s/deg.
+   18.68  2891.0   657.3
+   52.96  2891.0  1689.9
+   71.55   620.0  2341.3
+> sScSScSSv620S at  2479.05 seconds at    73.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.320 s/deg.
+   18.81  2891.0   657.9
+   53.32  2891.0  1691.8
+   72.04   620.0  2343.9
+> sScSScSSv620S at  2481.72 seconds at    74.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.347 s/deg.
+   18.94  2891.0   658.6
+   53.69  2891.0  1693.8
+   72.53   620.0  2346.5
+> sScSScSSv620S at  2484.40 seconds at    74.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.375 s/deg.
+   19.07  2891.0   659.3
+   54.05  2891.0  1695.7
+   73.02   620.0  2349.2
+> sScSScSSv620S at  2487.09 seconds at    75.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.402 s/deg.
+   19.19  2891.0   660.0
+   54.42  2891.0  1697.7
+   73.51   620.0  2351.8
+> sScSScSSv620S at  2489.80 seconds at    75.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.429 s/deg.
+   19.32  2891.0   660.7
+   54.78  2891.0  1699.7
+   74.01   620.0  2354.5
+> sScSScSSv620S at  2492.52 seconds at    76.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.455 s/deg.
+   19.45  2891.0   661.4
+   55.15  2891.0  1701.7
+   74.50   620.0  2357.2
+> sScSScSSv620S at  2495.27 seconds at    76.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.482 s/deg.
+   19.58  2891.0   662.1
+   55.51  2891.0  1703.7
+   74.99   620.0  2359.9
+> sScSScSSv620S at  2498.02 seconds at    77.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.508 s/deg.
+   19.70  2891.0   662.8
+   55.88  2891.0  1705.7
+   75.48   620.0  2362.6
+> sScSScSSv620S at  2500.77 seconds at    77.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.535 s/deg.
+   19.83  2891.0   663.5
+   56.24  2891.0  1707.7
+   75.97   620.0  2365.3
+> sScSScSSv620S at  2503.55 seconds at    78.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.561 s/deg.
+   19.96  2891.0   664.2
+   56.61  2891.0  1709.7
+   76.47   620.0  2368.0
+> sScSScSSv620S at  2506.34 seconds at    78.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.587 s/deg.
+   20.09  2891.0   664.9
+   56.97  2891.0  1711.8
+   76.96   620.0  2370.8
+> sScSScSSv620S at  2509.14 seconds at    79.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.613 s/deg.
+   20.21  2891.0   665.6
+   57.34  2891.0  1713.8
+   77.45   620.0  2373.5
+> sScSScSSv620S at  2511.94 seconds at    79.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.639 s/deg.
+   20.34  2891.0   666.3
+   57.70  2891.0  1715.8
+   77.94   620.0  2376.3
+> sScSScSSv620S at  2514.76 seconds at    80.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.664 s/deg.
+   20.47  2891.0   667.0
+   58.07  2891.0  1717.9
+   78.44   620.0  2379.1
+> sScSScSSv620S at  2517.61 seconds at    80.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.690 s/deg.
+   20.60  2891.0   667.8
+   58.44  2891.0  1720.0
+   78.93   620.0  2381.9
+> sScSScSSv620S at  2520.46 seconds at    81.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.715 s/deg.
+   20.72  2891.0   668.5
+   58.80  2891.0  1722.1
+   79.42   620.0  2384.7
+> sScSScSSv620S at  2523.32 seconds at    81.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.740 s/deg.
+   20.85  2891.0   669.2
+   59.17  2891.0  1724.2
+   79.91   620.0  2387.5
+> sScSScSSv620S at  2526.20 seconds at    82.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.765 s/deg.
+   20.98  2891.0   669.9
+   59.53  2891.0  1726.3
+   80.41   620.0  2390.3
+> sScSScSSv620S at  2529.09 seconds at    82.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.790 s/deg.
+   21.10  2891.0   670.7
+   59.90  2891.0  1728.4
+   80.90   620.0  2393.2
+> sScSScSSv620S at  2531.98 seconds at    83.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.815 s/deg.
+   21.23  2891.0   671.4
+   60.27  2891.0  1730.5
+   81.39   620.0  2396.0
+> sScSScSSv620S at  2534.91 seconds at    83.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.840 s/deg.
+   21.36  2891.0   672.2
+   60.63  2891.0  1732.6
+   81.88   620.0  2398.9
+> sScSScSSv620S at  2537.83 seconds at    84.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.864 s/deg.
+   21.49  2891.0   672.9
+   61.00  2891.0  1734.8
+   82.38   620.0  2401.8
+> sScSScSSv620S at  2540.76 seconds at    84.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.888 s/deg.
+   21.61  2891.0   673.7
+   61.36  2891.0  1736.9
+   82.87   620.0  2404.7
+> sScSScSSv620S at  2543.72 seconds at    85.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.912 s/deg.
+   21.74  2891.0   674.4
+   61.73  2891.0  1739.1
+   83.36   620.0  2407.6
+> sScSScSSv620S at  2546.68 seconds at    85.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.936 s/deg.
+   21.87  2891.0   675.2
+   62.10  2891.0  1741.3
+   83.85   620.0  2410.5
+> sScSScSSv620S at  2549.65 seconds at    86.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.960 s/deg.
+   21.99  2891.0   675.9
+   62.46  2891.0  1743.4
+   84.35   620.0  2413.4
+> sScSScSSv620S at  2552.64 seconds at    86.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    5.984 s/deg.
+   22.12  2891.0   676.7
+   62.83  2891.0  1745.6
+   84.84   620.0  2416.4
+> sScSScSSv620S at  2555.63 seconds at    87.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    6.008 s/deg.
+   22.25  2891.0   677.4
+   63.19  2891.0  1747.8
+   85.33   620.0  2419.3
+> sScSScSSv620S at  2558.65 seconds at    87.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    6.031 s/deg.
+   22.38  2891.0   678.2
+   63.56  2891.0  1750.0
+   85.83   620.0  2422.3
+> sScSScSSv620S at  2561.68 seconds at    88.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    6.054 s/deg.
+   22.50  2891.0   679.0
+   63.93  2891.0  1752.2
+   86.32   620.0  2425.3
+> sScSScSSv620S at  2564.70 seconds at    88.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    6.077 s/deg.
+   22.63  2891.0   679.7
+   64.29  2891.0  1754.5
+   86.81   620.0  2428.3
+> sScSScSSv620S at  2567.74 seconds at    89.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    6.100 s/deg.
+   22.76  2891.0   680.5
+   64.66  2891.0  1756.7
+   87.31   620.0  2431.3
+> sScSScSSv620S at  2570.81 seconds at    89.50 degrees for a    651.0 km deep source in the prem620 model with rayParam    6.123 s/deg.
+   22.88  2891.0   681.3
+   65.03  2891.0  1758.9
+   87.80   620.0  2434.3
+> sScSScSSv620S at  2573.88 seconds at    90.00 degrees for a    651.0 km deep source in the prem620 model with rayParam    6.146 s/deg.
+   23.01  2891.0   682.1
+   65.39  2891.0  1761.2
+   88.29   620.0  2437.3

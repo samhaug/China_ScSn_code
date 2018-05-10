@@ -6,7 +6,7 @@
 File Name : time_2_array.py
 Purpose : turn output of taup_time command into simple ascii table
 Creation Date : 07-05-2018
-Last Modified : Tue 08 May 2018 11:55:46 AM EDT
+Last Modified : Thu 10 May 2018 10:45:12 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,11 +19,12 @@ import h5py
 from glob import glob
 
 def main():
-    flist = glob('./pierce/*gmt')
+    depth = argv[1].split('_')[1]
+    f = h5py.File('pierce_{}.h5'.format(depth),'w')
+    flist = glob(argv[1]+'/*gmt')
     for ii in flist:
         if 'PURE' in ii:
             flist.remove(ii)
-    f = h5py.File('pierce_lookup.h5','w')
 
     f.create_group('ScS2')
     f.create_group('ScS3_1')
@@ -38,11 +39,11 @@ def main():
     f.create_group('sScS3_3')
     f.create_group('sScS3_4')
 
-    f.create_dataset('PURE_ScS2', data=np.genfromtxt('./pierce/PURE_ScS2.gmt'))
-    f.create_dataset('PURE_ScS3', data=np.genfromtxt('./pierce/PURE_ScS3.gmt'))
-    f.create_dataset('PURE_sScS', data=np.genfromtxt('./pierce/PURE_sScS.gmt'))
-    f.create_dataset('PURE_sScS2',data=np.genfromtxt('./pierce/PURE_sScS2.gmt'))
-    f.create_dataset('PURE_sScS3',data=np.genfromtxt('./pierce/PURE_sScS3.gmt'))
+    #f.create_dataset('PURE_ScS2', data=np.genfromtxt('./pierce/PURE_ScS2.gmt'))
+    #f.create_dataset('PURE_ScS3', data=np.genfromtxt('./pierce/PURE_ScS3.gmt'))
+    #f.create_dataset('PURE_sScS', data=np.genfromtxt('./pierce/PURE_sScS.gmt'))
+    #f.create_dataset('PURE_sScS2',data=np.genfromtxt('./pierce/PURE_sScS2.gmt'))
+    #f.create_dataset('PURE_sScS3',data=np.genfromtxt('./pierce/PURE_sScS3.gmt'))
 
     for ii in flist:
         c = ii.split('/')[-1].split('.')[0]

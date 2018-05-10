@@ -6,7 +6,7 @@
 File Name : time_2_h5.py
 Purpose : turn output of taup_time command into h5_lookup
 Creation Date : 07-05-2018
-Last Modified : Wed 09 May 2018 10:16:47 AM EDT
+Last Modified : Thu 10 May 2018 10:35:26 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -21,13 +21,14 @@ from sys import argv
 
 def main():
 
-    f = h5py.File('times_{}.h5'.format(str(argv[1])),'w')
+    depth = argv[1].split('_')[1]
+    f = h5py.File('times_{}.h5'.format(depth),'w')
     f.create_group('sScS')
     f.create_group('sScSScS')
     f.create_group('sScSScSScS')
     f.create_group('ScSScS')
     f.create_group('ScSScSScS')
-    files = glob('./time/*gmt')
+    files = glob(argv[1]+'/*gmt')
     for ii in files:
         #print ii.split('/')[-1]
         if ii.split('/')[-1].startswith('PURE'):
@@ -57,3 +58,5 @@ def main():
                 f['ScSScSScS'].create_dataset(name,data=np.genfromtxt(ii))
 
 main()
+
+

@@ -6,7 +6,7 @@
 File Name : make_3dlookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes for 3d model
 Creation Date : 20-12-2017
-Last Modified : Wed 09 May 2018 04:21:57 PM EDT
+Last Modified : Thu 10 May 2018 10:24:04 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -55,7 +55,8 @@ def main():
     h5f.close()
 
 def interp_netcdf_3d():
-    dataset = Dataset('/home/samhaug/work1/China_ScSn_code/3D_model/3D2016-09Sv-depth.nc')
+    dataset = Dataset('/home/samhaug/work1/China_ScSn_code/'\
+                      '3D_model/3D2016-09Sv-depth.nc')
     lat = dataset.variables['latitude'][::-1]
     lon = dataset.variables['longitude'][:]
     h = dataset.variables['depth'][:]
@@ -63,12 +64,9 @@ def interp_netcdf_3d():
     dvs = dataset.variables['dvs'][:].data
     top = np.zeros((1,dvs.shape[1],dvs.shape[2]))
     dvs = np.vstack((top,dvs))
-    for ii in range(17,len(dvs)):
-        dvs[ii] = np.zeros(dvs[ii].shape)
-    #We use 1-(dvs/100.) to adjust ttimes
-    #plt.imshow(dvs[2],aspect='auto',extent=[lon[0],lon[-1],lat[0],lat[-1]])
+    dvs[-1] = top
+    h[-1] = 2891.
     int_3d = RegularGridInterpolator((h,lat,lon),dvs)
-    #plt.show()
     return int_3d
 
 def make_lookup(phase_families,h5f,st,evdp,int_3d):
@@ -81,11 +79,11 @@ def make_lookup(phase_families,h5f,st,evdp,int_3d):
         for keys in phase_families:
             h5f[name].create_group(keys)
             arr = mod.get_ray_paths_geo(source_depth_in_km=evdp,
-                  source_latitude_in_deg=tr.stats.evla,
-                  source_longitude_in_deg=tr.stats.evlo,
-                  receiver_latitude_in_deg=tr.stats.stla,
-                  receiver_longitude_in_deg=tr.stats.stlo,
-                  phase_list=[keys])
+                source_latitude_in_deg=tr.stats.evla,
+                source_longitude_in_deg=tr.stats.evlo,
+                receiver_latitude_in_deg=tr.stats.stla,
+                receiver_longitude_in_deg=tr.stats.stlo,
+                phase_list=[keys])
             h5f[name][keys].create_dataset('1d_time',data=[arr[0].time])
             main_path = np.array([list((i[3],-i[4],i[5])) for i in arr[0].path])
             main_trace = 1-(int_3d(main_path)[1::]*0.01)

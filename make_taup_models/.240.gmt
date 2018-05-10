@@ -1,724 +1,724 @@
-> sScSScSSv240S at  2100.53 seconds at     0.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.000 s/deg.
-    0.00  2891.0   586.4
-    0.00  2891.0  1522.1
-    0.00   240.0  2045.2
-> sScSScSSv240S at  2100.55 seconds at     0.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.043 s/deg.
-    0.13  2891.0   586.4
-    0.37  2891.0  1522.1
-    0.50   240.0  2045.2
-> sScSScSSv240S at  2100.58 seconds at     1.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.085 s/deg.
-    0.26  2891.0   586.4
-    0.74  2891.0  1522.1
-    0.99   240.0  2045.3
-> sScSScSSv240S at  2100.64 seconds at     1.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.128 s/deg.
-    0.39  2891.0   586.4
-    1.12  2891.0  1522.2
-    1.49   240.0  2045.3
-> sScSScSSv240S at  2100.71 seconds at     2.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.171 s/deg.
-    0.52  2891.0   586.5
-    1.49  2891.0  1522.2
-    1.98   240.0  2045.4
-> sScSScSSv240S at  2100.81 seconds at     2.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.213 s/deg.
-    0.65  2891.0   586.5
-    1.86  2891.0  1522.3
-    2.48   240.0  2045.5
-> sScSScSSv240S at  2100.93 seconds at     3.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.256 s/deg.
-    0.78  2891.0   586.5
-    2.23  2891.0  1522.4
-    2.98   240.0  2045.6
-> sScSScSSv240S at  2101.06 seconds at     3.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.299 s/deg.
-    0.91  2891.0   586.5
-    2.60  2891.0  1522.5
-    3.47   240.0  2045.7
-> sScSScSSv240S at  2101.22 seconds at     4.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.342 s/deg.
-    1.04  2891.0   586.6
-    2.97  2891.0  1522.6
-    3.97   240.0  2045.9
-> sScSScSSv240S at  2101.40 seconds at     4.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.384 s/deg.
-    1.17  2891.0   586.6
-    3.35  2891.0  1522.7
-    4.47   240.0  2046.1
-> sScSScSSv240S at  2101.61 seconds at     5.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.427 s/deg.
-    1.30  2891.0   586.7
-    3.72  2891.0  1522.9
-    4.96   240.0  2046.3
-> sScSScSSv240S at  2101.83 seconds at     5.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.469 s/deg.
-    1.44  2891.0   586.7
-    4.09  2891.0  1523.0
-    5.46   240.0  2046.5
-> sScSScSSv240S at  2102.07 seconds at     6.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.512 s/deg.
-    1.57  2891.0   586.8
-    4.46  2891.0  1523.2
-    5.95   240.0  2046.7
-> sScSScSSv240S at  2102.35 seconds at     6.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.555 s/deg.
-    1.70  2891.0   586.9
-    4.83  2891.0  1523.4
-    6.45   240.0  2047.0
-> sScSScSSv240S at  2102.64 seconds at     7.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.597 s/deg.
-    1.83  2891.0   587.0
-    5.21  2891.0  1523.6
-    6.95   240.0  2047.3
-> sScSScSSv240S at  2102.94 seconds at     7.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.640 s/deg.
-    1.96  2891.0   587.0
-    5.58  2891.0  1523.9
-    7.44   240.0  2047.6
-> sScSScSSv240S at  2103.27 seconds at     8.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.682 s/deg.
-    2.09  2891.0   587.1
-    5.95  2891.0  1524.1
-    7.94   240.0  2047.9
-> sScSScSSv240S at  2103.62 seconds at     8.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.725 s/deg.
-    2.22  2891.0   587.2
-    6.32  2891.0  1524.4
-    8.44   240.0  2048.3
-> sScSScSSv240S at  2103.99 seconds at     9.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.767 s/deg.
-    2.35  2891.0   587.3
-    6.69  2891.0  1524.6
-    8.93   240.0  2048.7
-> sScSScSSv240S at  2104.39 seconds at     9.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.809 s/deg.
-    2.48  2891.0   587.4
-    7.06  2891.0  1524.9
-    9.43   240.0  2049.0
-> sScSScSSv240S at  2104.80 seconds at    10.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.852 s/deg.
-    2.61  2891.0   587.5
-    7.44  2891.0  1525.2
-    9.92   240.0  2049.5
-> sScSScSSv240S at  2105.24 seconds at    10.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.894 s/deg.
-    2.74  2891.0   587.6
-    7.81  2891.0  1525.6
-   10.42   240.0  2049.9
-> sScSScSSv240S at  2105.69 seconds at    11.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.936 s/deg.
-    2.87  2891.0   587.8
-    8.18  2891.0  1525.9
-   10.92   240.0  2050.3
-> sScSScSSv240S at  2106.18 seconds at    11.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    0.979 s/deg.
-    3.00  2891.0   587.9
-    8.55  2891.0  1526.3
-   11.41   240.0  2050.8
-> sScSScSSv240S at  2106.67 seconds at    12.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.021 s/deg.
-    3.13  2891.0   588.0
-    8.92  2891.0  1526.6
-   11.91   240.0  2051.3
-> sScSScSSv240S at  2107.20 seconds at    12.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.063 s/deg.
-    3.26  2891.0   588.2
-    9.30  2891.0  1527.0
-   12.41   240.0  2051.8
-> sScSScSSv240S at  2107.74 seconds at    13.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.105 s/deg.
-    3.39  2891.0   588.3
-    9.67  2891.0  1527.4
-   12.90   240.0  2052.4
-> sScSScSSv240S at  2108.31 seconds at    13.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.147 s/deg.
-    3.52  2891.0   588.4
-   10.04  2891.0  1527.9
-   13.40   240.0  2052.9
-> sScSScSSv240S at  2108.89 seconds at    14.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.189 s/deg.
-    3.65  2891.0   588.6
-   10.41  2891.0  1528.3
-   13.89   240.0  2053.5
-> sScSScSSv240S at  2109.49 seconds at    14.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.231 s/deg.
-    3.78  2891.0   588.7
-   10.78  2891.0  1528.7
-   14.39   240.0  2054.1
-> sScSScSSv240S at  2110.12 seconds at    15.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.273 s/deg.
-    3.91  2891.0   588.9
-   11.15  2891.0  1529.2
-   14.89   240.0  2054.7
-> sScSScSSv240S at  2110.76 seconds at    15.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.315 s/deg.
-    4.04  2891.0   589.1
-   11.53  2891.0  1529.7
-   15.38   240.0  2055.4
-> sScSScSSv240S at  2111.43 seconds at    16.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.357 s/deg.
-    4.17  2891.0   589.3
-   11.90  2891.0  1530.2
-   15.88   240.0  2056.0
-> sScSScSSv240S at  2112.12 seconds at    16.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.398 s/deg.
-    4.30  2891.0   589.4
-   12.27  2891.0  1530.7
-   16.38   240.0  2056.7
-> sScSScSSv240S at  2112.83 seconds at    17.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.440 s/deg.
-    4.43  2891.0   589.6
-   12.64  2891.0  1531.2
-   16.87   240.0  2057.4
-> sScSScSSv240S at  2113.56 seconds at    17.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.482 s/deg.
-    4.57  2891.0   589.8
-   13.01  2891.0  1531.8
-   17.37   240.0  2058.1
-> sScSScSSv240S at  2114.31 seconds at    18.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.523 s/deg.
-    4.70  2891.0   590.0
-   13.39  2891.0  1532.3
-   17.87   240.0  2058.9
-> sScSScSSv240S at  2115.08 seconds at    18.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.565 s/deg.
-    4.83  2891.0   590.2
-   13.76  2891.0  1532.9
-   18.36   240.0  2059.7
-> sScSScSSv240S at  2115.87 seconds at    19.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.606 s/deg.
-    4.96  2891.0   590.4
-   14.13  2891.0  1533.5
-   18.86   240.0  2060.4
-> sScSScSSv240S at  2116.69 seconds at    19.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.647 s/deg.
-    5.09  2891.0   590.6
-   14.50  2891.0  1534.1
-   19.35   240.0  2061.3
-> sScSScSSv240S at  2117.52 seconds at    20.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.689 s/deg.
-    5.22  2891.0   590.8
-   14.87  2891.0  1534.7
-   19.85   240.0  2062.1
-> sScSScSSv240S at  2118.37 seconds at    20.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.730 s/deg.
-    5.35  2891.0   591.1
-   15.24  2891.0  1535.3
-   20.35   240.0  2062.9
-> sScSScSSv240S at  2119.25 seconds at    21.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.771 s/deg.
-    5.48  2891.0   591.3
-   15.62  2891.0  1536.0
-   20.84   240.0  2063.8
-> sScSScSSv240S at  2120.15 seconds at    21.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.812 s/deg.
-    5.61  2891.0   591.5
-   15.99  2891.0  1536.7
-   21.34   240.0  2064.7
-> sScSScSSv240S at  2121.06 seconds at    22.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.853 s/deg.
-    5.74  2891.0   591.8
-   16.36  2891.0  1537.3
-   21.84   240.0  2065.6
-> sScSScSSv240S at  2122.00 seconds at    22.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.894 s/deg.
-    5.87  2891.0   592.0
-   16.73  2891.0  1538.0
-   22.33   240.0  2066.5
-> sScSScSSv240S at  2122.96 seconds at    23.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.935 s/deg.
-    6.00  2891.0   592.3
-   17.10  2891.0  1538.8
-   22.83   240.0  2067.5
-> sScSScSSv240S at  2123.93 seconds at    23.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    1.976 s/deg.
-    6.13  2891.0   592.5
-   17.48  2891.0  1539.5
-   23.33   240.0  2068.4
-> sScSScSSv240S at  2124.93 seconds at    24.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.016 s/deg.
-    6.26  2891.0   592.8
-   17.85  2891.0  1540.2
-   23.82   240.0  2069.4
-> sScSScSSv240S at  2125.95 seconds at    24.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.057 s/deg.
-    6.39  2891.0   593.0
-   18.22  2891.0  1541.0
-   24.32   240.0  2070.4
-> sScSScSSv240S at  2127.01 seconds at    25.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.097 s/deg.
-    6.52  2891.0   593.3
-   18.59  2891.0  1541.8
-   24.81   240.0  2071.5
-> sScSScSSv240S at  2128.08 seconds at    25.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.138 s/deg.
-    6.65  2891.0   593.6
-   18.96  2891.0  1542.6
-   25.31   240.0  2072.6
-> sScSScSSv240S at  2129.14 seconds at    26.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.178 s/deg.
-    6.78  2891.0   593.9
-   19.34  2891.0  1543.4
-   25.81   240.0  2073.6
-> sScSScSSv240S at  2130.23 seconds at    26.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.218 s/deg.
-    6.91  2891.0   594.2
-   19.71  2891.0  1544.2
-   26.30   240.0  2074.7
-> sScSScSSv240S at  2131.36 seconds at    27.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.259 s/deg.
-    7.04  2891.0   594.4
-   20.08  2891.0  1545.0
-   26.80   240.0  2075.8
-> sScSScSSv240S at  2132.49 seconds at    27.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.299 s/deg.
-    7.17  2891.0   594.7
-   20.45  2891.0  1545.8
-   27.30   240.0  2076.9
-> sScSScSSv240S at  2133.66 seconds at    28.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.339 s/deg.
-    7.30  2891.0   595.0
-   20.82  2891.0  1546.7
-   27.79   240.0  2078.1
-> sScSScSSv240S at  2134.83 seconds at    28.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.379 s/deg.
-    7.43  2891.0   595.3
-   21.20  2891.0  1547.6
-   28.29   240.0  2079.3
-> sScSScSSv240S at  2136.03 seconds at    29.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.418 s/deg.
-    7.56  2891.0   595.7
-   21.57  2891.0  1548.5
-   28.79   240.0  2080.5
-> sScSScSSv240S at  2137.25 seconds at    29.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.458 s/deg.
-    7.69  2891.0   596.0
-   21.94  2891.0  1549.4
-   29.28   240.0  2081.7
-> sScSScSSv240S at  2138.49 seconds at    30.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.498 s/deg.
-    7.82  2891.0   596.3
-   22.31  2891.0  1550.3
-   29.78   240.0  2082.9
-> sScSScSSv240S at  2139.75 seconds at    30.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.537 s/deg.
-    7.95  2891.0   596.6
-   22.68  2891.0  1551.2
-   30.27   240.0  2084.2
-> sScSScSSv240S at  2141.02 seconds at    31.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.576 s/deg.
-    8.08  2891.0   597.0
-   23.06  2891.0  1552.2
-   30.77   240.0  2085.4
-> sScSScSSv240S at  2142.33 seconds at    31.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.616 s/deg.
-    8.21  2891.0   597.3
-   23.43  2891.0  1553.2
-   31.27   240.0  2086.7
-> sScSScSSv240S at  2143.64 seconds at    32.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.655 s/deg.
-    8.34  2891.0   597.6
-   23.80  2891.0  1554.1
-   31.76   240.0  2088.0
-> sScSScSSv240S at  2144.98 seconds at    32.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.694 s/deg.
-    8.47  2891.0   598.0
-   24.17  2891.0  1555.1
-   32.26   240.0  2089.3
-> sScSScSSv240S at  2146.34 seconds at    33.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.733 s/deg.
-    8.60  2891.0   598.3
-   24.54  2891.0  1556.1
-   32.76   240.0  2090.7
-> sScSScSSv240S at  2147.71 seconds at    33.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.772 s/deg.
-    8.73  2891.0   598.7
-   24.92  2891.0  1557.2
-   33.25   240.0  2092.1
-> sScSScSSv240S at  2149.10 seconds at    34.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.810 s/deg.
-    8.86  2891.0   599.1
-   25.29  2891.0  1558.2
-   33.75   240.0  2093.4
-> sScSScSSv240S at  2150.52 seconds at    34.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.849 s/deg.
-    8.99  2891.0   599.4
-   25.66  2891.0  1559.3
-   34.25   240.0  2094.8
-> sScSScSSv240S at  2151.95 seconds at    35.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.888 s/deg.
-    9.12  2891.0   599.8
-   26.03  2891.0  1560.3
-   34.74   240.0  2096.3
-> sScSScSSv240S at  2153.40 seconds at    35.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.926 s/deg.
-    9.25  2891.0   600.2
-   26.40  2891.0  1561.4
-   35.24   240.0  2097.7
-> sScSScSSv240S at  2154.88 seconds at    36.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    2.964 s/deg.
-    9.38  2891.0   600.6
-   26.78  2891.0  1562.5
-   35.74   240.0  2099.2
-> sScSScSSv240S at  2156.38 seconds at    36.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.002 s/deg.
-    9.51  2891.0   601.0
-   27.15  2891.0  1563.6
-   36.23   240.0  2100.7
-> sScSScSSv240S at  2157.88 seconds at    37.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.040 s/deg.
-    9.64  2891.0   601.3
-   27.52  2891.0  1564.7
-   36.73   240.0  2102.2
-> sScSScSSv240S at  2159.42 seconds at    37.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.078 s/deg.
-    9.77  2891.0   601.7
-   27.89  2891.0  1565.9
-   37.23   240.0  2103.7
-> sScSScSSv240S at  2160.97 seconds at    38.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.116 s/deg.
-    9.90  2891.0   602.2
-   28.26  2891.0  1567.0
-   37.72   240.0  2105.2
-> sScSScSSv240S at  2162.53 seconds at    38.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.154 s/deg.
-   10.03  2891.0   602.6
-   28.64  2891.0  1568.2
-   38.22   240.0  2106.8
-> sScSScSSv240S at  2164.12 seconds at    39.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.191 s/deg.
-   10.16  2891.0   603.0
-   29.01  2891.0  1569.4
-   38.72   240.0  2108.4
-> sScSScSSv240S at  2165.72 seconds at    39.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.229 s/deg.
-   10.29  2891.0   603.4
-   29.38  2891.0  1570.6
-   39.21   240.0  2109.9
-> sScSScSSv240S at  2167.35 seconds at    40.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.266 s/deg.
-   10.42  2891.0   603.8
-   29.75  2891.0  1571.8
-   39.71   240.0  2111.6
-> sScSScSSv240S at  2169.00 seconds at    40.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.303 s/deg.
-   10.55  2891.0   604.2
-   30.13  2891.0  1573.0
-   40.21   240.0  2113.2
-> sScSScSSv240S at  2170.64 seconds at    41.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.341 s/deg.
-   10.68  2891.0   604.7
-   30.50  2891.0  1574.2
-   40.70   240.0  2114.8
-> sScSScSSv240S at  2172.32 seconds at    41.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.378 s/deg.
-   10.81  2891.0   605.1
-   30.87  2891.0  1575.5
-   41.20   240.0  2116.5
-> sScSScSSv240S at  2174.03 seconds at    42.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.414 s/deg.
-   10.94  2891.0   605.5
-   31.24  2891.0  1576.8
-   41.70   240.0  2118.2
-> sScSScSSv240S at  2175.74 seconds at    42.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.451 s/deg.
-   11.07  2891.0   606.0
-   31.61  2891.0  1578.0
-   42.19   240.0  2119.9
-> sScSScSSv240S at  2177.49 seconds at    43.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.487 s/deg.
-   11.20  2891.0   606.4
-   31.99  2891.0  1579.3
-   42.69   240.0  2121.6
-> sScSScSSv240S at  2179.24 seconds at    43.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.524 s/deg.
-   11.33  2891.0   606.9
-   32.36  2891.0  1580.6
-   43.19   240.0  2123.4
-> sScSScSSv240S at  2181.00 seconds at    44.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.560 s/deg.
-   11.46  2891.0   607.4
-   32.73  2891.0  1581.9
-   43.68   240.0  2125.1
-> sScSScSSv240S at  2182.80 seconds at    44.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.596 s/deg.
-   11.59  2891.0   607.8
-   33.10  2891.0  1583.3
-   44.18   240.0  2126.9
-> sScSScSSv240S at  2184.60 seconds at    45.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.632 s/deg.
-   11.72  2891.0   608.3
-   33.48  2891.0  1584.6
-   44.68   240.0  2128.7
-> sScSScSSv240S at  2186.42 seconds at    45.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.668 s/deg.
-   11.85  2891.0   608.8
-   33.85  2891.0  1586.0
-   45.17   240.0  2130.5
-> sScSScSSv240S at  2188.28 seconds at    46.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.704 s/deg.
-   11.98  2891.0   609.2
-   34.22  2891.0  1587.4
-   45.67   240.0  2132.3
-> sScSScSSv240S at  2190.13 seconds at    46.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.740 s/deg.
-   12.11  2891.0   609.7
-   34.59  2891.0  1588.7
-   46.17   240.0  2134.2
-> sScSScSSv240S at  2192.01 seconds at    47.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.775 s/deg.
-   12.24  2891.0   610.2
-   34.96  2891.0  1590.1
-   46.66   240.0  2136.1
-> sScSScSSv240S at  2193.91 seconds at    47.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.811 s/deg.
-   12.37  2891.0   610.7
-   35.34  2891.0  1591.6
-   47.16   240.0  2137.9
-> sScSScSSv240S at  2195.82 seconds at    48.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.846 s/deg.
-   12.50  2891.0   611.2
-   35.71  2891.0  1593.0
-   47.66   240.0  2139.8
-> sScSScSSv240S at  2197.74 seconds at    48.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.881 s/deg.
-   12.63  2891.0   611.7
-   36.08  2891.0  1594.4
-   48.15   240.0  2141.8
-> sScSScSSv240S at  2199.70 seconds at    49.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.916 s/deg.
-   12.76  2891.0   612.2
-   36.45  2891.0  1595.9
-   48.65   240.0  2143.7
-> sScSScSSv240S at  2201.67 seconds at    49.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.951 s/deg.
-   12.89  2891.0   612.7
-   36.83  2891.0  1597.3
-   49.15   240.0  2145.7
-> sScSScSSv240S at  2203.64 seconds at    50.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    3.985 s/deg.
-   13.02  2891.0   613.2
-   37.20  2891.0  1598.8
-   49.64   240.0  2147.6
-> sScSScSSv240S at  2205.64 seconds at    50.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.020 s/deg.
-   13.15  2891.0   613.8
-   37.57  2891.0  1600.3
-   50.14   240.0  2149.6
-> sScSScSSv240S at  2207.67 seconds at    51.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.054 s/deg.
-   13.28  2891.0   614.3
-   37.94  2891.0  1601.8
-   50.64   240.0  2151.6
-> sScSScSSv240S at  2209.70 seconds at    51.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.089 s/deg.
-   13.41  2891.0   614.8
-   38.31  2891.0  1603.3
-   51.13   240.0  2153.6
-> sScSScSSv240S at  2211.75 seconds at    52.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.123 s/deg.
-   13.54  2891.0   615.3
-   38.69  2891.0  1604.8
-   51.63   240.0  2155.7
-> sScSScSSv240S at  2213.82 seconds at    52.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.157 s/deg.
-   13.67  2891.0   615.9
-   39.06  2891.0  1606.4
-   52.13   240.0  2157.7
-> sScSScSSv240S at  2215.91 seconds at    53.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.190 s/deg.
-   13.80  2891.0   616.4
-   39.43  2891.0  1607.9
-   52.62   240.0  2159.8
-> sScSScSSv240S at  2218.01 seconds at    53.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.224 s/deg.
-   13.93  2891.0   617.0
-   39.80  2891.0  1609.5
-   53.12   240.0  2161.9
-> sScSScSSv240S at  2220.13 seconds at    54.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.258 s/deg.
-   14.06  2891.0   617.5
-   40.18  2891.0  1611.1
-   53.62   240.0  2164.0
-> sScSScSSv240S at  2222.27 seconds at    54.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.291 s/deg.
-   14.19  2891.0   618.1
-   40.55  2891.0  1612.7
-   54.12   240.0  2166.1
-> sScSScSSv240S at  2224.42 seconds at    55.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.324 s/deg.
-   14.31  2891.0   618.6
-   40.92  2891.0  1614.3
-   54.61   240.0  2168.3
-> sScSScSSv240S at  2226.59 seconds at    55.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.357 s/deg.
-   14.44  2891.0   619.2
-   41.29  2891.0  1615.9
-   55.11   240.0  2170.4
-> sScSScSSv240S at  2228.78 seconds at    56.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.390 s/deg.
-   14.57  2891.0   619.7
-   41.67  2891.0  1617.5
-   55.61   240.0  2172.6
-> sScSScSSv240S at  2230.98 seconds at    56.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.423 s/deg.
-   14.70  2891.0   620.3
-   42.04  2891.0  1619.2
-   56.10   240.0  2174.8
-> sScSScSSv240S at  2233.20 seconds at    57.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.455 s/deg.
-   14.83  2891.0   620.9
-   42.41  2891.0  1620.8
-   56.60   240.0  2177.0
-> sScSScSSv240S at  2235.44 seconds at    57.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.488 s/deg.
-   14.96  2891.0   621.5
-   42.78  2891.0  1622.5
-   57.10   240.0  2179.2
-> sScSScSSv240S at  2237.69 seconds at    58.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.520 s/deg.
-   15.09  2891.0   622.1
-   43.16  2891.0  1624.2
-   57.59   240.0  2181.5
-> sScSScSSv240S at  2239.96 seconds at    58.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.552 s/deg.
-   15.22  2891.0   622.6
-   43.53  2891.0  1625.9
-   58.09   240.0  2183.7
-> sScSScSSv240S at  2242.24 seconds at    59.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.584 s/deg.
-   15.35  2891.0   623.2
-   43.90  2891.0  1627.6
-   58.59   240.0  2186.0
-> sScSScSSv240S at  2244.54 seconds at    59.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.616 s/deg.
-   15.48  2891.0   623.8
-   44.27  2891.0  1629.3
-   59.09   240.0  2188.3
-> sScSScSSv240S at  2246.86 seconds at    60.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.648 s/deg.
-   15.61  2891.0   624.4
-   44.65  2891.0  1631.0
-   59.58   240.0  2190.6
-> sScSScSSv240S at  2249.21 seconds at    60.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.679 s/deg.
-   15.74  2891.0   625.0
-   45.02  2891.0  1632.7
-   60.08   240.0  2192.9
-> sScSScSSv240S at  2251.56 seconds at    61.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.711 s/deg.
-   15.87  2891.0   625.6
-   45.39  2891.0  1634.5
-   60.58   240.0  2195.2
-> sScSScSSv240S at  2253.91 seconds at    61.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.742 s/deg.
-   16.00  2891.0   626.2
-   45.76  2891.0  1636.2
-   61.07   240.0  2197.6
-> sScSScSSv240S at  2256.29 seconds at    62.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.773 s/deg.
-   16.13  2891.0   626.9
-   46.14  2891.0  1638.0
-   61.57   240.0  2199.9
-> sScSScSSv240S at  2258.68 seconds at    62.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.804 s/deg.
-   16.26  2891.0   627.5
-   46.51  2891.0  1639.8
-   62.07   240.0  2202.3
-> sScSScSSv240S at  2261.09 seconds at    63.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.835 s/deg.
-   16.38  2891.0   628.1
-   46.88  2891.0  1641.6
-   62.56   240.0  2204.7
-> sScSScSSv240S at  2263.52 seconds at    63.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.866 s/deg.
-   16.51  2891.0   628.7
-   47.25  2891.0  1643.4
-   63.06   240.0  2207.1
-> sScSScSSv240S at  2265.95 seconds at    64.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.896 s/deg.
-   16.64  2891.0   629.4
-   47.63  2891.0  1645.2
-   63.56   240.0  2209.5
-> sScSScSSv240S at  2268.41 seconds at    64.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.927 s/deg.
-   16.77  2891.0   630.0
-   48.00  2891.0  1647.0
-   64.06   240.0  2212.0
-> sScSScSSv240S at  2270.89 seconds at    65.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.957 s/deg.
-   16.90  2891.0   630.6
-   48.37  2891.0  1648.9
-   64.55   240.0  2214.5
-> sScSScSSv240S at  2273.37 seconds at    65.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    4.987 s/deg.
-   17.03  2891.0   631.3
-   48.74  2891.0  1650.7
-   65.05   240.0  2216.9
-> sScSScSSv240S at  2275.87 seconds at    66.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.017 s/deg.
-   17.16  2891.0   631.9
-   49.12  2891.0  1652.6
-   65.55   240.0  2219.4
-> sScSScSSv240S at  2278.39 seconds at    66.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.046 s/deg.
-   17.29  2891.0   632.6
-   49.49  2891.0  1654.5
-   66.05   240.0  2221.9
-> sScSScSSv240S at  2280.92 seconds at    67.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.076 s/deg.
-   17.42  2891.0   633.2
-   49.86  2891.0  1656.4
-   66.54   240.0  2224.4
-> sScSScSSv240S at  2283.45 seconds at    67.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.105 s/deg.
-   17.55  2891.0   633.9
-   50.24  2891.0  1658.3
-   67.04   240.0  2227.0
-> sScSScSSv240S at  2286.01 seconds at    68.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.135 s/deg.
-   17.68  2891.0   634.5
-   50.61  2891.0  1660.2
-   67.54   240.0  2229.5
-> sScSScSSv240S at  2288.60 seconds at    68.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.164 s/deg.
-   17.81  2891.0   635.2
-   50.98  2891.0  1662.1
-   68.03   240.0  2232.1
-> sScSScSSv240S at  2291.18 seconds at    69.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.193 s/deg.
-   17.93  2891.0   635.9
-   51.35  2891.0  1664.0
-   68.53   240.0  2234.6
-> sScSScSSv240S at  2293.79 seconds at    69.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.221 s/deg.
-   18.06  2891.0   636.5
-   51.73  2891.0  1666.0
-   69.03   240.0  2237.2
-> sScSScSSv240S at  2296.41 seconds at    70.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.250 s/deg.
-   18.19  2891.0   637.2
-   52.10  2891.0  1667.9
-   69.53   240.0  2239.8
-> sScSScSSv240S at  2299.03 seconds at    70.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.278 s/deg.
-   18.32  2891.0   637.9
-   52.47  2891.0  1669.9
-   70.02   240.0  2242.4
-> sScSScSSv240S at  2301.68 seconds at    71.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.307 s/deg.
-   18.45  2891.0   638.6
-   52.84  2891.0  1671.8
-   70.52   240.0  2245.1
-> sScSScSSv240S at  2304.34 seconds at    71.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.335 s/deg.
-   18.58  2891.0   639.3
-   53.22  2891.0  1673.8
-   71.02   240.0  2247.7
-> sScSScSSv240S at  2307.02 seconds at    72.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.363 s/deg.
-   18.71  2891.0   640.0
-   53.59  2891.0  1675.8
-   71.52   240.0  2250.4
-> sScSScSSv240S at  2309.70 seconds at    72.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.391 s/deg.
-   18.84  2891.0   640.7
-   53.96  2891.0  1677.8
-   72.01   240.0  2253.1
-> sScSScSSv240S at  2312.40 seconds at    73.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.418 s/deg.
-   18.97  2891.0   641.4
-   54.34  2891.0  1679.8
-   72.51   240.0  2255.7
-> sScSScSSv240S at  2315.12 seconds at    73.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.446 s/deg.
-   19.10  2891.0   642.1
-   54.71  2891.0  1681.9
-   73.01   240.0  2258.4
-> sScSScSSv240S at  2317.86 seconds at    74.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.473 s/deg.
-   19.22  2891.0   642.8
-   55.08  2891.0  1683.9
-   73.50   240.0  2261.2
-> sScSScSSv240S at  2320.61 seconds at    74.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.500 s/deg.
-   19.35  2891.0   643.5
-   55.45  2891.0  1686.0
-   74.00   240.0  2263.9
-> sScSScSSv240S at  2323.36 seconds at    75.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.527 s/deg.
-   19.48  2891.0   644.2
-   55.83  2891.0  1688.0
-   74.50   240.0  2266.6
-> sScSScSSv240S at  2326.13 seconds at    75.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.554 s/deg.
-   19.61  2891.0   644.9
-   56.20  2891.0  1690.1
-   75.00   240.0  2269.4
-> sScSScSSv240S at  2328.92 seconds at    76.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.581 s/deg.
-   19.74  2891.0   645.6
-   56.57  2891.0  1692.2
-   75.49   240.0  2272.2
-> sScSScSSv240S at  2331.72 seconds at    76.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.608 s/deg.
-   19.87  2891.0   646.3
-   56.95  2891.0  1694.2
-   75.99   240.0  2275.0
-> sScSScSSv240S at  2334.51 seconds at    77.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.634 s/deg.
-   20.00  2891.0   647.0
-   57.32  2891.0  1696.3
-   76.49   240.0  2277.7
-> sScSScSSv240S at  2337.34 seconds at    77.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.660 s/deg.
-   20.13  2891.0   647.8
-   57.69  2891.0  1698.4
-   76.99   240.0  2280.6
-> sScSScSSv240S at  2340.18 seconds at    78.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.686 s/deg.
-   20.25  2891.0   648.5
-   58.06  2891.0  1700.6
-   77.48   240.0  2283.4
-> sScSScSSv240S at  2343.03 seconds at    78.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.712 s/deg.
-   20.38  2891.0   649.2
-   58.44  2891.0  1702.7
-   77.98   240.0  2286.2
-> sScSScSSv240S at  2345.89 seconds at    79.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.738 s/deg.
-   20.51  2891.0   650.0
-   58.81  2891.0  1704.8
-   78.48   240.0  2289.1
-> sScSScSSv240S at  2348.77 seconds at    79.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.764 s/deg.
-   20.64  2891.0   650.7
-   59.18  2891.0  1707.0
-   78.98   240.0  2291.9
-> sScSScSSv240S at  2351.66 seconds at    80.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.789 s/deg.
-   20.77  2891.0   651.5
-   59.56  2891.0  1709.1
-   79.47   240.0  2294.8
-> sScSScSSv240S at  2354.55 seconds at    80.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.815 s/deg.
-   20.90  2891.0   652.2
-   59.93  2891.0  1711.3
-   79.97   240.0  2297.7
-> sScSScSSv240S at  2357.47 seconds at    81.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.840 s/deg.
-   21.03  2891.0   653.0
-   60.30  2891.0  1713.5
-   80.47   240.0  2300.6
-> sScSScSSv240S at  2360.40 seconds at    81.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.865 s/deg.
-   21.15  2891.0   653.7
-   60.67  2891.0  1715.6
-   80.97   240.0  2303.5
-> sScSScSSv240S at  2363.33 seconds at    82.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.890 s/deg.
-   21.28  2891.0   654.5
-   61.05  2891.0  1717.8
-   81.46   240.0  2306.4
-> sScSScSSv240S at  2366.29 seconds at    82.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.914 s/deg.
-   21.41  2891.0   655.2
-   61.42  2891.0  1720.0
-   81.96   240.0  2309.4
-> sScSScSSv240S at  2369.25 seconds at    83.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.939 s/deg.
-   21.54  2891.0   656.0
-   61.79  2891.0  1722.2
-   82.46   240.0  2312.3
-> sScSScSSv240S at  2372.22 seconds at    83.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.963 s/deg.
-   21.67  2891.0   656.7
-   62.17  2891.0  1724.5
-   82.96   240.0  2315.3
-> sScSScSSv240S at  2375.21 seconds at    84.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    5.988 s/deg.
-   21.80  2891.0   657.5
-   62.54  2891.0  1726.7
-   83.46   240.0  2318.2
-> sScSScSSv240S at  2378.21 seconds at    84.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.012 s/deg.
-   21.93  2891.0   658.3
-   62.91  2891.0  1728.9
-   83.95   240.0  2321.2
-> sScSScSSv240S at  2381.23 seconds at    85.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.036 s/deg.
-   22.05  2891.0   659.1
-   63.29  2891.0  1731.2
-   84.45   240.0  2324.2
-> sScSScSSv240S at  2384.25 seconds at    85.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.059 s/deg.
-   22.18  2891.0   659.8
-   63.66  2891.0  1733.4
-   84.95   240.0  2327.2
-> sScSScSSv240S at  2387.28 seconds at    86.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.083 s/deg.
-   22.31  2891.0   660.6
-   64.03  2891.0  1735.7
-   85.45   240.0  2330.3
-> sScSScSSv240S at  2390.33 seconds at    86.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.106 s/deg.
-   22.44  2891.0   661.4
-   64.41  2891.0  1738.0
-   85.94   240.0  2333.3
-> sScSScSSv240S at  2393.40 seconds at    87.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.130 s/deg.
-   22.57  2891.0   662.2
-   64.78  2891.0  1740.3
-   86.44   240.0  2336.3
-> sScSScSSv240S at  2396.47 seconds at    87.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.153 s/deg.
-   22.70  2891.0   663.0
-   65.15  2891.0  1742.5
-   86.94   240.0  2339.4
-> sScSScSSv240S at  2399.54 seconds at    88.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.176 s/deg.
-   22.82  2891.0   663.8
-   65.52  2891.0  1744.8
-   87.44   240.0  2342.5
-> sScSScSSv240S at  2402.65 seconds at    88.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.199 s/deg.
-   22.95  2891.0   664.6
-   65.90  2891.0  1747.2
-   87.94   240.0  2345.6
-> sScSScSSv240S at  2405.75 seconds at    89.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.221 s/deg.
-   23.08  2891.0   665.4
-   66.27  2891.0  1749.5
-   88.43   240.0  2348.6
-> sScSScSSv240S at  2408.86 seconds at    89.50 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.244 s/deg.
-   23.21  2891.0   666.2
-   66.64  2891.0  1751.8
-   88.93   240.0  2351.7
-> sScSScSSv240S at  2411.98 seconds at    90.00 degrees for a    551.0 km deep source in the prem240 model with rayParam    6.267 s/deg.
-   23.34  2891.0   667.0
-   67.02  2891.0  1754.1
-   89.43   240.0  2354.8
+> sScSScSSv240S at  2118.75 seconds at     0.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.000 s/deg.
+    0.00  2891.0   604.6
+    0.00  2891.0  1540.3
+    0.00   240.0  2063.4
+> sScSScSSv240S at  2118.77 seconds at     0.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.043 s/deg.
+    0.13  2891.0   604.6
+    0.37  2891.0  1540.3
+    0.50   240.0  2063.5
+> sScSScSSv240S at  2118.80 seconds at     1.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.085 s/deg.
+    0.26  2891.0   604.6
+    0.74  2891.0  1540.3
+    0.99   240.0  2063.5
+> sScSScSSv240S at  2118.85 seconds at     1.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.128 s/deg.
+    0.40  2891.0   604.7
+    1.12  2891.0  1540.4
+    1.49   240.0  2063.5
+> sScSScSSv240S at  2118.92 seconds at     2.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.170 s/deg.
+    0.53  2891.0   604.7
+    1.49  2891.0  1540.4
+    1.98   240.0  2063.6
+> sScSScSSv240S at  2119.02 seconds at     2.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.213 s/deg.
+    0.66  2891.0   604.7
+    1.86  2891.0  1540.5
+    2.48   240.0  2063.7
+> sScSScSSv240S at  2119.14 seconds at     3.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.255 s/deg.
+    0.79  2891.0   604.7
+    2.23  2891.0  1540.6
+    2.98   240.0  2063.8
+> sScSScSSv240S at  2119.27 seconds at     3.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.297 s/deg.
+    0.93  2891.0   604.8
+    2.61  2891.0  1540.7
+    3.47   240.0  2064.0
+> sScSScSSv240S at  2119.43 seconds at     4.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.340 s/deg.
+    1.06  2891.0   604.8
+    2.98  2891.0  1540.8
+    3.97   240.0  2064.1
+> sScSScSSv240S at  2119.61 seconds at     4.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.382 s/deg.
+    1.19  2891.0   604.9
+    3.35  2891.0  1540.9
+    4.47   240.0  2064.3
+> sScSScSSv240S at  2119.82 seconds at     5.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.425 s/deg.
+    1.32  2891.0   604.9
+    3.72  2891.0  1541.1
+    4.96   240.0  2064.5
+> sScSScSSv240S at  2120.03 seconds at     5.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.467 s/deg.
+    1.45  2891.0   605.0
+    4.10  2891.0  1541.2
+    5.46   240.0  2064.7
+> sScSScSSv240S at  2120.28 seconds at     6.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.510 s/deg.
+    1.59  2891.0   605.0
+    4.47  2891.0  1541.4
+    5.96   240.0  2065.0
+> sScSScSSv240S at  2120.55 seconds at     6.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.552 s/deg.
+    1.72  2891.0   605.1
+    4.84  2891.0  1541.6
+    6.45   240.0  2065.2
+> sScSScSSv240S at  2120.84 seconds at     7.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.594 s/deg.
+    1.85  2891.0   605.2
+    5.21  2891.0  1541.8
+    6.95   240.0  2065.5
+> sScSScSSv240S at  2121.14 seconds at     7.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.637 s/deg.
+    1.98  2891.0   605.3
+    5.59  2891.0  1542.1
+    7.44   240.0  2065.8
+> sScSScSSv240S at  2121.47 seconds at     8.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.679 s/deg.
+    2.11  2891.0   605.3
+    5.96  2891.0  1542.3
+    7.94   240.0  2066.1
+> sScSScSSv240S at  2121.82 seconds at     8.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.721 s/deg.
+    2.25  2891.0   605.4
+    6.33  2891.0  1542.6
+    8.44   240.0  2066.5
+> sScSScSSv240S at  2122.19 seconds at     9.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.763 s/deg.
+    2.38  2891.0   605.5
+    6.70  2891.0  1542.9
+    8.93   240.0  2066.9
+> sScSScSSv240S at  2122.59 seconds at     9.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.806 s/deg.
+    2.51  2891.0   605.6
+    7.08  2891.0  1543.1
+    9.43   240.0  2067.2
+> sScSScSSv240S at  2122.99 seconds at    10.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.848 s/deg.
+    2.64  2891.0   605.7
+    7.45  2891.0  1543.5
+    9.93   240.0  2067.6
+> sScSScSSv240S at  2123.43 seconds at    10.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.890 s/deg.
+    2.78  2891.0   605.9
+    7.82  2891.0  1543.8
+   10.42   240.0  2068.1
+> sScSScSSv240S at  2123.88 seconds at    11.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.932 s/deg.
+    2.91  2891.0   606.0
+    8.19  2891.0  1544.1
+   10.92   240.0  2068.5
+> sScSScSSv240S at  2124.37 seconds at    11.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    0.974 s/deg.
+    3.04  2891.0   606.1
+    8.57  2891.0  1544.5
+   11.41   240.0  2069.0
+> sScSScSSv240S at  2124.86 seconds at    12.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.016 s/deg.
+    3.17  2891.0   606.2
+    8.94  2891.0  1544.8
+   11.91   240.0  2069.5
+> sScSScSSv240S at  2125.38 seconds at    12.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.058 s/deg.
+    3.30  2891.0   606.4
+    9.31  2891.0  1545.2
+   12.41   240.0  2070.0
+> sScSScSSv240S at  2125.92 seconds at    13.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.100 s/deg.
+    3.44  2891.0   606.5
+    9.68  2891.0  1545.6
+   12.90   240.0  2070.5
+> sScSScSSv240S at  2126.48 seconds at    13.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.142 s/deg.
+    3.57  2891.0   606.7
+   10.05  2891.0  1546.1
+   13.40   240.0  2071.1
+> sScSScSSv240S at  2127.06 seconds at    14.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.184 s/deg.
+    3.70  2891.0   606.8
+   10.43  2891.0  1546.5
+   13.90   240.0  2071.7
+> sScSScSSv240S at  2127.67 seconds at    14.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.225 s/deg.
+    3.83  2891.0   607.0
+   10.80  2891.0  1546.9
+   14.39   240.0  2072.3
+> sScSScSSv240S at  2128.28 seconds at    15.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.267 s/deg.
+    3.96  2891.0   607.1
+   11.17  2891.0  1547.4
+   14.89   240.0  2072.9
+> sScSScSSv240S at  2128.93 seconds at    15.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.309 s/deg.
+    4.10  2891.0   607.3
+   11.54  2891.0  1547.9
+   15.38   240.0  2073.5
+> sScSScSSv240S at  2129.59 seconds at    16.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.350 s/deg.
+    4.23  2891.0   607.5
+   11.92  2891.0  1548.4
+   15.88   240.0  2074.2
+> sScSScSSv240S at  2130.28 seconds at    16.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.392 s/deg.
+    4.36  2891.0   607.7
+   12.29  2891.0  1548.9
+   16.38   240.0  2074.9
+> sScSScSSv240S at  2130.98 seconds at    17.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.434 s/deg.
+    4.49  2891.0   607.9
+   12.66  2891.0  1549.4
+   16.87   240.0  2075.6
+> sScSScSSv240S at  2131.71 seconds at    17.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.475 s/deg.
+    4.62  2891.0   608.1
+   13.03  2891.0  1549.9
+   17.37   240.0  2076.3
+> sScSScSSv240S at  2132.46 seconds at    18.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.516 s/deg.
+    4.76  2891.0   608.2
+   13.41  2891.0  1550.5
+   17.87   240.0  2077.0
+> sScSScSSv240S at  2133.23 seconds at    18.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.558 s/deg.
+    4.89  2891.0   608.5
+   13.78  2891.0  1551.1
+   18.36   240.0  2077.8
+> sScSScSSv240S at  2134.02 seconds at    19.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.599 s/deg.
+    5.02  2891.0   608.7
+   14.15  2891.0  1551.7
+   18.86   240.0  2078.6
+> sScSScSSv240S at  2134.83 seconds at    19.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.640 s/deg.
+    5.15  2891.0   608.9
+   14.52  2891.0  1552.3
+   19.35   240.0  2079.4
+> sScSScSSv240S at  2135.66 seconds at    20.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.681 s/deg.
+    5.28  2891.0   609.1
+   14.90  2891.0  1552.9
+   19.85   240.0  2080.2
+> sScSScSSv240S at  2136.51 seconds at    20.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.722 s/deg.
+    5.42  2891.0   609.3
+   15.27  2891.0  1553.5
+   20.35   240.0  2081.1
+> sScSScSSv240S at  2137.38 seconds at    21.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.763 s/deg.
+    5.55  2891.0   609.5
+   15.64  2891.0  1554.2
+   20.84   240.0  2081.9
+> sScSScSSv240S at  2138.27 seconds at    21.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.804 s/deg.
+    5.68  2891.0   609.8
+   16.01  2891.0  1554.8
+   21.34   240.0  2082.8
+> sScSScSSv240S at  2139.18 seconds at    22.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.845 s/deg.
+    5.81  2891.0   610.0
+   16.39  2891.0  1555.5
+   21.84   240.0  2083.7
+> sScSScSSv240S at  2140.12 seconds at    22.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.886 s/deg.
+    5.94  2891.0   610.3
+   16.76  2891.0  1556.2
+   22.33   240.0  2084.6
+> sScSScSSv240S at  2141.07 seconds at    23.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.926 s/deg.
+    6.08  2891.0   610.5
+   17.13  2891.0  1556.9
+   22.83   240.0  2085.6
+> sScSScSSv240S at  2142.04 seconds at    23.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    1.967 s/deg.
+    6.21  2891.0   610.8
+   17.50  2891.0  1557.6
+   23.33   240.0  2086.6
+> sScSScSSv240S at  2143.04 seconds at    24.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.008 s/deg.
+    6.34  2891.0   611.0
+   17.88  2891.0  1558.4
+   23.82   240.0  2087.5
+> sScSScSSv240S at  2144.05 seconds at    24.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.048 s/deg.
+    6.47  2891.0   611.3
+   18.25  2891.0  1559.1
+   24.32   240.0  2088.5
+> sScSScSSv240S at  2145.10 seconds at    25.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.088 s/deg.
+    6.60  2891.0   611.6
+   18.62  2891.0  1559.9
+   24.82   240.0  2089.6
+> sScSScSSv240S at  2146.17 seconds at    25.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.128 s/deg.
+    6.74  2891.0   611.9
+   18.99  2891.0  1560.7
+   25.31   240.0  2090.7
+> sScSScSSv240S at  2147.23 seconds at    26.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.169 s/deg.
+    6.87  2891.0   612.1
+   19.37  2891.0  1561.5
+   25.81   240.0  2091.7
+> sScSScSSv240S at  2148.31 seconds at    26.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.209 s/deg.
+    7.00  2891.0   612.4
+   19.74  2891.0  1562.3
+   26.30   240.0  2092.8
+> sScSScSSv240S at  2149.43 seconds at    27.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.249 s/deg.
+    7.13  2891.0   612.7
+   20.11  2891.0  1563.1
+   26.80   240.0  2093.9
+> sScSScSSv240S at  2150.56 seconds at    27.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.289 s/deg.
+    7.26  2891.0   613.0
+   20.48  2891.0  1564.0
+   27.30   240.0  2095.0
+> sScSScSSv240S at  2151.72 seconds at    28.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.328 s/deg.
+    7.39  2891.0   613.3
+   20.86  2891.0  1564.9
+   27.79   240.0  2096.2
+> sScSScSSv240S at  2152.89 seconds at    28.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.368 s/deg.
+    7.53  2891.0   613.6
+   21.23  2891.0  1565.7
+   28.29   240.0  2097.3
+> sScSScSSv240S at  2154.08 seconds at    29.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.408 s/deg.
+    7.66  2891.0   614.0
+   21.60  2891.0  1566.6
+   28.79   240.0  2098.5
+> sScSScSSv240S at  2155.30 seconds at    29.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.447 s/deg.
+    7.79  2891.0   614.3
+   21.97  2891.0  1567.5
+   29.28   240.0  2099.7
+> sScSScSSv240S at  2156.53 seconds at    30.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.487 s/deg.
+    7.92  2891.0   614.6
+   22.35  2891.0  1568.4
+   29.78   240.0  2100.9
+> sScSScSSv240S at  2157.79 seconds at    30.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.526 s/deg.
+    8.05  2891.0   614.9
+   22.72  2891.0  1569.4
+   30.28   240.0  2102.2
+> sScSScSSv240S at  2159.05 seconds at    31.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.565 s/deg.
+    8.19  2891.0   615.3
+   23.09  2891.0  1570.3
+   30.77   240.0  2103.4
+> sScSScSSv240S at  2160.36 seconds at    31.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.604 s/deg.
+    8.32  2891.0   615.6
+   23.46  2891.0  1571.3
+   31.27   240.0  2104.7
+> sScSScSSv240S at  2161.67 seconds at    32.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.644 s/deg.
+    8.45  2891.0   616.0
+   23.84  2891.0  1572.3
+   31.77   240.0  2106.0
+> sScSScSSv240S at  2163.00 seconds at    32.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.682 s/deg.
+    8.58  2891.0   616.3
+   24.21  2891.0  1573.3
+   32.26   240.0  2107.4
+> sScSScSSv240S at  2164.35 seconds at    33.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.721 s/deg.
+    8.71  2891.0   616.7
+   24.58  2891.0  1574.3
+   32.76   240.0  2108.7
+> sScSScSSv240S at  2165.71 seconds at    33.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.760 s/deg.
+    8.84  2891.0   617.0
+   24.95  2891.0  1575.3
+   33.25   240.0  2110.1
+> sScSScSSv240S at  2167.10 seconds at    34.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.799 s/deg.
+    8.98  2891.0   617.4
+   25.33  2891.0  1576.3
+   33.75   240.0  2111.4
+> sScSScSSv240S at  2168.51 seconds at    34.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.837 s/deg.
+    9.11  2891.0   617.8
+   25.70  2891.0  1577.4
+   34.25   240.0  2112.8
+> sScSScSSv240S at  2169.94 seconds at    35.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.875 s/deg.
+    9.24  2891.0   618.1
+   26.07  2891.0  1578.4
+   34.74   240.0  2114.3
+> sScSScSSv240S at  2171.38 seconds at    35.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.914 s/deg.
+    9.37  2891.0   618.5
+   26.45  2891.0  1579.5
+   35.24   240.0  2115.7
+> sScSScSSv240S at  2172.85 seconds at    36.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.952 s/deg.
+    9.50  2891.0   618.9
+   26.82  2891.0  1580.6
+   35.74   240.0  2117.1
+> sScSScSSv240S at  2174.35 seconds at    36.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    2.990 s/deg.
+    9.63  2891.0   619.3
+   27.19  2891.0  1581.7
+   36.23   240.0  2118.6
+> sScSScSSv240S at  2175.85 seconds at    37.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.028 s/deg.
+    9.77  2891.0   619.7
+   27.56  2891.0  1582.8
+   36.73   240.0  2120.1
+> sScSScSSv240S at  2177.37 seconds at    37.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.066 s/deg.
+    9.90  2891.0   620.1
+   27.94  2891.0  1584.0
+   37.23   240.0  2121.6
+> sScSScSSv240S at  2178.92 seconds at    38.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.103 s/deg.
+   10.03  2891.0   620.5
+   28.31  2891.0  1585.1
+   37.72   240.0  2123.2
+> sScSScSSv240S at  2180.47 seconds at    38.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.141 s/deg.
+   10.16  2891.0   620.9
+   28.68  2891.0  1586.3
+   38.22   240.0  2124.7
+> sScSScSSv240S at  2182.06 seconds at    39.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.178 s/deg.
+   10.29  2891.0   621.3
+   29.05  2891.0  1587.5
+   38.72   240.0  2126.3
+> sScSScSSv240S at  2183.66 seconds at    39.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.216 s/deg.
+   10.42  2891.0   621.7
+   29.43  2891.0  1588.7
+   39.21   240.0  2127.9
+> sScSScSSv240S at  2185.27 seconds at    40.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.253 s/deg.
+   10.56  2891.0   622.2
+   29.80  2891.0  1589.9
+   39.71   240.0  2129.5
+> sScSScSSv240S at  2186.91 seconds at    40.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.290 s/deg.
+   10.69  2891.0   622.6
+   30.17  2891.0  1591.1
+   40.21   240.0  2131.1
+> sScSScSSv240S at  2188.56 seconds at    41.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.327 s/deg.
+   10.82  2891.0   623.0
+   30.54  2891.0  1592.3
+   40.70   240.0  2132.8
+> sScSScSSv240S at  2190.23 seconds at    41.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.364 s/deg.
+   10.95  2891.0   623.5
+   30.92  2891.0  1593.5
+   41.20   240.0  2134.4
+> sScSScSSv240S at  2191.92 seconds at    42.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.401 s/deg.
+   11.08  2891.0   623.9
+   31.29  2891.0  1594.8
+   41.70   240.0  2136.1
+> sScSScSSv240S at  2193.63 seconds at    42.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.437 s/deg.
+   11.21  2891.0   624.4
+   31.66  2891.0  1596.1
+   42.19   240.0  2137.8
+> sScSScSSv240S at  2195.37 seconds at    43.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.473 s/deg.
+   11.34  2891.0   624.8
+   32.04  2891.0  1597.4
+   42.69   240.0  2139.5
+> sScSScSSv240S at  2197.12 seconds at    43.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.510 s/deg.
+   11.48  2891.0   625.3
+   32.41  2891.0  1598.7
+   43.19   240.0  2141.3
+> sScSScSSv240S at  2198.86 seconds at    44.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.546 s/deg.
+   11.61  2891.0   625.7
+   32.78  2891.0  1600.0
+   43.68   240.0  2143.0
+> sScSScSSv240S at  2200.66 seconds at    44.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.582 s/deg.
+   11.74  2891.0   626.2
+   33.15  2891.0  1601.3
+   44.18   240.0  2144.8
+> sScSScSSv240S at  2202.46 seconds at    45.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.618 s/deg.
+   11.87  2891.0   626.7
+   33.53  2891.0  1602.7
+   44.68   240.0  2146.6
+> sScSScSSv240S at  2204.26 seconds at    45.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.654 s/deg.
+   12.00  2891.0   627.2
+   33.90  2891.0  1604.0
+   45.17   240.0  2148.4
+> sScSScSSv240S at  2206.12 seconds at    46.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.689 s/deg.
+   12.13  2891.0   627.6
+   34.27  2891.0  1605.4
+   45.67   240.0  2150.2
+> sScSScSSv240S at  2207.97 seconds at    46.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.725 s/deg.
+   12.26  2891.0   628.1
+   34.64  2891.0  1606.8
+   46.17   240.0  2152.0
+> sScSScSSv240S at  2209.82 seconds at    47.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.761 s/deg.
+   12.39  2891.0   628.6
+   35.02  2891.0  1608.2
+   46.66   240.0  2153.9
+> sScSScSSv240S at  2211.73 seconds at    47.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.796 s/deg.
+   12.53  2891.0   629.1
+   35.39  2891.0  1609.6
+   47.16   240.0  2155.8
+> sScSScSSv240S at  2213.63 seconds at    48.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.831 s/deg.
+   12.66  2891.0   629.6
+   35.76  2891.0  1611.0
+   47.66   240.0  2157.7
+> sScSScSSv240S at  2215.54 seconds at    48.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.866 s/deg.
+   12.79  2891.0   630.1
+   36.14  2891.0  1612.4
+   48.15   240.0  2159.6
+> sScSScSSv240S at  2217.49 seconds at    49.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.901 s/deg.
+   12.92  2891.0   630.6
+   36.51  2891.0  1613.9
+   48.65   240.0  2161.5
+> sScSScSSv240S at  2219.46 seconds at    49.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.935 s/deg.
+   13.05  2891.0   631.1
+   36.88  2891.0  1615.3
+   49.15   240.0  2163.4
+> sScSScSSv240S at  2221.42 seconds at    50.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    3.970 s/deg.
+   13.18  2891.0   631.7
+   37.25  2891.0  1616.8
+   49.65   240.0  2165.4
+> sScSScSSv240S at  2223.42 seconds at    50.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.005 s/deg.
+   13.31  2891.0   632.2
+   37.63  2891.0  1618.3
+   50.14   240.0  2167.4
+> sScSScSSv240S at  2225.43 seconds at    51.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.039 s/deg.
+   13.44  2891.0   632.7
+   38.00  2891.0  1619.8
+   50.64   240.0  2169.4
+> sScSScSSv240S at  2227.46 seconds at    51.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.073 s/deg.
+   13.58  2891.0   633.2
+   38.37  2891.0  1621.3
+   51.14   240.0  2171.4
+> sScSScSSv240S at  2229.50 seconds at    52.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.107 s/deg.
+   13.71  2891.0   633.8
+   38.75  2891.0  1622.8
+   51.63   240.0  2173.4
+> sScSScSSv240S at  2231.56 seconds at    52.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.141 s/deg.
+   13.84  2891.0   634.3
+   39.12  2891.0  1624.4
+   52.13   240.0  2175.5
+> sScSScSSv240S at  2233.64 seconds at    53.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.175 s/deg.
+   13.97  2891.0   634.9
+   39.49  2891.0  1625.9
+   52.63   240.0  2177.5
+> sScSScSSv240S at  2235.74 seconds at    53.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.208 s/deg.
+   14.10  2891.0   635.4
+   39.86  2891.0  1627.5
+   53.12   240.0  2179.6
+> sScSScSSv240S at  2237.85 seconds at    54.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.242 s/deg.
+   14.23  2891.0   636.0
+   40.24  2891.0  1629.1
+   53.62   240.0  2181.7
+> sScSScSSv240S at  2239.98 seconds at    54.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.275 s/deg.
+   14.36  2891.0   636.5
+   40.61  2891.0  1630.6
+   54.12   240.0  2183.8
+> sScSScSSv240S at  2242.12 seconds at    55.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.308 s/deg.
+   14.49  2891.0   637.1
+   40.98  2891.0  1632.2
+   54.61   240.0  2186.0
+> sScSScSSv240S at  2244.28 seconds at    55.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.341 s/deg.
+   14.62  2891.0   637.7
+   41.36  2891.0  1633.9
+   55.11   240.0  2188.1
+> sScSScSSv240S at  2246.46 seconds at    56.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.374 s/deg.
+   14.75  2891.0   638.2
+   41.73  2891.0  1635.5
+   55.61   240.0  2190.3
+> sScSScSSv240S at  2248.66 seconds at    56.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.407 s/deg.
+   14.89  2891.0   638.8
+   42.10  2891.0  1637.1
+   56.10   240.0  2192.5
+> sScSScSSv240S at  2250.87 seconds at    57.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.439 s/deg.
+   15.02  2891.0   639.4
+   42.47  2891.0  1638.8
+   56.60   240.0  2194.7
+> sScSScSSv240S at  2253.10 seconds at    57.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.472 s/deg.
+   15.15  2891.0   640.0
+   42.85  2891.0  1640.4
+   57.10   240.0  2196.9
+> sScSScSSv240S at  2255.35 seconds at    58.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.504 s/deg.
+   15.28  2891.0   640.5
+   43.22  2891.0  1642.1
+   57.60   240.0  2199.1
+> sScSScSSv240S at  2257.60 seconds at    58.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.536 s/deg.
+   15.41  2891.0   641.1
+   43.59  2891.0  1643.8
+   58.09   240.0  2201.4
+> sScSScSSv240S at  2259.88 seconds at    59.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.568 s/deg.
+   15.54  2891.0   641.7
+   43.97  2891.0  1645.5
+   58.59   240.0  2203.6
+> sScSScSSv240S at  2262.17 seconds at    59.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.600 s/deg.
+   15.67  2891.0   642.3
+   44.34  2891.0  1647.2
+   59.09   240.0  2205.9
+> sScSScSSv240S at  2264.48 seconds at    60.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.632 s/deg.
+   15.80  2891.0   642.9
+   44.71  2891.0  1648.9
+   59.58   240.0  2208.2
+> sScSScSSv240S at  2266.81 seconds at    60.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.663 s/deg.
+   15.93  2891.0   643.5
+   45.09  2891.0  1650.7
+   60.08   240.0  2210.5
+> sScSScSSv240S at  2269.16 seconds at    61.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.694 s/deg.
+   16.06  2891.0   644.2
+   45.46  2891.0  1652.4
+   60.58   240.0  2212.8
+> sScSScSSv240S at  2271.51 seconds at    61.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.726 s/deg.
+   16.19  2891.0   644.8
+   45.83  2891.0  1654.2
+   61.08   240.0  2215.2
+> sScSScSSv240S at  2273.87 seconds at    62.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.757 s/deg.
+   16.32  2891.0   645.4
+   46.20  2891.0  1655.9
+   61.57   240.0  2217.5
+> sScSScSSv240S at  2276.26 seconds at    62.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.788 s/deg.
+   16.45  2891.0   646.0
+   46.58  2891.0  1657.7
+   62.07   240.0  2219.9
+> sScSScSSv240S at  2278.65 seconds at    63.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.818 s/deg.
+   16.59  2891.0   646.6
+   46.95  2891.0  1659.5
+   62.57   240.0  2222.3
+> sScSScSSv240S at  2281.08 seconds at    63.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.849 s/deg.
+   16.72  2891.0   647.3
+   47.32  2891.0  1661.3
+   63.06   240.0  2224.7
+> sScSScSSv240S at  2283.51 seconds at    64.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.879 s/deg.
+   16.85  2891.0   647.9
+   47.70  2891.0  1663.1
+   63.56   240.0  2227.1
+> sScSScSSv240S at  2285.95 seconds at    64.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.910 s/deg.
+   16.98  2891.0   648.5
+   48.07  2891.0  1664.9
+   64.06   240.0  2229.5
+> sScSScSSv240S at  2288.42 seconds at    65.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.940 s/deg.
+   17.11  2891.0   649.2
+   48.44  2891.0  1666.8
+   64.56   240.0  2232.0
+> sScSScSSv240S at  2290.91 seconds at    65.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    4.970 s/deg.
+   17.24  2891.0   649.8
+   48.82  2891.0  1668.6
+   65.05   240.0  2234.5
+> sScSScSSv240S at  2293.39 seconds at    66.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.000 s/deg.
+   17.37  2891.0   650.5
+   49.19  2891.0  1670.5
+   65.55   240.0  2236.9
+> sScSScSSv240S at  2295.90 seconds at    66.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.029 s/deg.
+   17.50  2891.0   651.1
+   49.56  2891.0  1672.4
+   66.05   240.0  2239.4
+> sScSScSSv240S at  2298.43 seconds at    67.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.059 s/deg.
+   17.63  2891.0   651.8
+   49.94  2891.0  1674.2
+   66.54   240.0  2241.9
+> sScSScSSv240S at  2300.95 seconds at    67.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.088 s/deg.
+   17.76  2891.0   652.5
+   50.31  2891.0  1676.1
+   67.04   240.0  2244.5
+> sScSScSSv240S at  2303.50 seconds at    68.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.118 s/deg.
+   17.89  2891.0   653.1
+   50.68  2891.0  1678.0
+   67.54   240.0  2247.0
+> sScSScSSv240S at  2306.07 seconds at    68.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.147 s/deg.
+   18.02  2891.0   653.8
+   51.05  2891.0  1680.0
+   68.04   240.0  2249.5
+> sScSScSSv240S at  2308.66 seconds at    69.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.176 s/deg.
+   18.15  2891.0   654.5
+   51.43  2891.0  1681.9
+   68.53   240.0  2252.1
+> sScSScSSv240S at  2311.24 seconds at    69.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.204 s/deg.
+   18.28  2891.0   655.1
+   51.80  2891.0  1683.8
+   69.03   240.0  2254.7
+> sScSScSSv240S at  2313.86 seconds at    70.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.233 s/deg.
+   18.41  2891.0   655.8
+   52.17  2891.0  1685.8
+   69.53   240.0  2257.3
+> sScSScSSv240S at  2316.48 seconds at    70.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.261 s/deg.
+   18.54  2891.0   656.5
+   52.55  2891.0  1687.7
+   70.02   240.0  2259.9
+> sScSScSSv240S at  2319.12 seconds at    71.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.290 s/deg.
+   18.67  2891.0   657.2
+   52.92  2891.0  1689.7
+   70.52   240.0  2262.5
+> sScSScSSv240S at  2321.77 seconds at    71.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.318 s/deg.
+   18.80  2891.0   657.9
+   53.29  2891.0  1691.7
+   71.02   240.0  2265.2
+> sScSScSSv240S at  2324.44 seconds at    72.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.346 s/deg.
+   18.93  2891.0   658.6
+   53.67  2891.0  1693.7
+   71.52   240.0  2267.8
+> sScSScSSv240S at  2327.12 seconds at    72.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.374 s/deg.
+   19.06  2891.0   659.3
+   54.04  2891.0  1695.7
+   72.01   240.0  2270.5
+> sScSScSSv240S at  2329.81 seconds at    73.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.401 s/deg.
+   19.19  2891.0   660.0
+   54.41  2891.0  1697.7
+   72.51   240.0  2273.2
+> sScSScSSv240S at  2332.51 seconds at    73.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.429 s/deg.
+   19.32  2891.0   660.7
+   54.79  2891.0  1699.7
+   73.01   240.0  2275.9
+> sScSScSSv240S at  2335.24 seconds at    74.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.456 s/deg.
+   19.45  2891.0   661.4
+   55.16  2891.0  1701.7
+   73.51   240.0  2278.6
+> sScSScSSv240S at  2337.99 seconds at    74.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.483 s/deg.
+   19.58  2891.0   662.1
+   55.53  2891.0  1703.8
+   74.00   240.0  2281.3
+> sScSScSSv240S at  2340.73 seconds at    75.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.510 s/deg.
+   19.71  2891.0   662.8
+   55.91  2891.0  1705.8
+   74.50   240.0  2284.0
+> sScSScSSv240S at  2343.48 seconds at    75.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.538 s/deg.
+   19.84  2891.0   663.5
+   56.28  2891.0  1707.9
+   75.00   240.0  2286.8
+> sScSScSSv240S at  2346.27 seconds at    76.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.564 s/deg.
+   19.97  2891.0   664.3
+   56.65  2891.0  1710.0
+   75.50   240.0  2289.5
+> sScSScSSv240S at  2349.06 seconds at    76.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.591 s/deg.
+   20.10  2891.0   665.0
+   57.03  2891.0  1712.0
+   75.99   240.0  2292.3
+> sScSScSSv240S at  2351.86 seconds at    77.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.617 s/deg.
+   20.23  2891.0   665.7
+   57.40  2891.0  1714.1
+   76.49   240.0  2295.1
+> sScSScSSv240S at  2354.66 seconds at    77.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.644 s/deg.
+   20.36  2891.0   666.4
+   57.77  2891.0  1716.2
+   76.99   240.0  2297.9
+> sScSScSSv240S at  2357.49 seconds at    78.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.670 s/deg.
+   20.49  2891.0   667.2
+   58.15  2891.0  1718.3
+   77.49   240.0  2300.7
+> sScSScSSv240S at  2360.34 seconds at    78.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.696 s/deg.
+   20.62  2891.0   667.9
+   58.52  2891.0  1720.5
+   77.98   240.0  2303.5
+> sScSScSSv240S at  2363.20 seconds at    79.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.721 s/deg.
+   20.75  2891.0   668.7
+   58.89  2891.0  1722.6
+   78.48   240.0  2306.4
+> sScSScSSv240S at  2366.05 seconds at    79.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.747 s/deg.
+   20.88  2891.0   669.4
+   59.27  2891.0  1724.7
+   78.98   240.0  2309.2
+> sScSScSSv240S at  2368.95 seconds at    80.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.773 s/deg.
+   21.01  2891.0   670.2
+   59.64  2891.0  1726.9
+   79.48   240.0  2312.1
+> sScSScSSv240S at  2371.84 seconds at    80.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.798 s/deg.
+   21.14  2891.0   670.9
+   60.01  2891.0  1729.0
+   79.97   240.0  2315.0
+> sScSScSSv240S at  2374.73 seconds at    81.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.823 s/deg.
+   21.27  2891.0   671.7
+   60.39  2891.0  1731.2
+   80.47   240.0  2317.9
+> sScSScSSv240S at  2377.66 seconds at    81.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.848 s/deg.
+   21.40  2891.0   672.4
+   60.76  2891.0  1733.4
+   80.97   240.0  2320.8
+> sScSScSSv240S at  2380.59 seconds at    82.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.873 s/deg.
+   21.53  2891.0   673.2
+   61.13  2891.0  1735.6
+   81.47   240.0  2323.7
+> sScSScSSv240S at  2383.53 seconds at    82.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.898 s/deg.
+   21.66  2891.0   673.9
+   61.51  2891.0  1737.8
+   81.96   240.0  2326.6
+> sScSScSSv240S at  2386.49 seconds at    83.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.922 s/deg.
+   21.79  2891.0   674.7
+   61.88  2891.0  1740.0
+   82.46   240.0  2329.6
+> sScSScSSv240S at  2389.45 seconds at    83.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.947 s/deg.
+   21.92  2891.0   675.5
+   62.25  2891.0  1742.2
+   82.96   240.0  2332.5
+> sScSScSSv240S at  2392.43 seconds at    84.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.971 s/deg.
+   22.05  2891.0   676.3
+   62.63  2891.0  1744.4
+   83.46   240.0  2335.5
+> sScSScSSv240S at  2395.42 seconds at    84.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    5.995 s/deg.
+   22.18  2891.0   677.0
+   63.00  2891.0  1746.7
+   83.95   240.0  2338.4
+> sScSScSSv240S at  2398.43 seconds at    85.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.019 s/deg.
+   22.31  2891.0   677.8
+   63.37  2891.0  1748.9
+   84.45   240.0  2341.4
+> sScSScSSv240S at  2401.45 seconds at    85.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.043 s/deg.
+   22.44  2891.0   678.6
+   63.75  2891.0  1751.2
+   84.95   240.0  2344.4
+> sScSScSSv240S at  2404.47 seconds at    86.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.067 s/deg.
+   22.57  2891.0   679.4
+   64.12  2891.0  1753.4
+   85.45   240.0  2347.5
+> sScSScSSv240S at  2407.50 seconds at    86.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.090 s/deg.
+   22.70  2891.0   680.2
+   64.49  2891.0  1755.7
+   85.95   240.0  2350.5
+> sScSScSSv240S at  2410.56 seconds at    87.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.113 s/deg.
+   22.83  2891.0   681.0
+   64.87  2891.0  1758.0
+   86.44   240.0  2353.5
+> sScSScSSv240S at  2413.63 seconds at    87.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.137 s/deg.
+   22.96  2891.0   681.7
+   65.24  2891.0  1760.3
+   86.94   240.0  2356.6
+> sScSScSSv240S at  2416.70 seconds at    88.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.160 s/deg.
+   23.09  2891.0   682.5
+   65.61  2891.0  1762.6
+   87.44   240.0  2359.6
+> sScSScSSv240S at  2419.78 seconds at    88.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.183 s/deg.
+   23.22  2891.0   683.3
+   65.99  2891.0  1764.9
+   87.94   240.0  2362.7
+> sScSScSSv240S at  2422.89 seconds at    89.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.205 s/deg.
+   23.35  2891.0   684.1
+   66.36  2891.0  1767.2
+   88.43   240.0  2365.8
+> sScSScSSv240S at  2425.99 seconds at    89.50 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.228 s/deg.
+   23.48  2891.0   684.9
+   66.74  2891.0  1769.5
+   88.93   240.0  2368.9
+> sScSScSSv240S at  2429.10 seconds at    90.00 degrees for a    651.0 km deep source in the prem240 model with rayParam    6.250 s/deg.
+   23.61  2891.0   685.8
+   67.11  2891.0  1771.8
+   89.43   240.0  2372.0

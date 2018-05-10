@@ -6,7 +6,7 @@
 File Name : grid_1dsum.py
 Purpose : Sum reverberations over grid. Use 1d moveout correction lkup table
 Creation Date : 22-01-2018
-Last Modified : Wed 09 May 2018 12:20:00 PM EDT
+Last Modified : Thu 10 May 2018 10:50:30 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -30,14 +30,14 @@ import re
 def main():
     parser = argparse.ArgumentParser(description='perform grid')
     parser.add_argument('-r','--reflection', metavar='H5_FILE',type=str,
-                        help='h5 1d reflection lookup table made from taup')
+                        help='h5 1d reflection lookup table made with taup')
     parser.add_argument('-t','--time', metavar='H5_FILE',type=str,
-                        help='h5 1d time lookup')
+                        help='h5 1d time lookup table made with taup')
     parser.add_argument('-d','--deconvolve', metavar='H5_FILE',type=str,
                         help='h5 deconvolved data')
     parser.add_argument('-g','--grid', metavar='H5_FILE',type=str,
                         help='optional name of output grid file',
-                         default='grid_1dsum.h5')
+                        default='grid_1dsum.h5')
     args = parser.parse_args()
 
     r = h5py.File(args.reflection,'r',driver='core')

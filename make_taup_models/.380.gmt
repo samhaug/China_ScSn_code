@@ -1,153 +1,724 @@
-> sScSScSSv380S at  2160.02 seconds at     0.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.000 s/deg.
-    0.00  2891.0   586.4
-    0.00  2891.0  1522.1
-    0.00   380.0  2075.0
-> sScSScSSv380S at  2160.04 seconds at     0.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.042 s/deg.
-    0.13  2891.0   586.4
-    0.37  2891.0  1522.1
-    0.49   380.0  2075.0
-> sScSScSSv380S at  2160.07 seconds at     1.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.085 s/deg.
-    0.26  2891.0   586.4
-    0.74  2891.0  1522.1
-    0.99   380.0  2075.0
-> sScSScSSv380S at  2160.12 seconds at     1.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.127 s/deg.
-    0.39  2891.0   586.4
-    1.10  2891.0  1522.2
-    1.48   380.0  2075.1
-> sScSScSSv380S at  2160.20 seconds at     2.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.169 s/deg.
-    0.52  2891.0   586.5
-    1.47  2891.0  1522.2
-    1.98   380.0  2075.1
-> sScSScSSv380S at  2160.30 seconds at     2.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.211 s/deg.
-    0.65  2891.0   586.5
-    1.84  2891.0  1522.3
-    2.47   380.0  2075.2
-> sScSScSSv380S at  2160.41 seconds at     3.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.254 s/deg.
-    0.77  2891.0   586.5
-    2.21  2891.0  1522.4
-    2.96   380.0  2075.3
-> sScSScSSv380S at  2160.55 seconds at     3.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.296 s/deg.
-    0.90  2891.0   586.5
-    2.58  2891.0  1522.5
-    3.46   380.0  2075.5
-> sScSScSSv380S at  2160.70 seconds at     4.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.338 s/deg.
-    1.03  2891.0   586.6
-    2.94  2891.0  1522.6
-    3.95   380.0  2075.6
-> sScSScSSv380S at  2160.89 seconds at     4.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.380 s/deg.
-    1.16  2891.0   586.6
-    3.31  2891.0  1522.7
-    4.44   380.0  2075.8
-> sScSScSSv380S at  2161.09 seconds at     5.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.423 s/deg.
-    1.29  2891.0   586.7
-    3.68  2891.0  1522.9
-    4.94   380.0  2076.0
-> sScSScSSv380S at  2161.30 seconds at     5.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.465 s/deg.
-    1.42  2891.0   586.7
-    4.05  2891.0  1523.0
-    5.43   380.0  2076.2
-> sScSScSSv380S at  2161.55 seconds at     6.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.507 s/deg.
-    1.55  2891.0   586.8
-    4.42  2891.0  1523.2
-    5.93   380.0  2076.5
-> sScSScSSv380S at  2161.82 seconds at     6.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.549 s/deg.
-    1.68  2891.0   586.9
-    4.79  2891.0  1523.4
-    6.42   380.0  2076.7
-> sScSScSSv380S at  2162.11 seconds at     7.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.591 s/deg.
-    1.81  2891.0   586.9
-    5.15  2891.0  1523.6
-    6.91   380.0  2077.0
-> sScSScSSv380S at  2162.40 seconds at     7.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.633 s/deg.
-    1.94  2891.0   587.0
-    5.52  2891.0  1523.8
-    7.41   380.0  2077.3
-> sScSScSSv380S at  2162.73 seconds at     8.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.675 s/deg.
-    2.07  2891.0   587.1
-    5.89  2891.0  1524.1
-    7.90   380.0  2077.6
-> sScSScSSv380S at  2163.08 seconds at     8.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.717 s/deg.
-    2.20  2891.0   587.2
-    6.26  2891.0  1524.3
-    8.39   380.0  2078.0
-> sScSScSSv380S at  2163.45 seconds at     9.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.759 s/deg.
-    2.32  2891.0   587.3
-    6.63  2891.0  1524.6
-    8.89   380.0  2078.3
-> sScSScSSv380S at  2163.84 seconds at     9.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.801 s/deg.
-    2.45  2891.0   587.4
-    6.99  2891.0  1524.9
-    9.38   380.0  2078.7
-> sScSScSSv380S at  2164.25 seconds at    10.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.843 s/deg.
-    2.58  2891.0   587.5
-    7.36  2891.0  1525.2
-    9.88   380.0  2079.1
-> sScSScSSv380S at  2164.68 seconds at    10.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.885 s/deg.
-    2.71  2891.0   587.6
-    7.73  2891.0  1525.5
-   10.37   380.0  2079.6
-> sScSScSSv380S at  2165.13 seconds at    11.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.927 s/deg.
-    2.84  2891.0   587.7
-    8.10  2891.0  1525.8
-   10.86   380.0  2080.0
-> sScSScSSv380S at  2165.61 seconds at    11.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    0.969 s/deg.
-    2.97  2891.0   587.9
-    8.47  2891.0  1526.2
-   11.36   380.0  2080.5
-> sScSScSSv380S at  2166.10 seconds at    12.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.011 s/deg.
-    3.10  2891.0   588.0
-    8.83  2891.0  1526.6
-   11.85   380.0  2081.0
-> sScSScSSv380S at  2166.62 seconds at    12.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.052 s/deg.
-    3.23  2891.0   588.1
-    9.20  2891.0  1526.9
-   12.35   380.0  2081.5
-> sScSScSSv380S at  2167.15 seconds at    13.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.094 s/deg.
-    3.36  2891.0   588.3
-    9.57  2891.0  1527.3
-   12.84   380.0  2082.0
-> sScSScSSv380S at  2167.72 seconds at    13.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.136 s/deg.
-    3.49  2891.0   588.4
-    9.94  2891.0  1527.7
-   13.33   380.0  2082.6
-> sScSScSSv380S at  2168.29 seconds at    14.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.177 s/deg.
-    3.62  2891.0   588.5
-   10.31  2891.0  1528.2
-   13.83   380.0  2083.1
-> sScSScSSv380S at  2168.90 seconds at    14.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.219 s/deg.
-    3.75  2891.0   588.7
-   10.68  2891.0  1528.6
-   14.32   380.0  2083.7
-> sScSScSSv380S at  2169.51 seconds at    15.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.260 s/deg.
-    3.87  2891.0   588.9
-   11.04  2891.0  1529.1
-   14.81   380.0  2084.3
-> sScSScSSv380S at  2170.15 seconds at    15.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.302 s/deg.
-    4.00  2891.0   589.0
-   11.41  2891.0  1529.5
-   15.31   380.0  2085.0
-> sScSScSSv380S at  2170.81 seconds at    16.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.343 s/deg.
-    4.13  2891.0   589.2
-   11.78  2891.0  1530.0
-   15.80   380.0  2085.6
-> sScSScSSv380S at  2171.50 seconds at    16.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.385 s/deg.
-    4.26  2891.0   589.4
-   12.15  2891.0  1530.5
-   16.30   380.0  2086.3
-> sScSScSSv380S at  2172.19 seconds at    17.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.426 s/deg.
-    4.39  2891.0   589.6
-   12.52  2891.0  1531.0
-   16.79   380.0  2087.0
-> sScSScSSv380S at  2172.92 seconds at    17.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.467 s/deg.
-    4.52  2891.0   589.7
-   12.88  2891.0  1531.6
-   17.28   380.0  2087.7
-> sScSScSSv380S at  2173.66 seconds at    18.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.508 s/deg.
-    4.65  2891.0   589.9
-   13.25  2891.0  1532.1
-   17.78   380.0  2088.4
-> sScSScSSv380S at  2174.43 seconds at    18.50 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.550 s/deg.
-    4.78  2891.0   590.1
-   13.62  2891.0  1532.7
-   18.27   380.0  2089.2
-> sScSScSSv380S at  2175.21 seconds at    19.00 degrees for a    551.0 km deep source in the prem380 model with rayParam    1.591 s/deg.
+> sScSScSSv380S at  2178.24 seconds at     0.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.000 s/deg.
+    0.00  2891.0   604.6
+    0.00  2891.0  1540.3
+    0.00   380.0  2093.2
+> sScSScSSv380S at  2178.26 seconds at     0.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.042 s/deg.
+    0.13  2891.0   604.6
+    0.37  2891.0  1540.3
+    0.49   380.0  2093.2
+> sScSScSSv380S at  2178.28 seconds at     1.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.084 s/deg.
+    0.26  2891.0   604.6
+    0.74  2891.0  1540.3
+    0.99   380.0  2093.2
+> sScSScSSv380S at  2178.34 seconds at     1.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.126 s/deg.
+    0.39  2891.0   604.7
+    1.11  2891.0  1540.4
+    1.48   380.0  2093.3
+> sScSScSSv380S at  2178.41 seconds at     2.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.168 s/deg.
+    0.52  2891.0   604.7
+    1.47  2891.0  1540.4
+    1.98   380.0  2093.4
+> sScSScSSv380S at  2178.51 seconds at     2.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.210 s/deg.
+    0.65  2891.0   604.7
+    1.84  2891.0  1540.5
+    2.47   380.0  2093.4
+> sScSScSSv380S at  2178.62 seconds at     3.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.252 s/deg.
+    0.79  2891.0   604.7
+    2.21  2891.0  1540.6
+    2.96   380.0  2093.6
+> sScSScSSv380S at  2178.76 seconds at     3.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.295 s/deg.
+    0.92  2891.0   604.8
+    2.58  2891.0  1540.7
+    3.46   380.0  2093.7
+> sScSScSSv380S at  2178.91 seconds at     4.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.337 s/deg.
+    1.05  2891.0   604.8
+    2.95  2891.0  1540.8
+    3.95   380.0  2093.8
+> sScSScSSv380S at  2179.09 seconds at     4.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.379 s/deg.
+    1.18  2891.0   604.8
+    3.32  2891.0  1540.9
+    4.44   380.0  2094.0
+> sScSScSSv380S at  2179.29 seconds at     5.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.421 s/deg.
+    1.31  2891.0   604.9
+    3.69  2891.0  1541.1
+    4.94   380.0  2094.2
+> sScSScSSv380S at  2179.51 seconds at     5.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.463 s/deg.
+    1.44  2891.0   605.0
+    4.06  2891.0  1541.2
+    5.43   380.0  2094.4
+> sScSScSSv380S at  2179.76 seconds at     6.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.505 s/deg.
+    1.57  2891.0   605.0
+    4.42  2891.0  1541.4
+    5.93   380.0  2094.7
+> sScSScSSv380S at  2180.02 seconds at     6.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.547 s/deg.
+    1.70  2891.0   605.1
+    4.79  2891.0  1541.6
+    6.42   380.0  2094.9
+> sScSScSSv380S at  2180.31 seconds at     7.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.588 s/deg.
+    1.83  2891.0   605.2
+    5.16  2891.0  1541.8
+    6.91   380.0  2095.2
+> sScSScSSv380S at  2180.61 seconds at     7.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.630 s/deg.
+    1.96  2891.0   605.2
+    5.53  2891.0  1542.0
+    7.41   380.0  2095.5
+> sScSScSSv380S at  2180.93 seconds at     8.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.672 s/deg.
+    2.09  2891.0   605.3
+    5.90  2891.0  1542.3
+    7.90   380.0  2095.8
+> sScSScSSv380S at  2181.28 seconds at     8.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.714 s/deg.
+    2.22  2891.0   605.4
+    6.27  2891.0  1542.5
+    8.39   380.0  2096.2
+> sScSScSSv380S at  2181.64 seconds at     9.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.756 s/deg.
+    2.36  2891.0   605.5
+    6.64  2891.0  1542.8
+    8.89   380.0  2096.5
+> sScSScSSv380S at  2182.04 seconds at     9.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.798 s/deg.
+    2.49  2891.0   605.6
+    7.01  2891.0  1543.1
+    9.38   380.0  2096.9
+> sScSScSSv380S at  2182.44 seconds at    10.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.839 s/deg.
+    2.62  2891.0   605.7
+    7.37  2891.0  1543.4
+    9.88   380.0  2097.3
+> sScSScSSv380S at  2182.88 seconds at    10.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.881 s/deg.
+    2.75  2891.0   605.8
+    7.74  2891.0  1543.7
+   10.37   380.0  2097.8
+> sScSScSSv380S at  2183.32 seconds at    11.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.923 s/deg.
+    2.88  2891.0   606.0
+    8.11  2891.0  1544.0
+   10.86   380.0  2098.2
+> sScSScSSv380S at  2183.80 seconds at    11.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    0.965 s/deg.
+    3.01  2891.0   606.1
+    8.48  2891.0  1544.4
+   11.36   380.0  2098.7
+> sScSScSSv380S at  2184.29 seconds at    12.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.006 s/deg.
+    3.14  2891.0   606.2
+    8.85  2891.0  1544.8
+   11.85   380.0  2099.2
+> sScSScSSv380S at  2184.81 seconds at    12.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.048 s/deg.
+    3.27  2891.0   606.3
+    9.22  2891.0  1545.1
+   12.35   380.0  2099.7
+> sScSScSSv380S at  2185.33 seconds at    13.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.089 s/deg.
+    3.40  2891.0   606.5
+    9.59  2891.0  1545.5
+   12.84   380.0  2100.2
+> sScSScSSv380S at  2185.90 seconds at    13.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.131 s/deg.
+    3.53  2891.0   606.6
+    9.96  2891.0  1545.9
+   13.33   380.0  2100.7
+> sScSScSSv380S at  2186.47 seconds at    14.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.172 s/deg.
+    3.66  2891.0   606.8
+   10.32  2891.0  1546.4
+   13.83   380.0  2101.3
+> sScSScSSv380S at  2187.07 seconds at    14.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.213 s/deg.
+    3.79  2891.0   606.9
+   10.69  2891.0  1546.8
+   14.32   380.0  2101.9
+> sScSScSSv380S at  2187.68 seconds at    15.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.255 s/deg.
+    3.92  2891.0   607.1
+   11.06  2891.0  1547.3
+   14.82   380.0  2102.5
+> sScSScSSv380S at  2188.32 seconds at    15.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.296 s/deg.
+    4.06  2891.0   607.3
+   11.43  2891.0  1547.7
+   15.31   380.0  2103.1
+> sScSScSSv380S at  2188.98 seconds at    16.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.337 s/deg.
+    4.19  2891.0   607.4
+   11.80  2891.0  1548.2
+   15.80   380.0  2103.8
+> sScSScSSv380S at  2189.66 seconds at    16.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.379 s/deg.
+    4.32  2891.0   607.6
+   12.17  2891.0  1548.7
+   16.30   380.0  2104.5
+> sScSScSSv380S at  2190.35 seconds at    17.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.420 s/deg.
+    4.45  2891.0   607.8
+   12.54  2891.0  1549.2
+   16.79   380.0  2105.1
+> sScSScSSv380S at  2191.08 seconds at    17.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.461 s/deg.
+    4.58  2891.0   608.0
+   12.91  2891.0  1549.8
+   17.28   380.0  2105.9
+> sScSScSSv380S at  2191.82 seconds at    18.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.502 s/deg.
+    4.71  2891.0   608.2
+   13.27  2891.0  1550.3
+   17.78   380.0  2106.6
+> sScSScSSv380S at  2192.58 seconds at    18.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.543 s/deg.
+    4.84  2891.0   608.4
+   13.64  2891.0  1550.9
+   18.27   380.0  2107.3
+> sScSScSSv380S at  2193.36 seconds at    19.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.584 s/deg.
+    4.97  2891.0   608.6
+   14.01  2891.0  1551.4
+   18.77   380.0  2108.1
+> sScSScSSv380S at  2194.16 seconds at    19.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.624 s/deg.
+    5.10  2891.0   608.8
+   14.38  2891.0  1552.0
+   19.26   380.0  2108.9
+> sScSScSSv380S at  2194.98 seconds at    20.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.665 s/deg.
+    5.23  2891.0   609.0
+   14.75  2891.0  1552.6
+   19.75   380.0  2109.7
+> sScSScSSv380S at  2195.82 seconds at    20.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.706 s/deg.
+    5.36  2891.0   609.2
+   15.12  2891.0  1553.3
+   20.25   380.0  2110.6
+> sScSScSSv380S at  2196.69 seconds at    21.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.746 s/deg.
+    5.49  2891.0   609.5
+   15.49  2891.0  1553.9
+   20.74   380.0  2111.4
+> sScSScSSv380S at  2197.57 seconds at    21.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.787 s/deg.
+    5.62  2891.0   609.7
+   15.86  2891.0  1554.5
+   21.24   380.0  2112.3
+> sScSScSSv380S at  2198.47 seconds at    22.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.827 s/deg.
+    5.76  2891.0   609.9
+   16.23  2891.0  1555.2
+   21.73   380.0  2113.2
+> sScSScSSv380S at  2199.40 seconds at    22.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.868 s/deg.
+    5.89  2891.0   610.2
+   16.59  2891.0  1555.9
+   22.22   380.0  2114.1
+> sScSScSSv380S at  2200.34 seconds at    23.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.908 s/deg.
+    6.02  2891.0   610.4
+   16.96  2891.0  1556.6
+   22.72   380.0  2115.0
+> sScSScSSv380S at  2201.30 seconds at    23.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.948 s/deg.
+    6.15  2891.0   610.7
+   17.33  2891.0  1557.3
+   23.21   380.0  2116.0
+> sScSScSSv380S at  2202.29 seconds at    24.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    1.988 s/deg.
+    6.28  2891.0   610.9
+   17.70  2891.0  1558.0
+   23.71   380.0  2116.9
+> sScSScSSv380S at  2203.29 seconds at    24.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.029 s/deg.
+    6.41  2891.0   611.2
+   18.07  2891.0  1558.8
+   24.20   380.0  2117.9
+> sScSScSSv380S at  2204.33 seconds at    25.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.069 s/deg.
+    6.54  2891.0   611.4
+   18.44  2891.0  1559.5
+   24.69   380.0  2119.0
+> sScSScSSv380S at  2205.39 seconds at    25.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.108 s/deg.
+    6.67  2891.0   611.7
+   18.81  2891.0  1560.3
+   25.19   380.0  2120.0
+> sScSScSSv380S at  2206.46 seconds at    26.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.148 s/deg.
+    6.80  2891.0   612.0
+   19.18  2891.0  1561.1
+   25.68   380.0  2121.1
+> sScSScSSv380S at  2207.52 seconds at    26.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.188 s/deg.
+    6.93  2891.0   612.3
+   19.55  2891.0  1561.9
+   26.18   380.0  2122.1
+> sScSScSSv380S at  2208.62 seconds at    27.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.228 s/deg.
+    7.06  2891.0   612.6
+   19.91  2891.0  1562.7
+   26.67   380.0  2123.2
+> sScSScSSv380S at  2209.75 seconds at    27.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.267 s/deg.
+    7.19  2891.0   612.9
+   20.28  2891.0  1563.5
+   27.16   380.0  2124.3
+> sScSScSSv380S at  2210.89 seconds at    28.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.307 s/deg.
+    7.32  2891.0   613.2
+   20.65  2891.0  1564.4
+   27.66   380.0  2125.4
+> sScSScSSv380S at  2212.06 seconds at    28.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.346 s/deg.
+    7.45  2891.0   613.5
+   21.02  2891.0  1565.2
+   28.15   380.0  2126.6
+> sScSScSSv380S at  2213.23 seconds at    29.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.385 s/deg.
+    7.58  2891.0   613.8
+   21.39  2891.0  1566.1
+   28.65   380.0  2127.7
+> sScSScSSv380S at  2214.44 seconds at    29.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.425 s/deg.
+    7.71  2891.0   614.1
+   21.76  2891.0  1567.0
+   29.14   380.0  2128.9
+> sScSScSSv380S at  2215.66 seconds at    30.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.464 s/deg.
+    7.85  2891.0   614.4
+   22.13  2891.0  1567.9
+   29.64   380.0  2130.2
+> sScSScSSv380S at  2216.90 seconds at    30.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.503 s/deg.
+    7.98  2891.0   614.7
+   22.50  2891.0  1568.8
+   30.13   380.0  2131.4
+> sScSScSSv380S at  2218.17 seconds at    31.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.542 s/deg.
+    8.11  2891.0   615.1
+   22.87  2891.0  1569.7
+   30.62   380.0  2132.6
+> sScSScSSv380S at  2219.44 seconds at    31.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.581 s/deg.
+    8.24  2891.0   615.4
+   23.24  2891.0  1570.7
+   31.12   380.0  2133.9
+> sScSScSSv380S at  2220.75 seconds at    32.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.619 s/deg.
+    8.37  2891.0   615.7
+   23.61  2891.0  1571.7
+   31.61   380.0  2135.2
+> sScSScSSv380S at  2222.06 seconds at    32.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.658 s/deg.
+    8.50  2891.0   616.1
+   23.97  2891.0  1572.6
+   32.11   380.0  2136.5
+> sScSScSSv380S at  2223.41 seconds at    33.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.696 s/deg.
+    8.63  2891.0   616.4
+   24.34  2891.0  1573.6
+   32.60   380.0  2137.8
+> sScSScSSv380S at  2224.76 seconds at    33.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.735 s/deg.
+    8.76  2891.0   616.8
+   24.71  2891.0  1574.6
+   33.09   380.0  2139.1
+> sScSScSSv380S at  2226.13 seconds at    34.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.773 s/deg.
+    8.89  2891.0   617.1
+   25.08  2891.0  1575.6
+   33.59   380.0  2140.5
+> sScSScSSv380S at  2227.53 seconds at    34.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.811 s/deg.
+    9.02  2891.0   617.5
+   25.45  2891.0  1576.7
+   34.08   380.0  2141.9
+> sScSScSSv380S at  2228.95 seconds at    35.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.849 s/deg.
+    9.15  2891.0   617.9
+   25.82  2891.0  1577.7
+   34.58   380.0  2143.3
+> sScSScSSv380S at  2230.37 seconds at    35.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.888 s/deg.
+    9.28  2891.0   618.2
+   26.19  2891.0  1578.8
+   35.07   380.0  2144.7
+> sScSScSSv380S at  2231.83 seconds at    36.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.925 s/deg.
+    9.41  2891.0   618.6
+   26.56  2891.0  1579.8
+   35.57   380.0  2146.1
+> sScSScSSv380S at  2233.31 seconds at    36.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    2.963 s/deg.
+    9.54  2891.0   619.0
+   26.93  2891.0  1580.9
+   36.06   380.0  2147.6
+> sScSScSSv380S at  2234.81 seconds at    37.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.001 s/deg.
+    9.67  2891.0   619.4
+   27.30  2891.0  1582.0
+   36.55   380.0  2149.1
+> sScSScSSv380S at  2236.31 seconds at    37.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.038 s/deg.
+    9.80  2891.0   619.8
+   27.67  2891.0  1583.1
+   37.05   380.0  2150.6
+> sScSScSSv380S at  2237.84 seconds at    38.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.076 s/deg.
+    9.93  2891.0   620.2
+   28.04  2891.0  1584.3
+   37.54   380.0  2152.1
+> sScSScSSv380S at  2239.39 seconds at    38.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.113 s/deg.
+   10.06  2891.0   620.6
+   28.41  2891.0  1585.4
+   38.04   380.0  2153.6
+> sScSScSSv380S at  2240.94 seconds at    39.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.150 s/deg.
+   10.19  2891.0   621.0
+   28.77  2891.0  1586.6
+   38.53   380.0  2155.1
+> sScSScSSv380S at  2242.54 seconds at    39.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.187 s/deg.
+   10.32  2891.0   621.4
+   29.14  2891.0  1587.7
+   39.03   380.0  2156.7
+> sScSScSSv380S at  2244.14 seconds at    40.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.224 s/deg.
+   10.45  2891.0   621.8
+   29.51  2891.0  1588.9
+   39.52   380.0  2158.3
+> sScSScSSv380S at  2245.76 seconds at    40.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.261 s/deg.
+   10.58  2891.0   622.3
+   29.88  2891.0  1590.1
+   40.02   380.0  2159.9
+> sScSScSSv380S at  2247.41 seconds at    41.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.298 s/deg.
+   10.71  2891.0   622.7
+   30.25  2891.0  1591.3
+   40.51   380.0  2161.5
+> sScSScSSv380S at  2249.06 seconds at    41.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.335 s/deg.
+   10.85  2891.0   623.1
+   30.62  2891.0  1592.6
+   41.00   380.0  2163.2
+> sScSScSSv380S at  2250.73 seconds at    42.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.371 s/deg.
+   10.98  2891.0   623.6
+   30.99  2891.0  1593.8
+   41.50   380.0  2164.8
+> sScSScSSv380S at  2252.43 seconds at    42.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.407 s/deg.
+   11.11  2891.0   624.0
+   31.36  2891.0  1595.0
+   41.99   380.0  2166.5
+> sScSScSSv380S at  2254.13 seconds at    43.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.444 s/deg.
+   11.24  2891.0   624.4
+   31.73  2891.0  1596.3
+   42.49   380.0  2168.2
+> sScSScSSv380S at  2255.88 seconds at    43.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.480 s/deg.
+   11.37  2891.0   624.9
+   32.10  2891.0  1597.6
+   42.98   380.0  2169.9
+> sScSScSSv380S at  2257.63 seconds at    44.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.516 s/deg.
+   11.50  2891.0   625.4
+   32.47  2891.0  1598.9
+   43.48   380.0  2171.6
+> sScSScSSv380S at  2259.38 seconds at    44.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.552 s/deg.
+   11.63  2891.0   625.8
+   32.84  2891.0  1600.2
+   43.97   380.0  2173.4
+> sScSScSSv380S at  2261.18 seconds at    45.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.587 s/deg.
+   11.76  2891.0   626.3
+   33.21  2891.0  1601.5
+   44.47   380.0  2175.2
+> sScSScSSv380S at  2262.98 seconds at    45.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.623 s/deg.
+   11.89  2891.0   626.7
+   33.58  2891.0  1602.8
+   44.96   380.0  2176.9
+> sScSScSSv380S at  2264.79 seconds at    46.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.658 s/deg.
+   12.02  2891.0   627.2
+   33.95  2891.0  1604.2
+   45.46   380.0  2178.7
+> sScSScSSv380S at  2266.64 seconds at    46.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.694 s/deg.
+   12.15  2891.0   627.7
+   34.32  2891.0  1605.6
+   45.95   380.0  2180.6
+> sScSScSSv380S at  2268.50 seconds at    47.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.729 s/deg.
+   12.28  2891.0   628.2
+   34.69  2891.0  1606.9
+   46.44   380.0  2182.4
+> sScSScSSv380S at  2270.36 seconds at    47.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.764 s/deg.
+   12.41  2891.0   628.7
+   35.05  2891.0  1608.3
+   46.94   380.0  2184.2
+> sScSScSSv380S at  2272.26 seconds at    48.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.799 s/deg.
+   12.54  2891.0   629.2
+   35.42  2891.0  1609.7
+   47.43   380.0  2186.1
+> sScSScSSv380S at  2274.17 seconds at    48.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.834 s/deg.
+   12.67  2891.0   629.7
+   35.79  2891.0  1611.1
+   47.93   380.0  2188.0
+> sScSScSSv380S at  2276.08 seconds at    49.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.869 s/deg.
+   12.80  2891.0   630.2
+   36.16  2891.0  1612.5
+   48.42   380.0  2189.9
+> sScSScSSv380S at  2278.03 seconds at    49.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.903 s/deg.
+   12.93  2891.0   630.7
+   36.53  2891.0  1614.0
+   48.92   380.0  2191.8
+> sScSScSSv380S at  2280.00 seconds at    50.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.937 s/deg.
+   13.06  2891.0   631.2
+   36.90  2891.0  1615.4
+   49.41   380.0  2193.8
+> sScSScSSv380S at  2281.96 seconds at    50.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    3.972 s/deg.
+   13.19  2891.0   631.7
+   37.27  2891.0  1616.9
+   49.91   380.0  2195.7
+> sScSScSSv380S at  2283.96 seconds at    51.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.006 s/deg.
+   13.32  2891.0   632.2
+   37.64  2891.0  1618.4
+   50.40   380.0  2197.7
+> sScSScSSv380S at  2285.97 seconds at    51.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.040 s/deg.
+   13.45  2891.0   632.7
+   38.01  2891.0  1619.8
+   50.90   380.0  2199.7
+> sScSScSSv380S at  2288.00 seconds at    52.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.074 s/deg.
+   13.58  2891.0   633.3
+   38.38  2891.0  1621.3
+   51.39   380.0  2201.7
+> sScSScSSv380S at  2290.04 seconds at    52.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.108 s/deg.
+   13.71  2891.0   633.8
+   38.75  2891.0  1622.9
+   51.89   380.0  2203.7
+> sScSScSSv380S at  2292.10 seconds at    53.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.141 s/deg.
+   13.84  2891.0   634.3
+   39.12  2891.0  1624.4
+   52.38   380.0  2205.8
+> sScSScSSv380S at  2294.18 seconds at    53.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.175 s/deg.
+   13.97  2891.0   634.9
+   39.49  2891.0  1625.9
+   52.88   380.0  2207.8
+> sScSScSSv380S at  2296.28 seconds at    54.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.208 s/deg.
+   14.10  2891.0   635.4
+   39.86  2891.0  1627.5
+   53.37   380.0  2209.9
+> sScSScSSv380S at  2298.39 seconds at    54.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.241 s/deg.
+   14.23  2891.0   636.0
+   40.23  2891.0  1629.0
+   53.87   380.0  2212.0
+> sScSScSSv380S at  2300.52 seconds at    55.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.274 s/deg.
+   14.36  2891.0   636.5
+   40.60  2891.0  1630.6
+   54.36   380.0  2214.1
+> sScSScSSv380S at  2302.66 seconds at    55.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.307 s/deg.
+   14.49  2891.0   637.1
+   40.97  2891.0  1632.2
+   54.86   380.0  2216.2
+> sScSScSSv380S at  2304.82 seconds at    56.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.340 s/deg.
+   14.62  2891.0   637.6
+   41.34  2891.0  1633.8
+   55.35   380.0  2218.3
+> sScSScSSv380S at  2307.00 seconds at    56.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.372 s/deg.
+   14.75  2891.0   638.2
+   41.71  2891.0  1635.4
+   55.85   380.0  2220.5
+> sScSScSSv380S at  2309.20 seconds at    57.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.405 s/deg.
+   14.88  2891.0   638.8
+   42.08  2891.0  1637.0
+   56.34   380.0  2222.7
+> sScSScSSv380S at  2311.41 seconds at    57.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.437 s/deg.
+   15.01  2891.0   639.3
+   42.45  2891.0  1638.7
+   56.84   380.0  2224.9
+> sScSScSSv380S at  2313.64 seconds at    58.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.469 s/deg.
+   15.14  2891.0   639.9
+   42.82  2891.0  1640.3
+   57.33   380.0  2227.1
+> sScSScSSv380S at  2315.88 seconds at    58.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.501 s/deg.
+   15.27  2891.0   640.5
+   43.19  2891.0  1642.0
+   57.83   380.0  2229.3
+> sScSScSSv380S at  2318.14 seconds at    59.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.533 s/deg.
+   15.40  2891.0   641.1
+   43.56  2891.0  1643.6
+   58.32   380.0  2231.5
+> sScSScSSv380S at  2320.41 seconds at    59.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.565 s/deg.
+   15.53  2891.0   641.7
+   43.93  2891.0  1645.3
+   58.82   380.0  2233.8
+> sScSScSSv380S at  2322.70 seconds at    60.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.597 s/deg.
+   15.66  2891.0   642.3
+   44.30  2891.0  1647.0
+   59.31   380.0  2236.0
+> sScSScSSv380S at  2325.01 seconds at    60.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.628 s/deg.
+   15.79  2891.0   642.9
+   44.67  2891.0  1648.7
+   59.81   380.0  2238.3
+> sScSScSSv380S at  2327.33 seconds at    61.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.659 s/deg.
+   15.92  2891.0   643.5
+   45.04  2891.0  1650.4
+   60.30   380.0  2240.6
+> sScSScSSv380S at  2329.68 seconds at    61.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.690 s/deg.
+   16.05  2891.0   644.1
+   45.41  2891.0  1652.2
+   60.80   380.0  2243.0
+> sScSScSSv380S at  2332.03 seconds at    62.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.721 s/deg.
+   16.18  2891.0   644.7
+   45.78  2891.0  1653.9
+   61.29   380.0  2245.3
+> sScSScSSv380S at  2334.39 seconds at    62.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.752 s/deg.
+   16.31  2891.0   645.3
+   46.15  2891.0  1655.7
+   61.79   380.0  2247.6
+> sScSScSSv380S at  2336.78 seconds at    63.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.783 s/deg.
+   16.43  2891.0   645.9
+   46.52  2891.0  1657.4
+   62.28   380.0  2250.0
+> sScSScSSv380S at  2339.17 seconds at    63.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.813 s/deg.
+   16.56  2891.0   646.5
+   46.89  2891.0  1659.2
+   62.78   380.0  2252.4
+> sScSScSSv380S at  2341.59 seconds at    64.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.844 s/deg.
+   16.69  2891.0   647.2
+   47.26  2891.0  1661.0
+   63.27   380.0  2254.8
+> sScSScSSv380S at  2344.02 seconds at    64.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.874 s/deg.
+   16.82  2891.0   647.8
+   47.63  2891.0  1662.8
+   63.77   380.0  2257.2
+> sScSScSSv380S at  2346.46 seconds at    65.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.904 s/deg.
+   16.95  2891.0   648.4
+   48.00  2891.0  1664.6
+   64.26   380.0  2259.6
+> sScSScSSv380S at  2348.93 seconds at    65.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.934 s/deg.
+   17.08  2891.0   649.1
+   48.37  2891.0  1666.4
+   64.76   380.0  2262.0
+> sScSScSSv380S at  2351.41 seconds at    66.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.964 s/deg.
+   17.21  2891.0   649.7
+   48.74  2891.0  1668.3
+   65.25   380.0  2264.5
+> sScSScSSv380S at  2353.89 seconds at    66.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    4.994 s/deg.
+   17.34  2891.0   650.4
+   49.11  2891.0  1670.1
+   65.75   380.0  2266.9
+> sScSScSSv380S at  2356.39 seconds at    67.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.023 s/deg.
+   17.47  2891.0   651.0
+   49.48  2891.0  1672.0
+   66.24   380.0  2269.4
+> sScSScSSv380S at  2358.92 seconds at    67.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.052 s/deg.
+   17.60  2891.0   651.7
+   49.85  2891.0  1673.8
+   66.74   380.0  2271.9
+> sScSScSSv380S at  2361.45 seconds at    68.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.082 s/deg.
+   17.73  2891.0   652.3
+   50.22  2891.0  1675.7
+   67.23   380.0  2274.4
+> sScSScSSv380S at  2363.99 seconds at    68.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.111 s/deg.
+   17.86  2891.0   653.0
+   50.59  2891.0  1677.6
+   67.73   380.0  2276.9
+> sScSScSSv380S at  2366.55 seconds at    69.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.140 s/deg.
+   17.99  2891.0   653.6
+   50.96  2891.0  1679.5
+   68.23   380.0  2279.5
+> sScSScSSv380S at  2369.14 seconds at    69.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.168 s/deg.
+   18.12  2891.0   654.3
+   51.33  2891.0  1681.4
+   68.72   380.0  2282.0
+> sScSScSSv380S at  2371.72 seconds at    70.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.197 s/deg.
+   18.25  2891.0   655.0
+   51.70  2891.0  1683.3
+   69.22   380.0  2284.6
+> sScSScSSv380S at  2374.33 seconds at    70.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.225 s/deg.
+   18.38  2891.0   655.6
+   52.07  2891.0  1685.2
+   69.71   380.0  2287.2
+> sScSScSSv380S at  2376.95 seconds at    71.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.254 s/deg.
+   18.51  2891.0   656.3
+   52.45  2891.0  1687.2
+   70.21   380.0  2289.8
+> sScSScSSv380S at  2379.58 seconds at    71.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.282 s/deg.
+   18.64  2891.0   657.0
+   52.82  2891.0  1689.1
+   70.70   380.0  2292.4
+> sScSScSSv380S at  2382.23 seconds at    72.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.310 s/deg.
+   18.77  2891.0   657.7
+   53.19  2891.0  1691.1
+   71.20   380.0  2295.0
+> sScSScSSv380S at  2384.89 seconds at    72.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.338 s/deg.
+   18.89  2891.0   658.4
+   53.56  2891.0  1693.1
+   71.69   380.0  2297.7
+> sScSScSSv380S at  2387.57 seconds at    73.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.365 s/deg.
+   19.02  2891.0   659.1
+   53.93  2891.0  1695.1
+   72.19   380.0  2300.3
+> sScSScSSv380S at  2390.26 seconds at    73.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.393 s/deg.
+   19.15  2891.0   659.8
+   54.30  2891.0  1697.0
+   72.69   380.0  2303.0
+> sScSScSSv380S at  2392.96 seconds at    74.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.420 s/deg.
+   19.28  2891.0   660.5
+   54.67  2891.0  1699.0
+   73.18   380.0  2305.6
+> sScSScSSv380S at  2395.67 seconds at    74.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.448 s/deg.
+   19.41  2891.0   661.2
+   55.04  2891.0  1701.1
+   73.68   380.0  2308.3
+> sScSScSSv380S at  2398.42 seconds at    75.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.474 s/deg.
+   19.54  2891.0   661.9
+   55.41  2891.0  1703.1
+   74.17   380.0  2311.1
+> sScSScSSv380S at  2401.17 seconds at    75.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.501 s/deg.
+   19.67  2891.0   662.6
+   55.78  2891.0  1705.1
+   74.67   380.0  2313.8
+> sScSScSSv380S at  2403.91 seconds at    76.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.528 s/deg.
+   19.80  2891.0   663.3
+   56.15  2891.0  1707.2
+   75.16   380.0  2316.5
+> sScSScSSv380S at  2406.69 seconds at    76.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.555 s/deg.
+   19.93  2891.0   664.0
+   56.52  2891.0  1709.2
+   75.66   380.0  2319.3
+> sScSScSSv380S at  2409.48 seconds at    77.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.581 s/deg.
+   20.06  2891.0   664.7
+   56.89  2891.0  1711.3
+   76.16   380.0  2322.0
+> sScSScSSv380S at  2412.27 seconds at    77.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.608 s/deg.
+   20.19  2891.0   665.5
+   57.26  2891.0  1713.4
+   76.65   380.0  2324.8
+> sScSScSSv380S at  2415.07 seconds at    78.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.634 s/deg.
+   20.32  2891.0   666.2
+   57.63  2891.0  1715.4
+   77.15   380.0  2327.6
+> sScSScSSv380S at  2417.89 seconds at    78.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.660 s/deg.
+   20.44  2891.0   666.9
+   58.01  2891.0  1717.5
+   77.64   380.0  2330.4
+> sScSScSSv380S at  2420.74 seconds at    79.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.686 s/deg.
+   20.57  2891.0   667.6
+   58.38  2891.0  1719.6
+   78.14   380.0  2333.2
+> sScSScSSv380S at  2423.59 seconds at    79.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.711 s/deg.
+   20.70  2891.0   668.4
+   58.75  2891.0  1721.8
+   78.63   380.0  2336.0
+> sScSScSSv380S at  2426.44 seconds at    80.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.737 s/deg.
+   20.83  2891.0   669.1
+   59.12  2891.0  1723.9
+   79.13   380.0  2338.9
+> sScSScSSv380S at  2429.32 seconds at    80.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.762 s/deg.
+   20.96  2891.0   669.9
+   59.49  2891.0  1726.0
+   79.63   380.0  2341.7
+> sScSScSSv380S at  2432.21 seconds at    81.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.787 s/deg.
+   21.09  2891.0   670.6
+   59.86  2891.0  1728.2
+   80.12   380.0  2344.6
+> sScSScSSv380S at  2435.10 seconds at    81.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.813 s/deg.
+   21.22  2891.0   671.3
+   60.23  2891.0  1730.3
+   80.62   380.0  2347.4
+> sScSScSSv380S at  2438.02 seconds at    82.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.838 s/deg.
+   21.35  2891.0   672.1
+   60.60  2891.0  1732.5
+   81.11   380.0  2350.3
+> sScSScSSv380S at  2440.95 seconds at    82.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.862 s/deg.
+   21.48  2891.0   672.9
+   60.97  2891.0  1734.6
+   81.61   380.0  2353.2
+> sScSScSSv380S at  2443.88 seconds at    83.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.887 s/deg.
+   21.61  2891.0   673.6
+   61.34  2891.0  1736.8
+   82.11   380.0  2356.1
+> sScSScSSv380S at  2446.84 seconds at    83.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.911 s/deg.
+   21.73  2891.0   674.4
+   61.71  2891.0  1739.0
+   82.60   380.0  2359.1
+> sScSScSSv380S at  2449.80 seconds at    84.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.936 s/deg.
+   21.86  2891.0   675.1
+   62.09  2891.0  1741.2
+   83.10   380.0  2362.0
+> sScSScSSv380S at  2452.76 seconds at    84.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.960 s/deg.
+   21.99  2891.0   675.9
+   62.46  2891.0  1743.4
+   83.59   380.0  2365.0
+> sScSScSSv380S at  2455.75 seconds at    85.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    5.984 s/deg.
+   22.12  2891.0   676.7
+   62.83  2891.0  1745.6
+   84.09   380.0  2367.9
+> sScSScSSv380S at  2458.75 seconds at    85.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.008 s/deg.
+   22.25  2891.0   677.4
+   63.20  2891.0  1747.8
+   84.59   380.0  2370.9
+> sScSScSSv380S at  2461.77 seconds at    86.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.032 s/deg.
+   22.38  2891.0   678.2
+   63.57  2891.0  1750.1
+   85.08   380.0  2373.9
+> sScSScSSv380S at  2464.79 seconds at    86.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.055 s/deg.
+   22.51  2891.0   679.0
+   63.94  2891.0  1752.3
+   85.58   380.0  2376.9
+> sScSScSSv380S at  2467.81 seconds at    87.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.079 s/deg.
+   22.64  2891.0   679.8
+   64.31  2891.0  1754.6
+   86.07   380.0  2379.9
+> sScSScSSv380S at  2470.86 seconds at    87.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.102 s/deg.
+   22.77  2891.0   680.6
+   64.68  2891.0  1756.8
+   86.57   380.0  2382.9
+> sScSScSSv380S at  2473.93 seconds at    88.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.125 s/deg.
+   22.89  2891.0   681.4
+   65.05  2891.0  1759.1
+   87.07   380.0  2386.0
+> sScSScSSv380S at  2476.99 seconds at    88.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.148 s/deg.
+   23.02  2891.0   682.1
+   65.43  2891.0  1761.4
+   87.56   380.0  2389.0
+> sScSScSSv380S at  2480.06 seconds at    89.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.171 s/deg.
+   23.15  2891.0   682.9
+   65.80  2891.0  1763.7
+   88.06   380.0  2392.1
+> sScSScSSv380S at  2483.17 seconds at    89.50 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.193 s/deg.
+   23.28  2891.0   683.7
+   66.17  2891.0  1766.0
+   88.56   380.0  2395.1
+> sScSScSSv380S at  2486.27 seconds at    90.00 degrees for a    651.0 km deep source in the prem380 model with rayParam    6.216 s/deg.
+   23.41  2891.0   684.5
+   66.54  2891.0  1768.3
+   89.05   380.0  2398.2

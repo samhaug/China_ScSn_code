@@ -1,724 +1,724 @@
-> sScSScSSv80S at  2028.92 seconds at     0.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.000 s/deg.
-    0.00  2891.0   586.4
-    0.00  2891.0  1522.1
-    0.00    80.0  2009.4
-> sScSScSSv80S at  2028.94 seconds at     0.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.043 s/deg.
-    0.13  2891.0   586.4
-    0.38  2891.0  1522.1
-    0.50    80.0  2009.4
-> sScSScSSv80S at  2028.97 seconds at     1.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.086 s/deg.
-    0.26  2891.0   586.4
-    0.75  2891.0  1522.1
-    1.00    80.0  2009.5
-> sScSScSSv80S at  2029.02 seconds at     1.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.129 s/deg.
-    0.40  2891.0   586.4
-    1.13  2891.0  1522.2
-    1.50    80.0  2009.5
-> sScSScSSv80S at  2029.10 seconds at     2.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.173 s/deg.
-    0.53  2891.0   586.5
-    1.50  2891.0  1522.2
-    2.00    80.0  2009.6
-> sScSScSSv80S at  2029.20 seconds at     2.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.216 s/deg.
-    0.66  2891.0   586.5
-    1.88  2891.0  1522.3
-    2.49    80.0  2009.7
-> sScSScSSv80S at  2029.32 seconds at     3.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.259 s/deg.
-    0.79  2891.0   586.5
-    2.25  2891.0  1522.4
-    2.99    80.0  2009.8
-> sScSScSSv80S at  2029.45 seconds at     3.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.302 s/deg.
-    0.92  2891.0   586.6
-    2.63  2891.0  1522.5
-    3.49    80.0  2009.9
-> sScSScSSv80S at  2029.62 seconds at     4.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.345 s/deg.
-    1.05  2891.0   586.6
-    3.01  2891.0  1522.6
-    3.99    80.0  2010.1
-> sScSScSSv80S at  2029.80 seconds at     4.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.388 s/deg.
-    1.19  2891.0   586.6
-    3.38  2891.0  1522.7
-    4.49    80.0  2010.3
-> sScSScSSv80S at  2030.01 seconds at     5.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.431 s/deg.
-    1.32  2891.0   586.7
-    3.76  2891.0  1522.9
-    4.99    80.0  2010.5
-> sScSScSSv80S at  2030.23 seconds at     5.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.474 s/deg.
-    1.45  2891.0   586.8
-    4.13  2891.0  1523.1
-    5.49    80.0  2010.7
-> sScSScSSv80S at  2030.48 seconds at     6.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.517 s/deg.
-    1.58  2891.0   586.8
-    4.51  2891.0  1523.2
-    5.99    80.0  2011.0
-> sScSScSSv80S at  2030.76 seconds at     6.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.560 s/deg.
-    1.71  2891.0   586.9
-    4.88  2891.0  1523.5
-    6.48    80.0  2011.2
-> sScSScSSv80S at  2031.04 seconds at     7.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.603 s/deg.
-    1.85  2891.0   587.0
-    5.26  2891.0  1523.7
-    6.98    80.0  2011.5
-> sScSScSSv80S at  2031.35 seconds at     7.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.646 s/deg.
-    1.98  2891.0   587.1
-    5.64  2891.0  1523.9
-    7.48    80.0  2011.8
-> sScSScSSv80S at  2031.68 seconds at     8.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.689 s/deg.
-    2.11  2891.0   587.1
-    6.01  2891.0  1524.2
-    7.98    80.0  2012.2
-> sScSScSSv80S at  2032.04 seconds at     8.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.732 s/deg.
-    2.24  2891.0   587.2
-    6.39  2891.0  1524.4
-    8.48    80.0  2012.5
-> sScSScSSv80S at  2032.41 seconds at     9.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.775 s/deg.
-    2.37  2891.0   587.3
-    6.76  2891.0  1524.7
-    8.98    80.0  2012.9
-> sScSScSSv80S at  2032.82 seconds at     9.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.818 s/deg.
-    2.50  2891.0   587.4
-    7.14  2891.0  1525.0
-    9.48    80.0  2013.3
-> sScSScSSv80S at  2033.24 seconds at    10.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.861 s/deg.
-    2.64  2891.0   587.5
-    7.51  2891.0  1525.3
-    9.98    80.0  2013.7
-> sScSScSSv80S at  2033.67 seconds at    10.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.903 s/deg.
-    2.77  2891.0   587.7
-    7.89  2891.0  1525.6
-   10.48    80.0  2014.2
-> sScSScSSv80S at  2034.13 seconds at    11.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.946 s/deg.
-    2.90  2891.0   587.8
-    8.27  2891.0  1526.0
-   10.97    80.0  2014.6
-> sScSScSSv80S at  2034.62 seconds at    11.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    0.989 s/deg.
-    3.03  2891.0   587.9
-    8.64  2891.0  1526.4
-   11.47    80.0  2015.1
-> sScSScSSv80S at  2035.13 seconds at    12.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.031 s/deg.
-    3.16  2891.0   588.0
-    9.02  2891.0  1526.7
-   11.97    80.0  2015.6
-> sScSScSSv80S at  2035.65 seconds at    12.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.074 s/deg.
-    3.30  2891.0   588.2
-    9.39  2891.0  1527.1
-   12.47    80.0  2016.1
-> sScSScSSv80S at  2036.20 seconds at    13.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.116 s/deg.
-    3.43  2891.0   588.3
-    9.77  2891.0  1527.5
-   12.97    80.0  2016.7
-> sScSScSSv80S at  2036.77 seconds at    13.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.159 s/deg.
-    3.56  2891.0   588.5
-   10.14  2891.0  1528.0
-   13.47    80.0  2017.2
-> sScSScSSv80S at  2037.36 seconds at    14.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.201 s/deg.
-    3.69  2891.0   588.6
-   10.52  2891.0  1528.4
-   13.97    80.0  2017.8
-> sScSScSSv80S at  2037.97 seconds at    14.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.244 s/deg.
-    3.82  2891.0   588.8
-   10.90  2891.0  1528.9
-   14.47    80.0  2018.4
-> sScSScSSv80S at  2038.60 seconds at    15.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.286 s/deg.
-    3.95  2891.0   589.0
-   11.27  2891.0  1529.3
-   14.96    80.0  2019.1
-> sScSScSSv80S at  2039.26 seconds at    15.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.328 s/deg.
-    4.09  2891.0   589.1
-   11.65  2891.0  1529.8
-   15.46    80.0  2019.7
-> sScSScSSv80S at  2039.93 seconds at    16.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.371 s/deg.
-    4.22  2891.0   589.3
-   12.02  2891.0  1530.3
-   15.96    80.0  2020.4
-> sScSScSSv80S at  2040.62 seconds at    16.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.413 s/deg.
-    4.35  2891.0   589.5
-   12.40  2891.0  1530.9
-   16.46    80.0  2021.1
-> sScSScSSv80S at  2041.34 seconds at    17.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.455 s/deg.
-    4.48  2891.0   589.7
-   12.77  2891.0  1531.4
-   16.96    80.0  2021.8
-> sScSScSSv80S at  2042.08 seconds at    17.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.497 s/deg.
-    4.61  2891.0   589.9
-   13.15  2891.0  1532.0
-   17.46    80.0  2022.5
-> sScSScSSv80S at  2042.84 seconds at    18.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.539 s/deg.
-    4.74  2891.0   590.1
-   13.53  2891.0  1532.5
-   17.96    80.0  2023.3
-> sScSScSSv80S at  2043.62 seconds at    18.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.581 s/deg.
-    4.88  2891.0   590.3
-   13.90  2891.0  1533.1
-   18.46    80.0  2024.1
-> sScSScSSv80S at  2044.42 seconds at    19.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.623 s/deg.
-    5.01  2891.0   590.5
-   14.28  2891.0  1533.7
-   18.96    80.0  2024.9
-> sScSScSSv80S at  2045.24 seconds at    19.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.664 s/deg.
-    5.14  2891.0   590.7
-   14.65  2891.0  1534.3
-   19.45    80.0  2025.7
-> sScSScSSv80S at  2046.08 seconds at    20.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.706 s/deg.
-    5.27  2891.0   590.9
-   15.03  2891.0  1535.0
-   19.95    80.0  2026.5
-> sScSScSSv80S at  2046.95 seconds at    20.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.748 s/deg.
-    5.40  2891.0   591.2
-   15.40  2891.0  1535.6
-   20.45    80.0  2027.4
-> sScSScSSv80S at  2047.83 seconds at    21.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.789 s/deg.
-    5.53  2891.0   591.4
-   15.78  2891.0  1536.3
-   20.95    80.0  2028.3
-> sScSScSSv80S at  2048.73 seconds at    21.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.831 s/deg.
-    5.67  2891.0   591.6
-   16.16  2891.0  1537.0
-   21.45    80.0  2029.2
-> sScSScSSv80S at  2049.66 seconds at    22.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.872 s/deg.
-    5.80  2891.0   591.9
-   16.53  2891.0  1537.7
-   21.95    80.0  2030.1
-> sScSScSSv80S at  2050.61 seconds at    22.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.913 s/deg.
-    5.93  2891.0   592.1
-   16.91  2891.0  1538.4
-   22.45    80.0  2031.0
-> sScSScSSv80S at  2051.57 seconds at    23.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.954 s/deg.
-    6.06  2891.0   592.4
-   17.28  2891.0  1539.1
-   22.95    80.0  2032.0
-> sScSScSSv80S at  2052.56 seconds at    23.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    1.996 s/deg.
-    6.19  2891.0   592.6
-   17.66  2891.0  1539.8
-   23.45    80.0  2033.0
-> sScSScSSv80S at  2053.57 seconds at    24.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.037 s/deg.
-    6.32  2891.0   592.9
-   18.03  2891.0  1540.6
-   23.94    80.0  2034.0
-> sScSScSSv80S at  2054.61 seconds at    24.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.078 s/deg.
-    6.46  2891.0   593.2
-   18.41  2891.0  1541.4
-   24.44    80.0  2035.0
-> sScSScSSv80S at  2055.68 seconds at    25.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.118 s/deg.
-    6.59  2891.0   593.5
-   18.78  2891.0  1542.2
-   24.94    80.0  2036.1
-> sScSScSSv80S at  2056.74 seconds at    25.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.159 s/deg.
-    6.72  2891.0   593.7
-   19.16  2891.0  1543.0
-   25.44    80.0  2037.2
-> sScSScSSv80S at  2057.81 seconds at    26.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.200 s/deg.
-    6.85  2891.0   594.0
-   19.54  2891.0  1543.8
-   25.94    80.0  2038.2
-> sScSScSSv80S at  2058.93 seconds at    26.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.240 s/deg.
-    6.98  2891.0   594.3
-   19.91  2891.0  1544.6
-   26.44    80.0  2039.4
-> sScSScSSv80S at  2060.05 seconds at    27.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.281 s/deg.
-    7.11  2891.0   594.6
-   20.29  2891.0  1545.5
-   26.94    80.0  2040.5
-> sScSScSSv80S at  2061.21 seconds at    27.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.321 s/deg.
-    7.24  2891.0   594.9
-   20.66  2891.0  1546.3
-   27.44    80.0  2041.6
-> sScSScSSv80S at  2062.38 seconds at    28.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.362 s/deg.
-    7.38  2891.0   595.2
-   21.04  2891.0  1547.2
-   27.94    80.0  2042.8
-> sScSScSSv80S at  2063.56 seconds at    28.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.402 s/deg.
-    7.51  2891.0   595.5
-   21.41  2891.0  1548.1
-   28.43    80.0  2044.0
-> sScSScSSv80S at  2064.78 seconds at    29.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.442 s/deg.
-    7.64  2891.0   595.9
-   21.79  2891.0  1549.0
-   28.93    80.0  2045.2
-> sScSScSSv80S at  2066.00 seconds at    29.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.482 s/deg.
-    7.77  2891.0   596.2
-   22.17  2891.0  1549.9
-   29.43    80.0  2046.4
-> sScSScSSv80S at  2067.26 seconds at    30.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.522 s/deg.
-    7.90  2891.0   596.5
-   22.54  2891.0  1550.9
-   29.93    80.0  2047.7
-> sScSScSSv80S at  2068.53 seconds at    30.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.562 s/deg.
-    8.03  2891.0   596.8
-   22.92  2891.0  1551.8
-   30.43    80.0  2048.9
-> sScSScSSv80S at  2069.83 seconds at    31.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.601 s/deg.
-    8.16  2891.0   597.2
-   23.29  2891.0  1552.8
-   30.93    80.0  2050.2
-> sScSScSSv80S at  2071.13 seconds at    31.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.641 s/deg.
-    8.30  2891.0   597.5
-   23.67  2891.0  1553.8
-   31.43    80.0  2051.5
-> sScSScSSv80S at  2072.46 seconds at    32.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.680 s/deg.
-    8.43  2891.0   597.9
-   24.04  2891.0  1554.8
-   31.93    80.0  2052.9
-> sScSScSSv80S at  2073.82 seconds at    32.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.720 s/deg.
-    8.56  2891.0   598.2
-   24.42  2891.0  1555.8
-   32.43    80.0  2054.2
-> sScSScSSv80S at  2075.17 seconds at    33.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.759 s/deg.
-    8.69  2891.0   598.6
-   24.80  2891.0  1556.8
-   32.92    80.0  2055.6
-> sScSScSSv80S at  2076.57 seconds at    33.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.798 s/deg.
-    8.82  2891.0   599.0
-   25.17  2891.0  1557.9
-   33.42    80.0  2057.0
-> sScSScSSv80S at  2077.98 seconds at    34.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.837 s/deg.
-    8.95  2891.0   599.3
-   25.55  2891.0  1558.9
-   33.92    80.0  2058.4
-> sScSScSSv80S at  2079.40 seconds at    34.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.876 s/deg.
-    9.08  2891.0   599.7
-   25.92  2891.0  1560.0
-   34.42    80.0  2059.8
-> sScSScSSv80S at  2080.85 seconds at    35.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.915 s/deg.
-    9.22  2891.0   600.1
-   26.30  2891.0  1561.1
-   34.92    80.0  2061.2
-> sScSScSSv80S at  2082.32 seconds at    35.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.954 s/deg.
-    9.35  2891.0   600.5
-   26.67  2891.0  1562.2
-   35.42    80.0  2062.7
-> sScSScSSv80S at  2083.82 seconds at    36.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    2.992 s/deg.
-    9.48  2891.0   600.9
-   27.05  2891.0  1563.3
-   35.92    80.0  2064.2
-> sScSScSSv80S at  2085.32 seconds at    36.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.031 s/deg.
-    9.61  2891.0   601.2
-   27.43  2891.0  1564.4
-   36.42    80.0  2065.7
-> sScSScSSv80S at  2086.84 seconds at    37.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.069 s/deg.
-    9.74  2891.0   601.6
-   27.80  2891.0  1565.6
-   36.92    80.0  2067.2
-> sScSScSSv80S at  2088.39 seconds at    37.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.107 s/deg.
-    9.87  2891.0   602.1
-   28.18  2891.0  1566.8
-   37.41    80.0  2068.8
-> sScSScSSv80S at  2089.94 seconds at    38.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.145 s/deg.
-   10.00  2891.0   602.5
-   28.55  2891.0  1567.9
-   37.91    80.0  2070.3
-> sScSScSSv80S at  2091.54 seconds at    38.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.183 s/deg.
-   10.13  2891.0   602.9
-   28.93  2891.0  1569.1
-   38.41    80.0  2071.9
-> sScSScSSv80S at  2093.14 seconds at    39.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.221 s/deg.
-   10.27  2891.0   603.3
-   29.30  2891.0  1570.3
-   38.91    80.0  2073.5
-> sScSScSSv80S at  2094.75 seconds at    39.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.259 s/deg.
-   10.40  2891.0   603.7
-   29.68  2891.0  1571.5
-   39.41    80.0  2075.1
-> sScSScSSv80S at  2096.40 seconds at    40.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.296 s/deg.
-   10.53  2891.0   604.2
-   30.05  2891.0  1572.8
-   39.91    80.0  2076.7
-> sScSScSSv80S at  2098.05 seconds at    40.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.334 s/deg.
-   10.66  2891.0   604.6
-   30.43  2891.0  1574.0
-   40.41    80.0  2078.4
-> sScSScSSv80S at  2099.72 seconds at    41.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.371 s/deg.
-   10.79  2891.0   605.0
-   30.81  2891.0  1575.3
-   40.91    80.0  2080.1
-> sScSScSSv80S at  2101.42 seconds at    41.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.408 s/deg.
-   10.92  2891.0   605.5
-   31.18  2891.0  1576.5
-   41.41    80.0  2081.8
-> sScSScSSv80S at  2103.13 seconds at    42.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.445 s/deg.
-   11.05  2891.0   605.9
-   31.56  2891.0  1577.8
-   41.90    80.0  2083.5
-> sScSScSSv80S at  2104.87 seconds at    42.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.482 s/deg.
-   11.18  2891.0   606.4
-   31.93  2891.0  1579.1
-   42.40    80.0  2085.2
-> sScSScSSv80S at  2106.62 seconds at    43.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.519 s/deg.
-   11.31  2891.0   606.8
-   32.31  2891.0  1580.5
-   42.90    80.0  2086.9
-> sScSScSSv80S at  2108.38 seconds at    43.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.556 s/deg.
-   11.45  2891.0   607.3
-   32.68  2891.0  1581.8
-   43.40    80.0  2088.7
-> sScSScSSv80S at  2110.18 seconds at    44.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.592 s/deg.
-   11.58  2891.0   607.8
-   33.06  2891.0  1583.1
-   43.90    80.0  2090.5
-> sScSScSSv80S at  2111.98 seconds at    44.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.629 s/deg.
-   11.71  2891.0   608.2
-   33.44  2891.0  1584.5
-   44.40    80.0  2092.3
-> sScSScSSv80S at  2113.80 seconds at    45.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.665 s/deg.
-   11.84  2891.0   608.7
-   33.81  2891.0  1585.8
-   44.90    80.0  2094.1
-> sScSScSSv80S at  2115.65 seconds at    45.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.701 s/deg.
-   11.97  2891.0   609.2
-   34.19  2891.0  1587.2
-   45.40    80.0  2096.0
-> sScSScSSv80S at  2117.50 seconds at    46.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.737 s/deg.
-   12.10  2891.0   609.7
-   34.56  2891.0  1588.6
-   45.90    80.0  2097.8
-> sScSScSSv80S at  2119.38 seconds at    46.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.773 s/deg.
-   12.23  2891.0   610.2
-   34.94  2891.0  1590.0
-   46.40    80.0  2099.7
-> sScSScSSv80S at  2121.28 seconds at    47.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.808 s/deg.
-   12.36  2891.0   610.7
-   35.31  2891.0  1591.5
-   46.89    80.0  2101.6
-> sScSScSSv80S at  2123.19 seconds at    47.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.844 s/deg.
-   12.49  2891.0   611.2
-   35.69  2891.0  1592.9
-   47.39    80.0  2103.5
-> sScSScSSv80S at  2125.11 seconds at    48.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.879 s/deg.
-   12.62  2891.0   611.7
-   36.06  2891.0  1594.3
-   47.89    80.0  2105.4
-> sScSScSSv80S at  2127.07 seconds at    48.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.915 s/deg.
-   12.76  2891.0   612.2
-   36.44  2891.0  1595.8
-   48.39    80.0  2107.4
-> sScSScSSv80S at  2129.04 seconds at    49.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.950 s/deg.
-   12.89  2891.0   612.7
-   36.82  2891.0  1597.3
-   48.89    80.0  2109.3
-> sScSScSSv80S at  2131.01 seconds at    49.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    3.985 s/deg.
-   13.02  2891.0   613.2
-   37.19  2891.0  1598.8
-   49.39    80.0  2111.3
-> sScSScSSv80S at  2133.01 seconds at    50.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.020 s/deg.
-   13.15  2891.0   613.7
-   37.57  2891.0  1600.3
-   49.89    80.0  2113.3
-> sScSScSSv80S at  2135.03 seconds at    50.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.054 s/deg.
-   13.28  2891.0   614.3
-   37.94  2891.0  1601.8
-   50.39    80.0  2115.3
-> sScSScSSv80S at  2137.06 seconds at    51.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.089 s/deg.
-   13.41  2891.0   614.8
-   38.32  2891.0  1603.3
-   50.89    80.0  2117.3
-> sScSScSSv80S at  2139.12 seconds at    51.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.123 s/deg.
-   13.54  2891.0   615.3
-   38.69  2891.0  1604.9
-   51.39    80.0  2119.4
-> sScSScSSv80S at  2141.19 seconds at    52.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.157 s/deg.
-   13.67  2891.0   615.9
-   39.07  2891.0  1606.4
-   51.88    80.0  2121.4
-> sScSScSSv80S at  2143.27 seconds at    52.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.192 s/deg.
-   13.80  2891.0   616.4
-   39.45  2891.0  1608.0
-   52.38    80.0  2123.5
-> sScSScSSv80S at  2145.38 seconds at    53.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.225 s/deg.
-   13.93  2891.0   617.0
-   39.82  2891.0  1609.6
-   52.88    80.0  2125.6
-> sScSScSSv80S at  2147.50 seconds at    53.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.259 s/deg.
-   14.06  2891.0   617.5
-   40.20  2891.0  1611.2
-   53.38    80.0  2127.7
-> sScSScSSv80S at  2149.64 seconds at    54.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.293 s/deg.
-   14.19  2891.0   618.1
-   40.57  2891.0  1612.8
-   53.88    80.0  2129.9
-> sScSScSSv80S at  2151.79 seconds at    54.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.326 s/deg.
-   14.32  2891.0   618.7
-   40.95  2891.0  1614.4
-   54.38    80.0  2132.0
-> sScSScSSv80S at  2153.96 seconds at    55.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.360 s/deg.
-   14.45  2891.0   619.2
-   41.32  2891.0  1616.0
-   54.88    80.0  2134.2
-> sScSScSSv80S at  2156.15 seconds at    55.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.393 s/deg.
-   14.59  2891.0   619.8
-   41.70  2891.0  1617.7
-   55.38    80.0  2136.4
-> sScSScSSv80S at  2158.36 seconds at    56.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.426 s/deg.
-   14.72  2891.0   620.4
-   42.07  2891.0  1619.3
-   55.88    80.0  2138.6
-> sScSScSSv80S at  2160.58 seconds at    56.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.459 s/deg.
-   14.85  2891.0   620.9
-   42.45  2891.0  1621.0
-   56.38    80.0  2140.8
-> sScSScSSv80S at  2162.82 seconds at    57.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.492 s/deg.
-   14.98  2891.0   621.5
-   42.83  2891.0  1622.7
-   56.88    80.0  2143.0
-> sScSScSSv80S at  2165.07 seconds at    57.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.524 s/deg.
-   15.11  2891.0   622.1
-   43.20  2891.0  1624.4
-   57.37    80.0  2145.3
-> sScSScSSv80S at  2167.34 seconds at    58.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.557 s/deg.
-   15.24  2891.0   622.7
-   43.58  2891.0  1626.1
-   57.87    80.0  2147.5
-> sScSScSSv80S at  2169.63 seconds at    58.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.589 s/deg.
-   15.37  2891.0   623.3
-   43.95  2891.0  1627.8
-   58.37    80.0  2149.8
-> sScSScSSv80S at  2171.93 seconds at    59.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.621 s/deg.
-   15.50  2891.0   623.9
-   44.33  2891.0  1629.5
-   58.87    80.0  2152.1
-> sScSScSSv80S at  2174.25 seconds at    59.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.653 s/deg.
-   15.63  2891.0   624.5
-   44.70  2891.0  1631.3
-   59.37    80.0  2154.4
-> sScSScSSv80S at  2176.60 seconds at    60.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.685 s/deg.
-   15.76  2891.0   625.1
-   45.08  2891.0  1633.0
-   59.87    80.0  2156.8
-> sScSScSSv80S at  2178.95 seconds at    60.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.716 s/deg.
-   15.89  2891.0   625.7
-   45.45  2891.0  1634.8
-   60.37    80.0  2159.1
-> sScSScSSv80S at  2181.30 seconds at    61.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.748 s/deg.
-   16.02  2891.0   626.4
-   45.83  2891.0  1636.6
-   60.87    80.0  2161.5
-> sScSScSSv80S at  2183.69 seconds at    61.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.779 s/deg.
-   16.15  2891.0   627.0
-   46.21  2891.0  1638.3
-   61.37    80.0  2163.9
-> sScSScSSv80S at  2186.08 seconds at    62.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.810 s/deg.
-   16.28  2891.0   627.6
-   46.58  2891.0  1640.1
-   61.87    80.0  2166.2
-> sScSScSSv80S at  2188.50 seconds at    62.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.841 s/deg.
-   16.41  2891.0   628.2
-   46.96  2891.0  1642.0
-   62.37    80.0  2168.7
-> sScSScSSv80S at  2190.93 seconds at    63.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.872 s/deg.
-   16.54  2891.0   628.9
-   47.33  2891.0  1643.8
-   62.86    80.0  2171.1
-> sScSScSSv80S at  2193.36 seconds at    63.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.903 s/deg.
-   16.67  2891.0   629.5
-   47.71  2891.0  1645.6
-   63.36    80.0  2173.5
-> sScSScSSv80S at  2195.83 seconds at    64.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.933 s/deg.
-   16.80  2891.0   630.1
-   48.08  2891.0  1647.5
-   63.86    80.0  2176.0
-> sScSScSSv80S at  2198.31 seconds at    64.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.964 s/deg.
-   16.93  2891.0   630.8
-   48.46  2891.0  1649.3
-   64.36    80.0  2178.5
-> sScSScSSv80S at  2200.79 seconds at    65.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    4.994 s/deg.
-   17.06  2891.0   631.4
-   48.84  2891.0  1651.2
-   64.86    80.0  2180.9
-> sScSScSSv80S at  2203.30 seconds at    65.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.024 s/deg.
-   17.19  2891.0   632.1
-   49.21  2891.0  1653.1
-   65.36    80.0  2183.4
-> sScSScSSv80S at  2205.82 seconds at    66.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.054 s/deg.
-   17.32  2891.0   632.7
-   49.59  2891.0  1655.0
-   65.86    80.0  2186.0
-> sScSScSSv80S at  2208.35 seconds at    66.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.084 s/deg.
-   17.45  2891.0   633.4
-   49.96  2891.0  1656.9
-   66.36    80.0  2188.5
-> sScSScSSv80S at  2210.89 seconds at    67.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.113 s/deg.
-   17.58  2891.0   634.1
-   50.34  2891.0  1658.8
-   66.86    80.0  2191.0
-> sScSScSSv80S at  2213.46 seconds at    67.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.143 s/deg.
-   17.71  2891.0   634.7
-   50.71  2891.0  1660.7
-   67.36    80.0  2193.6
-> sScSScSSv80S at  2216.04 seconds at    68.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.172 s/deg.
-   17.84  2891.0   635.4
-   51.09  2891.0  1662.7
-   67.86    80.0  2196.2
-> sScSScSSv80S at  2218.63 seconds at    68.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.201 s/deg.
-   17.97  2891.0   636.1
-   51.46  2891.0  1664.6
-   68.35    80.0  2198.7
-> sScSScSSv80S at  2221.25 seconds at    69.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.230 s/deg.
-   18.10  2891.0   636.8
-   51.84  2891.0  1666.6
-   68.85    80.0  2201.4
-> sScSScSSv80S at  2223.86 seconds at    69.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.259 s/deg.
-   18.23  2891.0   637.4
-   52.22  2891.0  1668.5
-   69.35    80.0  2204.0
-> sScSScSSv80S at  2226.50 seconds at    70.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.287 s/deg.
-   18.36  2891.0   638.1
-   52.59  2891.0  1670.5
-   69.85    80.0  2206.6
-> sScSScSSv80S at  2229.15 seconds at    70.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.316 s/deg.
-   18.49  2891.0   638.8
-   52.97  2891.0  1672.5
-   70.35    80.0  2209.2
-> sScSScSSv80S at  2231.82 seconds at    71.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.344 s/deg.
-   18.62  2891.0   639.5
-   53.34  2891.0  1674.5
-   70.85    80.0  2211.9
-> sScSScSSv80S at  2234.50 seconds at    71.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.372 s/deg.
-   18.75  2891.0   640.2
-   53.72  2891.0  1676.5
-   71.35    80.0  2214.6
-> sScSScSSv80S at  2237.18 seconds at    72.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.400 s/deg.
-   18.88  2891.0   640.9
-   54.09  2891.0  1678.5
-   71.85    80.0  2217.3
-> sScSScSSv80S at  2239.89 seconds at    72.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.428 s/deg.
-   19.01  2891.0   641.6
-   54.47  2891.0  1680.6
-   72.35    80.0  2220.0
-> sScSScSSv80S at  2242.62 seconds at    73.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.456 s/deg.
-   19.14  2891.0   642.3
-   54.84  2891.0  1682.6
-   72.85    80.0  2222.7
-> sScSScSSv80S at  2245.36 seconds at    73.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.483 s/deg.
-   19.27  2891.0   643.0
-   55.22  2891.0  1684.7
-   73.35    80.0  2225.4
-> sScSScSSv80S at  2248.11 seconds at    74.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.511 s/deg.
-   19.40  2891.0   643.7
-   55.59  2891.0  1686.7
-   73.85    80.0  2228.2
-> sScSScSSv80S at  2250.86 seconds at    74.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.538 s/deg.
-   19.53  2891.0   644.4
-   55.97  2891.0  1688.8
-   74.34    80.0  2230.9
-> sScSScSSv80S at  2253.65 seconds at    75.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.565 s/deg.
-   19.66  2891.0   645.2
-   56.35  2891.0  1690.9
-   74.84    80.0  2233.7
-> sScSScSSv80S at  2256.44 seconds at    75.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.592 s/deg.
-   19.79  2891.0   645.9
-   56.72  2891.0  1693.0
-   75.34    80.0  2236.5
-> sScSScSSv80S at  2259.24 seconds at    76.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.618 s/deg.
-   19.92  2891.0   646.6
-   57.10  2891.0  1695.1
-   75.84    80.0  2239.3
-> sScSScSSv80S at  2262.04 seconds at    76.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.645 s/deg.
-   20.05  2891.0   647.3
-   57.47  2891.0  1697.2
-   76.34    80.0  2242.1
-> sScSScSSv80S at  2264.87 seconds at    77.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.671 s/deg.
-   20.18  2891.0   648.1
-   57.85  2891.0  1699.3
-   76.84    80.0  2244.9
-> sScSScSSv80S at  2267.72 seconds at    77.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.698 s/deg.
-   20.31  2891.0   648.8
-   58.22  2891.0  1701.5
-   77.34    80.0  2247.8
-> sScSScSSv80S at  2270.58 seconds at    78.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.724 s/deg.
-   20.44  2891.0   649.6
-   58.60  2891.0  1703.6
-   77.84    80.0  2250.6
-> sScSScSSv80S at  2273.44 seconds at    78.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.750 s/deg.
-   20.57  2891.0   650.3
-   58.97  2891.0  1705.8
-   78.34    80.0  2253.5
-> sScSScSSv80S at  2276.33 seconds at    79.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.775 s/deg.
-   20.70  2891.0   651.0
-   59.35  2891.0  1707.9
-   78.84    80.0  2256.3
-> sScSScSSv80S at  2279.22 seconds at    79.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.801 s/deg.
-   20.83  2891.0   651.8
-   59.73  2891.0  1710.1
-   79.34    80.0  2259.2
-> sScSScSSv80S at  2282.12 seconds at    80.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.826 s/deg.
-   20.96  2891.0   652.6
-   60.10  2891.0  1712.3
-   79.84    80.0  2262.1
-> sScSScSSv80S at  2285.05 seconds at    80.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.852 s/deg.
-   21.09  2891.0   653.3
-   60.48  2891.0  1714.5
-   80.34    80.0  2265.1
-> sScSScSSv80S at  2287.98 seconds at    81.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.877 s/deg.
-   21.22  2891.0   654.1
-   60.85  2891.0  1716.7
-   80.83    80.0  2268.0
-> sScSScSSv80S at  2290.92 seconds at    81.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.902 s/deg.
-   21.35  2891.0   654.8
-   61.23  2891.0  1718.9
-   81.33    80.0  2270.9
-> sScSScSSv80S at  2293.88 seconds at    82.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.926 s/deg.
-   21.47  2891.0   655.6
-   61.60  2891.0  1721.1
-   81.83    80.0  2273.9
-> sScSScSSv80S at  2296.84 seconds at    82.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.951 s/deg.
-   21.60  2891.0   656.4
-   61.98  2891.0  1723.3
-   82.33    80.0  2276.8
-> sScSScSSv80S at  2299.83 seconds at    83.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    5.976 s/deg.
-   21.73  2891.0   657.1
-   62.35  2891.0  1725.6
-   82.83    80.0  2279.8
-> sScSScSSv80S at  2302.82 seconds at    83.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.000 s/deg.
-   21.86  2891.0   657.9
-   62.73  2891.0  1727.8
-   83.33    80.0  2282.8
-> sScSScSSv80S at  2305.83 seconds at    84.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.024 s/deg.
-   21.99  2891.0   658.7
-   63.10  2891.0  1730.1
-   83.83    80.0  2285.8
-> sScSScSSv80S at  2308.86 seconds at    84.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.048 s/deg.
-   22.12  2891.0   659.5
-   63.48  2891.0  1732.4
-   84.33    80.0  2288.8
-> sScSScSSv80S at  2311.88 seconds at    85.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.072 s/deg.
-   22.25  2891.0   660.2
-   63.86  2891.0  1734.6
-   84.83    80.0  2291.8
-> sScSScSSv80S at  2314.91 seconds at    85.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.096 s/deg.
-   22.38  2891.0   661.0
-   64.23  2891.0  1736.9
-   85.33    80.0  2294.9
-> sScSScSSv80S at  2317.98 seconds at    86.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.119 s/deg.
-   22.51  2891.0   661.8
-   64.61  2891.0  1739.2
-   85.83    80.0  2297.9
-> sScSScSSv80S at  2321.05 seconds at    86.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.142 s/deg.
-   22.64  2891.0   662.6
-   64.98  2891.0  1741.5
-   86.33    80.0  2301.0
-> sScSScSSv80S at  2324.11 seconds at    87.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.166 s/deg.
-   22.77  2891.0   663.4
-   65.36  2891.0  1743.8
-   86.83    80.0  2304.1
-> sScSScSSv80S at  2327.21 seconds at    87.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.189 s/deg.
-   22.90  2891.0   664.2
-   65.73  2891.0  1746.1
-   87.33    80.0  2307.2
-> sScSScSSv80S at  2330.31 seconds at    88.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.212 s/deg.
-   23.03  2891.0   665.0
-   66.11  2891.0  1748.5
-   87.82    80.0  2310.3
-> sScSScSSv80S at  2333.42 seconds at    88.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.234 s/deg.
-   23.15  2891.0   665.8
-   66.48  2891.0  1750.8
-   88.32    80.0  2313.4
-> sScSScSSv80S at  2336.54 seconds at    89.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.257 s/deg.
-   23.28  2891.0   666.6
-   66.86  2891.0  1753.1
-   88.82    80.0  2316.5
-> sScSScSSv80S at  2339.67 seconds at    89.50 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.280 s/deg.
-   23.41  2891.0   667.4
-   67.23  2891.0  1755.5
-   89.32    80.0  2319.6
-> sScSScSSv80S at  2342.82 seconds at    90.00 degrees for a    551.0 km deep source in the prem80 model with rayParam    6.302 s/deg.
-   23.54  2891.0   668.2
-   67.61  2891.0  1757.9
-   89.82    80.0  2322.7
+> sScSScSSv80S at  2047.13 seconds at     0.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.000 s/deg.
+    0.00  2891.0   604.6
+    0.00  2891.0  1540.3
+    0.00    80.0  2027.6
+> sScSScSSv80S at  2047.15 seconds at     0.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.043 s/deg.
+    0.13  2891.0   604.6
+    0.38  2891.0  1540.3
+    0.50    80.0  2027.6
+> sScSScSSv80S at  2047.18 seconds at     1.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.086 s/deg.
+    0.27  2891.0   604.6
+    0.75  2891.0  1540.3
+    1.00    80.0  2027.7
+> sScSScSSv80S at  2047.24 seconds at     1.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.129 s/deg.
+    0.40  2891.0   604.7
+    1.13  2891.0  1540.4
+    1.50    80.0  2027.7
+> sScSScSSv80S at  2047.31 seconds at     2.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.172 s/deg.
+    0.53  2891.0   604.7
+    1.51  2891.0  1540.4
+    2.00    80.0  2027.8
+> sScSScSSv80S at  2047.41 seconds at     2.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.215 s/deg.
+    0.67  2891.0   604.7
+    1.88  2891.0  1540.5
+    2.49    80.0  2027.9
+> sScSScSSv80S at  2047.53 seconds at     3.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.258 s/deg.
+    0.80  2891.0   604.7
+    2.26  2891.0  1540.6
+    2.99    80.0  2028.0
+> sScSScSSv80S at  2047.66 seconds at     3.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.301 s/deg.
+    0.93  2891.0   604.8
+    2.63  2891.0  1540.7
+    3.49    80.0  2028.2
+> sScSScSSv80S at  2047.83 seconds at     4.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.343 s/deg.
+    1.07  2891.0   604.8
+    3.01  2891.0  1540.8
+    3.99    80.0  2028.3
+> sScSScSSv80S at  2048.01 seconds at     4.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.386 s/deg.
+    1.20  2891.0   604.9
+    3.39  2891.0  1540.9
+    4.49    80.0  2028.5
+> sScSScSSv80S at  2048.21 seconds at     5.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.429 s/deg.
+    1.34  2891.0   604.9
+    3.76  2891.0  1541.1
+    4.99    80.0  2028.7
+> sScSScSSv80S at  2048.43 seconds at     5.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.472 s/deg.
+    1.47  2891.0   605.0
+    4.14  2891.0  1541.3
+    5.49    80.0  2028.9
+> sScSScSSv80S at  2048.68 seconds at     6.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.515 s/deg.
+    1.60  2891.0   605.0
+    4.52  2891.0  1541.5
+    5.99    80.0  2029.2
+> sScSScSSv80S at  2048.96 seconds at     6.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.558 s/deg.
+    1.74  2891.0   605.1
+    4.89  2891.0  1541.7
+    6.48    80.0  2029.4
+> sScSScSSv80S at  2049.25 seconds at     7.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.601 s/deg.
+    1.87  2891.0   605.2
+    5.27  2891.0  1541.9
+    6.98    80.0  2029.7
+> sScSScSSv80S at  2049.55 seconds at     7.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.643 s/deg.
+    2.00  2891.0   605.3
+    5.64  2891.0  1542.1
+    7.48    80.0  2030.0
+> sScSScSSv80S at  2049.88 seconds at     8.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.686 s/deg.
+    2.14  2891.0   605.4
+    6.02  2891.0  1542.4
+    7.98    80.0  2030.4
+> sScSScSSv80S at  2050.24 seconds at     8.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.729 s/deg.
+    2.27  2891.0   605.5
+    6.40  2891.0  1542.6
+    8.48    80.0  2030.7
+> sScSScSSv80S at  2050.61 seconds at     9.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.771 s/deg.
+    2.40  2891.0   605.6
+    6.77  2891.0  1542.9
+    8.98    80.0  2031.1
+> sScSScSSv80S at  2051.01 seconds at     9.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.814 s/deg.
+    2.54  2891.0   605.7
+    7.15  2891.0  1543.2
+    9.48    80.0  2031.5
+> sScSScSSv80S at  2051.43 seconds at    10.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.857 s/deg.
+    2.67  2891.0   605.8
+    7.53  2891.0  1543.5
+    9.98    80.0  2031.9
+> sScSScSSv80S at  2051.87 seconds at    10.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.899 s/deg.
+    2.80  2891.0   605.9
+    7.90  2891.0  1543.8
+   10.48    80.0  2032.3
+> sScSScSSv80S at  2052.32 seconds at    11.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.942 s/deg.
+    2.94  2891.0   606.0
+    8.28  2891.0  1544.2
+   10.97    80.0  2032.8
+> sScSScSSv80S at  2052.81 seconds at    11.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    0.984 s/deg.
+    3.07  2891.0   606.1
+    8.65  2891.0  1544.6
+   11.47    80.0  2033.3
+> sScSScSSv80S at  2053.31 seconds at    12.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.027 s/deg.
+    3.20  2891.0   606.3
+    9.03  2891.0  1544.9
+   11.97    80.0  2033.8
+> sScSScSSv80S at  2053.84 seconds at    12.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.069 s/deg.
+    3.34  2891.0   606.4
+    9.41  2891.0  1545.3
+   12.47    80.0  2034.3
+> sScSScSSv80S at  2054.38 seconds at    13.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.111 s/deg.
+    3.47  2891.0   606.6
+    9.78  2891.0  1545.7
+   12.97    80.0  2034.9
+> sScSScSSv80S at  2054.95 seconds at    13.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.154 s/deg.
+    3.60  2891.0   606.7
+   10.16  2891.0  1546.2
+   13.47    80.0  2035.4
+> sScSScSSv80S at  2055.54 seconds at    14.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.196 s/deg.
+    3.74  2891.0   606.9
+   10.54  2891.0  1546.6
+   13.97    80.0  2036.0
+> sScSScSSv80S at  2056.14 seconds at    14.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.238 s/deg.
+    3.87  2891.0   607.0
+   10.91  2891.0  1547.1
+   14.47    80.0  2036.6
+> sScSScSSv80S at  2056.77 seconds at    15.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.280 s/deg.
+    4.01  2891.0   607.2
+   11.29  2891.0  1547.5
+   14.96    80.0  2037.2
+> sScSScSSv80S at  2057.42 seconds at    15.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.322 s/deg.
+    4.14  2891.0   607.4
+   11.66  2891.0  1548.0
+   15.46    80.0  2037.9
+> sScSScSSv80S at  2058.09 seconds at    16.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.364 s/deg.
+    4.27  2891.0   607.5
+   12.04  2891.0  1548.5
+   15.96    80.0  2038.6
+> sScSScSSv80S at  2058.78 seconds at    16.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.406 s/deg.
+    4.41  2891.0   607.7
+   12.42  2891.0  1549.1
+   16.46    80.0  2039.2
+> sScSScSSv80S at  2059.50 seconds at    17.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.448 s/deg.
+    4.54  2891.0   607.9
+   12.79  2891.0  1549.6
+   16.96    80.0  2040.0
+> sScSScSSv80S at  2060.23 seconds at    17.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.490 s/deg.
+    4.67  2891.0   608.1
+   13.17  2891.0  1550.1
+   17.46    80.0  2040.7
+> sScSScSSv80S at  2060.99 seconds at    18.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.532 s/deg.
+    4.81  2891.0   608.3
+   13.55  2891.0  1550.7
+   17.96    80.0  2041.4
+> sScSScSSv80S at  2061.76 seconds at    18.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.574 s/deg.
+    4.94  2891.0   608.5
+   13.92  2891.0  1551.3
+   18.46    80.0  2042.2
+> sScSScSSv80S at  2062.56 seconds at    19.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.615 s/deg.
+    5.07  2891.0   608.7
+   14.30  2891.0  1551.9
+   18.96    80.0  2043.0
+> sScSScSSv80S at  2063.38 seconds at    19.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.657 s/deg.
+    5.21  2891.0   609.0
+   14.67  2891.0  1552.5
+   19.45    80.0  2043.8
+> sScSScSSv80S at  2064.22 seconds at    20.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.698 s/deg.
+    5.34  2891.0   609.2
+   15.05  2891.0  1553.1
+   19.95    80.0  2044.7
+> sScSScSSv80S at  2065.08 seconds at    20.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.740 s/deg.
+    5.47  2891.0   609.4
+   15.43  2891.0  1553.8
+   20.45    80.0  2045.5
+> sScSScSSv80S at  2065.96 seconds at    21.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.781 s/deg.
+    5.61  2891.0   609.6
+   15.80  2891.0  1554.5
+   20.95    80.0  2046.4
+> sScSScSSv80S at  2066.86 seconds at    21.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.822 s/deg.
+    5.74  2891.0   609.9
+   16.18  2891.0  1555.1
+   21.45    80.0  2047.3
+> sScSScSSv80S at  2067.78 seconds at    22.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.864 s/deg.
+    5.87  2891.0   610.1
+   16.56  2891.0  1555.8
+   21.95    80.0  2048.2
+> sScSScSSv80S at  2068.72 seconds at    22.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.905 s/deg.
+    6.01  2891.0   610.4
+   16.93  2891.0  1556.5
+   22.45    80.0  2049.2
+> sScSScSSv80S at  2069.68 seconds at    23.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.946 s/deg.
+    6.14  2891.0   610.6
+   17.31  2891.0  1557.3
+   22.95    80.0  2050.1
+> sScSScSSv80S at  2070.67 seconds at    23.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    1.987 s/deg.
+    6.27  2891.0   610.9
+   17.68  2891.0  1558.0
+   23.45    80.0  2051.1
+> sScSScSSv80S at  2071.67 seconds at    24.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.028 s/deg.
+    6.41  2891.0   611.2
+   18.06  2891.0  1558.8
+   23.94    80.0  2052.1
+> sScSScSSv80S at  2072.70 seconds at    24.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.068 s/deg.
+    6.54  2891.0   611.4
+   18.44  2891.0  1559.5
+   24.44    80.0  2053.1
+> sScSScSSv80S at  2073.77 seconds at    25.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.109 s/deg.
+    6.67  2891.0   611.7
+   18.81  2891.0  1560.3
+   24.94    80.0  2054.2
+> sScSScSSv80S at  2074.83 seconds at    25.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.150 s/deg.
+    6.80  2891.0   612.0
+   19.19  2891.0  1561.1
+   25.44    80.0  2055.3
+> sScSScSSv80S at  2075.90 seconds at    26.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.190 s/deg.
+    6.94  2891.0   612.3
+   19.57  2891.0  1561.9
+   25.94    80.0  2056.3
+> sScSScSSv80S at  2077.00 seconds at    26.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.231 s/deg.
+    7.07  2891.0   612.6
+   19.94  2891.0  1562.8
+   26.44    80.0  2057.4
+> sScSScSSv80S at  2078.13 seconds at    27.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.271 s/deg.
+    7.20  2891.0   612.9
+   20.32  2891.0  1563.6
+   26.94    80.0  2058.5
+> sScSScSSv80S at  2079.27 seconds at    27.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.311 s/deg.
+    7.34  2891.0   613.2
+   20.69  2891.0  1564.5
+   27.44    80.0  2059.7
+> sScSScSSv80S at  2080.44 seconds at    28.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.351 s/deg.
+    7.47  2891.0   613.5
+   21.07  2891.0  1565.4
+   27.94    80.0  2060.9
+> sScSScSSv80S at  2081.62 seconds at    28.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.391 s/deg.
+    7.60  2891.0   613.8
+   21.45  2891.0  1566.2
+   28.43    80.0  2062.0
+> sScSScSSv80S at  2082.83 seconds at    29.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.431 s/deg.
+    7.74  2891.0   614.1
+   21.82  2891.0  1567.2
+   28.93    80.0  2063.2
+> sScSScSSv80S at  2084.05 seconds at    29.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.471 s/deg.
+    7.87  2891.0   614.5
+   22.20  2891.0  1568.1
+   29.43    80.0  2064.5
+> sScSScSSv80S at  2085.30 seconds at    30.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.511 s/deg.
+    8.00  2891.0   614.8
+   22.58  2891.0  1569.0
+   29.93    80.0  2065.7
+> sScSScSSv80S at  2086.57 seconds at    30.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.551 s/deg.
+    8.14  2891.0   615.1
+   22.95  2891.0  1570.0
+   30.43    80.0  2067.0
+> sScSScSSv80S at  2087.85 seconds at    31.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.590 s/deg.
+    8.27  2891.0   615.5
+   23.33  2891.0  1570.9
+   30.93    80.0  2068.3
+> sScSScSSv80S at  2089.16 seconds at    31.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.630 s/deg.
+    8.40  2891.0   615.8
+   23.70  2891.0  1571.9
+   31.43    80.0  2069.6
+> sScSScSSv80S at  2090.48 seconds at    32.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.669 s/deg.
+    8.54  2891.0   616.2
+   24.08  2891.0  1572.9
+   31.93    80.0  2070.9
+> sScSScSSv80S at  2091.83 seconds at    32.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.708 s/deg.
+    8.67  2891.0   616.5
+   24.46  2891.0  1573.9
+   32.43    80.0  2072.2
+> sScSScSSv80S at  2093.19 seconds at    33.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.747 s/deg.
+    8.80  2891.0   616.9
+   24.83  2891.0  1574.9
+   32.92    80.0  2073.6
+> sScSScSSv80S at  2094.57 seconds at    33.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.786 s/deg.
+    8.93  2891.0   617.3
+   25.21  2891.0  1576.0
+   33.42    80.0  2075.0
+> sScSScSSv80S at  2095.97 seconds at    34.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.825 s/deg.
+    9.07  2891.0   617.6
+   25.59  2891.0  1577.0
+   33.92    80.0  2076.4
+> sScSScSSv80S at  2097.40 seconds at    34.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.864 s/deg.
+    9.20  2891.0   618.0
+   25.96  2891.0  1578.1
+   34.42    80.0  2077.8
+> sScSScSSv80S at  2098.83 seconds at    35.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.903 s/deg.
+    9.33  2891.0   618.4
+   26.34  2891.0  1579.2
+   34.92    80.0  2079.2
+> sScSScSSv80S at  2100.29 seconds at    35.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.941 s/deg.
+    9.47  2891.0   618.8
+   26.71  2891.0  1580.3
+   35.42    80.0  2080.7
+> sScSScSSv80S at  2101.79 seconds at    36.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    2.980 s/deg.
+    9.60  2891.0   619.2
+   27.09  2891.0  1581.4
+   35.92    80.0  2082.2
+> sScSScSSv80S at  2103.29 seconds at    36.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.018 s/deg.
+    9.73  2891.0   619.6
+   27.47  2891.0  1582.5
+   36.42    80.0  2083.7
+> sScSScSSv80S at  2104.80 seconds at    37.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.056 s/deg.
+    9.86  2891.0   620.0
+   27.84  2891.0  1583.7
+   36.92    80.0  2085.2
+> sScSScSSv80S at  2106.34 seconds at    37.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.094 s/deg.
+   10.00  2891.0   620.4
+   28.22  2891.0  1584.8
+   37.41    80.0  2086.7
+> sScSScSSv80S at  2107.89 seconds at    38.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.132 s/deg.
+   10.13  2891.0   620.8
+   28.60  2891.0  1586.0
+   37.91    80.0  2088.2
+> sScSScSSv80S at  2109.47 seconds at    38.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.170 s/deg.
+   10.26  2891.0   621.2
+   28.97  2891.0  1587.2
+   38.41    80.0  2089.8
+> sScSScSSv80S at  2111.07 seconds at    39.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.208 s/deg.
+   10.40  2891.0   621.6
+   29.35  2891.0  1588.4
+   38.91    80.0  2091.4
+> sScSScSSv80S at  2112.67 seconds at    39.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.245 s/deg.
+   10.53  2891.0   622.1
+   29.72  2891.0  1589.6
+   39.41    80.0  2093.0
+> sScSScSSv80S at  2114.32 seconds at    40.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.283 s/deg.
+   10.66  2891.0   622.5
+   30.10  2891.0  1590.8
+   39.91    80.0  2094.7
+> sScSScSSv80S at  2115.96 seconds at    40.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.320 s/deg.
+   10.79  2891.0   622.9
+   30.48  2891.0  1592.1
+   40.41    80.0  2096.3
+> sScSScSSv80S at  2117.62 seconds at    41.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.357 s/deg.
+   10.93  2891.0   623.4
+   30.85  2891.0  1593.3
+   40.91    80.0  2098.0
+> sScSScSSv80S at  2119.31 seconds at    41.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.394 s/deg.
+   11.06  2891.0   623.8
+   31.23  2891.0  1594.6
+   41.41    80.0  2099.6
+> sScSScSSv80S at  2121.02 seconds at    42.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.431 s/deg.
+   11.19  2891.0   624.3
+   31.60  2891.0  1595.9
+   41.91    80.0  2101.3
+> sScSScSSv80S at  2122.75 seconds at    42.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.468 s/deg.
+   11.32  2891.0   624.8
+   31.98  2891.0  1597.2
+   42.40    80.0  2103.1
+> sScSScSSv80S at  2124.50 seconds at    43.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.505 s/deg.
+   11.46  2891.0   625.2
+   32.36  2891.0  1598.5
+   42.90    80.0  2104.8
+> sScSScSSv80S at  2126.25 seconds at    43.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.541 s/deg.
+   11.59  2891.0   625.7
+   32.73  2891.0  1599.8
+   43.40    80.0  2106.6
+> sScSScSSv80S at  2128.04 seconds at    44.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.578 s/deg.
+   11.72  2891.0   626.2
+   33.11  2891.0  1601.2
+   43.90    80.0  2108.4
+> sScSScSSv80S at  2129.84 seconds at    44.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.614 s/deg.
+   11.86  2891.0   626.6
+   33.49  2891.0  1602.5
+   44.40    80.0  2110.2
+> sScSScSSv80S at  2131.64 seconds at    45.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.650 s/deg.
+   11.99  2891.0   627.1
+   33.86  2891.0  1603.9
+   44.90    80.0  2111.9
+> sScSScSSv80S at  2133.49 seconds at    45.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.686 s/deg.
+   12.12  2891.0   627.6
+   34.24  2891.0  1605.3
+   45.40    80.0  2113.8
+> sScSScSSv80S at  2135.34 seconds at    46.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.722 s/deg.
+   12.25  2891.0   628.1
+   34.61  2891.0  1606.7
+   45.90    80.0  2115.6
+> sScSScSSv80S at  2137.20 seconds at    46.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.758 s/deg.
+   12.39  2891.0   628.6
+   34.99  2891.0  1608.1
+   46.40    80.0  2117.5
+> sScSScSSv80S at  2139.10 seconds at    47.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.793 s/deg.
+   12.52  2891.0   629.1
+   35.37  2891.0  1609.5
+   46.90    80.0  2119.4
+> sScSScSSv80S at  2141.01 seconds at    47.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.829 s/deg.
+   12.65  2891.0   629.6
+   35.74  2891.0  1610.9
+   47.39    80.0  2121.3
+> sScSScSSv80S at  2142.91 seconds at    48.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.864 s/deg.
+   12.78  2891.0   630.1
+   36.12  2891.0  1612.4
+   47.89    80.0  2123.2
+> sScSScSSv80S at  2144.86 seconds at    48.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.899 s/deg.
+   12.91  2891.0   630.6
+   36.49  2891.0  1613.8
+   48.39    80.0  2125.1
+> sScSScSSv80S at  2146.83 seconds at    49.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.934 s/deg.
+   13.05  2891.0   631.1
+   36.87  2891.0  1615.3
+   48.89    80.0  2127.1
+> sScSScSSv80S at  2148.79 seconds at    49.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    3.969 s/deg.
+   13.18  2891.0   631.6
+   37.25  2891.0  1616.8
+   49.39    80.0  2129.1
+> sScSScSSv80S at  2150.79 seconds at    50.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.004 s/deg.
+   13.31  2891.0   632.2
+   37.62  2891.0  1618.3
+   49.89    80.0  2131.1
+> sScSScSSv80S at  2152.80 seconds at    50.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.039 s/deg.
+   13.44  2891.0   632.7
+   38.00  2891.0  1619.8
+   50.39    80.0  2133.1
+> sScSScSSv80S at  2154.82 seconds at    51.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.073 s/deg.
+   13.58  2891.0   633.2
+   38.37  2891.0  1621.3
+   50.89    80.0  2135.1
+> sScSScSSv80S at  2156.87 seconds at    51.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.108 s/deg.
+   13.71  2891.0   633.8
+   38.75  2891.0  1622.8
+   51.39    80.0  2137.1
+> sScSScSSv80S at  2158.93 seconds at    52.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.142 s/deg.
+   13.84  2891.0   634.3
+   39.13  2891.0  1624.4
+   51.89    80.0  2139.2
+> sScSScSSv80S at  2161.01 seconds at    52.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.176 s/deg.
+   13.97  2891.0   634.9
+   39.50  2891.0  1626.0
+   52.38    80.0  2141.3
+> sScSScSSv80S at  2163.11 seconds at    53.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.210 s/deg.
+   14.10  2891.0   635.4
+   39.88  2891.0  1627.5
+   52.88    80.0  2143.4
+> sScSScSSv80S at  2165.22 seconds at    53.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.243 s/deg.
+   14.24  2891.0   636.0
+   40.26  2891.0  1629.1
+   53.38    80.0  2145.5
+> sScSScSSv80S at  2167.35 seconds at    54.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.277 s/deg.
+   14.37  2891.0   636.6
+   40.63  2891.0  1630.7
+   53.88    80.0  2147.6
+> sScSScSSv80S at  2169.49 seconds at    54.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.310 s/deg.
+   14.50  2891.0   637.1
+   41.01  2891.0  1632.3
+   54.38    80.0  2149.7
+> sScSScSSv80S at  2171.66 seconds at    55.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.344 s/deg.
+   14.63  2891.0   637.7
+   41.38  2891.0  1634.0
+   54.88    80.0  2151.9
+> sScSScSSv80S at  2173.84 seconds at    55.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.377 s/deg.
+   14.77  2891.0   638.3
+   41.76  2891.0  1635.6
+   55.38    80.0  2154.1
+> sScSScSSv80S at  2176.03 seconds at    56.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.410 s/deg.
+   14.90  2891.0   638.8
+   42.14  2891.0  1637.3
+   55.88    80.0  2156.3
+> sScSScSSv80S at  2178.25 seconds at    56.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.443 s/deg.
+   15.03  2891.0   639.4
+   42.51  2891.0  1638.9
+   56.38    80.0  2158.5
+> sScSScSSv80S at  2180.48 seconds at    57.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.475 s/deg.
+   15.16  2891.0   640.0
+   42.89  2891.0  1640.6
+   56.88    80.0  2160.7
+> sScSScSSv80S at  2182.73 seconds at    57.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.508 s/deg.
+   15.29  2891.0   640.6
+   43.26  2891.0  1642.3
+   57.37    80.0  2162.9
+> sScSScSSv80S at  2184.98 seconds at    58.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.540 s/deg.
+   15.43  2891.0   641.2
+   43.64  2891.0  1644.0
+   57.87    80.0  2165.2
+> sScSScSSv80S at  2187.27 seconds at    58.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.572 s/deg.
+   15.56  2891.0   641.8
+   44.02  2891.0  1645.7
+   58.37    80.0  2167.5
+> sScSScSSv80S at  2189.56 seconds at    59.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.604 s/deg.
+   15.69  2891.0   642.4
+   44.39  2891.0  1647.4
+   58.87    80.0  2169.8
+> sScSScSSv80S at  2191.87 seconds at    59.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.636 s/deg.
+   15.82  2891.0   643.0
+   44.77  2891.0  1649.2
+   59.37    80.0  2172.1
+> sScSScSSv80S at  2194.20 seconds at    60.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.668 s/deg.
+   15.95  2891.0   643.6
+   45.14  2891.0  1650.9
+   59.87    80.0  2174.4
+> sScSScSSv80S at  2196.55 seconds at    60.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.700 s/deg.
+   16.08  2891.0   644.3
+   45.52  2891.0  1652.7
+   60.37    80.0  2176.7
+> sScSScSSv80S at  2198.90 seconds at    61.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.731 s/deg.
+   16.22  2891.0   644.9
+   45.90  2891.0  1654.5
+   60.87    80.0  2179.1
+> sScSScSSv80S at  2201.27 seconds at    61.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.762 s/deg.
+   16.35  2891.0   645.5
+   46.27  2891.0  1656.2
+   61.37    80.0  2181.4
+> sScSScSSv80S at  2203.66 seconds at    62.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.793 s/deg.
+   16.48  2891.0   646.1
+   46.65  2891.0  1658.0
+   61.87    80.0  2183.8
+> sScSScSSv80S at  2206.06 seconds at    62.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.825 s/deg.
+   16.61  2891.0   646.8
+   47.02  2891.0  1659.9
+   62.37    80.0  2186.2
+> sScSScSSv80S at  2208.49 seconds at    63.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.855 s/deg.
+   16.74  2891.0   647.4
+   47.40  2891.0  1661.7
+   62.86    80.0  2188.7
+> sScSScSSv80S at  2210.92 seconds at    63.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.886 s/deg.
+   16.87  2891.0   648.0
+   47.78  2891.0  1663.5
+   63.36    80.0  2191.1
+> sScSScSSv80S at  2213.37 seconds at    64.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.917 s/deg.
+   17.01  2891.0   648.7
+   48.15  2891.0  1665.3
+   63.86    80.0  2193.5
+> sScSScSSv80S at  2215.84 seconds at    64.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.947 s/deg.
+   17.14  2891.0   649.3
+   48.53  2891.0  1667.2
+   64.36    80.0  2196.0
+> sScSScSSv80S at  2218.33 seconds at    65.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    4.977 s/deg.
+   17.27  2891.0   650.0
+   48.90  2891.0  1669.1
+   64.86    80.0  2198.5
+> sScSScSSv80S at  2220.81 seconds at    65.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.007 s/deg.
+   17.40  2891.0   650.6
+   49.28  2891.0  1670.9
+   65.36    80.0  2200.9
+> sScSScSSv80S at  2223.33 seconds at    66.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.037 s/deg.
+   17.53  2891.0   651.3
+   49.66  2891.0  1672.8
+   65.86    80.0  2203.5
+> sScSScSSv80S at  2225.86 seconds at    66.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.067 s/deg.
+   17.66  2891.0   652.0
+   50.03  2891.0  1674.7
+   66.36    80.0  2206.0
+> sScSScSSv80S at  2228.39 seconds at    67.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.096 s/deg.
+   17.80  2891.0   652.6
+   50.41  2891.0  1676.6
+   66.86    80.0  2208.5
+> sScSScSSv80S at  2230.94 seconds at    67.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.126 s/deg.
+   17.93  2891.0   653.3
+   50.78  2891.0  1678.6
+   67.36    80.0  2211.1
+> sScSScSSv80S at  2233.52 seconds at    68.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.155 s/deg.
+   18.06  2891.0   654.0
+   51.16  2891.0  1680.5
+   67.86    80.0  2213.6
+> sScSScSSv80S at  2236.11 seconds at    68.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.184 s/deg.
+   18.19  2891.0   654.7
+   51.54  2891.0  1682.4
+   68.36    80.0  2216.2
+> sScSScSSv80S at  2238.70 seconds at    69.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.213 s/deg.
+   18.32  2891.0   655.4
+   51.91  2891.0  1684.4
+   68.85    80.0  2218.8
+> sScSScSSv80S at  2241.32 seconds at    69.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.242 s/deg.
+   18.45  2891.0   656.0
+   52.29  2891.0  1686.4
+   69.35    80.0  2221.4
+> sScSScSSv80S at  2243.94 seconds at    70.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.270 s/deg.
+   18.58  2891.0   656.7
+   52.66  2891.0  1688.3
+   69.85    80.0  2224.0
+> sScSScSSv80S at  2246.58 seconds at    70.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.299 s/deg.
+   18.71  2891.0   657.4
+   53.04  2891.0  1690.3
+   70.35    80.0  2226.7
+> sScSScSSv80S at  2249.24 seconds at    71.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.327 s/deg.
+   18.85  2891.0   658.1
+   53.42  2891.0  1692.3
+   70.85    80.0  2229.3
+> sScSScSSv80S at  2251.92 seconds at    71.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.355 s/deg.
+   18.98  2891.0   658.8
+   53.79  2891.0  1694.3
+   71.35    80.0  2232.0
+> sScSScSSv80S at  2254.60 seconds at    72.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.383 s/deg.
+   19.11  2891.0   659.5
+   54.17  2891.0  1696.4
+   71.85    80.0  2234.7
+> sScSScSSv80S at  2257.29 seconds at    72.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.411 s/deg.
+   19.24  2891.0   660.2
+   54.54  2891.0  1698.4
+   72.35    80.0  2237.4
+> sScSScSSv80S at  2260.00 seconds at    73.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.439 s/deg.
+   19.37  2891.0   660.9
+   54.92  2891.0  1700.4
+   72.85    80.0  2240.1
+> sScSScSSv80S at  2262.74 seconds at    73.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.466 s/deg.
+   19.50  2891.0   661.7
+   55.30  2891.0  1702.5
+   73.35    80.0  2242.8
+> sScSScSSv80S at  2265.49 seconds at    74.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.493 s/deg.
+   19.63  2891.0   662.4
+   55.67  2891.0  1704.5
+   73.85    80.0  2245.6
+> sScSScSSv80S at  2268.24 seconds at    74.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.521 s/deg.
+   19.76  2891.0   663.1
+   56.05  2891.0  1706.6
+   74.35    80.0  2248.3
+> sScSScSSv80S at  2271.00 seconds at    75.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.548 s/deg.
+   19.89  2891.0   663.8
+   56.42  2891.0  1708.7
+   74.84    80.0  2251.1
+> sScSScSSv80S at  2273.79 seconds at    75.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.575 s/deg.
+   20.03  2891.0   664.6
+   56.80  2891.0  1710.8
+   75.34    80.0  2253.8
+> sScSScSSv80S at  2276.58 seconds at    76.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.601 s/deg.
+   20.16  2891.0   665.3
+   57.18  2891.0  1712.9
+   75.84    80.0  2256.6
+> sScSScSSv80S at  2279.38 seconds at    76.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.628 s/deg.
+   20.29  2891.0   666.0
+   57.55  2891.0  1715.0
+   76.34    80.0  2259.4
+> sScSScSSv80S at  2282.19 seconds at    77.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.654 s/deg.
+   20.42  2891.0   666.8
+   57.93  2891.0  1717.1
+   76.84    80.0  2262.2
+> sScSScSSv80S at  2285.03 seconds at    77.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.681 s/deg.
+   20.55  2891.0   667.5
+   58.30  2891.0  1719.2
+   77.34    80.0  2265.1
+> sScSScSSv80S at  2287.89 seconds at    78.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.707 s/deg.
+   20.68  2891.0   668.2
+   58.68  2891.0  1721.4
+   77.84    80.0  2267.9
+> sScSScSSv80S at  2290.74 seconds at    78.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.733 s/deg.
+   20.81  2891.0   669.0
+   59.06  2891.0  1723.5
+   78.34    80.0  2270.8
+> sScSScSSv80S at  2293.62 seconds at    79.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.758 s/deg.
+   20.94  2891.0   669.7
+   59.43  2891.0  1725.7
+   78.84    80.0  2273.6
+> sScSScSSv80S at  2296.51 seconds at    79.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.784 s/deg.
+   21.07  2891.0   670.5
+   59.81  2891.0  1727.9
+   79.34    80.0  2276.5
+> sScSScSSv80S at  2299.40 seconds at    80.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.809 s/deg.
+   21.20  2891.0   671.3
+   60.18  2891.0  1730.0
+   79.84    80.0  2279.4
+> sScSScSSv80S at  2302.31 seconds at    80.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.835 s/deg.
+   21.33  2891.0   672.0
+   60.56  2891.0  1732.2
+   80.34    80.0  2282.3
+> sScSScSSv80S at  2305.24 seconds at    81.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.860 s/deg.
+   21.46  2891.0   672.8
+   60.94  2891.0  1734.4
+   80.84    80.0  2285.2
+> sScSScSSv80S at  2308.16 seconds at    81.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.885 s/deg.
+   21.59  2891.0   673.5
+   61.31  2891.0  1736.6
+   81.33    80.0  2288.2
+> sScSScSSv80S at  2311.12 seconds at    82.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.910 s/deg.
+   21.73  2891.0   674.3
+   61.69  2891.0  1738.8
+   81.83    80.0  2291.1
+> sScSScSSv80S at  2314.08 seconds at    82.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.934 s/deg.
+   21.86  2891.0   675.1
+   62.06  2891.0  1741.1
+   82.33    80.0  2294.1
+> sScSScSSv80S at  2317.05 seconds at    83.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.959 s/deg.
+   21.99  2891.0   675.9
+   62.44  2891.0  1743.3
+   82.83    80.0  2297.0
+> sScSScSSv80S at  2320.03 seconds at    83.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    5.983 s/deg.
+   22.12  2891.0   676.6
+   62.81  2891.0  1745.5
+   83.33    80.0  2300.0
+> sScSScSSv80S at  2323.03 seconds at    84.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.007 s/deg.
+   22.25  2891.0   677.4
+   63.19  2891.0  1747.8
+   83.83    80.0  2303.0
+> sScSScSSv80S at  2326.05 seconds at    84.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.031 s/deg.
+   22.38  2891.0   678.2
+   63.57  2891.0  1750.1
+   84.33    80.0  2306.0
+> sScSScSSv80S at  2329.07 seconds at    85.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.055 s/deg.
+   22.51  2891.0   679.0
+   63.94  2891.0  1752.3
+   84.83    80.0  2309.0
+> sScSScSSv80S at  2332.10 seconds at    85.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.079 s/deg.
+   22.64  2891.0   679.8
+   64.32  2891.0  1754.6
+   85.33    80.0  2312.1
+> sScSScSSv80S at  2335.15 seconds at    86.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.103 s/deg.
+   22.77  2891.0   680.6
+   64.69  2891.0  1756.9
+   85.83    80.0  2315.1
+> sScSScSSv80S at  2338.21 seconds at    86.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.126 s/deg.
+   22.90  2891.0   681.4
+   65.07  2891.0  1759.2
+   86.33    80.0  2318.2
+> sScSScSSv80S at  2341.28 seconds at    87.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.149 s/deg.
+   23.03  2891.0   682.2
+   65.45  2891.0  1761.5
+   86.83    80.0  2321.2
+> sScSScSSv80S at  2344.35 seconds at    87.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.172 s/deg.
+   23.16  2891.0   683.0
+   65.82  2891.0  1763.8
+   87.33    80.0  2324.3
+> sScSScSSv80S at  2347.45 seconds at    88.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.195 s/deg.
+   23.29  2891.0   683.8
+   66.20  2891.0  1766.2
+   87.83    80.0  2327.4
+> sScSScSSv80S at  2350.56 seconds at    88.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.218 s/deg.
+   23.42  2891.0   684.6
+   66.57  2891.0  1768.5
+   88.32    80.0  2330.5
+> sScSScSSv80S at  2353.66 seconds at    89.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.241 s/deg.
+   23.55  2891.0   685.4
+   66.95  2891.0  1770.8
+   88.82    80.0  2333.6
+> sScSScSSv80S at  2356.79 seconds at    89.50 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.263 s/deg.
+   23.68  2891.0   686.2
+   67.32  2891.0  1773.2
+   89.32    80.0  2336.7
+> sScSScSSv80S at  2359.92 seconds at    90.00 degrees for a    651.0 km deep source in the prem80 model with rayParam    6.286 s/deg.
+   23.81  2891.0   687.0
+   67.70  2891.0  1775.5
+   89.82    80.0  2339.8

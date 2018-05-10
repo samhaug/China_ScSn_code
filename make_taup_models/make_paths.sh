@@ -2,6 +2,8 @@
                               
 h=$1
 paths_dir=/home/samhaug/work1/China_ScSn_data/paths_$h"_km"
+mkdir $paths_dir
+
 t=taup_path
 $t -mod prem -ph ScSScS -h $h -o $paths_dir/PURE_ScS2 < degrees.dat >/dev/null;
 $t -mod prem -ph ScSScSScS -h $h -o $paths_dir/PURE_ScS3 < degrees.dat >/dev/null;
@@ -11,7 +13,6 @@ $t -mod prem -ph sScSScSScS -h $h -o $paths_dir/PURE_sScS3 < degrees.dat >/dev/n
 
 for i in $(seq 50 5 800); 
 do
-    echo $i
     mod=prem$i
     sScS_1=sSv$i"SScS"
     sScS_2=sScSSv$i"S"
