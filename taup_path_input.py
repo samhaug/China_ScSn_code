@@ -6,7 +6,7 @@
 File Name : taup_path_input.py
 Purpose : make input file for taup_path from stream object
 Creation Date : 20-12-2017
-Last Modified : Mon 07 May 2018 02:48:16 PM EDT
+Last Modified : Fri 11 May 2018 12:57:49 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
