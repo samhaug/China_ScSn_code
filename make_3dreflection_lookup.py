@@ -6,7 +6,7 @@
 File Name : make_3dreflection_lookup.py
 Purpose : Make 3d lookup table of ScS reflection points for an event.
 Creation Date : 19-01-2018
-Last Modified : Thu 22 Mar 2018 01:20:28 PM EDT
+Last Modified : Sat 05 May 2018 01:35:32 PM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -19,14 +19,17 @@ import h5py
 import obspy
 import argparse
 from obspy.taup import TauPyModel
-from deco import concurrent,synchronized
+#from deco import concurrent,synchronized
 
 def main():
     parser = argparse.ArgumentParser(description='Make \
                                      lookup table of ScS reflection points')
     parser.add_argument('-f','--fname', metavar='H5_FILE',type=str,
                     help='Any h5 data file with cooords dict (deconvolve.h5)')
+    parser.add_argument('-s','--stride', metavar='int',type=int,
+                    help='stride integer',default=1)
     args = parser.parse_args()
+    stride = args.stride
 
     family_dict = make_families()
     try:
@@ -37,32 +40,35 @@ def main():
 
     f = h5py.File(args.fname,'r',driver='core')
 
-    run(r,f,family_dict)
+    run(r,f,family_dict,stride)
     r.close()
     f.close()
 
-def run(r,f,family_dict):
+def run(r,f,family_dict,stride):
     c_depths = np.arange(50,905,5)
     for idx,ikeys in enumerate(f):
-        print ikeys,round(float(idx)/len(f.keys())*100.,2),'%'
-        r.create_group(ikeys)
-        coords = f[ikeys]['coords']
-        r[ikeys].create_dataset('coords',data=coords)
-        for jkeys in f[ikeys]:
-            if not jkeys.startswith('c'):
-                r[ikeys].create_group(jkeys)
-                for c_depth in c_depths:
-                    phase_family = [i.replace('X',str(c_depth)) for i in \
-                                    family_dict[jkeys]]
-                    reflect_coords,arr_name = find_reflect_coord(coords,
-                                                                 phase_family,
-                                                                 c_depth)
-                    for idx,phase in enumerate(arr_name):
-                        try:
-                            r[ikeys][jkeys].create_dataset(phase,
-                                                      data=reflect_coords[idx])
-                        except RuntimeError:
-                            continue
+        if idx%stride != 0:
+            continue
+        else:
+            print ikeys,round(float(idx)/len(f.keys())*100.,2),'%'
+            r.create_group(ikeys)
+            coords = f[ikeys]['coords']
+            r[ikeys].create_dataset('coords',data=coords)
+            for jkeys in f[ikeys]:
+                if not jkeys.startswith('c'):
+                    r[ikeys].create_group(jkeys)
+                    for c_depth in c_depths:
+                        phase_family = [i.replace('X',str(c_depth)) for i in \
+                                        family_dict[jkeys]]
+                        reflect_coords,arr_name = find_reflect_coord(coords,
+                                                                     phase_family,
+                                                                     c_depth)
+                        for idx,phase in enumerate(arr_name):
+                            try:
+                                r[ikeys][jkeys].create_dataset(phase,
+                                                          data=reflect_coords[idx])
+                            except RuntimeError:
+                                continue
 
 def make_families():
     family_dict = {'sScS':['sSvXSScS','sScSSvXS'],

@@ -6,7 +6,15 @@
 File Name : make_3dlookup.py
 Purpose : Make h5 lookup table of reverberation traveltimes for 3d model
 Creation Date : 20-12-2017
+<<<<<<< HEAD
 Last Modified : Wed 09 May 2018 04:21:57 PM EDT
+=======
+<<<<<<< HEAD
+Last Modified : Wed 02 May 2018 10:28:12 AM EDT
+=======
+Last Modified : Mon 07 May 2018 05:32:45 PM EDT
+>>>>>>> 73c3a298ccf89b12fe52593e80252aab8ab2da81
+>>>>>>> 47c3003ffcfa00c43a4ea5f7060851ec37e2d822
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -55,7 +63,7 @@ def main():
     h5f.close()
 
 def interp_netcdf_3d():
-    dataset = Dataset('/home/samhaug/work1/China_ScSn_code/3D_model/3D2016-09Sv-depth.nc')
+    dataset = Dataset('/dept/geology/geo/home/tomo_project/Jeannot/China_ScSn_code/3D_model/3D2016-09Sv-depth.nc')
     lat = dataset.variables['latitude'][::-1]
     lon = dataset.variables['longitude'][:]
     h = dataset.variables['depth'][:]

@@ -6,7 +6,7 @@
 File Name : radon_transform.py
 Purpose : apply radon transform to trace.
 Creation Date : 19-03-2018
-Last Modified : Mon 30 Apr 2018 03:58:19 PM EDT
+Last Modified : Mon 07 May 2018 09:35:31 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -185,7 +185,7 @@ class clicker_class(object):
         self.canvas = ax.get_figure().canvas
         self.cid = None
         self.pt_lst = []
-        self.pt_plot = ax.plot([],[],marker='o',color='r'
+        self.pt_plot = ax.plot([],[],marker='o',color='r',
                                linestyle='none',zorder=5)[0]
         self.pix_err = pix_err
         self.connect_sf()

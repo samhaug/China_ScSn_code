@@ -40,6 +40,7 @@ do
     $t -mod $mod -ph $sScS3_2 -h $h -o $paths_dir/sScS3_2_$i < degrees.dat >/dev/null;
     $t -mod $mod -ph $sScS3_3 -h $h -o $paths_dir/sScS3_3_$i < degrees.dat >/dev/null;
     $t -mod $mod -ph $sScS3_4 -h $h -o $paths_dir/sScS3_4_$i < degrees.dat >/dev/null;
+
 done
 
 

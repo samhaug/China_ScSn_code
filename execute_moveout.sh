@@ -1,9 +1,9 @@
 #!/bin/bash
 
-s_bin=/home/samhaug/work1/China_ScSn_code/
+s_bin=/dept/geology/geo/home/tomo_project/Jeannot/China_ScSn_code
 
 echo extract_data_reverb.py
-python $s_bin'extract_data_reverb.py' -s sts_T_radon.h5 -d st_T_radon.h5
+python $s_bin'/extract_data_reverb.py' -s sts_T_radon.h5 -d st_T_radon.h5
 
 echo deconvolve data
 python $s_bin'/deconvolve.py' -f data_reverb.h5 -d data_deconvolve.h5

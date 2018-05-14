@@ -6,7 +6,11 @@
 File Name : grid_1dsum.py
 Purpose : Sum reverberations over grid. Use 1d moveout correction lkup table
 Creation Date : 22-01-2018
+<<<<<<< HEAD
 Last Modified : Thu 10 May 2018 10:50:30 AM EDT
+=======
+Last Modified : Fri 11 May 2018 01:00:37 PM EDT
+>>>>>>> 47c3003ffcfa00c43a4ea5f7060851ec37e2d822
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -70,7 +74,6 @@ def main():
             lat_idx = np.abs(lat_a-y[jj]).argmin()
             grid_count[lon_idx,lat_idx,h_idx]+=1.
             grid[lon_idx,lat_idx,h_idx]+=stack_d
-
 
     #for each depth in grid
     for dkeys in d:

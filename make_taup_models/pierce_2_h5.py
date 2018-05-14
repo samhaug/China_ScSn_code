@@ -6,7 +6,7 @@
 File Name : time_2_array.py
 Purpose : turn output of taup_time command into simple ascii table
 Creation Date : 07-05-2018
-Last Modified : Thu 10 May 2018 10:45:12 AM EDT
+Last Modified : Thu 10 May 2018 11:04:11 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
