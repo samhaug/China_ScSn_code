@@ -6,7 +6,7 @@
 File Name : combine_grid.py
 Purpose : combine grids from multiple events
 Creation Date : 15-02-2018
-Last Modified : Fri 11 May 2018 03:21:33 PM EDT
+Last Modified : Fri 18 May 2018 10:04:48 AM EDT
 Created By : Samuel M. Haugland
 
 ==============================================================================
@@ -33,13 +33,14 @@ def main():
     #dir_list = args.dir_list.split(',')
     dir_list = glob(args.files)
     print dir_list
+    print len(dir_list)
     data_grid_list = []
     data_grid_list_2 = []
     data_gridc_list = []
     data_gridc_list_2 = []
     for dirname in dir_list:
-        if not exists(dirname+'/'+'data_grid.h5'):
-            continue
+        #if not exists(dirname+'/'+'data_grid.h5'):
+        #    continue
         try:
             dg,dgc,dg2,dgc2,h,lat,lon = return_grid(dirname)
         except KeyError:
@@ -87,12 +88,10 @@ def main():
     dat.close()
 
 def return_grid(dirname):
-    d = h5py.File('./'+dirname+'/data_grid.h5','r',driver='core')
-
+    d = h5py.File(dirname,'r',driver='core')
 
     dg = d['grid'][:]
     dg2 = d['grid_ScS2'][:]
-
 
     dgc = d['grid_count'][:]+1
     dgc2 = d['grid_count_ScS2'][:]+1
